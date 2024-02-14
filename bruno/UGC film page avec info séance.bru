@@ -1,0 +1,18 @@
+meta {
+  name: UGC film page avec info séance
+  type: http
+  seq: 3
+}
+
+get {
+  url: https://www.ugc.fr/showingsFilmAjaxAction!getShowingsByFilm.action?filmId=15855&day=2024-03-04&regionId=2&defaultRegionId=2&
+  body: none
+  auth: none
+}
+
+query {
+  filmId: 15855
+  day: 2024-03-04
+  regionId: 2
+  defaultRegionId: 2
+}
