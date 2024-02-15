@@ -1,16 +1,16 @@
-import { writeFileSync } from "fs";
+import { writeFileSync } from "fs"
 
-const DEFAULT_CITY = "paris";
+const DEFAULT_CITY = "paris"
 async function getCinemaOfCity(city = DEFAULT_CITY) {
-  const res = await fetch("https://www.pathe.fr/api/cities?language=fr");
-  const data = await res.json();
-  const parisTheaters = data.find((c) => c.slug === city)?.cinemas;
-  return parisTheaters;
+  const res = await fetch("https://www.pathe.fr/api/cities?language=fr")
+  const data = await res.json()
+  const parisTheaters = data.find((c) => c.slug === city)?.cinemas
+  return parisTheaters
 }
 
 const init = async () => {
-  console.log("🚀 Pathé scrapping started");
-  console.log("------------------------------------");
+  console.log("🚀 Pathé scrapping started")
+  console.log("------------------------------------")
   const cinemas = [
     "cinema-pathe-alesia",
     "cinema-gaumont-aquaboulevard",
@@ -22,66 +22,53 @@ const init = async () => {
     "cinema-pathe-montparnos",
     "cinema-pathe-opera-premier",
     "cinema-pathe-parnasse",
-    "cinema-pathe-wepler",
-  ];
+    "cinema-pathe-wepler"
+  ]
 
-  const previewsList = [];
+  const previewsList = []
 
   for (const cinema of cinemas) {
-    const res = await fetch(
-      `https://www.pathe.fr/api/cinema/${cinema}/shows?language=fr`
-    );
-    const data = await res.json();
+    const res = await fetch(`https://www.pathe.fr/api/cinema/${cinema}/shows?language=fr`)
+    const data = await res.json()
     // console.log(data);
     const shows = Object.entries(data.shows)
       .filter(([, value]) => value.isEarlyAVP)
       .map(([key, value]) => {
-        const title = key.split("-").slice(0, -1).join(" ");
-        console.log("🥷 Fetched media with AVP -> ", title, cinema);
-        return { title, cinema, ...value };
-      });
+        const title = key.split("-").slice(0, -1).join(" ")
+        console.log("🥷 Fetched media with AVP -> ", title, cinema)
+        return { title, cinema, ...value }
+      })
 
-    const earlyPreview = [];
+    const earlyPreview = []
 
     for (const show of shows) {
-      const { days, ...rest } = show;
+      const { days, ...rest } = show
       const preview = Object.entries(show.days)
         .filter(([, infos]) => {
-          console.log(infos.flag);
+          console.log(infos.flag)
           return ["avant-première", "avant-premiere-+-équipe"].includes(
             infos?.flag?.toLowerCase()?.trim()?.replace(" ", "-")
-          );
+          )
         })
         .map(([date, infos]) => ({
           date,
-          showingType:
-            infos?.flag?.toLowerCase()?.trim()?.replace(" ", "-") ===
-            "avant-première"
-              ? "AVP"
-              : "AVPE",
+          showingType: infos?.flag?.toLowerCase()?.trim()?.replace(" ", "-") === "avant-première" ? "AVP" : "AVPE",
           ...rest,
-          ...infos,
-        }));
+          ...infos
+        }))
 
-      earlyPreview.push(...preview);
-      console.log(preview);
+      earlyPreview.push(...preview)
+      console.log(preview)
     }
 
     // console.dir(earlyPreview, { depth: null });
-    previewsList.push(earlyPreview);
+    previewsList.push(earlyPreview)
   }
 
-  writeFileSync(
-    "./data/pathe.json",
-    JSON.stringify(previewsList.flat()),
-    "utf-8"
-  );
+  writeFileSync("./data/pathe.json", JSON.stringify(previewsList.flat()), "utf-8")
 
-  console.log("------------------------------------");
-  console.log(
-    "✅ Pathé scrapping done -> number of movies retrieved",
-    previewsList.length
-  );
-};
+  console.log("------------------------------------")
+  console.log("✅ Pathé scrapping done -> number of movies retrieved", previewsList.length)
+}
 
-init();
+init()
