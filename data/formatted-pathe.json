@@ -1,0 +1,222 @@
+[
+  {
+    "name": "dune deuxieme partie",
+    "showId": "",
+    "movieId": "dune-deuxieme-partie-16341",
+    "cinemaName": "cinema-pathe-alesia",
+    "dateShow": "2024-02-27T18:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/dune-deuxieme-partie-16341",
+    "linkShow": "https://s.pathe.fr/fr/V3132S60772/booking",
+    "version": "vost",
+    "source": "pathe"
+  },
+  {
+    "name": "tombes du camion",
+    "showId": "",
+    "movieId": "tombes-du-camion-36334",
+    "cinemaName": "cinema-pathe-alesia",
+    "dateShow": "2024-02-26T19:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/tombes-du-camion-36334",
+    "linkShow": "https://s.pathe.fr/fr/V3132S61663/booking",
+    "version": "vf",
+    "source": "pathe"
+  },
+  {
+    "name": "dune deuxieme partie",
+    "showId": "",
+    "movieId": "dune-deuxieme-partie-16341",
+    "cinemaName": "cinema-gaumont-aquaboulevard",
+    "dateShow": "2024-02-27T18:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/dune-deuxieme-partie-16341",
+    "linkShow": "https://s.pathe.fr/fr/V3140S88684/booking",
+    "version": "vf",
+    "source": "pathe"
+  },
+  {
+    "name": "dune deuxieme partie",
+    "showId": "",
+    "movieId": "dune-deuxieme-partie-16341",
+    "cinemaName": "cinema-gaumont-aquaboulevard",
+    "dateShow": "2024-02-28T09:10:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/dune-deuxieme-partie-16341",
+    "linkShow": "https://s.pathe.fr/fr/V3140S88688/booking",
+    "version": "vf",
+    "source": "pathe"
+  },
+  {
+    "name": "dune deuxieme partie",
+    "showId": "",
+    "movieId": "dune-deuxieme-partie-16341",
+    "cinemaName": "cinema-gaumont-aquaboulevard",
+    "dateShow": "2024-02-29T09:10:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/dune-deuxieme-partie-16341",
+    "linkShow": "https://s.pathe.fr/fr/V3140S89243/booking",
+    "version": "vf",
+    "source": "pathe"
+  },
+  {
+    "name": "dune deuxieme partie",
+    "showId": "",
+    "movieId": "dune-deuxieme-partie-16341",
+    "cinemaName": "cinema-gaumont-aquaboulevard",
+    "dateShow": "2024-03-01T09:10:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/dune-deuxieme-partie-16341",
+    "linkShow": "https://s.pathe.fr/fr/V3140S89258/booking",
+    "version": "vf",
+    "source": "pathe"
+  },
+  {
+    "name": "dune deuxieme partie",
+    "showId": "",
+    "movieId": "dune-deuxieme-partie-16341",
+    "cinemaName": "cinema-gaumont-aquaboulevard",
+    "dateShow": "2024-03-02T09:10:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/dune-deuxieme-partie-16341",
+    "linkShow": "https://s.pathe.fr/fr/V3140S89264/booking",
+    "version": "vf",
+    "source": "pathe"
+  },
+  {
+    "name": "dune deuxieme partie",
+    "showId": "",
+    "movieId": "dune-deuxieme-partie-16341",
+    "cinemaName": "cinema-gaumont-aquaboulevard",
+    "dateShow": "2024-03-03T09:10:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/dune-deuxieme-partie-16341",
+    "linkShow": "https://s.pathe.fr/fr/V3140S89269/booking",
+    "version": "vf",
+    "source": "pathe"
+  },
+  {
+    "name": "dune deuxieme partie",
+    "showId": "",
+    "movieId": "dune-deuxieme-partie-16341",
+    "cinemaName": "cinema-gaumont-aquaboulevard",
+    "dateShow": "2024-03-04T09:10:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/dune-deuxieme-partie-16341",
+    "linkShow": "https://s.pathe.fr/fr/V3140S89280/booking",
+    "version": "vf",
+    "source": "pathe"
+  },
+  {
+    "name": "dune deuxieme partie",
+    "showId": "",
+    "movieId": "dune-deuxieme-partie-16341",
+    "cinemaName": "cinema-gaumont-aquaboulevard",
+    "dateShow": "2024-03-05T09:10:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/dune-deuxieme-partie-16341",
+    "linkShow": "https://s.pathe.fr/fr/V3140S89285/booking",
+    "version": "vf",
+    "source": "pathe"
+  },
+  {
+    "name": "les explorateurs l aventure fantastique",
+    "showId": "",
+    "movieId": "les-explorateurs-l-aventure-fantastique-37847",
+    "cinemaName": "cinema-gaumont-aquaboulevard",
+    "dateShow": "2024-03-24T13:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/les-explorateurs-l-aventure-fantastique-37847",
+    "linkShow": "https://s.pathe.fr/fr/V3140S89330/booking",
+    "version": "vf",
+    "source": "pathe"
+  },
+  {
+    "name": "dune deuxieme partie",
+    "showId": "",
+    "movieId": "dune-deuxieme-partie-16341",
+    "cinemaName": "cinema-les-7-batignolles",
+    "dateShow": "2024-02-27T19:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/dune-deuxieme-partie-16341",
+    "linkShow": "https://s.pathe.fr/fr/V3017S18058/booking",
+    "version": "vost",
+    "source": "pathe"
+  },
+  {
+    "name": "14 jours pour aller mieux",
+    "showId": "",
+    "movieId": "14-jours-pour-aller-mieux-35488",
+    "cinemaName": "cinema-pathe-beaugrenelle",
+    "dateShow": "2024-03-05T19:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/14-jours-pour-aller-mieux-35488",
+    "linkShow": "https://s.pathe.fr/fr/V3166S83473/booking",
+    "version": "vf",
+    "source": "pathe"
+  },
+  {
+    "name": "dune deuxieme partie",
+    "showId": "",
+    "movieId": "dune-deuxieme-partie-16341",
+    "cinemaName": "cinema-pathe-beaugrenelle",
+    "dateShow": "2024-02-27T19:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/dune-deuxieme-partie-16341",
+    "linkShow": "https://s.pathe.fr/fr/V3166S82929/booking",
+    "version": "vost",
+    "source": "pathe"
+  },
+  {
+    "name": "dune deuxieme partie",
+    "showId": "",
+    "movieId": "dune-deuxieme-partie-16341",
+    "cinemaName": "cinema-pathe-convention",
+    "dateShow": "2024-02-27T19:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/dune-deuxieme-partie-16341",
+    "linkShow": "https://s.pathe.fr/fr/V3136S75996/booking",
+    "version": "vost",
+    "source": "pathe"
+  },
+  {
+    "name": "dune deuxieme partie",
+    "showId": "",
+    "movieId": "dune-deuxieme-partie-16341",
+    "cinemaName": "cinema-pathe-la-villette",
+    "dateShow": "2024-02-27T18:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/dune-deuxieme-partie-16341",
+    "linkShow": "https://s.pathe.fr/fr/V3168S104505/booking",
+    "version": "vf",
+    "source": "pathe"
+  },
+  {
+    "name": "dune deuxieme partie",
+    "showId": "",
+    "movieId": "dune-deuxieme-partie-16341",
+    "cinemaName": "cinema-pathe-les-fauvettes",
+    "dateShow": "2024-02-27T18:45:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/dune-deuxieme-partie-16341",
+    "linkShow": "https://s.pathe.fr/fr/V3143S47322/booking",
+    "version": "vost",
+    "source": "pathe"
+  },
+  {
+    "name": "dune deuxieme partie",
+    "showId": "",
+    "movieId": "dune-deuxieme-partie-16341",
+    "cinemaName": "cinema-pathe-opera-premier",
+    "dateShow": "2024-02-27T18:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/dune-deuxieme-partie-16341",
+    "linkShow": "https://s.pathe.fr/fr/V3116S41248/booking",
+    "version": "vost",
+    "source": "pathe"
+  },
+  {
+    "name": "dune deuxieme partie",
+    "showId": "",
+    "movieId": "dune-deuxieme-partie-16341",
+    "cinemaName": "cinema-pathe-parnasse",
+    "dateShow": "2024-02-27T19:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/dune-deuxieme-partie-16341",
+    "linkShow": "https://s.pathe.fr/fr/V3128S123588/booking",
+    "version": "vost",
+    "source": "pathe"
+  },
+  {
+    "name": "dune deuxieme partie",
+    "showId": "",
+    "movieId": "dune-deuxieme-partie-16341",
+    "cinemaName": "cinema-pathe-wepler",
+    "dateShow": "2024-02-27T19:10:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/dune-deuxieme-partie-16341",
+    "linkShow": "https://s.pathe.fr/fr/V3010S96388/booking",
+    "version": "vost",
+    "source": "pathe"
+  }
+]
