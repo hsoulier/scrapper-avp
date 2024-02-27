@@ -1,0 +1,86 @@
+[
+  {
+    "name": "ducobu passe au vert",
+    "showId": "",
+    "movieId": "ducobu-passe-au-vert-35310",
+    "cinemaName": "cinema-gaumont-aquaboulevard",
+    "dateShow": "2024-04-01T14:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/ducobu-passe-au-vert-35310",
+    "linkShow": "https://s.pathe.fr/fr/V3140S90469/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "les explorateurs l aventure fantastique",
+    "showId": "",
+    "movieId": "les-explorateurs-l-aventure-fantastique-37847",
+    "cinemaName": "cinema-gaumont-aquaboulevard",
+    "dateShow": "2024-03-24T14:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/les-explorateurs-l-aventure-fantastique-37847",
+    "linkShow": "https://s.pathe.fr/fr/V3140S89330/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "old",
+    "showId": "",
+    "movieId": "old-boy",
+    "cinemaName": "cinema-les-7-batignolles",
+    "dateShow": "2024-03-01T21:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/old-boy",
+    "linkShow": "https://s.pathe.fr/fr/V3017S18691/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "14 jours pour aller mieux",
+    "showId": "",
+    "movieId": "14-jours-pour-aller-mieux-35488",
+    "cinemaName": "cinema-pathe-beaugrenelle",
+    "dateShow": "2024-03-05T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/14-jours-pour-aller-mieux-35488",
+    "linkShow": "https://s.pathe.fr/fr/V3166S83473/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "la vie de ma mere",
+    "showId": "",
+    "movieId": "la-vie-de-ma-mere-35670",
+    "cinemaName": "cinema-pathe-beaugrenelle",
+    "dateShow": "2024-03-03T15:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/la-vie-de-ma-mere-35670",
+    "linkShow": "https://s.pathe.fr/fr/V3166S83931/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "heureux gagnants",
+    "showId": "",
+    "movieId": "heureux-gagnants-37561",
+    "cinemaName": "cinema-pathe-wepler",
+    "dateShow": "2024-03-04T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/heureux-gagnants-37561",
+    "linkShow": "https://s.pathe.fr/fr/V3010S96374/booking",
+    "version": "vf",
+    "earlyType": "AVPE",
+    "source": "pathe"
+  },
+  {
+    "name": "bolero",
+    "showId": "",
+    "movieId": "bolero-37004",
+    "cinemaName": "cinema-pathe-wepler",
+    "dateShow": "2024-03-05T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/bolero-37004",
+    "linkShow": "https://s.pathe.fr/fr/V3010S96375/booking",
+    "version": "vf",
+    "earlyType": "AVPE",
+    "source": "pathe"
+  }
+]
