@@ -1,6 +1,7 @@
 import { useState } from "react"
 import Table from "./components/table"
-import TablePathe from "./components/table-pathe"
+import ugcData from "../data/formatted-ugc.json"
+import patheData from "../data/formatted-pathe.json"
 
 function App() {
   const [tab, setTab] = useState<"ugc" | "pathe">("ugc")
@@ -28,22 +29,10 @@ function App() {
           </div>
         </aside>
         <article className="mb-8 w-full flex flex-col gap-2">
-          {tab === "ugc" && (
-            <>
-              <h1 className="text-xl font-bold">UGC Data AVP à Paris</h1>
-              <div className="rounded-xl border border-neutral-700">
-                <Table />
-              </div>
-            </>
-          )}
-          {tab === "pathe" && (
-            <>
-              <h1 className="text-xl font-bold">Pathé Data AVP à Paris</h1>
-              <div className="rounded-xl border border-neutral-700">
-                <TablePathe />
-              </div>
-            </>
-          )}
+          <h1 className="text-xl font-bold">{tab.toUpperCase()} Data AVP à Paris</h1>
+          <div className="rounded-xl border border-neutral-700">
+            <Table data={tab === "ugc" ? ugcData : patheData} />
+          </div>
         </article>
       </section>
     </main>

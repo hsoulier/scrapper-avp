@@ -59,14 +59,13 @@ const getCinemaShows = async (cinema) => {
       linkMovie: show.movieLink,
       linkShow: dataShow.refCmd,
       version: dataShow.version,
+      earlyType: show.AVPType,
       source: "pathe"
     }
 
     previewsList.push(formattedShow)
   }
 }
-
-init()
 
 async function getCinemaOfCity(city = DEFAULT_CITY) {
   const res = await fetch("https://www.pathe.fr/api/cities?language=fr")
@@ -81,7 +80,7 @@ function formatShow(unformattedShow) {
   return { name, showId, movieId, cinemaName, dateShow, version, earlyType, linkMovie, linkShow, source }
 }
 
-async function init() {
+export async function scrapPathe() {
   console.log("🚀 Pathé scrapping started")
   console.log("------------------------------------")
   for (const cinema of CINEMAS) {
