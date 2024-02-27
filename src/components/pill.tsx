@@ -19,7 +19,7 @@ export const PillVersion = ({ version }: { version?: string }) => {
 
 export const PillWithTeam = ({ infos }: { infos?: string }) => {
   if (!infos) return null;
-  if (infos === "Avant-première avec équipe") {
+  if (infos === "Avant-première avec équipe" || infos === "AVPE") {
     return (
       <span className="whitespace-nowrap rounded-full bg-emerald-900 border border-emerald-500 px-2 py-0.5 text-sm text-neutral-100 inline-flex items-center gap-1 justify-start">
         <CheckCircleIcon className="size-4 inline" />
