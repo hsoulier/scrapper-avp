@@ -60,6 +60,18 @@
     "dateShow": "2024-03-08T20:00:00.000Z"
   },
   {
+    "name": "la beauté du geste - danse et éternité",
+    "source": "ugc",
+    "showId": "330550406099",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550406099",
+    "earlyType": "AVP",
+    "movieId": "16007",
+    "linkMovie": "https://www.ugc.fr/film.html?id=16007",
+    "cinemaName": "UGC Ciné Cité Paris 19",
+    "version": "vf",
+    "dateShow": "2024-03-08T20:00:00.000Z"
+  },
+  {
     "name": "la jeune fille et les paysans",
     "source": "ugc",
     "showId": "330081105932",
@@ -118,5 +130,17 @@
     "cinemaName": "UGC Ciné Cité Les Halles",
     "version": "vf",
     "dateShow": "2024-03-01T20:00:00.000Z"
+  },
+  {
+    "name": "une famille",
+    "source": "ugc",
+    "showId": "330171677812",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171677812",
+    "earlyType": "AVPE",
+    "movieId": "15869",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15869",
+    "cinemaName": "UGC Ciné Cité Les Halles",
+    "version": "vf",
+    "dateShow": "2024-03-06T20:15:00.000Z"
   }
 ]
