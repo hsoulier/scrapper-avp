@@ -34,5 +34,17 @@
     "version": "vf",
     "earlyType": "AVPE",
     "source": "pathe"
+  },
+  {
+    "name": "les explorateurs l aventure fantastique",
+    "showId": "",
+    "movieId": "les-explorateurs-l-aventure-fantastique-37847",
+    "cinemaName": "cinema-pathe-la-villette",
+    "dateShow": "2024-03-24T16:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/les-explorateurs-l-aventure-fantastique-37847",
+    "linkShow": "https://s.pathe.fr/fr/V3168S106591/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
   }
 ]
