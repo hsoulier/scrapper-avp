@@ -98,38 +98,14 @@
   {
     "name": "la salle des profs",
     "source": "ugc",
-    "showId": "330020245019",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330020245019",
+    "showId": "330011003522",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330011003522",
     "earlyType": "AVP",
     "movieId": "15608",
     "linkMovie": "https://www.ugc.fr/film.html?id=15608",
-    "cinemaName": "UGC Ciné Cité Maillot",
+    "cinemaName": "UGC Normandie",
     "version": "vost",
-    "dateShow": "2024-03-03T19:00:00.000Z"
-  },
-  {
-    "name": "la salle des profs",
-    "source": "ugc",
-    "showId": "330081106342",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330081106342",
-    "earlyType": "AVP",
-    "movieId": "15608",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15608",
-    "cinemaName": "UGC Gobelins",
-    "version": "vost",
-    "dateShow": "2024-03-03T17:15:00.000Z"
-  },
-  {
-    "name": "la salle des profs",
-    "source": "ugc",
-    "showId": "330550406762",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550406762",
-    "earlyType": "AVP",
-    "movieId": "15608",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15608",
-    "cinemaName": "UGC Ciné Cité Paris 19",
-    "version": "vost",
-    "dateShow": "2024-03-03T18:00:00.000Z"
+    "dateShow": "2024-03-05T20:15:00.000Z"
   },
   {
     "name": "la vie de ma mère",
