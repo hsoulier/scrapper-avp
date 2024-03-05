@@ -1,17 +1,5 @@
 [
   {
-    "name": "14 jours pour aller mieux",
-    "source": "ugc",
-    "showId": "330091396007",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091396007",
-    "earlyType": "AVPE",
-    "movieId": "15855",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15855",
-    "cinemaName": "UGC Ciné Cité Bercy",
-    "version": "vf",
-    "dateShow": "2024-03-04T20:00:00.000Z"
-  },
-  {
     "name": "comme un fils",
     "source": "ugc",
     "showId": "330171677805",
@@ -36,16 +24,28 @@
     "dateShow": "2024-03-24T11:00:00.000Z"
   },
   {
-    "name": "hlm pussy",
+    "name": "il reste encore demain",
     "source": "ugc",
-    "showId": "330171677804",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171677804",
-    "earlyType": "AVPE",
-    "movieId": "15859",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15859",
+    "showId": "330231073246",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330231073246",
+    "earlyType": "AVP",
+    "movieId": "15996",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15996",
+    "cinemaName": "UGC Montparnasse",
+    "version": "vost",
+    "dateShow": "2024-03-08T19:10:00.000Z"
+  },
+  {
+    "name": "immaculée",
+    "source": "ugc",
+    "showId": "330171678977",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171678977",
+    "earlyType": "AVP",
+    "movieId": "16127",
+    "linkMovie": "https://www.ugc.fr/film.html?id=16127",
     "cinemaName": "UGC Ciné Cité Les Halles",
-    "version": "vf",
-    "dateShow": "2024-03-04T20:15:00.000Z"
+    "version": "vost",
+    "dateShow": "2024-03-15T20:00:00.000Z"
   },
   {
     "name": "immaculée",
@@ -56,6 +56,18 @@
     "movieId": "16127",
     "linkMovie": "https://www.ugc.fr/film.html?id=16127",
     "cinemaName": "UGC Ciné Cité Bercy",
+    "version": "vost",
+    "dateShow": "2024-03-15T20:00:00.000Z"
+  },
+  {
+    "name": "immaculée",
+    "source": "ugc",
+    "showId": "330550407294",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550407294",
+    "earlyType": "AVP",
+    "movieId": "16127",
+    "linkMovie": "https://www.ugc.fr/film.html?id=16127",
+    "cinemaName": "UGC Ciné Cité Paris 19",
     "version": "vost",
     "dateShow": "2024-03-15T20:00:00.000Z"
   },
@@ -96,6 +108,18 @@
     "dateShow": "2024-03-05T20:15:00.000Z"
   },
   {
+    "name": "la nouvelle femme",
+    "source": "ugc",
+    "showId": "330171678954",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171678954",
+    "earlyType": "AVPE",
+    "movieId": "15864",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15864",
+    "cinemaName": "UGC Ciné Cité Les Halles",
+    "version": "vost",
+    "dateShow": "2024-03-12T20:15:00.000Z"
+  },
+  {
     "name": "la salle des profs",
     "source": "ugc",
     "showId": "330011003522",
@@ -118,6 +142,42 @@
     "cinemaName": "UGC Ciné Cité Maillot",
     "version": "vf",
     "dateShow": "2024-03-05T20:00:00.000Z"
+  },
+  {
+    "name": "le jeu de la reine",
+    "source": "ugc",
+    "showId": "330171678953",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171678953",
+    "earlyType": "AVPE",
+    "movieId": "15851",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15851",
+    "cinemaName": "UGC Ciné Cité Les Halles",
+    "version": "vost",
+    "dateShow": "2024-03-11T20:15:00.000Z"
+  },
+  {
+    "name": "scandaleusement vôtre",
+    "source": "ugc",
+    "showId": "330081106818",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330081106818",
+    "earlyType": "AVP",
+    "movieId": "15918",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15918",
+    "cinemaName": "UGC Gobelins",
+    "version": "vost",
+    "dateShow": "2024-03-10T18:30:00.000Z"
+  },
+  {
+    "name": "scandaleusement vôtre",
+    "source": "ugc",
+    "showId": "330550407289",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550407289",
+    "earlyType": "AVP",
+    "movieId": "15918",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15918",
+    "cinemaName": "UGC Ciné Cité Paris 19",
+    "version": "vost",
+    "dateShow": "2024-03-10T18:00:00.000Z"
   },
   {
     "name": "une famille",
