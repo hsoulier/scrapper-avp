@@ -1,17 +1,5 @@
 [
   {
-    "name": "comme un fils",
-    "source": "ugc",
-    "showId": "330171677805",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171677805",
-    "earlyType": "AVPE",
-    "movieId": "16031",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16031",
-    "cinemaName": "UGC Ciné Cité Les Halles",
-    "version": "vf",
-    "dateShow": "2024-03-05T20:15:00.000Z"
-  },
-  {
     "name": "ducobu passe au vert",
     "source": "ugc",
     "showId": "330011003304",
@@ -96,18 +84,6 @@
     "dateShow": "2024-03-08T20:00:00.000Z"
   },
   {
-    "name": "la jeune fille et les paysans",
-    "source": "ugc",
-    "showId": "330081105932",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330081105932",
-    "earlyType": "AVPE",
-    "movieId": "15997",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15997",
-    "cinemaName": "UGC Gobelins",
-    "version": "vf",
-    "dateShow": "2024-03-05T20:15:00.000Z"
-  },
-  {
     "name": "la nouvelle femme",
     "source": "ugc",
     "showId": "330171678954",
@@ -118,30 +94,6 @@
     "cinemaName": "UGC Ciné Cité Les Halles",
     "version": "vost",
     "dateShow": "2024-03-12T20:15:00.000Z"
-  },
-  {
-    "name": "la salle des profs",
-    "source": "ugc",
-    "showId": "330011003522",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330011003522",
-    "earlyType": "AVP",
-    "movieId": "15608",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15608",
-    "cinemaName": "UGC Normandie",
-    "version": "vost",
-    "dateShow": "2024-03-05T20:15:00.000Z"
-  },
-  {
-    "name": "la vie de ma mère",
-    "source": "ugc",
-    "showId": "330020245020",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330020245020",
-    "earlyType": "AVP",
-    "movieId": "15856",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15856",
-    "cinemaName": "UGC Ciné Cité Maillot",
-    "version": "vf",
-    "dateShow": "2024-03-05T20:00:00.000Z"
   },
   {
     "name": "le jeu de la reine",

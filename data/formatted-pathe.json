@@ -46,5 +46,17 @@
     "version": "vf",
     "earlyType": "AVP",
     "source": "pathe"
+  },
+  {
+    "name": "et plus si affinites",
+    "showId": "",
+    "movieId": "et-plus-si-affinites-36891",
+    "cinemaName": "cinema-pathe-montparnos",
+    "dateShow": "2024-03-25T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/et-plus-si-affinites-36891",
+    "linkShow": "https://s.pathe.fr/fr/V3127S14081/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
   }
 ]
