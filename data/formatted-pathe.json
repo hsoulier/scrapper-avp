@@ -118,5 +118,17 @@
     "version": "vf",
     "earlyType": "AVP",
     "source": "pathe"
+  },
+  {
+    "name": "hors saison",
+    "showId": "",
+    "movieId": "hors-saison-35754",
+    "cinemaName": "cinema-pathe-wepler",
+    "dateShow": "2024-03-18T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/hors-saison-35754",
+    "linkShow": "https://s.pathe.fr/fr/V3010S98662/booking",
+    "version": "vf",
+    "earlyType": "AVPE",
+    "source": "pathe"
   }
 ]
