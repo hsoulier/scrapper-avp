@@ -1,5 +1,29 @@
 [
   {
+    "name": "bis repetita",
+    "source": "ugc",
+    "showId": "330171680282",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171680282",
+    "earlyType": "AVPE",
+    "movieId": "15994",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15994",
+    "cinemaName": "UGC Ciné Cité Les Halles",
+    "version": "vf",
+    "dateShow": "2024-03-19T20:15:00.000Z"
+  },
+  {
+    "name": "black flies",
+    "source": "ugc",
+    "showId": "330171680281",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171680281",
+    "earlyType": "AVPE",
+    "movieId": "15914",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15914",
+    "cinemaName": "UGC Ciné Cité Les Halles",
+    "version": "vost",
+    "dateShow": "2024-03-18T19:30:00.000Z"
+  },
+  {
     "name": "ducobu passe au vert",
     "source": "ugc",
     "showId": "330011003304",
@@ -10,6 +34,42 @@
     "cinemaName": "UGC Grand Normandie",
     "version": "vf",
     "dateShow": "2024-03-24T11:00:00.000Z"
+  },
+  {
+    "name": "hors-saison",
+    "source": "ugc",
+    "showId": "330020246344",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330020246344",
+    "earlyType": "AVP",
+    "movieId": "15868",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15868",
+    "cinemaName": "UGC Ciné Cité Maillot",
+    "version": "vf",
+    "dateShow": "2024-03-17T19:00:00.000Z"
+  },
+  {
+    "name": "hors-saison",
+    "source": "ugc",
+    "showId": "330081107234",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330081107234",
+    "earlyType": "AVP",
+    "movieId": "15868",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15868",
+    "cinemaName": "UGC Gobelins",
+    "version": "vf",
+    "dateShow": "2024-03-17T18:00:00.000Z"
+  },
+  {
+    "name": "hors-saison",
+    "source": "ugc",
+    "showId": "330550407854",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550407854",
+    "earlyType": "AVP",
+    "movieId": "15868",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15868",
+    "cinemaName": "UGC Ciné Cité Paris 19",
+    "version": "vf",
+    "dateShow": "2024-03-17T18:00:00.000Z"
   },
   {
     "name": "il reste encore demain",
@@ -58,6 +118,42 @@
     "cinemaName": "UGC Ciné Cité Paris 19",
     "version": "vost",
     "dateShow": "2024-03-15T20:00:00.000Z"
+  },
+  {
+    "name": "karaoké",
+    "source": "ugc",
+    "showId": "330231073585",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330231073585",
+    "earlyType": "AVP",
+    "movieId": "15862",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15862",
+    "cinemaName": "UGC Montparnasse",
+    "version": "vf",
+    "dateShow": "2024-03-18T19:00:00.000Z"
+  },
+  {
+    "name": "karaoké",
+    "source": "ugc",
+    "showId": "330091398339",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091398339",
+    "earlyType": "AVP",
+    "movieId": "15862",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15862",
+    "cinemaName": "UGC Ciné Cité Bercy",
+    "version": "vf",
+    "dateShow": "2024-03-18T20:00:00.000Z"
+  },
+  {
+    "name": "karaoké",
+    "source": "ugc",
+    "showId": "330120994300",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330120994300",
+    "earlyType": "AVP",
+    "movieId": "15862",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15862",
+    "cinemaName": "UGC Opéra",
+    "version": "vf",
+    "dateShow": "2024-03-18T20:10:00.000Z"
   },
   {
     "name": "kung fu panda 4",
@@ -204,6 +300,18 @@
     "dateShow": "2024-03-17T16:00:00.000Z"
   },
   {
+    "name": "la jeune fille et les paysans",
+    "source": "ugc",
+    "showId": "330020246345",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330020246345",
+    "earlyType": "AVP",
+    "movieId": "15997",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15997",
+    "cinemaName": "UGC Ciné Cité Maillot",
+    "version": "vost",
+    "dateShow": "2024-03-18T20:00:00.000Z"
+  },
+  {
     "name": "la nouvelle femme",
     "source": "ugc",
     "showId": "330171678954",
@@ -216,6 +324,18 @@
     "dateShow": "2024-03-12T20:15:00.000Z"
   },
   {
+    "name": "la promesse verte",
+    "source": "ugc",
+    "showId": "330091398338",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091398338",
+    "earlyType": "AVPE",
+    "movieId": "15878",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15878",
+    "cinemaName": "UGC Ciné Cité Bercy",
+    "version": "vf",
+    "dateShow": "2024-03-26T20:00:00.000Z"
+  },
+  {
     "name": "laissez-moi",
     "source": "ugc",
     "showId": "330051011344",
@@ -226,30 +346,6 @@
     "cinemaName": "UGC Odéon",
     "version": "vf",
     "dateShow": "2024-03-19T20:15:00.000Z"
-  },
-  {
-    "name": "le jeu de la reine",
-    "source": "ugc",
-    "showId": "330171678953",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171678953",
-    "earlyType": "AVPE",
-    "movieId": "15851",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15851",
-    "cinemaName": "UGC Ciné Cité Les Halles",
-    "version": "vost",
-    "dateShow": "2024-03-11T20:15:00.000Z"
-  },
-  {
-    "name": "le jeu de la reine",
-    "source": "ugc",
-    "showId": "330171679046",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171679046",
-    "earlyType": "AVPE",
-    "movieId": "15851",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15851",
-    "cinemaName": "UGC Ciné Cité Les Halles",
-    "version": "vost",
-    "dateShow": "2024-03-11T20:30:00.000Z"
   },
   {
     "name": "vampire humaniste cherche suicidaire consentant",
