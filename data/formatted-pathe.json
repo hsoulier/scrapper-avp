@@ -12,13 +12,13 @@
     "source": "pathe"
   },
   {
-    "name": "kung fu panda",
+    "name": "un p tit truc en plus",
     "showId": "",
-    "movieId": "kung-fu-panda-4",
-    "cinemaName": "cinema-pathe-alesia",
-    "dateShow": "2024-03-17T14:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/kung-fu-panda-4",
-    "linkShow": "https://s.pathe.fr/fr/V3132S61652/booking",
+    "movieId": "un-p-tit-truc-en-plus-37489",
+    "cinemaName": "cinema-gaumont-aquaboulevard",
+    "dateShow": "2024-04-18T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/un-p-tit-truc-en-plus-37489",
+    "linkShow": "https://s.pathe.fr/fr/V3140S92204/booking",
     "version": "vf",
     "earlyType": "AVP",
     "source": "pathe"
@@ -60,18 +60,6 @@
     "source": "pathe"
   },
   {
-    "name": "kung fu panda",
-    "showId": "",
-    "movieId": "kung-fu-panda-4",
-    "cinemaName": "cinema-gaumont-aquaboulevard",
-    "dateShow": "2024-03-17T13:30:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/kung-fu-panda-4",
-    "linkShow": "https://s.pathe.fr/fr/V3140S89881/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
     "name": "la promesse verte",
     "showId": "",
     "movieId": "la-promesse-verte-36867",
@@ -91,42 +79,6 @@
     "dateShow": "2024-03-26T20:00:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/le-jeu-de-la-reine-35377",
     "linkShow": "https://s.pathe.fr/fr/V3140S91657/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "karaoke",
-    "showId": "",
-    "movieId": "karaoke-36769",
-    "cinemaName": "cinema-gaumont-aquaboulevard",
-    "dateShow": "2024-03-18T19:40:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/karaoke-36769",
-    "linkShow": "https://s.pathe.fr/fr/V3140S91664/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "kung fu panda",
-    "showId": "",
-    "movieId": "kung-fu-panda-4",
-    "cinemaName": "cinema-les-7-batignolles",
-    "dateShow": "2024-03-17T14:45:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/kung-fu-panda-4",
-    "linkShow": "https://s.pathe.fr/fr/V3017S19564/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "kung fu panda",
-    "showId": "",
-    "movieId": "kung-fu-panda-4",
-    "cinemaName": "cinema-pathe-beaugrenelle",
-    "dateShow": "2024-03-17T15:30:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/kung-fu-panda-4",
-    "linkShow": "https://s.pathe.fr/fr/V3166S85147/booking",
     "version": "vf",
     "earlyType": "AVP",
     "source": "pathe"
@@ -156,30 +108,6 @@
     "source": "pathe"
   },
   {
-    "name": "kung fu panda",
-    "showId": "",
-    "movieId": "kung-fu-panda-4",
-    "cinemaName": "cinema-pathe-la-villette",
-    "dateShow": "2024-03-17T15:45:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/kung-fu-panda-4",
-    "linkShow": "https://s.pathe.fr/fr/V3168S105591/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "kung fu panda",
-    "showId": "",
-    "movieId": "kung-fu-panda-4",
-    "cinemaName": "cinema-pathe-les-fauvettes",
-    "dateShow": "2024-03-17T16:15:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/kung-fu-panda-4",
-    "linkShow": "https://s.pathe.fr/fr/V3143S47909/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
     "name": "et plus si affinites",
     "showId": "",
     "movieId": "et-plus-si-affinites-36891",
@@ -187,18 +115,6 @@
     "dateShow": "2024-03-25T20:00:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/et-plus-si-affinites-36891",
     "linkShow": "https://s.pathe.fr/fr/V3127S14081/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "kung fu panda",
-    "showId": "",
-    "movieId": "kung-fu-panda-4",
-    "cinemaName": "cinema-pathe-parnasse",
-    "dateShow": "2024-03-17T13:55:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/kung-fu-panda-4",
-    "linkShow": "https://s.pathe.fr/fr/V3128S125400/booking",
     "version": "vf",
     "earlyType": "AVP",
     "source": "pathe"
@@ -216,25 +132,13 @@
     "source": "pathe"
   },
   {
-    "name": "kung fu panda",
+    "name": "la promesse verte",
     "showId": "",
-    "movieId": "kung-fu-panda-4",
+    "movieId": "la-promesse-verte-36867",
     "cinemaName": "cinema-pathe-wepler",
-    "dateShow": "2024-03-17T10:20:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/kung-fu-panda-4",
-    "linkShow": "https://s.pathe.fr/fr/V3010S98931/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "hors saison",
-    "showId": "",
-    "movieId": "hors-saison-35754",
-    "cinemaName": "cinema-pathe-wepler",
-    "dateShow": "2024-03-18T20:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/hors-saison-35754",
-    "linkShow": "https://s.pathe.fr/fr/V3010S98662/booking",
+    "dateShow": "2024-03-21T19:45:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/la-promesse-verte-36867",
+    "linkShow": "https://s.pathe.fr/fr/V3010S98663/booking",
     "version": "vf",
     "earlyType": "AVPE",
     "source": "pathe"
