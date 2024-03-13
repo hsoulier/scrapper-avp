@@ -72,18 +72,6 @@
     "dateShow": "2024-03-17T18:00:00.000Z"
   },
   {
-    "name": "il reste encore demain",
-    "source": "ugc",
-    "showId": "330081106819",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330081106819",
-    "earlyType": "AVP",
-    "movieId": "15996",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15996",
-    "cinemaName": "UGC Gobelins",
-    "version": "vost",
-    "dateShow": "2024-03-12T19:00:00.000Z"
-  },
-  {
     "name": "immaculée",
     "source": "ugc",
     "showId": "330171678977",
@@ -310,18 +298,6 @@
     "cinemaName": "UGC Ciné Cité Maillot",
     "version": "vost",
     "dateShow": "2024-03-18T20:00:00.000Z"
-  },
-  {
-    "name": "la nouvelle femme",
-    "source": "ugc",
-    "showId": "330171678954",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171678954",
-    "earlyType": "AVPE",
-    "movieId": "15864",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15864",
-    "cinemaName": "UGC Ciné Cité Les Halles",
-    "version": "vost",
-    "dateShow": "2024-03-12T20:15:00.000Z"
   },
   {
     "name": "la promesse verte",
