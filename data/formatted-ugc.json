@@ -36,6 +36,18 @@
     "dateShow": "2024-03-24T11:00:00.000Z"
   },
   {
+    "name": "et plus si affinités",
+    "source": "ugc",
+    "showId": "330091399067",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091399067",
+    "earlyType": "AVPE",
+    "movieId": "15884",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15884",
+    "cinemaName": "UGC Ciné Cité Bercy",
+    "version": "vf",
+    "dateShow": "2024-03-25T20:00:00.000Z"
+  },
+  {
     "name": "hors-saison",
     "source": "ugc",
     "showId": "330020246344",
@@ -322,6 +334,18 @@
     "cinemaName": "UGC Odéon",
     "version": "vf",
     "dateShow": "2024-03-19T20:15:00.000Z"
+  },
+  {
+    "name": "les explorateurs",
+    "source": "ugc",
+    "showId": "330091399066",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091399066",
+    "earlyType": "AVPE",
+    "movieId": "16069",
+    "linkMovie": "https://www.ugc.fr/film.html?id=16069",
+    "cinemaName": "UGC Ciné Cité Bercy",
+    "version": "vf",
+    "dateShow": "2024-03-24T11:00:00.000Z"
   },
   {
     "name": "vampire humaniste cherche suicidaire consentant",
