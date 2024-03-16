@@ -84,42 +84,6 @@
     "dateShow": "2024-03-17T18:00:00.000Z"
   },
   {
-    "name": "immaculée",
-    "source": "ugc",
-    "showId": "330171678977",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171678977",
-    "earlyType": "AVP",
-    "movieId": "16127",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16127",
-    "cinemaName": "UGC Ciné Cité Les Halles",
-    "version": "vost",
-    "dateShow": "2024-03-15T20:00:00.000Z"
-  },
-  {
-    "name": "immaculée",
-    "source": "ugc",
-    "showId": "330091397519",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091397519",
-    "earlyType": "AVP",
-    "movieId": "16127",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16127",
-    "cinemaName": "UGC Ciné Cité Bercy",
-    "version": "vost",
-    "dateShow": "2024-03-15T20:00:00.000Z"
-  },
-  {
-    "name": "immaculée",
-    "source": "ugc",
-    "showId": "330550407294",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550407294",
-    "earlyType": "AVP",
-    "movieId": "16127",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16127",
-    "cinemaName": "UGC Ciné Cité Paris 19",
-    "version": "vost",
-    "dateShow": "2024-03-15T20:00:00.000Z"
-  },
-  {
     "name": "karaoké",
     "source": "ugc",
     "showId": "330231073585",
@@ -346,17 +310,5 @@
     "cinemaName": "UGC Ciné Cité Bercy",
     "version": "vf",
     "dateShow": "2024-03-24T11:00:00.000Z"
-  },
-  {
-    "name": "vampire humaniste cherche suicidaire consentant",
-    "source": "ugc",
-    "showId": "330171678978",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171678978",
-    "earlyType": "AVPE",
-    "movieId": "15870",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15870",
-    "cinemaName": "UGC Ciné Cité Les Halles",
-    "version": "vost",
-    "dateShow": "2024-03-15T20:15:00.000Z"
   }
 ]
