@@ -1,13 +1,13 @@
 [
   {
-    "name": "et plus si affinites",
+    "name": "godzilla x kong le nouvel empire",
     "showId": "",
-    "movieId": "et-plus-si-affinites-36891",
+    "movieId": "godzilla-x-kong-le-nouvel-empire-37279",
     "cinemaName": "cinema-pathe-alesia",
-    "dateShow": "2024-03-25T20:15:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/et-plus-si-affinites-36891",
-    "linkShow": "https://s.pathe.fr/fr/V3132S62674/booking",
-    "version": "vf",
+    "dateShow": "2024-03-29T21:15:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/godzilla-x-kong-le-nouvel-empire-37279",
+    "linkShow": "https://s.pathe.fr/fr/V3132S63054/booking",
+    "version": "vost",
     "earlyType": "AVP",
     "source": "pathe"
   },
@@ -36,25 +36,13 @@
     "source": "pathe"
   },
   {
-    "name": "civil war",
+    "name": "godzilla x kong le nouvel empire",
     "showId": "",
-    "movieId": "civil-war-37616",
+    "movieId": "godzilla-x-kong-le-nouvel-empire-37279",
     "cinemaName": "cinema-gaumont-aquaboulevard",
-    "dateShow": "2024-04-12T19:45:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/civil-war-37616",
-    "linkShow": "https://s.pathe.fr/fr/V3140S92206/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "s o s fantomes la menace de glace",
-    "showId": "",
-    "movieId": "s-o-s-fantomes-la-menace-de-glace-19043",
-    "cinemaName": "cinema-gaumont-aquaboulevard",
-    "dateShow": "2024-03-31T19:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/s-o-s-fantomes-la-menace-de-glace-19043",
-    "linkShow": "https://s.pathe.fr/fr/V3140S91658/booking",
+    "dateShow": "2024-03-29T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/godzilla-x-kong-le-nouvel-empire-37279",
+    "linkShow": "https://s.pathe.fr/fr/V3140S91111/booking",
     "version": "vf",
     "earlyType": "AVP",
     "source": "pathe"
@@ -72,111 +60,27 @@
     "source": "pathe"
   },
   {
-    "name": "et plus si affinites",
+    "name": "s o s fantomes la menace de glace",
     "showId": "",
-    "movieId": "et-plus-si-affinites-36891",
+    "movieId": "s-o-s-fantomes-la-menace-de-glace-19043",
     "cinemaName": "cinema-gaumont-aquaboulevard",
-    "dateShow": "2024-03-25T20:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/et-plus-si-affinites-36891",
-    "linkShow": "https://s.pathe.fr/fr/V3140S91656/booking",
+    "dateShow": "2024-03-31T19:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/s-o-s-fantomes-la-menace-de-glace-19043",
+    "linkShow": "https://s.pathe.fr/fr/V3140S91658/booking",
     "version": "vf",
     "earlyType": "AVP",
     "source": "pathe"
   },
   {
-    "name": "les explorateurs l aventure fantastique",
+    "name": "civil war",
     "showId": "",
-    "movieId": "les-explorateurs-l-aventure-fantastique-37847",
+    "movieId": "civil-war-37616",
     "cinemaName": "cinema-gaumont-aquaboulevard",
-    "dateShow": "2024-03-24T14:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/les-explorateurs-l-aventure-fantastique-37847",
-    "linkShow": "https://s.pathe.fr/fr/V3140S89330/booking",
+    "dateShow": "2024-04-12T19:45:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/civil-war-37616",
+    "linkShow": "https://s.pathe.fr/fr/V3140S92206/booking",
     "version": "vf",
     "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "la promesse verte",
-    "showId": "",
-    "movieId": "la-promesse-verte-36867",
-    "cinemaName": "cinema-gaumont-aquaboulevard",
-    "dateShow": "2024-03-21T19:45:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/la-promesse-verte-36867",
-    "linkShow": "https://s.pathe.fr/fr/V3140S92183/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "le jeu de la reine",
-    "showId": "",
-    "movieId": "le-jeu-de-la-reine-35377",
-    "cinemaName": "cinema-gaumont-aquaboulevard",
-    "dateShow": "2024-03-26T20:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/le-jeu-de-la-reine-35377",
-    "linkShow": "https://s.pathe.fr/fr/V3140S91657/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "le jeu de la reine",
-    "showId": "",
-    "movieId": "le-jeu-de-la-reine-35377",
-    "cinemaName": "cinema-les-7-batignolles",
-    "dateShow": "2024-03-25T20:10:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/le-jeu-de-la-reine-35377",
-    "linkShow": "https://s.pathe.fr/fr/V3017S19852/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "la promesse verte",
-    "showId": "",
-    "movieId": "la-promesse-verte-36867",
-    "cinemaName": "cinema-pathe-beaugrenelle",
-    "dateShow": "2024-03-21T19:30:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/la-promesse-verte-36867",
-    "linkShow": "https://s.pathe.fr/fr/V3166S85704/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "pas de vagues",
-    "showId": "",
-    "movieId": "pas-de-vagues-35758",
-    "cinemaName": "cinema-pathe-beaugrenelle",
-    "dateShow": "2024-03-26T19:30:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/pas-de-vagues-35758",
-    "linkShow": "https://s.pathe.fr/fr/V3166S85705/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "le jeu de la reine",
-    "showId": "",
-    "movieId": "le-jeu-de-la-reine-35377",
-    "cinemaName": "cinema-pathe-convention",
-    "dateShow": "2024-03-25T19:10:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/le-jeu-de-la-reine-35377",
-    "linkShow": "https://s.pathe.fr/fr/V3136S78724/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "paternel",
-    "showId": "",
-    "movieId": "paternel-36763",
-    "cinemaName": "cinema-pathe-convention",
-    "dateShow": "2024-03-26T19:45:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/paternel-36763",
-    "linkShow": "https://s.pathe.fr/fr/V3136S77383/booking",
-    "version": "vf",
-    "earlyType": "AVPE",
     "source": "pathe"
   },
   {
@@ -216,6 +120,18 @@
     "source": "pathe"
   },
   {
+    "name": "godzilla x kong le nouvel empire",
+    "showId": "",
+    "movieId": "godzilla-x-kong-le-nouvel-empire-37279",
+    "cinemaName": "cinema-pathe-la-villette",
+    "dateShow": "2024-03-29T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/godzilla-x-kong-le-nouvel-empire-37279",
+    "linkShow": "https://s.pathe.fr/fr/V3168S107576/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "ducobu passe au vert",
     "showId": "",
     "movieId": "ducobu-passe-au-vert-35310",
@@ -223,30 +139,6 @@
     "dateShow": "2024-04-01T14:00:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/ducobu-passe-au-vert-35310",
     "linkShow": "https://s.pathe.fr/fr/V3168S107581/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "les explorateurs l aventure fantastique",
-    "showId": "",
-    "movieId": "les-explorateurs-l-aventure-fantastique-37847",
-    "cinemaName": "cinema-pathe-la-villette",
-    "dateShow": "2024-03-24T16:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/les-explorateurs-l-aventure-fantastique-37847",
-    "linkShow": "https://s.pathe.fr/fr/V3168S106591/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "et plus si affinites",
-    "showId": "",
-    "movieId": "et-plus-si-affinites-36891",
-    "cinemaName": "cinema-pathe-montparnos",
-    "dateShow": "2024-03-25T20:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/et-plus-si-affinites-36891",
-    "linkShow": "https://s.pathe.fr/fr/V3127S14081/booking",
     "version": "vf",
     "earlyType": "AVP",
     "source": "pathe"
@@ -264,18 +156,6 @@
     "source": "pathe"
   },
   {
-    "name": "le jeu de la reine",
-    "showId": "",
-    "movieId": "le-jeu-de-la-reine-35377",
-    "cinemaName": "cinema-pathe-parnasse",
-    "dateShow": "2024-03-26T19:40:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/le-jeu-de-la-reine-35377",
-    "linkShow": "https://s.pathe.fr/fr/V3128S125402/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
     "name": "s o s fantomes la menace de glace",
     "showId": "",
     "movieId": "s-o-s-fantomes-la-menace-de-glace-19043",
@@ -283,6 +163,18 @@
     "dateShow": "2024-04-01T18:00:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/s-o-s-fantomes-la-menace-de-glace-19043",
     "linkShow": "https://s.pathe.fr/fr/V3128S126484/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "godzilla x kong le nouvel empire",
+    "showId": "",
+    "movieId": "godzilla-x-kong-le-nouvel-empire-37279",
+    "cinemaName": "cinema-pathe-parnasse",
+    "dateShow": "2024-03-29T19:45:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/godzilla-x-kong-le-nouvel-empire-37279",
+    "linkShow": "https://s.pathe.fr/fr/V3128S126485/booking",
     "version": "vost",
     "earlyType": "AVP",
     "source": "pathe"
@@ -297,42 +189,6 @@
     "linkShow": "https://s.pathe.fr/fr/V3010S99437/booking",
     "version": "vf",
     "earlyType": "AVPE",
-    "source": "pathe"
-  },
-  {
-    "name": "la promesse verte",
-    "showId": "",
-    "movieId": "la-promesse-verte-36867",
-    "cinemaName": "cinema-pathe-wepler",
-    "dateShow": "2024-03-21T19:45:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/la-promesse-verte-36867",
-    "linkShow": "https://s.pathe.fr/fr/V3010S98663/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "le jeu de la reine",
-    "showId": "",
-    "movieId": "le-jeu-de-la-reine-35377",
-    "cinemaName": "cinema-pathe-wepler",
-    "dateShow": "2024-03-26T19:40:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/le-jeu-de-la-reine-35377",
-    "linkShow": "https://s.pathe.fr/fr/V3010S98625/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "pas de vagues",
-    "showId": "",
-    "movieId": "pas-de-vagues-35758",
-    "cinemaName": "cinema-pathe-wepler",
-    "dateShow": "2024-03-25T20:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/pas-de-vagues-35758",
-    "linkShow": "https://s.pathe.fr/fr/V3010S99442/booking",
-    "version": "vf",
-    "earlyType": "AVP",
     "source": "pathe"
   }
 ]
