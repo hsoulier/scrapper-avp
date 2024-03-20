@@ -1,17 +1,5 @@
 [
   {
-    "name": "bis repetita",
-    "source": "ugc",
-    "showId": "330171680282",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171680282",
-    "earlyType": "AVPE",
-    "movieId": "15994",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15994",
-    "cinemaName": "UGC Ciné Cité Les Halles",
-    "version": "vf",
-    "dateShow": "2024-03-19T20:15:00.000Z"
-  },
-  {
     "name": "ducobu passe au vert",
     "source": "ugc",
     "showId": "330011003304",
@@ -48,42 +36,6 @@
     "dateShow": "2024-03-25T20:00:00.000Z"
   },
   {
-    "name": "karaoké",
-    "source": "ugc",
-    "showId": "330020246346",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330020246346",
-    "earlyType": "AVP",
-    "movieId": "15862",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15862",
-    "cinemaName": "UGC Ciné Cité Maillot",
-    "version": "vf",
-    "dateShow": "2024-03-19T20:00:00.000Z"
-  },
-  {
-    "name": "karaoké",
-    "source": "ugc",
-    "showId": "330550407859",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550407859",
-    "earlyType": "AVP",
-    "movieId": "15862",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15862",
-    "cinemaName": "UGC Ciné Cité Paris 19",
-    "version": "vf",
-    "dateShow": "2024-03-19T20:00:00.000Z"
-  },
-  {
-    "name": "la jeune fille et les paysans",
-    "source": "ugc",
-    "showId": "330171680290",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171680290",
-    "earlyType": "AVP",
-    "movieId": "15997",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15997",
-    "cinemaName": "UGC Ciné Cité Les Halles",
-    "version": "vost",
-    "dateShow": "2024-03-19T19:40:00.000Z"
-  },
-  {
     "name": "la promesse verte",
     "source": "ugc",
     "showId": "330171681660",
@@ -94,18 +46,6 @@
     "cinemaName": "UGC Ciné Cité Les Halles",
     "version": "vf",
     "dateShow": "2024-03-21T19:00:00.000Z"
-  },
-  {
-    "name": "laissez-moi",
-    "source": "ugc",
-    "showId": "330051011344",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330051011344",
-    "earlyType": "AVPE",
-    "movieId": "15606",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15606",
-    "cinemaName": "UGC Odéon",
-    "version": "vf",
-    "dateShow": "2024-03-19T20:15:00.000Z"
   },
   {
     "name": "le jeu de la reine",
@@ -178,5 +118,17 @@
     "cinemaName": "UGC Ciné Cité Les Halles",
     "version": "vf",
     "dateShow": "2024-03-25T20:15:00.000Z"
+  },
+  {
+    "name": "sidonie au japon",
+    "source": "ugc",
+    "showId": "330091399929",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091399929",
+    "earlyType": "AVPE",
+    "movieId": "15883",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15883",
+    "cinemaName": "UGC Ciné Cité Bercy",
+    "version": "vf",
+    "dateShow": "2024-04-02T20:30:00.000Z"
   }
 ]
