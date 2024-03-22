@@ -50,6 +50,30 @@
   {
     "name": "godzilla x kong : le nouvel empire",
     "source": "ugc",
+    "showId": "330171681723",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171681723",
+    "earlyType": "AVP",
+    "movieId": "15886",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15886",
+    "cinemaName": "UGC Ciné Cité Les Halles",
+    "version": "vost",
+    "dateShow": "2024-03-29T22:00:00.000Z"
+  },
+  {
+    "name": "godzilla x kong : le nouvel empire",
+    "source": "ugc",
+    "showId": "330011004046",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330011004046",
+    "earlyType": "AVP",
+    "movieId": "15886",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15886",
+    "cinemaName": "UGC Grand Normandie",
+    "version": "vost",
+    "dateShow": "2024-03-29T20:00:00.000Z"
+  },
+  {
+    "name": "godzilla x kong : le nouvel empire",
+    "source": "ugc",
     "showId": "330091399878",
     "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091399878",
     "earlyType": "AVP",
@@ -74,14 +98,14 @@
   {
     "name": "la promesse verte",
     "source": "ugc",
-    "showId": "330171681660",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171681660",
-    "earlyType": "AVP",
+    "showId": "330091398338",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091398338",
+    "earlyType": "AVPE",
     "movieId": "15878",
     "linkMovie": "https://www.ugc.fr/film.html?id=15878",
-    "cinemaName": "UGC Ciné Cité Les Halles",
+    "cinemaName": "UGC Ciné Cité Bercy",
     "version": "vf",
-    "dateShow": "2024-03-21T19:00:00.000Z"
+    "dateShow": "2024-03-26T20:00:00.000Z"
   },
   {
     "name": "le jeu de la reine",

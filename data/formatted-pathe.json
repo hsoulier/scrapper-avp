@@ -190,5 +190,17 @@
     "version": "vf",
     "earlyType": "AVPE",
     "source": "pathe"
+  },
+  {
+    "name": "et plus si affinites",
+    "showId": "",
+    "movieId": "et-plus-si-affinites-36891",
+    "cinemaName": "cinema-pathe-wepler",
+    "dateShow": "2024-04-02T20:15:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/et-plus-si-affinites-36891",
+    "linkShow": "https://s.pathe.fr/fr/V3010S98664/booking",
+    "version": "vf",
+    "earlyType": "AVPE",
+    "source": "pathe"
   }
 ]
