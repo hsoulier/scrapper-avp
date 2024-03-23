@@ -96,6 +96,18 @@
     "source": "pathe"
   },
   {
+    "name": "civil war",
+    "showId": "",
+    "movieId": "civil-war-37616",
+    "cinemaName": "cinema-pathe-la-villette",
+    "dateShow": "2024-04-12T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/civil-war-37616",
+    "linkShow": "https://s.pathe.fr/fr/V3168S107578/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "les choristes",
     "showId": "",
     "movieId": "les-choristes-38406",
@@ -156,6 +168,18 @@
     "source": "pathe"
   },
   {
+    "name": "civil war",
+    "showId": "",
+    "movieId": "civil-war-37616",
+    "cinemaName": "cinema-pathe-opera-premier",
+    "dateShow": "2024-04-16T19:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/civil-war-37616",
+    "linkShow": "https://s.pathe.fr/fr/V3116S42181/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "s o s fantomes la menace de glace",
     "showId": "",
     "movieId": "s-o-s-fantomes-la-menace-de-glace-19043",
@@ -187,6 +211,18 @@
     "dateShow": "2024-04-08T20:00:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/nous-les-leroy-36507",
     "linkShow": "https://s.pathe.fr/fr/V3010S99437/booking",
+    "version": "vf",
+    "earlyType": "AVPE",
+    "source": "pathe"
+  },
+  {
+    "name": "rosalie",
+    "showId": "",
+    "movieId": "rosalie-35355",
+    "cinemaName": "cinema-pathe-wepler",
+    "dateShow": "2024-04-04T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/rosalie-35355",
+    "linkShow": "https://s.pathe.fr/fr/V3010S98665/booking",
     "version": "vf",
     "earlyType": "AVPE",
     "source": "pathe"
