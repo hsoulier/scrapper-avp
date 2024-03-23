@@ -96,6 +96,30 @@
     "dateShow": "2024-03-29T22:00:00.000Z"
   },
   {
+    "name": "godzilla x kong : le nouvel empire",
+    "source": "ugc",
+    "showId": "330181089489",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330181089489",
+    "earlyType": "AVP",
+    "movieId": "15886",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15886",
+    "cinemaName": "UGC Lyon Bastille",
+    "version": "vf",
+    "dateShow": "2024-03-29T20:00:00.000Z"
+  },
+  {
+    "name": "la malédiction : l'origine",
+    "source": "ugc",
+    "showId": "330091399930",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091399930",
+    "earlyType": "AVP",
+    "movieId": "16118",
+    "linkMovie": "https://www.ugc.fr/film.html?id=16118",
+    "cinemaName": "UGC Ciné Cité Bercy",
+    "version": "vost",
+    "dateShow": "2024-04-05T20:00:00.000Z"
+  },
+  {
     "name": "la promesse verte",
     "source": "ugc",
     "showId": "330091398338",
