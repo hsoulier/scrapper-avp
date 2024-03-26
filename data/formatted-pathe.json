@@ -12,6 +12,18 @@
     "source": "pathe"
   },
   {
+    "name": "ducobu passe au vert",
+    "showId": "",
+    "movieId": "ducobu-passe-au-vert-35310",
+    "cinemaName": "cinema-pathe-alesia",
+    "dateShow": "2024-04-01T14:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/ducobu-passe-au-vert-35310",
+    "linkShow": "https://s.pathe.fr/fr/V3132S63692/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "seance tenante nous les leroy",
     "showId": "",
     "movieId": "seance-tenante-nous-les-leroy-38475",
@@ -81,6 +93,30 @@
     "linkShow": "https://s.pathe.fr/fr/V3140S92206/booking",
     "version": "vf",
     "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "godzilla x kong le nouvel empire",
+    "showId": "",
+    "movieId": "godzilla-x-kong-le-nouvel-empire-37279",
+    "cinemaName": "cinema-pathe-beaugrenelle",
+    "dateShow": "2024-03-29T21:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/godzilla-x-kong-le-nouvel-empire-37279",
+    "linkShow": "https://s.pathe.fr/fr/V3166S86121/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "freres",
+    "showId": "",
+    "movieId": "freres-36335",
+    "cinemaName": "cinema-pathe-convention",
+    "dateShow": "2024-04-23T20:15:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/freres-36335",
+    "linkShow": "https://s.pathe.fr/fr/V3136S79086/booking",
+    "version": "vf",
+    "earlyType": "AVPE",
     "source": "pathe"
   },
   {
@@ -225,6 +261,18 @@
     "linkShow": "https://s.pathe.fr/fr/V3010S98665/booking",
     "version": "vf",
     "earlyType": "AVPE",
+    "source": "pathe"
+  },
+  {
+    "name": "godzilla x kong le nouvel empire",
+    "showId": "",
+    "movieId": "godzilla-x-kong-le-nouvel-empire-37279",
+    "cinemaName": "cinema-pathe-wepler",
+    "dateShow": "2024-03-29T20:40:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/godzilla-x-kong-le-nouvel-empire-37279",
+    "linkShow": "https://s.pathe.fr/fr/V3010S100081/booking",
+    "version": "vost",
+    "earlyType": "AVP",
     "source": "pathe"
   },
   {
