@@ -26,6 +26,18 @@
   {
     "name": "ducobu passe au vert",
     "source": "ugc",
+    "showId": "330231074096",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330231074096",
+    "earlyType": "AVP",
+    "movieId": "15879",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15879",
+    "cinemaName": "UGC Montparnasse",
+    "version": "vf",
+    "dateShow": "2024-04-01T16:50:00.000Z"
+  },
+  {
+    "name": "ducobu passe au vert",
+    "source": "ugc",
     "showId": "330091399879",
     "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091399879",
     "earlyType": "AVP",
@@ -74,26 +86,26 @@
   {
     "name": "et plus si affinités",
     "source": "ugc",
-    "showId": "330091399067",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091399067",
-    "earlyType": "AVPE",
+    "showId": "330081108241",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330081108241",
+    "earlyType": "AVP",
     "movieId": "15884",
     "linkMovie": "https://www.ugc.fr/film.html?id=15884",
-    "cinemaName": "UGC Ciné Cité Bercy",
+    "cinemaName": "UGC Gobelins",
     "version": "vf",
-    "dateShow": "2024-03-25T20:00:00.000Z"
+    "dateShow": "2024-03-31T17:30:00.000Z"
   },
   {
     "name": "et plus si affinités",
     "source": "ugc",
-    "showId": "330550408453",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550408453",
+    "showId": "330550409062",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550409062",
     "earlyType": "AVP",
     "movieId": "15884",
     "linkMovie": "https://www.ugc.fr/film.html?id=15884",
     "cinemaName": "UGC Ciné Cité Paris 19",
     "version": "vf",
-    "dateShow": "2024-03-25T20:00:00.000Z"
+    "dateShow": "2024-03-31T18:00:00.000Z"
   },
   {
     "name": "godzilla x kong : le nouvel empire",
@@ -130,6 +142,18 @@
     "cinemaName": "UGC Grand Normandie",
     "version": "vost",
     "dateShow": "2024-03-29T20:00:00.000Z"
+  },
+  {
+    "name": "godzilla x kong : le nouvel empire",
+    "source": "ugc",
+    "showId": "330231074094",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330231074094",
+    "earlyType": "AVP",
+    "movieId": "15886",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15886",
+    "cinemaName": "UGC Montparnasse",
+    "version": "vost",
+    "dateShow": "2024-03-29T20:30:00.000Z"
   },
   {
     "name": "godzilla x kong : le nouvel empire",
@@ -264,6 +288,18 @@
     "dateShow": "2024-03-26T19:40:00.000Z"
   },
   {
+    "name": "le vieil homme et l'enfant",
+    "source": "ugc",
+    "showId": "330171682899",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171682899",
+    "earlyType": "AVPE",
+    "movieId": "15955",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15955",
+    "cinemaName": "UGC Ciné Cité Les Halles",
+    "version": "vost",
+    "dateShow": "2024-04-01T20:15:00.000Z"
+  },
+  {
     "name": "pas de vagues",
     "source": "ugc",
     "showId": "330171681663",
@@ -276,18 +312,6 @@
     "dateShow": "2024-03-26T20:15:00.000Z"
   },
   {
-    "name": "paternel",
-    "source": "ugc",
-    "showId": "330171681662",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171681662",
-    "earlyType": "AVPE",
-    "movieId": "15877",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15877",
-    "cinemaName": "UGC Ciné Cité Les Halles",
-    "version": "vf",
-    "dateShow": "2024-03-25T20:15:00.000Z"
-  },
-  {
     "name": "quelques jours pas plus",
     "source": "ugc",
     "showId": "330171681677",
@@ -298,6 +322,78 @@
     "cinemaName": "UGC Ciné Cité Les Halles",
     "version": "vf",
     "dateShow": "2024-03-28T20:15:00.000Z"
+  },
+  {
+    "name": "quitter la nuit",
+    "source": "ugc",
+    "showId": "330171682901",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171682901",
+    "earlyType": "AVPE",
+    "movieId": "15860",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15860",
+    "cinemaName": "UGC Ciné Cité Les Halles",
+    "version": "vost",
+    "dateShow": "2024-04-02T20:15:00.000Z"
+  },
+  {
+    "name": "s.o.s. fantômes : la menace de glace",
+    "source": "ugc",
+    "showId": "330171682898",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171682898",
+    "earlyType": "AVP",
+    "movieId": "15547",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15547",
+    "cinemaName": "UGC Ciné Cité Les Halles",
+    "version": "vost",
+    "dateShow": "2024-03-31T17:00:00.000Z"
+  },
+  {
+    "name": "s.o.s. fantômes : la menace de glace",
+    "source": "ugc",
+    "showId": "330231074095",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330231074095",
+    "earlyType": "AVP",
+    "movieId": "15547",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15547",
+    "cinemaName": "UGC Montparnasse",
+    "version": "vost",
+    "dateShow": "2024-03-31T16:30:00.000Z"
+  },
+  {
+    "name": "s.o.s. fantômes : la menace de glace",
+    "source": "ugc",
+    "showId": "330091400672",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091400672",
+    "earlyType": "AVP",
+    "movieId": "15547",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15547",
+    "cinemaName": "UGC Ciné Cité Bercy",
+    "version": "vost",
+    "dateShow": "2024-03-31T18:00:00.000Z"
+  },
+  {
+    "name": "s.o.s. fantômes : la menace de glace",
+    "source": "ugc",
+    "showId": "330181089716",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330181089716",
+    "earlyType": "AVP",
+    "movieId": "15547",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15547",
+    "cinemaName": "UGC Lyon Bastille",
+    "version": "vf",
+    "dateShow": "2024-03-31T18:00:00.000Z"
+  },
+  {
+    "name": "s.o.s. fantômes : la menace de glace",
+    "source": "ugc",
+    "showId": "330550409063",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550409063",
+    "earlyType": "AVP",
+    "movieId": "15547",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15547",
+    "cinemaName": "UGC Ciné Cité Paris 19",
+    "version": "vost",
+    "dateShow": "2024-03-31T18:00:00.000Z"
   },
   {
     "name": "sidonie au japon",
