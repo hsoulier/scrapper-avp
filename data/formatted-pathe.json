@@ -1,41 +1,5 @@
 [
   {
-    "name": "godzilla x kong le nouvel empire",
-    "showId": "",
-    "movieId": "godzilla-x-kong-le-nouvel-empire-37279",
-    "cinemaName": "cinema-pathe-alesia",
-    "dateShow": "2024-03-29T21:15:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/godzilla-x-kong-le-nouvel-empire-37279",
-    "linkShow": "https://s.pathe.fr/fr/V3132S63054/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "ducobu passe au vert",
-    "showId": "",
-    "movieId": "ducobu-passe-au-vert-35310",
-    "cinemaName": "cinema-pathe-alesia",
-    "dateShow": "2024-04-01T14:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/ducobu-passe-au-vert-35310",
-    "linkShow": "https://s.pathe.fr/fr/V3132S63692/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "seance tenante nous les leroy",
-    "showId": "",
-    "movieId": "seance-tenante-nous-les-leroy-38475",
-    "cinemaName": "cinema-pathe-alesia",
-    "dateShow": "2024-04-02T20:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/seance-tenante-nous-les-leroy-38475",
-    "linkShow": "https://s.pathe.fr/fr/V3132S62967/booking",
-    "version": "vf",
-    "earlyType": "AVPE",
-    "source": "pathe"
-  },
-  {
     "name": "un p tit truc en plus",
     "showId": "",
     "movieId": "un-p-tit-truc-en-plus-37489",
@@ -43,42 +7,6 @@
     "dateShow": "2024-04-18T20:00:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/un-p-tit-truc-en-plus-37489",
     "linkShow": "https://s.pathe.fr/fr/V3140S92204/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "godzilla x kong le nouvel empire",
-    "showId": "",
-    "movieId": "godzilla-x-kong-le-nouvel-empire-37279",
-    "cinemaName": "cinema-gaumont-aquaboulevard",
-    "dateShow": "2024-03-29T20:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/godzilla-x-kong-le-nouvel-empire-37279",
-    "linkShow": "https://s.pathe.fr/fr/V3140S91111/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "ducobu passe au vert",
-    "showId": "",
-    "movieId": "ducobu-passe-au-vert-35310",
-    "cinemaName": "cinema-gaumont-aquaboulevard",
-    "dateShow": "2024-04-01T14:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/ducobu-passe-au-vert-35310",
-    "linkShow": "https://s.pathe.fr/fr/V3140S90469/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "s o s fantomes la menace de glace",
-    "showId": "",
-    "movieId": "s-o-s-fantomes-la-menace-de-glace-19043",
-    "cinemaName": "cinema-gaumont-aquaboulevard",
-    "dateShow": "2024-03-31T19:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/s-o-s-fantomes-la-menace-de-glace-19043",
-    "linkShow": "https://s.pathe.fr/fr/V3140S91658/booking",
     "version": "vf",
     "earlyType": "AVP",
     "source": "pathe"
@@ -92,18 +20,6 @@
     "linkMovie": "https://www.pathe.fr/films/civil-war-37616",
     "linkShow": "https://s.pathe.fr/fr/V3140S92206/booking",
     "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "godzilla x kong le nouvel empire",
-    "showId": "",
-    "movieId": "godzilla-x-kong-le-nouvel-empire-37279",
-    "cinemaName": "cinema-pathe-beaugrenelle",
-    "dateShow": "2024-03-29T21:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/godzilla-x-kong-le-nouvel-empire-37279",
-    "linkShow": "https://s.pathe.fr/fr/V3166S86121/booking",
-    "version": "vost",
     "earlyType": "AVP",
     "source": "pathe"
   },
@@ -156,54 +72,6 @@
     "source": "pathe"
   },
   {
-    "name": "s o s fantomes la menace de glace",
-    "showId": "",
-    "movieId": "s-o-s-fantomes-la-menace-de-glace-19043",
-    "cinemaName": "cinema-pathe-la-villette",
-    "dateShow": "2024-04-01T15:45:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/s-o-s-fantomes-la-menace-de-glace-19043",
-    "linkShow": "https://s.pathe.fr/fr/V3168S107580/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "godzilla x kong le nouvel empire",
-    "showId": "",
-    "movieId": "godzilla-x-kong-le-nouvel-empire-37279",
-    "cinemaName": "cinema-pathe-la-villette",
-    "dateShow": "2024-03-29T20:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/godzilla-x-kong-le-nouvel-empire-37279",
-    "linkShow": "https://s.pathe.fr/fr/V3168S107576/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "ducobu passe au vert",
-    "showId": "",
-    "movieId": "ducobu-passe-au-vert-35310",
-    "cinemaName": "cinema-pathe-la-villette",
-    "dateShow": "2024-04-01T14:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/ducobu-passe-au-vert-35310",
-    "linkShow": "https://s.pathe.fr/fr/V3168S107581/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "ducobu passe au vert",
-    "showId": "",
-    "movieId": "ducobu-passe-au-vert-35310",
-    "cinemaName": "cinema-pathe-montparnos",
-    "dateShow": "2024-04-01T16:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/ducobu-passe-au-vert-35310",
-    "linkShow": "https://s.pathe.fr/fr/V3127S14449/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
     "name": "civil war",
     "showId": "",
     "movieId": "civil-war-37616",
@@ -211,30 +79,6 @@
     "dateShow": "2024-04-16T19:30:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/civil-war-37616",
     "linkShow": "https://s.pathe.fr/fr/V3116S42181/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "s o s fantomes la menace de glace",
-    "showId": "",
-    "movieId": "s-o-s-fantomes-la-menace-de-glace-19043",
-    "cinemaName": "cinema-pathe-parnasse",
-    "dateShow": "2024-04-01T18:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/s-o-s-fantomes-la-menace-de-glace-19043",
-    "linkShow": "https://s.pathe.fr/fr/V3128S126484/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "godzilla x kong le nouvel empire",
-    "showId": "",
-    "movieId": "godzilla-x-kong-le-nouvel-empire-37279",
-    "cinemaName": "cinema-pathe-parnasse",
-    "dateShow": "2024-03-29T19:45:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/godzilla-x-kong-le-nouvel-empire-37279",
-    "linkShow": "https://s.pathe.fr/fr/V3128S126485/booking",
     "version": "vost",
     "earlyType": "AVP",
     "source": "pathe"
@@ -259,30 +103,6 @@
     "dateShow": "2024-04-04T20:00:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/rosalie-35355",
     "linkShow": "https://s.pathe.fr/fr/V3010S98665/booking",
-    "version": "vf",
-    "earlyType": "AVPE",
-    "source": "pathe"
-  },
-  {
-    "name": "godzilla x kong le nouvel empire",
-    "showId": "",
-    "movieId": "godzilla-x-kong-le-nouvel-empire-37279",
-    "cinemaName": "cinema-pathe-wepler",
-    "dateShow": "2024-03-29T20:40:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/godzilla-x-kong-le-nouvel-empire-37279",
-    "linkShow": "https://s.pathe.fr/fr/V3010S100081/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "et plus si affinites",
-    "showId": "",
-    "movieId": "et-plus-si-affinites-36891",
-    "cinemaName": "cinema-pathe-wepler",
-    "dateShow": "2024-04-02T20:15:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/et-plus-si-affinites-36891",
-    "linkShow": "https://s.pathe.fr/fr/V3010S98664/booking",
     "version": "vf",
     "earlyType": "AVPE",
     "source": "pathe"
