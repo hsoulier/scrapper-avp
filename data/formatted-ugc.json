@@ -86,6 +86,18 @@
   {
     "name": "et plus si affinités",
     "source": "ugc",
+    "showId": "330020247527",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330020247527",
+    "earlyType": "AVP",
+    "movieId": "15884",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15884",
+    "cinemaName": "UGC Ciné Cité Maillot",
+    "version": "vf",
+    "dateShow": "2024-03-31T19:00:00.000Z"
+  },
+  {
+    "name": "et plus si affinités",
+    "source": "ugc",
     "showId": "330081108241",
     "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330081108241",
     "earlyType": "AVP",
@@ -230,62 +242,14 @@
   {
     "name": "la malédiction : l'origine",
     "source": "ugc",
-    "showId": "330091399930",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091399930",
+    "showId": "330550408500",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550408500",
     "earlyType": "AVP",
     "movieId": "16118",
     "linkMovie": "https://www.ugc.fr/film.html?id=16118",
-    "cinemaName": "UGC Ciné Cité Bercy",
+    "cinemaName": "UGC Ciné Cité Paris 19",
     "version": "vost",
     "dateShow": "2024-04-05T20:00:00.000Z"
-  },
-  {
-    "name": "la promesse verte",
-    "source": "ugc",
-    "showId": "330091398338",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091398338",
-    "earlyType": "AVPE",
-    "movieId": "15878",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15878",
-    "cinemaName": "UGC Ciné Cité Bercy",
-    "version": "vf",
-    "dateShow": "2024-03-26T20:00:00.000Z"
-  },
-  {
-    "name": "le jeu de la reine",
-    "source": "ugc",
-    "showId": "330171681664",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171681664",
-    "earlyType": "AVP",
-    "movieId": "15851",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15851",
-    "cinemaName": "UGC Ciné Cité Les Halles",
-    "version": "vost",
-    "dateShow": "2024-03-26T20:30:00.000Z"
-  },
-  {
-    "name": "le jeu de la reine",
-    "source": "ugc",
-    "showId": "330051011743",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330051011743",
-    "earlyType": "AVP",
-    "movieId": "15851",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15851",
-    "cinemaName": "UGC Odéon",
-    "version": "vost",
-    "dateShow": "2024-03-26T20:00:00.000Z"
-  },
-  {
-    "name": "le jeu de la reine",
-    "source": "ugc",
-    "showId": "330091399874",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091399874",
-    "earlyType": "AVP",
-    "movieId": "15851",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15851",
-    "cinemaName": "UGC Ciné Cité Bercy",
-    "version": "vost",
-    "dateShow": "2024-03-26T19:40:00.000Z"
   },
   {
     "name": "le vieil homme et l'enfant",
@@ -300,16 +264,16 @@
     "dateShow": "2024-04-01T20:15:00.000Z"
   },
   {
-    "name": "pas de vagues",
+    "name": "nous, les leroy",
     "source": "ugc",
-    "showId": "330171681663",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171681663",
+    "showId": "330091400674",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091400674",
     "earlyType": "AVPE",
-    "movieId": "15874",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15874",
-    "cinemaName": "UGC Ciné Cité Les Halles",
+    "movieId": "15889",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15889",
+    "cinemaName": "UGC Ciné Cité Bercy",
     "version": "vf",
-    "dateShow": "2024-03-26T20:15:00.000Z"
+    "dateShow": "2024-04-09T19:30:00.000Z"
   },
   {
     "name": "quelques jours pas plus",
