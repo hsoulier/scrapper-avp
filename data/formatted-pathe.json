@@ -1,5 +1,17 @@
 [
   {
+    "name": "civil war",
+    "showId": "",
+    "movieId": "civil-war-37616",
+    "cinemaName": "cinema-pathe-alesia",
+    "dateShow": "2024-04-15T19:50:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/civil-war-37616",
+    "linkShow": "https://s.pathe.fr/fr/V3132S63709/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "un p tit truc en plus",
     "showId": "",
     "movieId": "un-p-tit-truc-en-plus-37489",
@@ -79,6 +91,30 @@
     "dateShow": "2024-04-16T19:30:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/civil-war-37616",
     "linkShow": "https://s.pathe.fr/fr/V3116S42181/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "les cartes du mal",
+    "showId": "",
+    "movieId": "les-cartes-du-mal-35926",
+    "cinemaName": "cinema-pathe-parnasse",
+    "dateShow": "2024-04-30T22:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/les-cartes-du-mal-35926",
+    "linkShow": "https://s.pathe.fr/fr/V3128S126967/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "civil war",
+    "showId": "",
+    "movieId": "civil-war-37616",
+    "cinemaName": "cinema-pathe-parnasse",
+    "dateShow": "2024-04-12T20:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/civil-war-37616",
+    "linkShow": "https://s.pathe.fr/fr/V3128S126968/booking",
     "version": "vost",
     "earlyType": "AVP",
     "source": "pathe"
