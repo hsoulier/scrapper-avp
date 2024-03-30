@@ -120,112 +120,16 @@
     "dateShow": "2024-03-31T18:00:00.000Z"
   },
   {
-    "name": "godzilla x kong : le nouvel empire",
+    "name": "jusqu'au bout du monde",
     "source": "ugc",
-    "showId": "330171681679",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171681679",
-    "earlyType": "AVP",
-    "movieId": "15886",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15886",
+    "showId": "330171684175",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171684175",
+    "earlyType": "AVPE",
+    "movieId": "16092",
+    "linkMovie": "https://www.ugc.fr/film.html?id=16092",
     "cinemaName": "UGC Ciné Cité Les Halles",
     "version": "vost",
-    "dateShow": "2024-03-29T20:30:00.000Z"
-  },
-  {
-    "name": "godzilla x kong : le nouvel empire",
-    "source": "ugc",
-    "showId": "330171681723",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171681723",
-    "earlyType": "AVP",
-    "movieId": "15886",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15886",
-    "cinemaName": "UGC Ciné Cité Les Halles",
-    "version": "vost",
-    "dateShow": "2024-03-29T22:00:00.000Z"
-  },
-  {
-    "name": "godzilla x kong : le nouvel empire",
-    "source": "ugc",
-    "showId": "330011004046",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330011004046",
-    "earlyType": "AVP",
-    "movieId": "15886",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15886",
-    "cinemaName": "UGC Grand Normandie",
-    "version": "vost",
-    "dateShow": "2024-03-29T20:00:00.000Z"
-  },
-  {
-    "name": "godzilla x kong : le nouvel empire",
-    "source": "ugc",
-    "showId": "330231074094",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330231074094",
-    "earlyType": "AVP",
-    "movieId": "15886",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15886",
-    "cinemaName": "UGC Montparnasse",
-    "version": "vost",
-    "dateShow": "2024-03-29T20:30:00.000Z"
-  },
-  {
-    "name": "godzilla x kong : le nouvel empire",
-    "source": "ugc",
-    "showId": "330091399878",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091399878",
-    "earlyType": "AVP",
-    "movieId": "15886",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15886",
-    "cinemaName": "UGC Ciné Cité Bercy",
-    "version": "vost",
-    "dateShow": "2024-03-29T19:40:00.000Z"
-  },
-  {
-    "name": "godzilla x kong : le nouvel empire",
-    "source": "ugc",
-    "showId": "330091399877",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091399877",
-    "earlyType": "AVP",
-    "movieId": "15886",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15886",
-    "cinemaName": "UGC Ciné Cité Bercy",
-    "version": "vost",
-    "dateShow": "2024-03-29T22:00:00.000Z"
-  },
-  {
-    "name": "godzilla x kong : le nouvel empire",
-    "source": "ugc",
-    "showId": "330181089489",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330181089489",
-    "earlyType": "AVP",
-    "movieId": "15886",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15886",
-    "cinemaName": "UGC Lyon Bastille",
-    "version": "vf",
-    "dateShow": "2024-03-29T20:00:00.000Z"
-  },
-  {
-    "name": "godzilla x kong : le nouvel empire",
-    "source": "ugc",
-    "showId": "330550408489",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550408489",
-    "earlyType": "AVP",
-    "movieId": "15886",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15886",
-    "cinemaName": "UGC Ciné Cité Paris 19",
-    "version": "vost",
-    "dateShow": "2024-03-29T20:00:00.000Z"
-  },
-  {
-    "name": "godzilla x kong : le nouvel empire",
-    "source": "ugc",
-    "showId": "330550408493",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550408493",
-    "earlyType": "AVP",
-    "movieId": "15886",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15886",
-    "cinemaName": "UGC Ciné Cité Paris 19",
-    "version": "vost",
-    "dateShow": "2024-03-29T21:00:00.000Z"
+    "dateShow": "2024-04-08T19:30:00.000Z"
   },
   {
     "name": "la malédiction : l'origine",
@@ -238,6 +142,18 @@
     "cinemaName": "UGC Ciné Cité Les Halles",
     "version": "vost",
     "dateShow": "2024-04-05T19:30:00.000Z"
+  },
+  {
+    "name": "la malédiction : l'origine",
+    "source": "ugc",
+    "showId": "330091400677",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091400677",
+    "earlyType": "AVP",
+    "movieId": "16118",
+    "linkMovie": "https://www.ugc.fr/film.html?id=16118",
+    "cinemaName": "UGC Ciné Cité Bercy",
+    "version": "vost",
+    "dateShow": "2024-04-05T20:00:00.000Z"
   },
   {
     "name": "la malédiction : l'origine",
@@ -264,6 +180,18 @@
     "dateShow": "2024-04-01T20:15:00.000Z"
   },
   {
+    "name": "madame hofmann",
+    "source": "ugc",
+    "showId": "330171684176",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171684176",
+    "earlyType": "AVPE",
+    "movieId": "15799",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15799",
+    "cinemaName": "UGC Ciné Cité Les Halles",
+    "version": "vf",
+    "dateShow": "2024-04-09T20:15:00.000Z"
+  },
+  {
     "name": "nous, les leroy",
     "source": "ugc",
     "showId": "330011004232",
@@ -286,6 +214,18 @@
     "cinemaName": "UGC Ciné Cité Les Halles",
     "version": "vost",
     "dateShow": "2024-04-02T20:15:00.000Z"
+  },
+  {
+    "name": "rosalie",
+    "source": "ugc",
+    "showId": "330550409580",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550409580",
+    "earlyType": "AVP",
+    "movieId": "15599",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15599",
+    "cinemaName": "UGC Ciné Cité Paris 19",
+    "version": "vf",
+    "dateShow": "2024-04-07T18:00:00.000Z"
   },
   {
     "name": "s.o.s. fantômes : la menace de glace",
@@ -358,5 +298,17 @@
     "cinemaName": "UGC Ciné Cité Bercy",
     "version": "vf",
     "dateShow": "2024-04-02T20:30:00.000Z"
+  },
+  {
+    "name": "sons",
+    "source": "ugc",
+    "showId": "330091400684",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091400684",
+    "earlyType": "AVPE",
+    "movieId": "16090",
+    "linkMovie": "https://www.ugc.fr/film.html?id=16090",
+    "cinemaName": "UGC Ciné Cité Bercy",
+    "version": "vost",
+    "dateShow": "2024-04-11T19:45:00.000Z"
   }
 ]
