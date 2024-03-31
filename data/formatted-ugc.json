@@ -218,6 +218,18 @@
   {
     "name": "rosalie",
     "source": "ugc",
+    "showId": "330020248122",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330020248122",
+    "earlyType": "AVP",
+    "movieId": "15599",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15599",
+    "cinemaName": "UGC Ciné Cité Maillot",
+    "version": "vf",
+    "dateShow": "2024-04-07T19:00:00.000Z"
+  },
+  {
+    "name": "rosalie",
+    "source": "ugc",
     "showId": "330550409580",
     "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550409580",
     "earlyType": "AVP",
