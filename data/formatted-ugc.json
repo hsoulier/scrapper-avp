@@ -84,42 +84,6 @@
     "dateShow": "2024-04-01T16:00:00.000Z"
   },
   {
-    "name": "et plus si affinités",
-    "source": "ugc",
-    "showId": "330020247527",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330020247527",
-    "earlyType": "AVP",
-    "movieId": "15884",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15884",
-    "cinemaName": "UGC Ciné Cité Maillot",
-    "version": "vf",
-    "dateShow": "2024-03-31T19:00:00.000Z"
-  },
-  {
-    "name": "et plus si affinités",
-    "source": "ugc",
-    "showId": "330081108241",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330081108241",
-    "earlyType": "AVP",
-    "movieId": "15884",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15884",
-    "cinemaName": "UGC Gobelins",
-    "version": "vf",
-    "dateShow": "2024-03-31T17:30:00.000Z"
-  },
-  {
-    "name": "et plus si affinités",
-    "source": "ugc",
-    "showId": "330550409062",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550409062",
-    "earlyType": "AVP",
-    "movieId": "15884",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15884",
-    "cinemaName": "UGC Ciné Cité Paris 19",
-    "version": "vf",
-    "dateShow": "2024-03-31T18:00:00.000Z"
-  },
-  {
     "name": "jusqu'au bout du monde",
     "source": "ugc",
     "showId": "330171684175",
@@ -238,66 +202,6 @@
     "cinemaName": "UGC Ciné Cité Paris 19",
     "version": "vf",
     "dateShow": "2024-04-07T18:00:00.000Z"
-  },
-  {
-    "name": "s.o.s. fantômes : la menace de glace",
-    "source": "ugc",
-    "showId": "330171682898",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171682898",
-    "earlyType": "AVP",
-    "movieId": "15547",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15547",
-    "cinemaName": "UGC Ciné Cité Les Halles",
-    "version": "vost",
-    "dateShow": "2024-03-31T17:00:00.000Z"
-  },
-  {
-    "name": "s.o.s. fantômes : la menace de glace",
-    "source": "ugc",
-    "showId": "330231074095",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330231074095",
-    "earlyType": "AVP",
-    "movieId": "15547",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15547",
-    "cinemaName": "UGC Montparnasse",
-    "version": "vost",
-    "dateShow": "2024-03-31T16:30:00.000Z"
-  },
-  {
-    "name": "s.o.s. fantômes : la menace de glace",
-    "source": "ugc",
-    "showId": "330091400672",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091400672",
-    "earlyType": "AVP",
-    "movieId": "15547",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15547",
-    "cinemaName": "UGC Ciné Cité Bercy",
-    "version": "vost",
-    "dateShow": "2024-03-31T18:00:00.000Z"
-  },
-  {
-    "name": "s.o.s. fantômes : la menace de glace",
-    "source": "ugc",
-    "showId": "330181089716",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330181089716",
-    "earlyType": "AVP",
-    "movieId": "15547",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15547",
-    "cinemaName": "UGC Lyon Bastille",
-    "version": "vf",
-    "dateShow": "2024-03-31T18:00:00.000Z"
-  },
-  {
-    "name": "s.o.s. fantômes : la menace de glace",
-    "source": "ugc",
-    "showId": "330550409063",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550409063",
-    "earlyType": "AVP",
-    "movieId": "15547",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15547",
-    "cinemaName": "UGC Ciné Cité Paris 19",
-    "version": "vost",
-    "dateShow": "2024-03-31T18:00:00.000Z"
   },
   {
     "name": "sidonie au japon",
