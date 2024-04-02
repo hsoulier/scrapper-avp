@@ -1,89 +1,5 @@
 [
   {
-    "name": "ducobu passe au vert !",
-    "source": "ugc",
-    "showId": "330171681680",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171681680",
-    "earlyType": "AVP",
-    "movieId": "15879",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15879",
-    "cinemaName": "UGC Ciné Cité Les Halles",
-    "version": "vf",
-    "dateShow": "2024-04-01T18:00:00.000Z"
-  },
-  {
-    "name": "ducobu passe au vert !",
-    "source": "ugc",
-    "showId": "330020246904",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330020246904",
-    "earlyType": "AVP",
-    "movieId": "15879",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15879",
-    "cinemaName": "UGC Ciné Cité Maillot",
-    "version": "vf",
-    "dateShow": "2024-04-01T16:00:00.000Z"
-  },
-  {
-    "name": "ducobu passe au vert !",
-    "source": "ugc",
-    "showId": "330231074096",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330231074096",
-    "earlyType": "AVP",
-    "movieId": "15879",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15879",
-    "cinemaName": "UGC Montparnasse",
-    "version": "vf",
-    "dateShow": "2024-04-01T16:50:00.000Z"
-  },
-  {
-    "name": "ducobu passe au vert !",
-    "source": "ugc",
-    "showId": "330091399879",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091399879",
-    "earlyType": "AVP",
-    "movieId": "15879",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15879",
-    "cinemaName": "UGC Ciné Cité Bercy",
-    "version": "vf",
-    "dateShow": "2024-04-01T16:00:00.000Z"
-  },
-  {
-    "name": "ducobu passe au vert !",
-    "source": "ugc",
-    "showId": "330181089488",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330181089488",
-    "earlyType": "AVP",
-    "movieId": "15879",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15879",
-    "cinemaName": "UGC Lyon Bastille",
-    "version": "vf",
-    "dateShow": "2024-04-01T16:00:00.000Z"
-  },
-  {
-    "name": "ducobu passe au vert !",
-    "source": "ugc",
-    "showId": "330081107817",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330081107817",
-    "earlyType": "AVP",
-    "movieId": "15879",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15879",
-    "cinemaName": "UGC Gobelins",
-    "version": "vf",
-    "dateShow": "2024-04-01T16:00:00.000Z"
-  },
-  {
-    "name": "ducobu passe au vert !",
-    "source": "ugc",
-    "showId": "330550408490",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550408490",
-    "earlyType": "AVP",
-    "movieId": "15879",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15879",
-    "cinemaName": "UGC Ciné Cité Paris 19",
-    "version": "vf",
-    "dateShow": "2024-04-01T16:00:00.000Z"
-  },
-  {
     "name": "jusqu'au bout du monde",
     "source": "ugc",
     "showId": "330171684175",
@@ -132,18 +48,6 @@
     "dateShow": "2024-04-05T20:00:00.000Z"
   },
   {
-    "name": "le vieil homme et l'enfant",
-    "source": "ugc",
-    "showId": "330171682899",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171682899",
-    "earlyType": "AVPE",
-    "movieId": "15955",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15955",
-    "cinemaName": "UGC Ciné Cité Les Halles",
-    "version": "vost",
-    "dateShow": "2024-04-01T20:15:00.000Z"
-  },
-  {
     "name": "madame hofmann",
     "source": "ugc",
     "showId": "330171684176",
@@ -190,6 +94,18 @@
     "cinemaName": "UGC Ciné Cité Maillot",
     "version": "vf",
     "dateShow": "2024-04-07T19:00:00.000Z"
+  },
+  {
+    "name": "rosalie",
+    "source": "ugc",
+    "showId": "330081108763",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330081108763",
+    "earlyType": "AVP",
+    "movieId": "15599",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15599",
+    "cinemaName": "UGC Gobelins",
+    "version": "vf",
+    "dateShow": "2024-04-07T17:00:00.000Z"
   },
   {
     "name": "rosalie",
