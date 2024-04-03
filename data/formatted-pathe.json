@@ -36,18 +36,6 @@
     "source": "pathe"
   },
   {
-    "name": "les aventuriers de l arche de noe",
-    "showId": "",
-    "movieId": "les-aventuriers-de-l-arche-de-noe-36866",
-    "cinemaName": "cinema-gaumont-aquaboulevard",
-    "dateShow": "2024-04-07T14:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/les-aventuriers-de-l-arche-de-noe-36866",
-    "linkShow": "https://s.pathe.fr/fr/V3140S93873/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
     "name": "freres",
     "showId": "",
     "movieId": "freres-36335",
@@ -56,18 +44,6 @@
     "linkMovie": "https://www.pathe.fr/films/freres-36335",
     "linkShow": "https://s.pathe.fr/fr/V3136S79086/booking",
     "version": "vf",
-    "earlyType": "AVPE",
-    "source": "pathe"
-  },
-  {
-    "name": "amal un esprit libre",
-    "showId": "",
-    "movieId": "amal-un-esprit-libre-37685",
-    "cinemaName": "cinema-pathe-convention",
-    "dateShow": "2024-04-09T19:15:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/amal-un-esprit-libre-37685",
-    "linkShow": "https://s.pathe.fr/fr/V3136S80008/booking",
-    "version": "vost",
     "earlyType": "AVPE",
     "source": "pathe"
   },
@@ -91,30 +67,6 @@
     "dateShow": "2024-04-12T20:00:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/civil-war-37616",
     "linkShow": "https://s.pathe.fr/fr/V3168S107578/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "les aventuriers de l arche de noe",
-    "showId": "",
-    "movieId": "les-aventuriers-de-l-arche-de-noe-36866",
-    "cinemaName": "cinema-pathe-la-villette",
-    "dateShow": "2024-04-07T13:45:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/les-aventuriers-de-l-arche-de-noe-36866",
-    "linkShow": "https://s.pathe.fr/fr/V3168S108669/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "les choristes",
-    "showId": "",
-    "movieId": "les-choristes-38406",
-    "cinemaName": "cinema-pathe-la-villette",
-    "dateShow": "2024-04-07T14:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/les-choristes-38406",
-    "linkShow": "https://s.pathe.fr/fr/V3168S107582/booking",
     "version": "vf",
     "earlyType": "AVP",
     "source": "pathe"
@@ -168,18 +120,6 @@
     "source": "pathe"
   },
   {
-    "name": "la malediction l origine",
-    "showId": "",
-    "movieId": "la-malediction-l-origine-37336",
-    "cinemaName": "cinema-pathe-parnasse",
-    "dateShow": "2024-04-05T22:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/la-malediction-l-origine-37336",
-    "linkShow": "https://s.pathe.fr/fr/V3128S125403/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
     "name": "comme un lundi",
     "showId": "",
     "movieId": "comme-un-lundi-35204",
@@ -200,30 +140,6 @@
     "linkMovie": "https://www.pathe.fr/films/la-seance-live-jusqu-au-bout-du-monde-en-presence-de-viggo-mortensen-38643",
     "linkShow": "https://s.pathe.fr/fr/V3010S100476/booking",
     "version": "vost",
-    "earlyType": "AVPE",
-    "source": "pathe"
-  },
-  {
-    "name": "nous les leroy",
-    "showId": "",
-    "movieId": "nous-les-leroy-36507",
-    "cinemaName": "cinema-pathe-wepler",
-    "dateShow": "2024-04-08T20:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/nous-les-leroy-36507",
-    "linkShow": "https://s.pathe.fr/fr/V3010S99437/booking",
-    "version": "vf",
-    "earlyType": "AVPE",
-    "source": "pathe"
-  },
-  {
-    "name": "rosalie",
-    "showId": "",
-    "movieId": "rosalie-35355",
-    "cinemaName": "cinema-pathe-wepler",
-    "dateShow": "2024-04-04T20:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/rosalie-35355",
-    "linkShow": "https://s.pathe.fr/fr/V3010S98665/booking",
-    "version": "vf",
     "earlyType": "AVPE",
     "source": "pathe"
   }
