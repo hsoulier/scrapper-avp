@@ -1,5 +1,29 @@
 [
   {
+    "name": "amal, un esprit libre",
+    "source": "ugc",
+    "showId": "330171684235",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171684235",
+    "earlyType": "AVPE",
+    "movieId": "16049",
+    "linkMovie": "https://www.ugc.fr/film.html?id=16049",
+    "cinemaName": "UGC Ciné Cité Les Halles",
+    "version": "vf",
+    "dateShow": "2024-04-11T20:15:00.000Z"
+  },
+  {
+    "name": "en attendant la nuit",
+    "source": "ugc",
+    "showId": "330171684236",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171684236",
+    "earlyType": "AVPE",
+    "movieId": "16199",
+    "linkMovie": "https://www.ugc.fr/film.html?id=16199",
+    "cinemaName": "UGC Ciné Cité Les Halles",
+    "version": "vf",
+    "dateShow": "2024-04-12T19:30:00.000Z"
+  },
+  {
     "name": "jusqu'au bout du monde",
     "source": "ugc",
     "showId": "330171684175",
@@ -10,6 +34,18 @@
     "cinemaName": "UGC Ciné Cité Les Halles",
     "version": "vost",
     "dateShow": "2024-04-08T19:30:00.000Z"
+  },
+  {
+    "name": "l'homme aux mille visages",
+    "source": "ugc",
+    "showId": "330171684231",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171684231",
+    "earlyType": "AVPE",
+    "movieId": "16070",
+    "linkMovie": "https://www.ugc.fr/film.html?id=16070",
+    "cinemaName": "UGC Ciné Cité Les Halles",
+    "version": "vf",
+    "dateShow": "2024-04-12T20:30:00.000Z"
   },
   {
     "name": "l'homme aux mille visages",
@@ -74,14 +110,14 @@
   {
     "name": "nous, les leroy",
     "source": "ugc",
-    "showId": "330011004232",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330011004232",
+    "showId": "330091400674",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091400674",
     "earlyType": "AVPE",
     "movieId": "15889",
     "linkMovie": "https://www.ugc.fr/film.html?id=15889",
-    "cinemaName": "UGC Grand Normandie",
+    "cinemaName": "UGC Ciné Cité Bercy",
     "version": "vf",
-    "dateShow": "2024-04-03T20:00:00.000Z"
+    "dateShow": "2024-04-09T19:30:00.000Z"
   },
   {
     "name": "rosalie",
