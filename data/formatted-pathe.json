@@ -36,6 +36,30 @@
     "source": "pathe"
   },
   {
+    "name": "le rendez vous de l horreur when evil lurks",
+    "showId": "",
+    "movieId": "le-rendez-vous-de-l-horreur-when-evil-lurks-38699",
+    "cinemaName": "cinema-gaumont-aquaboulevard",
+    "dateShow": "2024-04-11T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/le-rendez-vous-de-l-horreur-when-evil-lurks-38699",
+    "linkShow": "https://s.pathe.fr/fr/V3140S93874/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "les cartes du mal",
+    "showId": "",
+    "movieId": "les-cartes-du-mal-35926",
+    "cinemaName": "cinema-gaumont-aquaboulevard",
+    "dateShow": "2024-04-30T22:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/les-cartes-du-mal-35926",
+    "linkShow": "https://s.pathe.fr/fr/V3140S92778/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "freres",
     "showId": "",
     "movieId": "freres-36335",
