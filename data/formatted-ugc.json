@@ -24,6 +24,18 @@
     "dateShow": "2024-04-12T19:30:00.000Z"
   },
   {
+    "name": "frères",
+    "source": "ugc",
+    "showId": "330091401503",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091401503",
+    "earlyType": "AVPE",
+    "movieId": "15800",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15800",
+    "cinemaName": "UGC Ciné Cité Bercy",
+    "version": "vf",
+    "dateShow": "2024-04-19T20:15:00.000Z"
+  },
+  {
     "name": "jusqu'au bout du monde",
     "source": "ugc",
     "showId": "330171684175",
@@ -58,42 +70,6 @@
     "cinemaName": "UGC Ciné Cité Maillot",
     "version": "vf",
     "dateShow": "2024-04-12T20:00:00.000Z"
-  },
-  {
-    "name": "la malédiction : l'origine",
-    "source": "ugc",
-    "showId": "330171681724",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171681724",
-    "earlyType": "AVP",
-    "movieId": "16118",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16118",
-    "cinemaName": "UGC Ciné Cité Les Halles",
-    "version": "vost",
-    "dateShow": "2024-04-05T19:30:00.000Z"
-  },
-  {
-    "name": "la malédiction : l'origine",
-    "source": "ugc",
-    "showId": "330091400677",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091400677",
-    "earlyType": "AVP",
-    "movieId": "16118",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16118",
-    "cinemaName": "UGC Ciné Cité Bercy",
-    "version": "vost",
-    "dateShow": "2024-04-05T20:00:00.000Z"
-  },
-  {
-    "name": "la malédiction : l'origine",
-    "source": "ugc",
-    "showId": "330550408500",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550408500",
-    "earlyType": "AVP",
-    "movieId": "16118",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16118",
-    "cinemaName": "UGC Ciné Cité Paris 19",
-    "version": "vost",
-    "dateShow": "2024-04-05T20:00:00.000Z"
   },
   {
     "name": "madame hofmann",
