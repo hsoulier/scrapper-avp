@@ -96,42 +96,6 @@
     "dateShow": "2024-04-09T19:30:00.000Z"
   },
   {
-    "name": "rosalie",
-    "source": "ugc",
-    "showId": "330020248122",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330020248122",
-    "earlyType": "AVP",
-    "movieId": "15599",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15599",
-    "cinemaName": "UGC Ciné Cité Maillot",
-    "version": "vf",
-    "dateShow": "2024-04-07T19:00:00.000Z"
-  },
-  {
-    "name": "rosalie",
-    "source": "ugc",
-    "showId": "330081108763",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330081108763",
-    "earlyType": "AVP",
-    "movieId": "15599",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15599",
-    "cinemaName": "UGC Gobelins",
-    "version": "vf",
-    "dateShow": "2024-04-07T17:00:00.000Z"
-  },
-  {
-    "name": "rosalie",
-    "source": "ugc",
-    "showId": "330550409580",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550409580",
-    "earlyType": "AVP",
-    "movieId": "15599",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15599",
-    "cinemaName": "UGC Ciné Cité Paris 19",
-    "version": "vf",
-    "dateShow": "2024-04-07T18:00:00.000Z"
-  },
-  {
     "name": "sons",
     "source": "ugc",
     "showId": "330091400684",
