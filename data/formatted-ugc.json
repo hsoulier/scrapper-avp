@@ -12,6 +12,30 @@
     "dateShow": "2024-04-11T20:15:00.000Z"
   },
   {
+    "name": "borgo",
+    "source": "ugc",
+    "showId": "330171685516",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171685516",
+    "earlyType": "AVPE",
+    "movieId": "15739",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15739",
+    "cinemaName": "UGC Ciné Cité Les Halles",
+    "version": "vf",
+    "dateShow": "2024-04-16T20:15:00.000Z"
+  },
+  {
+    "name": "civil war",
+    "source": "ugc",
+    "showId": "330171685515",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171685515",
+    "earlyType": "AVP",
+    "movieId": "16037",
+    "linkMovie": "https://www.ugc.fr/film.html?id=16037",
+    "cinemaName": "UGC Ciné Cité Les Halles",
+    "version": "vost",
+    "dateShow": "2024-04-15T20:15:00.000Z"
+  },
+  {
     "name": "en attendant la nuit",
     "source": "ugc",
     "showId": "330171684236",
@@ -36,18 +60,6 @@
     "dateShow": "2024-04-19T20:15:00.000Z"
   },
   {
-    "name": "jusqu'au bout du monde",
-    "source": "ugc",
-    "showId": "330171684175",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171684175",
-    "earlyType": "AVPE",
-    "movieId": "16092",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16092",
-    "cinemaName": "UGC Ciné Cité Les Halles",
-    "version": "vost",
-    "dateShow": "2024-04-08T19:30:00.000Z"
-  },
-  {
     "name": "l'homme aux mille visages",
     "source": "ugc",
     "showId": "330171684231",
@@ -70,6 +82,18 @@
     "cinemaName": "UGC Ciné Cité Maillot",
     "version": "vf",
     "dateShow": "2024-04-12T20:00:00.000Z"
+  },
+  {
+    "name": "laroy",
+    "source": "ugc",
+    "showId": "330171685519",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171685519",
+    "earlyType": "AVP",
+    "movieId": "15893",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15893",
+    "cinemaName": "UGC Ciné Cité Les Halles",
+    "version": "vost",
+    "dateShow": "2024-04-16T19:25:00.000Z"
   },
   {
     "name": "madame hofmann",

@@ -132,6 +132,18 @@
     "source": "pathe"
   },
   {
+    "name": "challengers",
+    "showId": "",
+    "movieId": "challengers-37814",
+    "cinemaName": "cinema-pathe-parnasse",
+    "dateShow": "2024-04-23T19:40:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/challengers-37814",
+    "linkShow": "https://s.pathe.fr/fr/V3128S127493/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "civil war",
     "showId": "",
     "movieId": "civil-war-37616",
@@ -151,6 +163,18 @@
     "dateShow": "2024-05-06T20:00:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/comme-un-lundi-35204",
     "linkShow": "https://s.pathe.fr/fr/V3010S101768/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "civil war",
+    "showId": "",
+    "movieId": "civil-war-37616",
+    "cinemaName": "cinema-pathe-wepler",
+    "dateShow": "2024-04-12T20:10:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/civil-war-37616",
+    "linkShow": "https://s.pathe.fr/fr/V3010S102453/booking",
     "version": "vost",
     "earlyType": "AVP",
     "source": "pathe"
