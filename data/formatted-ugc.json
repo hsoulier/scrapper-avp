@@ -1,6 +1,6 @@
 [
   {
-    "name": "amal, un esprit libre",
+    "name": "amal - un esprit libre",
     "source": "ugc",
     "showId": "330171684235",
     "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171684235",
@@ -190,6 +190,30 @@
     "cinemaName": "UGC Ciné Cité Paris 19",
     "version": "vost",
     "dateShow": "2024-04-16T20:00:00.000Z"
+  },
+  {
+    "name": "les vieux",
+    "source": "ugc",
+    "showId": "330171685532",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171685532",
+    "earlyType": "AVPE",
+    "movieId": "15998",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15998",
+    "cinemaName": "UGC Ciné Cité Les Halles",
+    "version": "vf",
+    "dateShow": "2024-04-18T20:15:00.000Z"
+  },
+  {
+    "name": "n'avoue jamais",
+    "source": "ugc",
+    "showId": "330091402443",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091402443",
+    "earlyType": "AVPE",
+    "movieId": "16117",
+    "linkMovie": "https://www.ugc.fr/film.html?id=16117",
+    "cinemaName": "UGC Ciné Cité Bercy",
+    "version": "vf",
+    "dateShow": "2024-04-22T20:00:00.000Z"
   },
   {
     "name": "sons",
