@@ -1,17 +1,5 @@
 [
   {
-    "name": "amal - un esprit libre",
-    "source": "ugc",
-    "showId": "330171684235",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171684235",
-    "earlyType": "AVPE",
-    "movieId": "16049",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16049",
-    "cinemaName": "UGC Ciné Cité Les Halles",
-    "version": "vf",
-    "dateShow": "2024-04-11T20:15:00.000Z"
-  },
-  {
     "name": "borgo",
     "source": "ugc",
     "showId": "330020248762",
@@ -214,17 +202,5 @@
     "cinemaName": "UGC Ciné Cité Bercy",
     "version": "vf",
     "dateShow": "2024-04-22T20:00:00.000Z"
-  },
-  {
-    "name": "sons",
-    "source": "ugc",
-    "showId": "330091400684",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091400684",
-    "earlyType": "AVPE",
-    "movieId": "16090",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16090",
-    "cinemaName": "UGC Ciné Cité Bercy",
-    "version": "vost",
-    "dateShow": "2024-04-11T19:45:00.000Z"
   }
 ]

@@ -36,6 +36,18 @@
     "source": "pathe"
   },
   {
+    "name": "challengers",
+    "showId": "",
+    "movieId": "challengers-37814",
+    "cinemaName": "cinema-gaumont-aquaboulevard",
+    "dateShow": "2024-04-23T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/challengers-37814",
+    "linkShow": "https://s.pathe.fr/fr/V3140S94481/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "le tableau vole",
     "showId": "",
     "movieId": "le-tableau-vole-36452",
