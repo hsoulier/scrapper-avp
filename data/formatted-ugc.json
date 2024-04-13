@@ -84,18 +84,6 @@
     "dateShow": "2024-04-15T20:00:00.000Z"
   },
   {
-    "name": "en attendant la nuit",
-    "source": "ugc",
-    "showId": "330171684236",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171684236",
-    "earlyType": "AVPE",
-    "movieId": "16199",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16199",
-    "cinemaName": "UGC Ciné Cité Les Halles",
-    "version": "vf",
-    "dateShow": "2024-04-12T19:30:00.000Z"
-  },
-  {
     "name": "frères",
     "source": "ugc",
     "showId": "330091401503",
@@ -106,30 +94,6 @@
     "cinemaName": "UGC Ciné Cité Bercy",
     "version": "vf",
     "dateShow": "2024-04-19T20:15:00.000Z"
-  },
-  {
-    "name": "l'homme aux mille visages",
-    "source": "ugc",
-    "showId": "330171684231",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171684231",
-    "earlyType": "AVPE",
-    "movieId": "16070",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16070",
-    "cinemaName": "UGC Ciné Cité Les Halles",
-    "version": "vf",
-    "dateShow": "2024-04-12T20:30:00.000Z"
-  },
-  {
-    "name": "l'homme aux mille visages",
-    "source": "ugc",
-    "showId": "330020248124",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330020248124",
-    "earlyType": "AVP",
-    "movieId": "16070",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16070",
-    "cinemaName": "UGC Ciné Cité Maillot",
-    "version": "vf",
-    "dateShow": "2024-04-12T20:00:00.000Z"
   },
   {
     "name": "laroy",
