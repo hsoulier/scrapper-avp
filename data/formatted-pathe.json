@@ -1,5 +1,17 @@
 [
   {
+    "name": "super lion",
+    "showId": "",
+    "movieId": "super-lion-19574",
+    "cinemaName": "cinema-pathe-alesia",
+    "dateShow": "2024-05-01T10:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/super-lion-19574",
+    "linkShow": "https://s.pathe.fr/fr/V3132S64527/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "challengers",
     "showId": "",
     "movieId": "challengers-37814",
@@ -48,13 +60,25 @@
     "source": "pathe"
   },
   {
+    "name": "petites mains",
+    "showId": "",
+    "movieId": "petites-mains-36873",
+    "cinemaName": "cinema-pathe-beaugrenelle",
+    "dateShow": "2024-04-24T19:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/petites-mains-36873",
+    "linkShow": "https://s.pathe.fr/fr/V3166S86987/booking",
+    "version": "vf",
+    "earlyType": "AVPE",
+    "source": "pathe"
+  },
+  {
     "name": "le tableau vole",
     "showId": "",
     "movieId": "le-tableau-vole-36452",
     "cinemaName": "cinema-pathe-convention",
     "dateShow": "2024-04-30T20:00:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/le-tableau-vole-36452",
-    "linkShow": "https://s.pathe.fr/fr/V3136S80018/booking",
+    "linkShow": "https://s.pathe.fr/fr/V3136S80606/booking",
     "version": "vf",
     "earlyType": "AVPE",
     "source": "pathe"
@@ -69,6 +93,18 @@
     "linkShow": "https://s.pathe.fr/fr/V3136S79086/booking",
     "version": "vf",
     "earlyType": "AVPE",
+    "source": "pathe"
+  },
+  {
+    "name": "les vendredis de l horreur abigail",
+    "showId": "",
+    "movieId": "les-vendredis-de-l-horreur-abigail-38783",
+    "cinemaName": "cinema-pathe-la-villette",
+    "dateShow": "2024-05-24T22:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/les-vendredis-de-l-horreur-abigail-38783",
+    "linkShow": "https://s.pathe.fr/fr/V3168S109846/booking",
+    "version": "vf",
+    "earlyType": "AVP",
     "source": "pathe"
   },
   {
