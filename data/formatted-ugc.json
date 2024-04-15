@@ -2,38 +2,14 @@
   {
     "name": "borgo",
     "source": "ugc",
-    "showId": "330020248762",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330020248762",
-    "earlyType": "AVP",
+    "showId": "330171685516",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171685516",
+    "earlyType": "AVPE",
     "movieId": "15739",
     "linkMovie": "https://www.ugc.fr/film.html?id=15739",
-    "cinemaName": "UGC Ciné Cité Maillot",
+    "cinemaName": "UGC Ciné Cité Les Halles",
     "version": "vf",
-    "dateShow": "2024-04-14T19:00:00.000Z"
-  },
-  {
-    "name": "borgo",
-    "source": "ugc",
-    "showId": "330081109385",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330081109385",
-    "earlyType": "AVP",
-    "movieId": "15739",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15739",
-    "cinemaName": "UGC Gobelins",
-    "version": "vf",
-    "dateShow": "2024-04-14T18:15:00.000Z"
-  },
-  {
-    "name": "borgo",
-    "source": "ugc",
-    "showId": "330550410186",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550410186",
-    "earlyType": "AVP",
-    "movieId": "15739",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15739",
-    "cinemaName": "UGC Ciné Cité Paris 19",
-    "version": "vf",
-    "dateShow": "2024-04-14T18:00:00.000Z"
+    "dateShow": "2024-04-16T20:15:00.000Z"
   },
   {
     "name": "civil war",
