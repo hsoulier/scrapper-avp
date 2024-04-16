@@ -48,6 +48,18 @@
     "source": "pathe"
   },
   {
+    "name": "super lion",
+    "showId": "",
+    "movieId": "super-lion-19574",
+    "cinemaName": "cinema-gaumont-aquaboulevard",
+    "dateShow": "2024-05-01T11:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/super-lion-19574",
+    "linkShow": "https://s.pathe.fr/fr/V3140S94486/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "challengers",
     "showId": "",
     "movieId": "challengers-37814",
@@ -56,6 +68,18 @@
     "linkMovie": "https://www.pathe.fr/films/challengers-37814",
     "linkShow": "https://s.pathe.fr/fr/V3140S94481/booking",
     "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "challengers",
+    "showId": "",
+    "movieId": "challengers-37814",
+    "cinemaName": "cinema-les-7-batignolles",
+    "dateShow": "2024-04-23T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/challengers-37814",
+    "linkShow": "https://s.pathe.fr/fr/V3017S20807/booking",
+    "version": "vost",
     "earlyType": "AVP",
     "source": "pathe"
   },
@@ -69,6 +93,18 @@
     "linkShow": "https://s.pathe.fr/fr/V3166S86987/booking",
     "version": "vf",
     "earlyType": "AVPE",
+    "source": "pathe"
+  },
+  {
+    "name": "challengers",
+    "showId": "",
+    "movieId": "challengers-37814",
+    "cinemaName": "cinema-pathe-beaugrenelle",
+    "dateShow": "2024-04-23T21:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/challengers-37814",
+    "linkShow": "https://s.pathe.fr/fr/V3166S87371/booking",
+    "version": "vost",
+    "earlyType": "AVP",
     "source": "pathe"
   },
   {
@@ -132,6 +168,18 @@
     "source": "pathe"
   },
   {
+    "name": "comme un lundi",
+    "showId": "",
+    "movieId": "comme-un-lundi-35204",
+    "cinemaName": "cinema-pathe-parnasse",
+    "dateShow": "2024-05-06T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/comme-un-lundi-35204",
+    "linkShow": "https://s.pathe.fr/fr/V3128S128098/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "les cartes du mal",
     "showId": "",
     "movieId": "les-cartes-du-mal-35926",
@@ -163,6 +211,18 @@
     "dateShow": "2024-05-06T20:00:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/comme-un-lundi-35204",
     "linkShow": "https://s.pathe.fr/fr/V3010S101768/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "challengers",
+    "showId": "",
+    "movieId": "challengers-37814",
+    "cinemaName": "cinema-pathe-wepler",
+    "dateShow": "2024-04-23T19:55:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/challengers-37814",
+    "linkShow": "https://s.pathe.fr/fr/V3010S102474/booking",
     "version": "vost",
     "earlyType": "AVP",
     "source": "pathe"
