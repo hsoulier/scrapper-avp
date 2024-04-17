@@ -1,17 +1,5 @@
 [
   {
-    "name": "borgo",
-    "source": "ugc",
-    "showId": "330171685516",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171685516",
-    "earlyType": "AVPE",
-    "movieId": "15739",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15739",
-    "cinemaName": "UGC Ciné Cité Les Halles",
-    "version": "vf",
-    "dateShow": "2024-04-16T20:15:00.000Z"
-  },
-  {
     "name": "challengers",
     "source": "ugc",
     "showId": "330171686763",
@@ -84,42 +72,6 @@
     "dateShow": "2024-04-23T20:00:00.000Z"
   },
   {
-    "name": "civil war",
-    "source": "ugc",
-    "showId": "330231074727",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330231074727",
-    "earlyType": "AVP",
-    "movieId": "16037",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16037",
-    "cinemaName": "UGC Montparnasse",
-    "version": "vost",
-    "dateShow": "2024-04-16T20:30:00.000Z"
-  },
-  {
-    "name": "civil war",
-    "source": "ugc",
-    "showId": "330040996439",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330040996439",
-    "earlyType": "AVP",
-    "movieId": "16037",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16037",
-    "cinemaName": "UGC Danton",
-    "version": "vost",
-    "dateShow": "2024-04-16T19:45:00.000Z"
-  },
-  {
-    "name": "civil war",
-    "source": "ugc",
-    "showId": "330081109388",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330081109388",
-    "earlyType": "AVP",
-    "movieId": "16037",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16037",
-    "cinemaName": "UGC Gobelins",
-    "version": "vost",
-    "dateShow": "2024-04-16T20:15:00.000Z"
-  },
-  {
     "name": "frères",
     "source": "ugc",
     "showId": "330091401503",
@@ -130,54 +82,6 @@
     "cinemaName": "UGC Ciné Cité Bercy",
     "version": "vf",
     "dateShow": "2024-04-19T20:15:00.000Z"
-  },
-  {
-    "name": "laroy",
-    "source": "ugc",
-    "showId": "330171685519",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171685519",
-    "earlyType": "AVP",
-    "movieId": "15893",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15893",
-    "cinemaName": "UGC Ciné Cité Les Halles",
-    "version": "vost",
-    "dateShow": "2024-04-16T19:25:00.000Z"
-  },
-  {
-    "name": "laroy",
-    "source": "ugc",
-    "showId": "330020248764",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330020248764",
-    "earlyType": "AVP",
-    "movieId": "15893",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15893",
-    "cinemaName": "UGC Ciné Cité Maillot",
-    "version": "vost",
-    "dateShow": "2024-04-16T20:00:00.000Z"
-  },
-  {
-    "name": "laroy",
-    "source": "ugc",
-    "showId": "330091402366",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091402366",
-    "earlyType": "AVP",
-    "movieId": "15893",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15893",
-    "cinemaName": "UGC Ciné Cité Bercy",
-    "version": "vost",
-    "dateShow": "2024-04-16T19:50:00.000Z"
-  },
-  {
-    "name": "laroy",
-    "source": "ugc",
-    "showId": "330550410190",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550410190",
-    "earlyType": "AVP",
-    "movieId": "15893",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15893",
-    "cinemaName": "UGC Ciné Cité Paris 19",
-    "version": "vost",
-    "dateShow": "2024-04-16T20:00:00.000Z"
   },
   {
     "name": "les vieux",
