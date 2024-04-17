@@ -12,14 +12,14 @@
     "source": "pathe"
   },
   {
-    "name": "challengers",
+    "name": "super lion",
     "showId": "",
-    "movieId": "challengers-37814",
-    "cinemaName": "cinema-pathe-alesia",
-    "dateShow": "2024-04-23T19:30:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/challengers-37814",
-    "linkShow": "https://s.pathe.fr/fr/V3132S64458/booking",
-    "version": "vost",
+    "movieId": "super-lion-19574",
+    "cinemaName": "cinema-gaumont-aquaboulevard",
+    "dateShow": "2024-05-01T11:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/super-lion-19574",
+    "linkShow": "https://s.pathe.fr/fr/V3140S94486/booking",
+    "version": "vf",
     "earlyType": "AVP",
     "source": "pathe"
   },
@@ -36,54 +36,6 @@
     "source": "pathe"
   },
   {
-    "name": "un p tit truc en plus",
-    "showId": "",
-    "movieId": "un-p-tit-truc-en-plus-37489",
-    "cinemaName": "cinema-gaumont-aquaboulevard",
-    "dateShow": "2024-04-18T20:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/un-p-tit-truc-en-plus-37489",
-    "linkShow": "https://s.pathe.fr/fr/V3140S92204/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "super lion",
-    "showId": "",
-    "movieId": "super-lion-19574",
-    "cinemaName": "cinema-gaumont-aquaboulevard",
-    "dateShow": "2024-05-01T11:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/super-lion-19574",
-    "linkShow": "https://s.pathe.fr/fr/V3140S94486/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "challengers",
-    "showId": "",
-    "movieId": "challengers-37814",
-    "cinemaName": "cinema-gaumont-aquaboulevard",
-    "dateShow": "2024-04-23T20:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/challengers-37814",
-    "linkShow": "https://s.pathe.fr/fr/V3140S94481/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "challengers",
-    "showId": "",
-    "movieId": "challengers-37814",
-    "cinemaName": "cinema-les-7-batignolles",
-    "dateShow": "2024-04-23T20:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/challengers-37814",
-    "linkShow": "https://s.pathe.fr/fr/V3017S20807/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
     "name": "petites mains",
     "showId": "",
     "movieId": "petites-mains-36873",
@@ -96,18 +48,6 @@
     "source": "pathe"
   },
   {
-    "name": "challengers",
-    "showId": "",
-    "movieId": "challengers-37814",
-    "cinemaName": "cinema-pathe-beaugrenelle",
-    "dateShow": "2024-04-23T21:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/challengers-37814",
-    "linkShow": "https://s.pathe.fr/fr/V3166S87371/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
     "name": "le tableau vole",
     "showId": "",
     "movieId": "le-tableau-vole-36452",
@@ -115,18 +55,6 @@
     "dateShow": "2024-04-30T20:00:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/le-tableau-vole-36452",
     "linkShow": "https://s.pathe.fr/fr/V3136S80606/booking",
-    "version": "vf",
-    "earlyType": "AVPE",
-    "source": "pathe"
-  },
-  {
-    "name": "freres",
-    "showId": "",
-    "movieId": "freres-36335",
-    "cinemaName": "cinema-pathe-convention",
-    "dateShow": "2024-04-23T20:15:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/freres-36335",
-    "linkShow": "https://s.pathe.fr/fr/V3136S79086/booking",
     "version": "vf",
     "earlyType": "AVPE",
     "source": "pathe"
@@ -156,18 +84,6 @@
     "source": "pathe"
   },
   {
-    "name": "un p tit truc en plus",
-    "showId": "",
-    "movieId": "un-p-tit-truc-en-plus-37489",
-    "cinemaName": "cinema-pathe-la-villette",
-    "dateShow": "2024-04-18T19:50:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/un-p-tit-truc-en-plus-37489",
-    "linkShow": "https://s.pathe.fr/fr/V3168S107553/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
     "name": "comme un lundi",
     "showId": "",
     "movieId": "comme-un-lundi-35204",
@@ -192,18 +108,6 @@
     "source": "pathe"
   },
   {
-    "name": "challengers",
-    "showId": "",
-    "movieId": "challengers-37814",
-    "cinemaName": "cinema-pathe-parnasse",
-    "dateShow": "2024-04-23T19:40:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/challengers-37814",
-    "linkShow": "https://s.pathe.fr/fr/V3128S127493/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
     "name": "comme un lundi",
     "showId": "",
     "movieId": "comme-un-lundi-35204",
@@ -211,18 +115,6 @@
     "dateShow": "2024-05-06T20:00:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/comme-un-lundi-35204",
     "linkShow": "https://s.pathe.fr/fr/V3010S101768/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "challengers",
-    "showId": "",
-    "movieId": "challengers-37814",
-    "cinemaName": "cinema-pathe-wepler",
-    "dateShow": "2024-04-23T19:55:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/challengers-37814",
-    "linkShow": "https://s.pathe.fr/fr/V3010S102474/booking",
     "version": "vost",
     "earlyType": "AVP",
     "source": "pathe"
