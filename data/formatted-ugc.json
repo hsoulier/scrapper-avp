@@ -96,18 +96,6 @@
     "dateShow": "2024-04-19T20:15:00.000Z"
   },
   {
-    "name": "les vieux",
-    "source": "ugc",
-    "showId": "330171685532",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171685532",
-    "earlyType": "AVPE",
-    "movieId": "15998",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15998",
-    "cinemaName": "UGC Ciné Cité Les Halles",
-    "version": "vf",
-    "dateShow": "2024-04-18T20:15:00.000Z"
-  },
-  {
     "name": "n'avoue jamais",
     "source": "ugc",
     "showId": "330020249342",
@@ -154,6 +142,30 @@
     "cinemaName": "UGC Ciné Cité Les Halles",
     "version": "vf",
     "dateShow": "2024-04-22T20:15:00.000Z"
+  },
+  {
+    "name": "roqya",
+    "source": "ugc",
+    "showId": "330171686769",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171686769",
+    "earlyType": "AVPE",
+    "movieId": "15866",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15866",
+    "cinemaName": "UGC Ciné Cité Les Halles",
+    "version": "vf",
+    "dateShow": "2024-04-25T20:15:00.000Z"
+  },
+  {
+    "name": "the fall guy",
+    "source": "ugc",
+    "showId": "330171686768",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171686768",
+    "earlyType": "AVP",
+    "movieId": "15849",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15849",
+    "cinemaName": "UGC Ciné Cité Les Halles",
+    "version": "vost",
+    "dateShow": "2024-04-30T20:00:00.000Z"
   },
   {
     "name": "the fall guy",

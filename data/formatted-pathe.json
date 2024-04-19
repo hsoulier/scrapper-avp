@@ -178,5 +178,17 @@
     "version": "vost",
     "earlyType": "AVP",
     "source": "pathe"
+  },
+  {
+    "name": "the fall",
+    "showId": "",
+    "movieId": "the-fall-guy",
+    "cinemaName": "cinema-pathe-wepler",
+    "dateShow": "2024-04-30T19:50:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/the-fall-guy",
+    "linkShow": "https://s.pathe.fr/fr/V3010S102456/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
   }
 ]
