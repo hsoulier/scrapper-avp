@@ -86,38 +86,14 @@
   {
     "name": "n'avoue jamais",
     "source": "ugc",
-    "showId": "330020249342",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330020249342",
-    "earlyType": "AVP",
+    "showId": "330091402443",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091402443",
+    "earlyType": "AVPE",
     "movieId": "16117",
     "linkMovie": "https://www.ugc.fr/film.html?id=16117",
-    "cinemaName": "UGC Ciné Cité Maillot",
+    "cinemaName": "UGC Ciné Cité Bercy",
     "version": "vf",
-    "dateShow": "2024-04-21T19:00:00.000Z"
-  },
-  {
-    "name": "n'avoue jamais",
-    "source": "ugc",
-    "showId": "330081109865",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330081109865",
-    "earlyType": "AVP",
-    "movieId": "16117",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16117",
-    "cinemaName": "UGC Gobelins",
-    "version": "vf",
-    "dateShow": "2024-04-21T18:15:00.000Z"
-  },
-  {
-    "name": "n'avoue jamais",
-    "source": "ugc",
-    "showId": "330550410744",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550410744",
-    "earlyType": "AVP",
-    "movieId": "16117",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16117",
-    "cinemaName": "UGC Ciné Cité Paris 19",
-    "version": "vf",
-    "dateShow": "2024-04-21T18:00:00.000Z"
+    "dateShow": "2024-04-22T20:00:00.000Z"
   },
   {
     "name": "premiere affaire",
