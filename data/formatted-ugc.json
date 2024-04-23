@@ -84,28 +84,64 @@
     "dateShow": "2024-04-23T20:00:00.000Z"
   },
   {
-    "name": "n'avoue jamais",
+    "name": "jusqu'au bout du monde",
     "source": "ugc",
-    "showId": "330091402443",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091402443",
-    "earlyType": "AVPE",
-    "movieId": "16117",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16117",
-    "cinemaName": "UGC Ciné Cité Bercy",
-    "version": "vf",
-    "dateShow": "2024-04-22T20:00:00.000Z"
+    "showId": "330020250883",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330020250883",
+    "earlyType": "AVP",
+    "movieId": "16092",
+    "linkMovie": "https://www.ugc.fr/film.html?id=16092",
+    "cinemaName": "UGC Ciné Cité Maillot",
+    "version": "vost",
+    "dateShow": "2024-04-28T19:00:00.000Z"
   },
   {
-    "name": "premiere affaire",
+    "name": "jusqu'au bout du monde",
     "source": "ugc",
-    "showId": "330171686767",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171686767",
+    "showId": "330081110445",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330081110445",
+    "earlyType": "AVP",
+    "movieId": "16092",
+    "linkMovie": "https://www.ugc.fr/film.html?id=16092",
+    "cinemaName": "UGC Gobelins",
+    "version": "vost",
+    "dateShow": "2024-04-28T18:30:00.000Z"
+  },
+  {
+    "name": "jusqu'au bout du monde",
+    "source": "ugc",
+    "showId": "330550411330",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550411330",
+    "earlyType": "AVP",
+    "movieId": "16092",
+    "linkMovie": "https://www.ugc.fr/film.html?id=16092",
+    "cinemaName": "UGC Ciné Cité Paris 19",
+    "version": "vost",
+    "dateShow": "2024-04-28T18:00:00.000Z"
+  },
+  {
+    "name": "le tableau volé",
+    "source": "ugc",
+    "showId": "330171688072",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171688072",
     "earlyType": "AVPE",
-    "movieId": "15738",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15738",
+    "movieId": "15796",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15796",
     "cinemaName": "UGC Ciné Cité Les Halles",
     "version": "vf",
-    "dateShow": "2024-04-22T20:15:00.000Z"
+    "dateShow": "2024-04-29T20:15:00.000Z"
+  },
+  {
+    "name": "petites mains",
+    "source": "ugc",
+    "showId": "330171688073",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171688073",
+    "earlyType": "AVPE",
+    "movieId": "15871",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15871",
+    "cinemaName": "UGC Ciné Cité Les Halles",
+    "version": "vf",
+    "dateShow": "2024-04-30T20:15:00.000Z"
   },
   {
     "name": "roqya",
@@ -129,7 +165,7 @@
     "linkMovie": "https://www.ugc.fr/film.html?id=15849",
     "cinemaName": "UGC Ciné Cité Les Halles",
     "version": "vost",
-    "dateShow": "2024-04-30T20:00:00.000Z"
+    "dateShow": "2024-04-30T20:05:00.000Z"
   },
   {
     "name": "the fall guy",
