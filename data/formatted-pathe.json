@@ -12,18 +12,6 @@
     "source": "pathe"
   },
   {
-    "name": "the fall",
-    "showId": "",
-    "movieId": "the-fall-guy",
-    "cinemaName": "cinema-pathe-alesia",
-    "dateShow": "2024-04-30T19:30:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/the-fall-guy",
-    "linkShow": "https://s.pathe.fr/fr/V3132S64132/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
     "name": "super lion",
     "showId": "",
     "movieId": "super-lion-19574",
@@ -36,54 +24,6 @@
     "source": "pathe"
   },
   {
-    "name": "the fall",
-    "showId": "",
-    "movieId": "the-fall-guy",
-    "cinemaName": "cinema-gaumont-aquaboulevard",
-    "dateShow": "2024-04-30T19:45:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/the-fall-guy",
-    "linkShow": "https://s.pathe.fr/fr/V3140S94482/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "les cartes du mal",
-    "showId": "",
-    "movieId": "les-cartes-du-mal-35926",
-    "cinemaName": "cinema-gaumont-aquaboulevard",
-    "dateShow": "2024-04-30T22:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/les-cartes-du-mal-35926",
-    "linkShow": "https://s.pathe.fr/fr/V3140S92778/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "petites mains",
-    "showId": "",
-    "movieId": "petites-mains-36873",
-    "cinemaName": "cinema-pathe-beaugrenelle",
-    "dateShow": "2024-04-24T19:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/petites-mains-36873",
-    "linkShow": "https://s.pathe.fr/fr/V3166S86987/booking",
-    "version": "vf",
-    "earlyType": "AVPE",
-    "source": "pathe"
-  },
-  {
-    "name": "le tableau vole",
-    "showId": "",
-    "movieId": "le-tableau-vole-36452",
-    "cinemaName": "cinema-pathe-convention",
-    "dateShow": "2024-04-30T20:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/le-tableau-vole-36452",
-    "linkShow": "https://s.pathe.fr/fr/V3136S80606/booking",
-    "version": "vf",
-    "earlyType": "AVPE",
-    "source": "pathe"
-  },
-  {
     "name": "les vendredis de l horreur abigail",
     "showId": "",
     "movieId": "les-vendredis-de-l-horreur-abigail-38783",
@@ -92,42 +32,6 @@
     "linkMovie": "https://www.pathe.fr/films/les-vendredis-de-l-horreur-abigail-38783",
     "linkShow": "https://s.pathe.fr/fr/V3168S109846/booking",
     "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "the fall",
-    "showId": "",
-    "movieId": "the-fall-guy",
-    "cinemaName": "cinema-pathe-la-villette",
-    "dateShow": "2024-04-30T19:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/the-fall-guy",
-    "linkShow": "https://s.pathe.fr/fr/V3168S109843/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "les cartes du mal",
-    "showId": "",
-    "movieId": "les-cartes-du-mal-35926",
-    "cinemaName": "cinema-pathe-la-villette",
-    "dateShow": "2024-04-30T22:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/les-cartes-du-mal-35926",
-    "linkShow": "https://s.pathe.fr/fr/V3168S107579/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "the fall",
-    "showId": "",
-    "movieId": "the-fall-guy",
-    "cinemaName": "cinema-pathe-les-fauvettes",
-    "dateShow": "2024-04-30T20:45:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/the-fall-guy",
-    "linkShow": "https://s.pathe.fr/fr/V3143S50031/booking",
-    "version": "vost",
     "earlyType": "AVP",
     "source": "pathe"
   },
@@ -144,30 +48,6 @@
     "source": "pathe"
   },
   {
-    "name": "les cartes du mal",
-    "showId": "",
-    "movieId": "les-cartes-du-mal-35926",
-    "cinemaName": "cinema-pathe-parnasse",
-    "dateShow": "2024-04-30T22:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/les-cartes-du-mal-35926",
-    "linkShow": "https://s.pathe.fr/fr/V3128S126967/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "the fall",
-    "showId": "",
-    "movieId": "the-fall-guy",
-    "cinemaName": "cinema-pathe-parnasse",
-    "dateShow": "2024-04-30T19:30:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/the-fall-guy",
-    "linkShow": "https://s.pathe.fr/fr/V3128S127495/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
     "name": "comme un lundi",
     "showId": "",
     "movieId": "comme-un-lundi-35204",
@@ -175,18 +55,6 @@
     "dateShow": "2024-05-06T20:00:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/comme-un-lundi-35204",
     "linkShow": "https://s.pathe.fr/fr/V3010S101768/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "the fall",
-    "showId": "",
-    "movieId": "the-fall-guy",
-    "cinemaName": "cinema-pathe-wepler",
-    "dateShow": "2024-04-30T19:50:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/the-fall-guy",
-    "linkShow": "https://s.pathe.fr/fr/V3010S102456/booking",
     "version": "vost",
     "earlyType": "AVP",
     "source": "pathe"
