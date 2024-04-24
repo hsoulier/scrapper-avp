@@ -1,89 +1,5 @@
 [
   {
-    "name": "challengers",
-    "source": "ugc",
-    "showId": "330171686763",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171686763",
-    "earlyType": "AVP",
-    "movieId": "16061",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16061",
-    "cinemaName": "UGC Ciné Cité Les Halles",
-    "version": "vost",
-    "dateShow": "2024-04-23T20:30:00.000Z"
-  },
-  {
-    "name": "challengers",
-    "source": "ugc",
-    "showId": "330020249343",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330020249343",
-    "earlyType": "AVP",
-    "movieId": "16061",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16061",
-    "cinemaName": "UGC Ciné Cité Maillot",
-    "version": "vost",
-    "dateShow": "2024-04-23T20:00:00.000Z"
-  },
-  {
-    "name": "challengers",
-    "source": "ugc",
-    "showId": "330231075022",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330231075022",
-    "earlyType": "AVP",
-    "movieId": "16061",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16061",
-    "cinemaName": "UGC Montparnasse",
-    "version": "vost",
-    "dateShow": "2024-04-23T19:00:00.000Z"
-  },
-  {
-    "name": "challengers",
-    "source": "ugc",
-    "showId": "330051012602",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330051012602",
-    "earlyType": "AVP",
-    "movieId": "16061",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16061",
-    "cinemaName": "UGC Odéon",
-    "version": "vost",
-    "dateShow": "2024-04-23T20:00:00.000Z"
-  },
-  {
-    "name": "challengers",
-    "source": "ugc",
-    "showId": "330091403294",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091403294",
-    "earlyType": "AVP",
-    "movieId": "16061",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16061",
-    "cinemaName": "UGC Ciné Cité Bercy",
-    "version": "vost",
-    "dateShow": "2024-04-23T20:00:00.000Z"
-  },
-  {
-    "name": "challengers",
-    "source": "ugc",
-    "showId": "330081109869",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330081109869",
-    "earlyType": "AVP",
-    "movieId": "16061",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16061",
-    "cinemaName": "UGC Gobelins",
-    "version": "vost",
-    "dateShow": "2024-04-23T20:15:00.000Z"
-  },
-  {
-    "name": "challengers",
-    "source": "ugc",
-    "showId": "330550410752",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550410752",
-    "earlyType": "AVP",
-    "movieId": "16061",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16061",
-    "cinemaName": "UGC Ciné Cité Paris 19",
-    "version": "vost",
-    "dateShow": "2024-04-23T20:00:00.000Z"
-  },
-  {
     "name": "jusqu'au bout du monde",
     "source": "ugc",
     "showId": "330020250883",
@@ -250,17 +166,5 @@
     "cinemaName": "UGC Ciné Cité Paris 19",
     "version": "vost",
     "dateShow": "2024-04-30T20:00:00.000Z"
-  },
-  {
-    "name": "une affaire de principe",
-    "source": "ugc",
-    "showId": "330171686762",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171686762",
-    "earlyType": "AVPE",
-    "movieId": "16091",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16091",
-    "cinemaName": "UGC Ciné Cité Les Halles",
-    "version": "vf",
-    "dateShow": "2024-04-23T20:15:00.000Z"
   }
 ]
