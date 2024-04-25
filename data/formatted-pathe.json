@@ -58,5 +58,17 @@
     "version": "vost",
     "earlyType": "AVP",
     "source": "pathe"
+  },
+  {
+    "name": "neuilly poissy",
+    "showId": "",
+    "movieId": "neuilly-poissy-37563",
+    "cinemaName": "cinema-pathe-wepler",
+    "dateShow": "2024-05-06T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/neuilly-poissy-37563",
+    "linkShow": "https://s.pathe.fr/fr/V3010S103640/booking",
+    "version": "vf",
+    "earlyType": "AVPE",
+    "source": "pathe"
   }
 ]
