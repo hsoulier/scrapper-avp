@@ -1,41 +1,5 @@
 [
   {
-    "name": "jusqu'au bout du monde",
-    "source": "ugc",
-    "showId": "330020250883",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330020250883",
-    "earlyType": "AVP",
-    "movieId": "16092",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16092",
-    "cinemaName": "UGC Ciné Cité Maillot",
-    "version": "vost",
-    "dateShow": "2024-04-28T19:00:00.000Z"
-  },
-  {
-    "name": "jusqu'au bout du monde",
-    "source": "ugc",
-    "showId": "330081110445",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330081110445",
-    "earlyType": "AVP",
-    "movieId": "16092",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16092",
-    "cinemaName": "UGC Gobelins",
-    "version": "vost",
-    "dateShow": "2024-04-28T18:30:00.000Z"
-  },
-  {
-    "name": "jusqu'au bout du monde",
-    "source": "ugc",
-    "showId": "330550411330",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550411330",
-    "earlyType": "AVP",
-    "movieId": "16092",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16092",
-    "cinemaName": "UGC Ciné Cité Paris 19",
-    "version": "vost",
-    "dateShow": "2024-04-28T18:00:00.000Z"
-  },
-  {
     "name": "le tableau volé",
     "source": "ugc",
     "showId": "330171688072",
