@@ -1,15 +1,51 @@
 [
   {
-    "name": "le tableau volé",
+    "name": "comme un lundi",
     "source": "ugc",
-    "showId": "330171688072",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171688072",
-    "earlyType": "AVPE",
-    "movieId": "15796",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15796",
+    "showId": "330171689405",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171689405",
+    "earlyType": "AVP",
+    "movieId": "15299",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15299",
     "cinemaName": "UGC Ciné Cité Les Halles",
+    "version": "vost",
+    "dateShow": "2024-05-06T20:05:00.000Z"
+  },
+  {
+    "name": "comme un lundi",
+    "source": "ugc",
+    "showId": "330081110968",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330081110968",
+    "earlyType": "AVP",
+    "movieId": "15299",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15299",
+    "cinemaName": "UGC Gobelins",
+    "version": "vost",
+    "dateShow": "2024-05-06T19:45:00.000Z"
+  },
+  {
+    "name": "l'esprit coubertin",
+    "source": "ugc",
+    "showId": "330081110969",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330081110969",
+    "earlyType": "AVP",
+    "movieId": "16026",
+    "linkMovie": "https://www.ugc.fr/film.html?id=16026",
+    "cinemaName": "UGC Gobelins",
     "version": "vf",
-    "dateShow": "2024-04-29T20:15:00.000Z"
+    "dateShow": "2024-05-05T17:15:00.000Z"
+  },
+  {
+    "name": "l'esprit coubertin",
+    "source": "ugc",
+    "showId": "330550411928",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550411928",
+    "earlyType": "AVP",
+    "movieId": "16026",
+    "linkMovie": "https://www.ugc.fr/film.html?id=16026",
+    "cinemaName": "UGC Ciné Cité Paris 19",
+    "version": "vf",
+    "dateShow": "2024-05-05T18:00:00.000Z"
   },
   {
     "name": "petites mains",
@@ -118,5 +154,17 @@
     "cinemaName": "UGC Ciné Cité Paris 19",
     "version": "vost",
     "dateShow": "2024-04-30T20:00:00.000Z"
+  },
+  {
+    "name": "un homme en fuite",
+    "source": "ugc",
+    "showId": "330171689406",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171689406",
+    "earlyType": "AVPE",
+    "movieId": "16035",
+    "linkMovie": "https://www.ugc.fr/film.html?id=16035",
+    "cinemaName": "UGC Ciné Cité Les Halles",
+    "version": "vf",
+    "dateShow": "2024-05-07T20:15:00.000Z"
   }
 ]
