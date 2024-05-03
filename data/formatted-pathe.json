@@ -63,6 +63,18 @@
     "name": "furiosa une saga mad max",
     "showId": "",
     "movieId": "furiosa-une-saga-mad-max-14209",
+    "cinemaName": "cinema-pathe-les-fauvettes",
+    "dateShow": "2024-05-21T20:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/furiosa-une-saga-mad-max-14209",
+    "linkShow": "https://s.pathe.fr/fr/V3143S50442/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "furiosa une saga mad max",
+    "showId": "",
+    "movieId": "furiosa-une-saga-mad-max-14209",
     "cinemaName": "cinema-pathe-opera-premier",
     "dateShow": "2024-05-21T19:45:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/furiosa-une-saga-mad-max-14209",
