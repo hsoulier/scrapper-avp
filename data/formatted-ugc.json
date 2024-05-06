@@ -134,26 +134,14 @@
   {
     "name": "l'esprit coubertin",
     "source": "ugc",
-    "showId": "330081110969",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330081110969",
-    "earlyType": "AVP",
+    "showId": "330171689404",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171689404",
+    "earlyType": "AVPE",
     "movieId": "16026",
     "linkMovie": "https://www.ugc.fr/film.html?id=16026",
-    "cinemaName": "UGC Gobelins",
+    "cinemaName": "UGC Ciné Cité Les Halles",
     "version": "vf",
-    "dateShow": "2024-05-05T17:15:00.000Z"
-  },
-  {
-    "name": "l'esprit coubertin",
-    "source": "ugc",
-    "showId": "330550411928",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550411928",
-    "earlyType": "AVP",
-    "movieId": "16026",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16026",
-    "cinemaName": "UGC Ciné Cité Paris 19",
-    "version": "vf",
-    "dateShow": "2024-05-05T18:00:00.000Z"
+    "dateShow": "2024-05-06T20:15:00.000Z"
   },
   {
     "name": "un homme en fuite",
