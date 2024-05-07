@@ -12,6 +12,18 @@
     "source": "pathe"
   },
   {
+    "name": "le deuxieme acte",
+    "showId": "",
+    "movieId": "le-deuxieme-acte-38781",
+    "cinemaName": "cinema-pathe-alesia",
+    "dateShow": "2024-05-14T22:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/le-deuxieme-acte-38781",
+    "linkShow": "https://s.pathe.fr/fr/V3132S65600/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "le deuxieme acte ouverture de cannes en direct",
     "showId": "",
     "movieId": "le-deuxieme-acte-ouverture-de-cannes-en-direct-39018",
@@ -48,6 +60,18 @@
     "source": "pathe"
   },
   {
+    "name": "le deuxieme acte",
+    "showId": "",
+    "movieId": "le-deuxieme-acte-38781",
+    "cinemaName": "cinema-les-7-batignolles",
+    "dateShow": "2024-05-14T19:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/le-deuxieme-acte-38781",
+    "linkShow": "https://s.pathe.fr/fr/V3017S21623/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "furiosa une saga mad max",
     "showId": "",
     "movieId": "furiosa-une-saga-mad-max-14209",
@@ -56,6 +80,30 @@
     "linkMovie": "https://www.pathe.fr/films/furiosa-une-saga-mad-max-14209",
     "linkShow": "https://s.pathe.fr/fr/V3166S88640/booking",
     "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "le deuxieme acte",
+    "showId": "",
+    "movieId": "le-deuxieme-acte-38781",
+    "cinemaName": "cinema-pathe-beaugrenelle",
+    "dateShow": "2024-05-14T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/le-deuxieme-acte-38781",
+    "linkShow": "https://s.pathe.fr/fr/V3166S89470/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "le deuxieme acte",
+    "showId": "",
+    "movieId": "le-deuxieme-acte-38781",
+    "cinemaName": "cinema-pathe-convention",
+    "dateShow": "2024-05-14T21:40:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/le-deuxieme-acte-38781",
+    "linkShow": "https://s.pathe.fr/fr/V3136S82557/booking",
+    "version": "vf",
     "earlyType": "AVP",
     "source": "pathe"
   },
@@ -84,6 +132,42 @@
     "source": "pathe"
   },
   {
+    "name": "le deuxieme acte",
+    "showId": "",
+    "movieId": "le-deuxieme-acte-38781",
+    "cinemaName": "cinema-pathe-les-fauvettes",
+    "dateShow": "2024-05-14T21:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/le-deuxieme-acte-38781",
+    "linkShow": "https://s.pathe.fr/fr/V3143S50692/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "le deuxieme acte ouverture de cannes en direct",
+    "showId": "",
+    "movieId": "le-deuxieme-acte-ouverture-de-cannes-en-direct-39018",
+    "cinemaName": "cinema-pathe-les-fauvettes",
+    "dateShow": "2024-05-14T19:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/le-deuxieme-acte-ouverture-de-cannes-en-direct-39018",
+    "linkShow": "https://s.pathe.fr/fr/V3143S50252/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "le deuxieme acte",
+    "showId": "",
+    "movieId": "le-deuxieme-acte-38781",
+    "cinemaName": "cinema-pathe-montparnos",
+    "dateShow": "2024-05-14T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/le-deuxieme-acte-38781",
+    "linkShow": "https://s.pathe.fr/fr/V3127S15958/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "furiosa une saga mad max",
     "showId": "",
     "movieId": "furiosa-une-saga-mad-max-14209",
@@ -92,6 +176,18 @@
     "linkMovie": "https://www.pathe.fr/films/furiosa-une-saga-mad-max-14209",
     "linkShow": "https://s.pathe.fr/fr/V3116S43395/booking",
     "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "le deuxieme acte",
+    "showId": "",
+    "movieId": "le-deuxieme-acte-38781",
+    "cinemaName": "cinema-pathe-opera-premier",
+    "dateShow": "2024-05-14T22:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/le-deuxieme-acte-38781",
+    "linkShow": "https://s.pathe.fr/fr/V3116S43664/booking",
+    "version": "vf",
     "earlyType": "AVP",
     "source": "pathe"
   },
@@ -108,6 +204,18 @@
     "source": "pathe"
   },
   {
+    "name": "le deuxieme acte ouverture de cannes en direct",
+    "showId": "",
+    "movieId": "le-deuxieme-acte-ouverture-de-cannes-en-direct-39018",
+    "cinemaName": "cinema-pathe-parnasse",
+    "dateShow": "2024-05-14T19:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/le-deuxieme-acte-ouverture-de-cannes-en-direct-39018",
+    "linkShow": "https://s.pathe.fr/fr/V3128S129735/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "furiosa une saga mad max",
     "showId": "",
     "movieId": "furiosa-une-saga-mad-max-14209",
@@ -116,6 +224,18 @@
     "linkMovie": "https://www.pathe.fr/films/furiosa-une-saga-mad-max-14209",
     "linkShow": "https://s.pathe.fr/fr/V3010S104101/booking",
     "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "le deuxieme acte",
+    "showId": "",
+    "movieId": "le-deuxieme-acte-38781",
+    "cinemaName": "cinema-pathe-wepler",
+    "dateShow": "2024-05-14T22:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/le-deuxieme-acte-38781",
+    "linkShow": "https://s.pathe.fr/fr/V3010S105106/booking",
+    "version": "vf",
     "earlyType": "AVP",
     "source": "pathe"
   }

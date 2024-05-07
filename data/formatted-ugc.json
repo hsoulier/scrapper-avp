@@ -1,29 +1,5 @@
 [
   {
-    "name": "comme un lundi",
-    "source": "ugc",
-    "showId": "330171689405",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171689405",
-    "earlyType": "AVP",
-    "movieId": "15299",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15299",
-    "cinemaName": "UGC Ciné Cité Les Halles",
-    "version": "vost",
-    "dateShow": "2024-05-06T20:05:00.000Z"
-  },
-  {
-    "name": "comme un lundi",
-    "source": "ugc",
-    "showId": "330081110968",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330081110968",
-    "earlyType": "AVP",
-    "movieId": "15299",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15299",
-    "cinemaName": "UGC Gobelins",
-    "version": "vost",
-    "dateShow": "2024-05-06T19:45:00.000Z"
-  },
-  {
     "name": "furiosa une saga mad max",
     "source": "ugc",
     "showId": "330171689413",
@@ -132,16 +108,76 @@
     "dateShow": "2024-05-21T20:00:00.000Z"
   },
   {
-    "name": "l'esprit coubertin",
+    "name": "la morsure",
     "source": "ugc",
-    "showId": "330171689404",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171689404",
+    "showId": "330171690649",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171690649",
     "earlyType": "AVPE",
-    "movieId": "16026",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16026",
+    "movieId": "16027",
+    "linkMovie": "https://www.ugc.fr/film.html?id=16027",
     "cinemaName": "UGC Ciné Cité Les Halles",
+    "version": "vost",
+    "dateShow": "2024-05-13T20:15:00.000Z"
+  },
+  {
+    "name": "le deuxième acte",
+    "source": "ugc",
+    "showId": "330040997026",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330040997026",
+    "earlyType": "AVP",
+    "movieId": "16257",
+    "linkMovie": "https://www.ugc.fr/film.html?id=16257",
+    "cinemaName": "UGC Danton",
     "version": "vf",
-    "dateShow": "2024-05-06T20:15:00.000Z"
+    "dateShow": "2024-05-14T22:00:00.000Z"
+  },
+  {
+    "name": "le deuxième acte",
+    "source": "ugc",
+    "showId": "330091405771",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091405771",
+    "earlyType": "AVP",
+    "movieId": "16257",
+    "linkMovie": "https://www.ugc.fr/film.html?id=16257",
+    "cinemaName": "UGC Ciné Cité Bercy",
+    "version": "vf",
+    "dateShow": "2024-05-14T22:00:00.000Z"
+  },
+  {
+    "name": "les trois fantastiques",
+    "source": "ugc",
+    "showId": "330020253112",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330020253112",
+    "earlyType": "AVP",
+    "movieId": "15821",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15821",
+    "cinemaName": "UGC Ciné Cité Maillot",
+    "version": "vf",
+    "dateShow": "2024-05-12T19:00:00.000Z"
+  },
+  {
+    "name": "les trois fantastiques",
+    "source": "ugc",
+    "showId": "330081111603",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330081111603",
+    "earlyType": "AVP",
+    "movieId": "15821",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15821",
+    "cinemaName": "UGC Gobelins",
+    "version": "vf",
+    "dateShow": "2024-05-12T17:40:00.000Z"
+  },
+  {
+    "name": "les trois fantastiques",
+    "source": "ugc",
+    "showId": "330550412478",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550412478",
+    "earlyType": "AVP",
+    "movieId": "15821",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15821",
+    "cinemaName": "UGC Ciné Cité Paris 19",
+    "version": "vf",
+    "dateShow": "2024-05-12T18:00:00.000Z"
   },
   {
     "name": "un homme en fuite",
