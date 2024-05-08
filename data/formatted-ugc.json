@@ -1,5 +1,17 @@
 [
   {
+    "name": "abigail",
+    "source": "ugc",
+    "showId": "330091405776",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091405776",
+    "earlyType": "AVP",
+    "movieId": "16072",
+    "linkMovie": "https://www.ugc.fr/film.html?id=16072",
+    "cinemaName": "UGC Ciné Cité Bercy",
+    "version": "vost",
+    "dateShow": "2024-05-24T20:00:00.000Z"
+  },
+  {
     "name": "furiosa une saga mad max",
     "source": "ugc",
     "showId": "330171689413",
@@ -26,12 +38,36 @@
   {
     "name": "furiosa une saga mad max",
     "source": "ugc",
+    "showId": "330011005161",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330011005161",
+    "earlyType": "AVP",
+    "movieId": "15791",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15791",
+    "cinemaName": "UGC Grand Normandie",
+    "version": "vost",
+    "dateShow": "2024-05-21T20:00:00.000Z"
+  },
+  {
+    "name": "furiosa une saga mad max",
+    "source": "ugc",
     "showId": "330231075329",
     "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330231075329",
     "earlyType": "AVP",
     "movieId": "15791",
     "linkMovie": "https://www.ugc.fr/film.html?id=15791",
     "cinemaName": "UGC Montparnasse",
+    "version": "vost",
+    "dateShow": "2024-05-21T20:00:00.000Z"
+  },
+  {
+    "name": "furiosa une saga mad max",
+    "source": "ugc",
+    "showId": "330040996945",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330040996945",
+    "earlyType": "AVP",
+    "movieId": "15791",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15791",
+    "cinemaName": "UGC Danton",
     "version": "vost",
     "dateShow": "2024-05-21T20:00:00.000Z"
   },
@@ -178,17 +214,5 @@
     "cinemaName": "UGC Ciné Cité Paris 19",
     "version": "vf",
     "dateShow": "2024-05-12T18:00:00.000Z"
-  },
-  {
-    "name": "un homme en fuite",
-    "source": "ugc",
-    "showId": "330171689406",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171689406",
-    "earlyType": "AVPE",
-    "movieId": "16035",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16035",
-    "cinemaName": "UGC Ciné Cité Les Halles",
-    "version": "vf",
-    "dateShow": "2024-05-07T20:15:00.000Z"
   }
 ]
