@@ -12,6 +12,18 @@
     "dateShow": "2024-05-24T20:00:00.000Z"
   },
   {
+    "name": "abigail",
+    "source": "ugc",
+    "showId": "330550412492",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550412492",
+    "earlyType": "AVP",
+    "movieId": "16072",
+    "linkMovie": "https://www.ugc.fr/film.html?id=16072",
+    "cinemaName": "UGC Ciné Cité Paris 19",
+    "version": "vost",
+    "dateShow": "2024-05-24T20:00:00.000Z"
+  },
+  {
     "name": "furiosa une saga mad max",
     "source": "ugc",
     "showId": "330171689413",
