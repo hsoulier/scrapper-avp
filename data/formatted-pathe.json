@@ -36,6 +36,30 @@
     "source": "pathe"
   },
   {
+    "name": "juliette au printemps",
+    "showId": "",
+    "movieId": "juliette-au-printemps-37848",
+    "cinemaName": "cinema-pathe-convention",
+    "dateShow": "2024-06-06T19:15:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/juliette-au-printemps-37848",
+    "linkShow": "https://s.pathe.fr/fr/V3136S82125/booking",
+    "version": "vf",
+    "earlyType": "AVPE",
+    "source": "pathe"
+  },
+  {
+    "name": "les vendredis de l horreur abigail",
+    "showId": "",
+    "movieId": "les-vendredis-de-l-horreur-abigail-38783",
+    "cinemaName": "cinema-pathe-la-villette",
+    "dateShow": "2024-05-24T22:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/les-vendredis-de-l-horreur-abigail-38783",
+    "linkShow": "https://s.pathe.fr/fr/V3168S109846/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "furiosa une saga mad max",
     "showId": "",
     "movieId": "furiosa-une-saga-mad-max-14209",
