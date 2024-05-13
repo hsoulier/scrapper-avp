@@ -190,41 +190,5 @@
     "cinemaName": "UGC Ciné Cité Bercy",
     "version": "vf",
     "dateShow": "2024-05-14T22:00:00.000Z"
-  },
-  {
-    "name": "les trois fantastiques",
-    "source": "ugc",
-    "showId": "330020253112",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330020253112",
-    "earlyType": "AVP",
-    "movieId": "15821",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15821",
-    "cinemaName": "UGC Ciné Cité Maillot",
-    "version": "vf",
-    "dateShow": "2024-05-12T19:00:00.000Z"
-  },
-  {
-    "name": "les trois fantastiques",
-    "source": "ugc",
-    "showId": "330081111603",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330081111603",
-    "earlyType": "AVP",
-    "movieId": "15821",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15821",
-    "cinemaName": "UGC Gobelins",
-    "version": "vf",
-    "dateShow": "2024-05-12T17:40:00.000Z"
-  },
-  {
-    "name": "les trois fantastiques",
-    "source": "ugc",
-    "showId": "330550412478",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550412478",
-    "earlyType": "AVP",
-    "movieId": "15821",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15821",
-    "cinemaName": "UGC Ciné Cité Paris 19",
-    "version": "vf",
-    "dateShow": "2024-05-12T18:00:00.000Z"
   }
 ]
