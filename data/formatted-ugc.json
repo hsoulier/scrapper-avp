@@ -24,6 +24,42 @@
     "dateShow": "2024-05-24T20:00:00.000Z"
   },
   {
+    "name": "chien blanc",
+    "source": "ugc",
+    "showId": "330020253650",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330020253650",
+    "earlyType": "AVP",
+    "movieId": "16039",
+    "linkMovie": "https://www.ugc.fr/film.html?id=16039",
+    "cinemaName": "UGC Ciné Cité Maillot",
+    "version": "vost",
+    "dateShow": "2024-05-19T19:00:00.000Z"
+  },
+  {
+    "name": "chien blanc",
+    "source": "ugc",
+    "showId": "330081112174",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330081112174",
+    "earlyType": "AVP",
+    "movieId": "16039",
+    "linkMovie": "https://www.ugc.fr/film.html?id=16039",
+    "cinemaName": "UGC Gobelins",
+    "version": "vost",
+    "dateShow": "2024-05-19T18:30:00.000Z"
+  },
+  {
+    "name": "chien blanc",
+    "source": "ugc",
+    "showId": "330550413081",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550413081",
+    "earlyType": "AVP",
+    "movieId": "16039",
+    "linkMovie": "https://www.ugc.fr/film.html?id=16039",
+    "cinemaName": "UGC Ciné Cité Paris 19",
+    "version": "vost",
+    "dateShow": "2024-05-19T18:00:00.000Z"
+  },
+  {
     "name": "furiosa une saga mad max",
     "source": "ugc",
     "showId": "330171689413",
@@ -134,6 +170,18 @@
   {
     "name": "furiosa une saga mad max",
     "source": "ugc",
+    "showId": "330120995547",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330120995547",
+    "earlyType": "AVP",
+    "movieId": "15791",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15791",
+    "cinemaName": "UGC Opéra",
+    "version": "vost",
+    "dateShow": "2024-05-21T20:00:00.000Z"
+  },
+  {
+    "name": "furiosa une saga mad max",
+    "source": "ugc",
     "showId": "330550411372",
     "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550411372",
     "earlyType": "AVP",
@@ -154,18 +202,6 @@
     "cinemaName": "UGC Ciné Cité Paris 19",
     "version": "vost",
     "dateShow": "2024-05-21T20:00:00.000Z"
-  },
-  {
-    "name": "la morsure",
-    "source": "ugc",
-    "showId": "330171690649",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171690649",
-    "earlyType": "AVPE",
-    "movieId": "16027",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16027",
-    "cinemaName": "UGC Ciné Cité Les Halles",
-    "version": "vost",
-    "dateShow": "2024-05-13T20:15:00.000Z"
   },
   {
     "name": "le deuxième acte",
