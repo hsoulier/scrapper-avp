@@ -1,65 +1,5 @@
 [
   {
-    "name": "furiosa une saga mad max",
-    "showId": "",
-    "movieId": "furiosa-une-saga-mad-max-14209",
-    "cinemaName": "cinema-pathe-alesia",
-    "dateShow": "2024-05-21T20:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/furiosa-une-saga-mad-max-14209",
-    "linkShow": "https://s.pathe.fr/fr/V3132S65216/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "marcello mio",
-    "showId": "",
-    "movieId": "marcello-mio-38831",
-    "cinemaName": "cinema-pathe-alesia",
-    "dateShow": "2024-05-21T19:25:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/marcello-mio-38831",
-    "linkShow": "https://s.pathe.fr/fr/V3132S65910/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "furiosa une saga mad max",
-    "showId": "",
-    "movieId": "furiosa-une-saga-mad-max-14209",
-    "cinemaName": "cinema-les-7-batignolles",
-    "dateShow": "2024-05-21T20:30:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/furiosa-une-saga-mad-max-14209",
-    "linkShow": "https://s.pathe.fr/fr/V3017S21593/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "marcello mio",
-    "showId": "",
-    "movieId": "marcello-mio-38831",
-    "cinemaName": "cinema-les-7-batignolles",
-    "dateShow": "2024-05-21T19:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/marcello-mio-38831",
-    "linkShow": "https://s.pathe.fr/fr/V3017S21883/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "furiosa une saga mad max",
-    "showId": "",
-    "movieId": "furiosa-une-saga-mad-max-14209",
-    "cinemaName": "cinema-pathe-beaugrenelle",
-    "dateShow": "2024-05-21T20:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/furiosa-une-saga-mad-max-14209",
-    "linkShow": "https://s.pathe.fr/fr/V3166S88640/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
     "name": "juliette au printemps",
     "showId": "",
     "movieId": "juliette-au-printemps-37848",
@@ -72,30 +12,6 @@
     "source": "pathe"
   },
   {
-    "name": "furiosa une saga mad max",
-    "showId": "",
-    "movieId": "furiosa-une-saga-mad-max-14209",
-    "cinemaName": "cinema-pathe-convention",
-    "dateShow": "2024-05-21T20:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/furiosa-une-saga-mad-max-14209",
-    "linkShow": "https://s.pathe.fr/fr/V3136S81737/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "marcello mio",
-    "showId": "",
-    "movieId": "marcello-mio-38831",
-    "cinemaName": "cinema-pathe-convention",
-    "dateShow": "2024-05-21T19:15:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/marcello-mio-38831",
-    "linkShow": "https://s.pathe.fr/fr/V3136S82620/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
     "name": "les vendredis de l horreur abigail",
     "showId": "",
     "movieId": "les-vendredis-de-l-horreur-abigail-38783",
@@ -104,90 +20,6 @@
     "linkMovie": "https://www.pathe.fr/films/les-vendredis-de-l-horreur-abigail-38783",
     "linkShow": "https://s.pathe.fr/fr/V3168S109846/booking",
     "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "furiosa une saga mad max",
-    "showId": "",
-    "movieId": "furiosa-une-saga-mad-max-14209",
-    "cinemaName": "cinema-pathe-la-villette",
-    "dateShow": "2024-05-21T20:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/furiosa-une-saga-mad-max-14209",
-    "linkShow": "https://s.pathe.fr/fr/V3168S110910/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "furiosa une saga mad max",
-    "showId": "",
-    "movieId": "furiosa-une-saga-mad-max-14209",
-    "cinemaName": "cinema-pathe-les-fauvettes",
-    "dateShow": "2024-05-21T20:30:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/furiosa-une-saga-mad-max-14209",
-    "linkShow": "https://s.pathe.fr/fr/V3143S50442/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "marcello mio",
-    "showId": "",
-    "movieId": "marcello-mio-38831",
-    "cinemaName": "cinema-pathe-montparnos",
-    "dateShow": "2024-05-21T19:55:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/marcello-mio-38831",
-    "linkShow": "https://s.pathe.fr/fr/V3127S16154/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "furiosa une saga mad max",
-    "showId": "",
-    "movieId": "furiosa-une-saga-mad-max-14209",
-    "cinemaName": "cinema-pathe-opera-premier",
-    "dateShow": "2024-05-21T19:45:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/furiosa-une-saga-mad-max-14209",
-    "linkShow": "https://s.pathe.fr/fr/V3116S43395/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "marcello mio",
-    "showId": "",
-    "movieId": "marcello-mio-38831",
-    "cinemaName": "cinema-pathe-opera-premier",
-    "dateShow": "2024-05-21T19:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/marcello-mio-38831",
-    "linkShow": "https://s.pathe.fr/fr/V3116S43765/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "furiosa une saga mad max",
-    "showId": "",
-    "movieId": "furiosa-une-saga-mad-max-14209",
-    "cinemaName": "cinema-pathe-parnasse",
-    "dateShow": "2024-05-21T20:30:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/furiosa-une-saga-mad-max-14209",
-    "linkShow": "https://s.pathe.fr/fr/V3128S129173/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "furiosa une saga mad max",
-    "showId": "",
-    "movieId": "furiosa-une-saga-mad-max-14209",
-    "cinemaName": "cinema-pathe-wepler",
-    "dateShow": "2024-05-21T19:30:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/furiosa-une-saga-mad-max-14209",
-    "linkShow": "https://s.pathe.fr/fr/V3010S104101/booking",
-    "version": "vost",
     "earlyType": "AVP",
     "source": "pathe"
   }
