@@ -22,5 +22,89 @@
     "version": "vf",
     "earlyType": "AVP",
     "source": "pathe"
+  },
+  {
+    "name": "when the light breaks",
+    "showId": "",
+    "movieId": "when-the-light-breaks-39052",
+    "cinemaName": "cinema-pathe-opera-premier",
+    "dateShow": "2024-05-24T17:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/when-the-light-breaks-39052",
+    "linkShow": "https://s.pathe.fr/fr/V3116S43855/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "le royaume",
+    "showId": "",
+    "movieId": "le-royaume-38925",
+    "cinemaName": "cinema-pathe-opera-premier",
+    "dateShow": "2024-05-24T19:35:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/le-royaume-38925",
+    "linkShow": "https://s.pathe.fr/fr/V3116S43856/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "diamant brut",
+    "showId": "",
+    "movieId": "diamant-brut-38919",
+    "cinemaName": "cinema-pathe-opera-premier",
+    "dateShow": "2024-05-26T21:40:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/diamant-brut-38919",
+    "linkShow": "https://s.pathe.fr/fr/V3116S43853/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "les linceuls",
+    "showId": "",
+    "movieId": "les-linceuls-38694",
+    "cinemaName": "cinema-pathe-opera-premier",
+    "dateShow": "2024-05-25T21:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/les-linceuls-38694",
+    "linkShow": "https://s.pathe.fr/fr/V3116S43849/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "le fil",
+    "showId": "",
+    "movieId": "le-fil-36337",
+    "cinemaName": "cinema-pathe-opera-premier",
+    "dateShow": "2024-05-24T15:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/le-fil-36337",
+    "linkShow": "https://s.pathe.fr/fr/V3116S43854/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "emilia perez",
+    "showId": "",
+    "movieId": "emilia-perez-38789",
+    "cinemaName": "cinema-pathe-opera-premier",
+    "dateShow": "2024-05-26T16:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/emilia-perez-38789",
+    "linkShow": "https://s.pathe.fr/fr/V3116S43851/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "maria",
+    "showId": "",
+    "movieId": "maria-38962",
+    "cinemaName": "cinema-pathe-opera-premier",
+    "dateShow": "2024-05-25T16:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/maria-38962",
+    "linkShow": "https://s.pathe.fr/fr/V3116S43847/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
   }
 ]
