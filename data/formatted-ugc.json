@@ -386,6 +386,30 @@
   {
     "name": "vice versa 2",
     "source": "ugc",
+    "showId": "330171693429",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171693429",
+    "earlyType": "AVP",
+    "movieId": "15787",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15787",
+    "cinemaName": "UGC Ciné Cité Les Halles",
+    "version": "vf",
+    "dateShow": "2024-06-16T18:00:00.000Z"
+  },
+  {
+    "name": "vice versa 2",
+    "source": "ugc",
+    "showId": "330171693428",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171693428",
+    "earlyType": "AVP",
+    "movieId": "15787",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15787",
+    "cinemaName": "UGC Ciné Cité Les Halles",
+    "version": "vost",
+    "dateShow": "2024-06-16T20:15:00.000Z"
+  },
+  {
+    "name": "vice versa 2",
+    "source": "ugc",
     "showId": "330020254138",
     "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330020254138",
     "earlyType": "AVP",
