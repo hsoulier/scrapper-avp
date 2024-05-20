@@ -3,6 +3,18 @@
     "name": "vice versa 2",
     "showId": "",
     "movieId": "vice-versa-2-19501",
+    "cinemaName": "cinema-pathe-alesia",
+    "dateShow": "2024-06-16T16:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/vice-versa-2-19501",
+    "linkShow": "https://s.pathe.fr/fr/V3132S66487/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "vice versa 2",
+    "showId": "",
+    "movieId": "vice-versa-2-19501",
     "cinemaName": "cinema-pathe-beaugrenelle",
     "dateShow": "2024-06-16T16:00:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/vice-versa-2-19501",
