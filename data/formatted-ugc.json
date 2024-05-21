@@ -302,6 +302,18 @@
   {
     "name": "memory",
     "source": "ugc",
+    "showId": "330081112685",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330081112685",
+    "earlyType": "AVP",
+    "movieId": "16232",
+    "linkMovie": "https://www.ugc.fr/film.html?id=16232",
+    "cinemaName": "UGC Gobelins",
+    "version": "vost",
+    "dateShow": "2024-05-26T17:50:00.000Z"
+  },
+  {
+    "name": "memory",
+    "source": "ugc",
     "showId": "330550413596",
     "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550413596",
     "earlyType": "AVP",
