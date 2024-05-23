@@ -36,6 +36,18 @@
     "source": "pathe"
   },
   {
+    "name": "gloria",
+    "showId": "",
+    "movieId": "gloria-38543",
+    "cinemaName": "cinema-pathe-convention",
+    "dateShow": "2024-06-11T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/gloria-38543",
+    "linkShow": "https://s.pathe.fr/fr/V3136S83498/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "juliette au printemps",
     "showId": "",
     "movieId": "juliette-au-printemps-37848",
@@ -67,6 +79,18 @@
     "dateShow": "2024-06-16T15:30:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/vice-versa-2-19501",
     "linkShow": "https://s.pathe.fr/fr/V3010S106332/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "en attendant la nuit",
+    "showId": "",
+    "movieId": "en-attendant-la-nuit-38338",
+    "cinemaName": "cinema-pathe-wepler",
+    "dateShow": "2024-06-04T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/en-attendant-la-nuit-38338",
+    "linkShow": "https://s.pathe.fr/fr/V3010S106344/booking",
     "version": "vf",
     "earlyType": "AVP",
     "source": "pathe"
