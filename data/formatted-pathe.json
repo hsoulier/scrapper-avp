@@ -72,6 +72,18 @@
     "source": "pathe"
   },
   {
+    "name": "michel sardou le concert au cinema",
+    "showId": "",
+    "movieId": "michel-sardou-le-concert-au-cinema-38482",
+    "cinemaName": "cinema-pathe-wepler",
+    "dateShow": "2024-06-10T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/michel-sardou-le-concert-au-cinema-38482",
+    "linkShow": "https://s.pathe.fr/fr/V3010S106345/booking",
+    "version": "vf",
+    "earlyType": "AVPE",
+    "source": "pathe"
+  },
+  {
     "name": "vice versa 2",
     "showId": "",
     "movieId": "vice-versa-2-19501",
@@ -92,7 +104,7 @@
     "linkMovie": "https://www.pathe.fr/films/en-attendant-la-nuit-38338",
     "linkShow": "https://s.pathe.fr/fr/V3010S106344/booking",
     "version": "vf",
-    "earlyType": "AVP",
+    "earlyType": "AVPE",
     "source": "pathe"
   }
 ]
