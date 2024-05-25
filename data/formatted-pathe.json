@@ -1,5 +1,17 @@
 [
   {
+    "name": "les sylvanians le cadeau de freya",
+    "showId": "",
+    "movieId": "les-sylvanians-le-cadeau-de-freya-39885",
+    "cinemaName": "cinema-pathe-alesia",
+    "dateShow": "2024-06-16T10:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/les-sylvanians-le-cadeau-de-freya-39885",
+    "linkShow": "https://s.pathe.fr/fr/V3132S66555/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "vice versa 2",
     "showId": "",
     "movieId": "vice-versa-2-19501",
@@ -7,6 +19,18 @@
     "dateShow": "2024-06-16T16:00:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/vice-versa-2-19501",
     "linkShow": "https://s.pathe.fr/fr/V3132S66487/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "les sylvanians le cadeau de freya",
+    "showId": "",
+    "movieId": "les-sylvanians-le-cadeau-de-freya-39885",
+    "cinemaName": "cinema-gaumont-aquaboulevard",
+    "dateShow": "2024-06-16T11:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/les-sylvanians-le-cadeau-de-freya-39885",
+    "linkShow": "https://s.pathe.fr/fr/V3140S97958/booking",
     "version": "vf",
     "earlyType": "AVP",
     "source": "pathe"
@@ -72,18 +96,6 @@
     "source": "pathe"
   },
   {
-    "name": "michel sardou le concert au cinema",
-    "showId": "",
-    "movieId": "michel-sardou-le-concert-au-cinema-38482",
-    "cinemaName": "cinema-pathe-wepler",
-    "dateShow": "2024-06-10T20:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/michel-sardou-le-concert-au-cinema-38482",
-    "linkShow": "https://s.pathe.fr/fr/V3010S106345/booking",
-    "version": "vf",
-    "earlyType": "AVPE",
-    "source": "pathe"
-  },
-  {
     "name": "vice versa 2",
     "showId": "",
     "movieId": "vice-versa-2-19501",
@@ -93,6 +105,18 @@
     "linkShow": "https://s.pathe.fr/fr/V3010S106332/booking",
     "version": "vf",
     "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "avant premiere michel sardou le concert au cinema",
+    "showId": "",
+    "movieId": "avant-premiere-michel-sardou-le-concert-au-cinema-39999",
+    "cinemaName": "cinema-pathe-wepler",
+    "dateShow": "2024-06-10T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/avant-premiere-michel-sardou-le-concert-au-cinema-39999",
+    "linkShow": "https://s.pathe.fr/fr/V3010S106345/booking",
+    "version": "vf",
+    "earlyType": "AVPE",
     "source": "pathe"
   },
   {
