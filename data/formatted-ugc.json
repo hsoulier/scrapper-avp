@@ -36,18 +36,6 @@
     "dateShow": "2024-05-26T16:30:00.000Z"
   },
   {
-    "name": "diamant brut",
-    "source": "ugc",
-    "showId": "330171693409",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171693409",
-    "earlyType": "AVP",
-    "movieId": "16321",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16321",
-    "cinemaName": "UGC Ciné Cité Les Halles",
-    "version": "vf",
-    "dateShow": "2024-05-25T16:30:00.000Z"
-  },
-  {
     "name": "emilia perez",
     "source": "ugc",
     "showId": "330171693419",
@@ -58,18 +46,6 @@
     "cinemaName": "UGC Ciné Cité Les Halles",
     "version": "vost",
     "dateShow": "2024-05-27T21:00:00.000Z"
-  },
-  {
-    "name": "en fanfare",
-    "source": "ugc",
-    "showId": "330171693412",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171693412",
-    "earlyType": "AVP",
-    "movieId": "16351",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16351",
-    "cinemaName": "UGC Ciné Cité Les Halles",
-    "version": "vf",
-    "dateShow": "2024-05-25T14:00:00.000Z"
   },
   {
     "name": "faineant.es",
@@ -106,18 +82,6 @@
     "cinemaName": "UGC Ciné Cité Les Halles",
     "version": "vf",
     "dateShow": "2024-05-29T20:15:00.000Z"
-  },
-  {
-    "name": "les femmes au balcon",
-    "source": "ugc",
-    "showId": "330171693411",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171693411",
-    "earlyType": "AVP",
-    "movieId": "16350",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16350",
-    "cinemaName": "UGC Ciné Cité Les Halles",
-    "version": "vost",
-    "dateShow": "2024-05-25T21:00:00.000Z"
   },
   {
     "name": "les linceuls",
@@ -178,18 +142,6 @@
     "cinemaName": "UGC Ciné Cité Les Halles",
     "version": "vost",
     "dateShow": "2024-05-26T19:00:00.000Z"
-  },
-  {
-    "name": "oh, canada",
-    "source": "ugc",
-    "showId": "330171693410",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171693410",
-    "earlyType": "AVP",
-    "movieId": "16358",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16358",
-    "cinemaName": "UGC Ciné Cité Les Halles",
-    "version": "vost",
-    "dateShow": "2024-05-25T19:00:00.000Z"
   },
   {
     "name": "salem",
