@@ -12,30 +12,6 @@
     "dateShow": "2024-05-27T19:00:00.000Z"
   },
   {
-    "name": "bird",
-    "source": "ugc",
-    "showId": "330171693414",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171693414",
-    "earlyType": "AVP",
-    "movieId": "16347",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16347",
-    "cinemaName": "UGC Ciné Cité Les Halles",
-    "version": "vost",
-    "dateShow": "2024-05-26T21:00:00.000Z"
-  },
-  {
-    "name": "caught by the tides",
-    "source": "ugc",
-    "showId": "330171693415",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171693415",
-    "earlyType": "AVP",
-    "movieId": "16348",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16348",
-    "cinemaName": "UGC Ciné Cité Les Halles",
-    "version": "vost",
-    "dateShow": "2024-05-26T16:30:00.000Z"
-  },
-  {
     "name": "emilia perez",
     "source": "ugc",
     "showId": "330171693419",
@@ -60,18 +36,6 @@
     "dateShow": "2024-05-27T20:15:00.000Z"
   },
   {
-    "name": "grand tour",
-    "source": "ugc",
-    "showId": "330171693416",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171693416",
-    "earlyType": "AVP",
-    "movieId": "16360",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16360",
-    "cinemaName": "UGC Ciné Cité Les Halles",
-    "version": "vost",
-    "dateShow": "2024-05-26T14:00:00.000Z"
-  },
-  {
     "name": "la petite vadrouille",
     "source": "ugc",
     "showId": "330171693430",
@@ -94,54 +58,6 @@
     "cinemaName": "UGC Ciné Cité Les Halles",
     "version": "vost",
     "dateShow": "2024-05-28T21:00:00.000Z"
-  },
-  {
-    "name": "memory",
-    "source": "ugc",
-    "showId": "330020254137",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330020254137",
-    "earlyType": "AVP",
-    "movieId": "16232",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16232",
-    "cinemaName": "UGC Ciné Cité Maillot",
-    "version": "vost",
-    "dateShow": "2024-05-26T19:00:00.000Z"
-  },
-  {
-    "name": "memory",
-    "source": "ugc",
-    "showId": "330081112685",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330081112685",
-    "earlyType": "AVP",
-    "movieId": "16232",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16232",
-    "cinemaName": "UGC Gobelins",
-    "version": "vost",
-    "dateShow": "2024-05-26T17:50:00.000Z"
-  },
-  {
-    "name": "memory",
-    "source": "ugc",
-    "showId": "330550413596",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550413596",
-    "earlyType": "AVP",
-    "movieId": "16232",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16232",
-    "cinemaName": "UGC Ciné Cité Paris 19",
-    "version": "vost",
-    "dateShow": "2024-05-26T18:00:00.000Z"
-  },
-  {
-    "name": "motel destino",
-    "source": "ugc",
-    "showId": "330171693413",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171693413",
-    "earlyType": "AVP",
-    "movieId": "16349",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16349",
-    "cinemaName": "UGC Ciné Cité Les Halles",
-    "version": "vost",
-    "dateShow": "2024-05-26T19:00:00.000Z"
   },
   {
     "name": "salem",

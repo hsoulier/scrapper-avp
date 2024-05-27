@@ -84,6 +84,30 @@
     "source": "pathe"
   },
   {
+    "name": "les sylvanians le cadeau de freya",
+    "showId": "",
+    "movieId": "les-sylvanians-le-cadeau-de-freya-39885",
+    "cinemaName": "cinema-pathe-les-fauvettes",
+    "dateShow": "2024-06-16T10:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/les-sylvanians-le-cadeau-de-freya-39885",
+    "linkShow": "https://s.pathe.fr/fr/V3143S51174/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "vice versa 2",
+    "showId": "",
+    "movieId": "vice-versa-2-19501",
+    "cinemaName": "cinema-pathe-les-fauvettes",
+    "dateShow": "2024-06-16T16:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/vice-versa-2-19501",
+    "linkShow": "https://s.pathe.fr/fr/V3143S51176/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "vice versa 2",
     "showId": "",
     "movieId": "vice-versa-2-19501",
