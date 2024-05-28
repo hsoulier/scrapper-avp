@@ -60,6 +60,30 @@
     "source": "pathe"
   },
   {
+    "name": "les sylvanians le cadeau de freya",
+    "showId": "",
+    "movieId": "les-sylvanians-le-cadeau-de-freya-39885",
+    "cinemaName": "cinema-pathe-convention",
+    "dateShow": "2024-06-16T10:40:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/les-sylvanians-le-cadeau-de-freya-39885",
+    "linkShow": "https://s.pathe.fr/fr/V3136S83580/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "vice versa 2",
+    "showId": "",
+    "movieId": "vice-versa-2-19501",
+    "cinemaName": "cinema-pathe-convention",
+    "dateShow": "2024-06-16T15:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/vice-versa-2-19501",
+    "linkShow": "https://s.pathe.fr/fr/V3136S83497/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "gloria",
     "showId": "",
     "movieId": "gloria-38543",
@@ -87,6 +111,30 @@
     "name": "les sylvanians le cadeau de freya",
     "showId": "",
     "movieId": "les-sylvanians-le-cadeau-de-freya-39885",
+    "cinemaName": "cinema-pathe-la-villette",
+    "dateShow": "2024-06-16T13:45:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/les-sylvanians-le-cadeau-de-freya-39885",
+    "linkShow": "https://s.pathe.fr/fr/V3168S113436/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "vice versa 2",
+    "showId": "",
+    "movieId": "vice-versa-2-19501",
+    "cinemaName": "cinema-pathe-la-villette",
+    "dateShow": "2024-06-16T15:40:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/vice-versa-2-19501",
+    "linkShow": "https://s.pathe.fr/fr/V3168S113438/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "les sylvanians le cadeau de freya",
+    "showId": "",
+    "movieId": "les-sylvanians-le-cadeau-de-freya-39885",
     "cinemaName": "cinema-pathe-les-fauvettes",
     "dateShow": "2024-06-16T10:30:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/les-sylvanians-le-cadeau-de-freya-39885",
@@ -108,6 +156,18 @@
     "source": "pathe"
   },
   {
+    "name": "la petite vadrouille",
+    "showId": "",
+    "movieId": "la-petite-vadrouille-37288",
+    "cinemaName": "cinema-pathe-montparnos",
+    "dateShow": "2024-06-03T19:55:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/la-petite-vadrouille-37288",
+    "linkShow": "https://s.pathe.fr/fr/V3127S16554/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "vice versa 2",
     "showId": "",
     "movieId": "vice-versa-2-19501",
@@ -115,6 +175,18 @@
     "dateShow": "2024-06-16T16:00:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/vice-versa-2-19501",
     "linkShow": "https://s.pathe.fr/fr/V3128S131369/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "les sylvanians le cadeau de freya",
+    "showId": "",
+    "movieId": "les-sylvanians-le-cadeau-de-freya-39885",
+    "cinemaName": "cinema-pathe-wepler",
+    "dateShow": "2024-06-16T10:35:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/les-sylvanians-le-cadeau-de-freya-39885",
+    "linkShow": "https://s.pathe.fr/fr/V3010S106815/booking",
     "version": "vf",
     "earlyType": "AVP",
     "source": "pathe"
