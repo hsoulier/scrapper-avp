@@ -156,18 +156,6 @@
     "source": "pathe"
   },
   {
-    "name": "la petite vadrouille",
-    "showId": "",
-    "movieId": "la-petite-vadrouille-37288",
-    "cinemaName": "cinema-pathe-montparnos",
-    "dateShow": "2024-06-03T19:55:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/la-petite-vadrouille-37288",
-    "linkShow": "https://s.pathe.fr/fr/V3127S16554/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
     "name": "vice versa 2",
     "showId": "",
     "movieId": "vice-versa-2-19501",
@@ -211,18 +199,6 @@
     "dateShow": "2024-06-10T20:00:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/avant-premiere-michel-sardou-le-concert-au-cinema-39999",
     "linkShow": "https://s.pathe.fr/fr/V3010S106345/booking",
-    "version": "vf",
-    "earlyType": "AVPE",
-    "source": "pathe"
-  },
-  {
-    "name": "en attendant la nuit",
-    "showId": "",
-    "movieId": "en-attendant-la-nuit-38338",
-    "cinemaName": "cinema-pathe-wepler",
-    "dateShow": "2024-06-04T20:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/en-attendant-la-nuit-38338",
-    "linkShow": "https://s.pathe.fr/fr/V3010S106344/booking",
     "version": "vf",
     "earlyType": "AVPE",
     "source": "pathe"
