@@ -1,28 +1,36 @@
-# Todo scrap Pathé
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Steps
+## Getting Started
 
-- Get list theater of Paris (GET https://www.pathe.fr/api/cities?language=fr)
-- Get list shows for each theater (GET https://www.pathe.fr/api/cinema/[cinema-slug]/shows?language=fr)
-- Filter results of shows with flag "Avant-Première" | "Avant premiere + équipe" + isEarlyAVP
-- Get details of show (GET https://www.pathe.fr/api/show/[film-name-with-id]/showtimes/[cinema-slug]/[date (ex:2024-02-27)]?language=fr)
+First, run the development server:
 
-## Schema of data
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-- name (string)
-- showId (string)
-- movieId (string)
-- cinemaName (string)
-- dateShow (string -> converted from date) -> date + hour
-- version (string-> VO | VOSTF | VF)
-- earlyType (AVP | AVPE)
-- linkMovie (string)
-- linkShow (string)
-- genre ?(string[])
-- duration ?(string)
-- source (string -> where come from the data)
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## TODO
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-- Cli to get data
-  - Choose the provider to scrap data
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
