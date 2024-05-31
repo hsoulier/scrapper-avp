@@ -72,6 +72,30 @@
     "source": "pathe"
   },
   {
+    "name": "les sylvanians le cadeau de freya",
+    "showId": "",
+    "movieId": "les-sylvanians-le-cadeau-de-freya-39885",
+    "cinemaName": "cinema-pathe-beaugrenelle",
+    "dateShow": "2024-06-16T11:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/les-sylvanians-le-cadeau-de-freya-39885",
+    "linkShow": "https://s.pathe.fr/fr/V3166S90707/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "la famille hennedricks",
+    "showId": "",
+    "movieId": "la-famille-hennedricks-36508",
+    "cinemaName": "cinema-pathe-beaugrenelle",
+    "dateShow": "2024-06-18T19:45:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/la-famille-hennedricks-36508",
+    "linkShow": "https://s.pathe.fr/fr/V3166S88982/booking",
+    "version": "vf",
+    "earlyType": "AVPE",
+    "source": "pathe"
+  },
+  {
     "name": "vice versa 2",
     "showId": "",
     "movieId": "vice-versa-2-19501",
