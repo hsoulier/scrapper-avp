@@ -48,6 +48,18 @@
     "source": "pathe"
   },
   {
+    "name": "les guetteurs",
+    "showId": "",
+    "movieId": "les-guetteurs-20548",
+    "cinemaName": "cinema-gaumont-aquaboulevard",
+    "dateShow": "2024-06-07T22:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/les-guetteurs-20548",
+    "linkShow": "https://s.pathe.fr/fr/V3140S98476/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "les sylvanians le cadeau de freya",
     "showId": "",
     "movieId": "les-sylvanians-le-cadeau-de-freya-39885",
@@ -212,6 +224,18 @@
     "linkMovie": "https://www.pathe.fr/films/vice-versa-2-19501",
     "linkShow": "https://s.pathe.fr/fr/V3128S131369/booking",
     "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "deadpool wolverine",
+    "showId": "",
+    "movieId": "deadpool-wolverine-19553",
+    "cinemaName": "cinema-pathe-parnasse",
+    "dateShow": "2024-07-23T23:50:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/deadpool-wolverine-19553",
+    "linkShow": "https://s.pathe.fr/fr/V3128S131893/booking",
+    "version": "vost",
     "earlyType": "AVP",
     "source": "pathe"
   },
