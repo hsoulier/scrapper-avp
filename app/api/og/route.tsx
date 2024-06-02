@@ -2,6 +2,8 @@ import { backgroundImage } from "@/constants/og-image"
 import { readFileSync } from "fs"
 import { ImageResponse } from "next/og"
 import type { ImageResponseOptions } from "next/server"
+import { join } from "path"
+import { fileURLToPath } from "url"
 
 const imageOptions: ImageResponseOptions = {
   width: 1_080,
@@ -10,12 +12,18 @@ const imageOptions: ImageResponseOptions = {
 
 export const GET = async (request: Request) => {
   try {
-    const fontExtraLight = readFileSync(
-      "./assets/plus-jakarta-sans-extra-light.ttf"
+    const loadFont = (url: string) =>
+      readFileSync(join(fileURLToPath(import.meta.url), url))
+
+    const fontExtraLight = loadFont(
+      "../../../../assets/plus-jakarta-sans-extra-light.ttf"
     )
-    const fontNormal = readFileSync("./assets/plus-jakarta-sans-medium.ttf")
-    const fontExtraBold = readFileSync(
-      "./assets/plus-jakarta-sans-extra-bold.ttf"
+
+    const fontNormal = loadFont(
+      "../../../../assets/plus-jakarta-sans-medium.ttf"
+    )
+    const fontExtraBold = loadFont(
+      "../../../../assets/plus-jakarta-sans-extra-bold.ttf"
     )
     imageOptions.fonts = [
       {
@@ -95,9 +103,9 @@ export const GET = async (request: Request) => {
               tw="rounded-lg"
               src="https://www.ugc.fr/dynamique/films/87/16387/fr/poster/large/de768da1f5a4ed8bce86e86e870ed99c_2.jpg"
               alt="Movie cover"
-              />
+            />
             <div tw="flex flex-col items-center">
-              <div tw="p-6 rounded-2xl bg-black/30 flex flex-col items-start leading-loose">
+              <div tw="p-6 rounded-2xl bg-black/30 flex flex-col items-start text-4xl leading-loose">
                 <span tw="uppercase font-extrabold text-6xl">
                   Avant-première
                 </span>
@@ -115,8 +123,8 @@ export const GET = async (request: Request) => {
                 key={index}
               >
                 {infoGroup.map((info, index) => (
-                  <div tw="flex flex-col items-start gap-2 w-1/2" key={index}>
-                    <p tw="px-6 py-4 bg-black/50 rounded-xl uppercase font-extrabold text-4xl leading-none">
+                  <div tw="flex flex-col items-start w-1/2" key={index}>
+                    <p tw="px-6 py-4 bg-black/50 rounded-xl mb-2 uppercase font-extrabold text-4xl leading-none">
                       <img src={info.icon} width={40} tw="mr-4" alt="Emoji" />{" "}
                       {info.title}
                     </p>
@@ -133,7 +141,10 @@ export const GET = async (request: Request) => {
   } catch (error) {
     if (error instanceof Error) {
       console.log(`${error.message}`)
-      return new Response(`Failed to generate the image`, { status: 500 })
+      return new Response(
+        JSON.stringify({ message: error.message, name: error.name }),
+        { status: 500 }
+      )
     }
     return new Response(`Unknown error`, { status: 500 })
   }
