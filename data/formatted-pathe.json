@@ -60,18 +60,6 @@
     "source": "pathe"
   },
   {
-    "name": "les guetteurs",
-    "showId": "",
-    "movieId": "les-guetteurs-20548",
-    "cinemaName": "cinema-gaumont-aquaboulevard",
-    "dateShow": "2024-06-07T22:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/les-guetteurs-20548",
-    "linkShow": "https://s.pathe.fr/fr/V3140S98476/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
     "name": "les sylvanians le cadeau de freya",
     "showId": "",
     "movieId": "les-sylvanians-le-cadeau-de-freya-39885",
@@ -164,7 +152,7 @@
     "linkMovie": "https://www.pathe.fr/films/gloria-38543",
     "linkShow": "https://s.pathe.fr/fr/V3136S83498/booking",
     "version": "vost",
-    "earlyType": "AVP",
+    "earlyType": "AVPE",
     "source": "pathe"
   },
   {
@@ -188,6 +176,18 @@
     "linkMovie": "https://www.pathe.fr/films/les-sylvanians-le-cadeau-de-freya-39885",
     "linkShow": "https://s.pathe.fr/fr/V3168S113436/booking",
     "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "deadpool wolverine",
+    "showId": "",
+    "movieId": "deadpool-wolverine-19553",
+    "cinemaName": "cinema-pathe-la-villette",
+    "dateShow": "2024-07-24T00:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/deadpool-wolverine-19553",
+    "linkShow": "https://s.pathe.fr/fr/V3168S113448/booking",
+    "version": "vost",
     "earlyType": "AVP",
     "source": "pathe"
   },
@@ -260,6 +260,18 @@
     "linkMovie": "https://www.pathe.fr/films/les-sylvanians-le-cadeau-de-freya-39885",
     "linkShow": "https://s.pathe.fr/fr/V3010S106815/booking",
     "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "deadpool wolverine",
+    "showId": "",
+    "movieId": "deadpool-wolverine-19553",
+    "cinemaName": "cinema-pathe-wepler",
+    "dateShow": "2024-07-23T23:50:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/deadpool-wolverine-19553",
+    "linkShow": "https://s.pathe.fr/fr/V3010S107309/booking",
+    "version": "vost",
     "earlyType": "AVP",
     "source": "pathe"
   },
