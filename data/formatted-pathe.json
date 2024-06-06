@@ -84,6 +84,18 @@
     "source": "pathe"
   },
   {
+    "name": "festival 1minute2court",
+    "showId": "",
+    "movieId": "festival-1minute2court-35276",
+    "cinemaName": "cinema-les-7-batignolles",
+    "dateShow": "2024-06-15T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/festival-1minute2court-35276",
+    "linkShow": "https://s.pathe.fr/fr/V3017S21622/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "les sylvanians le cadeau de freya",
     "showId": "",
     "movieId": "les-sylvanians-le-cadeau-de-freya-39885",
