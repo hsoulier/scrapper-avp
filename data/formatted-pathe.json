@@ -156,6 +156,18 @@
     "source": "pathe"
   },
   {
+    "name": "les fantomes",
+    "showId": "",
+    "movieId": "les-fantomes-38821",
+    "cinemaName": "cinema-pathe-convention",
+    "dateShow": "2024-07-02T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/les-fantomes-38821",
+    "linkShow": "https://s.pathe.fr/fr/V3136S84575/booking",
+    "version": "vost",
+    "earlyType": "AVPE",
+    "source": "pathe"
+  },
+  {
     "name": "vice versa 2",
     "showId": "",
     "movieId": "vice-versa-2-19501",
@@ -223,6 +235,30 @@
     "dateShow": "2024-06-16T16:30:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/vice-versa-2-19501",
     "linkShow": "https://s.pathe.fr/fr/V3143S51176/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "les fantomes",
+    "showId": "",
+    "movieId": "les-fantomes-38821",
+    "cinemaName": "cinema-pathe-montparnos",
+    "dateShow": "2024-07-02T19:45:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/les-fantomes-38821",
+    "linkShow": "https://s.pathe.fr/fr/V3127S16942/booking",
+    "version": "vost",
+    "earlyType": "AVPE",
+    "source": "pathe"
+  },
+  {
+    "name": "les sylvanians le cadeau de freya",
+    "showId": "",
+    "movieId": "les-sylvanians-le-cadeau-de-freya-39885",
+    "cinemaName": "cinema-pathe-parnasse",
+    "dateShow": "2024-06-16T10:15:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/les-sylvanians-le-cadeau-de-freya-39885",
+    "linkShow": "https://s.pathe.fr/fr/V3128S132466/booking",
     "version": "vf",
     "earlyType": "AVP",
     "source": "pathe"
