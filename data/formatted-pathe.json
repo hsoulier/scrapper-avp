@@ -60,6 +60,18 @@
     "source": "pathe"
   },
   {
+    "name": "les fantomes",
+    "showId": "",
+    "movieId": "les-fantomes-38821",
+    "cinemaName": "cinema-pathe-montparnos",
+    "dateShow": "2024-07-02T19:45:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/les-fantomes-38821",
+    "linkShow": "https://s.pathe.fr/fr/V3127S16942/booking",
+    "version": "vost",
+    "earlyType": "AVPE",
+    "source": "pathe"
+  },
+  {
     "name": "deadpool wolverine",
     "showId": "",
     "movieId": "deadpool-wolverine-19553",
