@@ -1,30 +1,34 @@
 import { backgroundImage } from "@/constants/og-image"
-import { readFileSync } from "fs"
 import { ImageResponse } from "next/og"
 import type { ImageResponseOptions } from "next/server"
-import { join } from "path"
-import { fileURLToPath } from "url"
 
 const imageOptions: ImageResponseOptions = {
   width: 1_080,
   height: 1_080,
 }
 
+export const runtime = "edge"
+
 export const GET = async (request: Request) => {
   try {
-    const loadFont = (url: string) =>
-      readFileSync(join(fileURLToPath(import.meta.url), url))
+    const fontExtraLight = await fetch(
+      new URL(
+        "../../../assets/plus-jakarta-sans-extra-light.ttf",
+        import.meta.url
+      )
+    ).then((res) => res.arrayBuffer())
+    console.log("Font loaded", fontExtraLight)
 
-    const fontExtraLight = loadFont(
-      "../../../../assets/plus-jakarta-sans-extra-light.ttf"
-    )
+    const fontNormal = await fetch(
+      new URL("../../../assets/plus-jakarta-sans-medium.ttf", import.meta.url)
+    ).then((res) => res.arrayBuffer())
+    const fontExtraBold = await fetch(
+      new URL(
+        "../../../assets/plus-jakarta-sans-extra-bold.ttf",
+        import.meta.url
+      )
+    ).then((res) => res.arrayBuffer())
 
-    const fontNormal = loadFont(
-      "../../../../assets/plus-jakarta-sans-medium.ttf"
-    )
-    const fontExtraBold = loadFont(
-      "../../../../assets/plus-jakarta-sans-extra-bold.ttf"
-    )
     imageOptions.fonts = [
       {
         name: "Plus Jakarta Sans",
@@ -100,6 +104,7 @@ export const GET = async (request: Request) => {
           <div tw="flex items-center w-full justify-between px-12">
             <img
               width="320"
+              height="400"
               tw="rounded-lg"
               src="https://www.ugc.fr/dynamique/films/87/16387/fr/poster/large/de768da1f5a4ed8bce86e86e870ed99c_2.jpg"
               alt="Movie cover"
