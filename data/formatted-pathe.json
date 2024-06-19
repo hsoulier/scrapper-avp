@@ -12,54 +12,6 @@
     "source": "pathe"
   },
   {
-    "name": "seance tenante le comte de monte cristo",
-    "showId": "",
-    "movieId": "seance-tenante-le-comte-de-monte-cristo-40206",
-    "cinemaName": "cinema-pathe-alesia",
-    "dateShow": "2024-06-20T19:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/seance-tenante-le-comte-de-monte-cristo-40206",
-    "linkShow": "https://s.pathe.fr/fr/V3132S67213/booking",
-    "version": "vf",
-    "earlyType": "AVPE",
-    "source": "pathe"
-  },
-  {
-    "name": "pat et mat un dernier tour de vis",
-    "showId": "",
-    "movieId": "pat-et-mat-un-dernier-tour-de-vis-38151",
-    "cinemaName": "cinema-les-7-batignolles",
-    "dateShow": "2024-06-19T10:30:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/pat-et-mat-un-dernier-tour-de-vis-38151",
-    "linkShow": "https://s.pathe.fr/fr/V3017S23355/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "pat et mat un dernier tour de vis",
-    "showId": "",
-    "movieId": "pat-et-mat-un-dernier-tour-de-vis-38151",
-    "cinemaName": "cinema-les-7-batignolles",
-    "dateShow": "2024-06-22T10:30:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/pat-et-mat-un-dernier-tour-de-vis-38151",
-    "linkShow": "https://s.pathe.fr/fr/V3017S23356/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "pat et mat un dernier tour de vis",
-    "showId": "",
-    "movieId": "pat-et-mat-un-dernier-tour-de-vis-38151",
-    "cinemaName": "cinema-les-7-batignolles",
-    "dateShow": "2024-06-23T10:30:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/pat-et-mat-un-dernier-tour-de-vis-38151",
-    "linkShow": "https://s.pathe.fr/fr/V3017S23357/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
     "name": "les fantomes",
     "showId": "",
     "movieId": "les-fantomes-38821",
@@ -81,18 +33,6 @@
     "linkShow": "https://s.pathe.fr/fr/V3168S113448/booking",
     "version": "vost",
     "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "creation of the gods i kingdom of storms",
-    "showId": "",
-    "movieId": "creation-of-the-gods-i-kingdom-of-storms-37935",
-    "cinemaName": "cinema-pathe-les-fauvettes",
-    "dateShow": "2024-06-23T18:45:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/creation-of-the-gods-i-kingdom-of-storms-37935",
-    "linkShow": "https://s.pathe.fr/fr/V3143S52090/booking",
-    "version": "vost",
-    "earlyType": "AVPE",
     "source": "pathe"
   },
   {
