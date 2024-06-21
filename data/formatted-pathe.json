@@ -156,6 +156,42 @@
     "source": "pathe"
   },
   {
+    "name": "moi moche et mechant 4",
+    "showId": "",
+    "movieId": "moi-moche-et-mechant-4-19174",
+    "cinemaName": "cinema-pathe-les-fauvettes",
+    "dateShow": "2024-07-07T14:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/moi-moche-et-mechant-4-19174",
+    "linkShow": "https://s.pathe.fr/fr/V3143S52180/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "moi moche et mechant 4",
+    "showId": "",
+    "movieId": "moi-moche-et-mechant-4-19174",
+    "cinemaName": "cinema-pathe-les-fauvettes",
+    "dateShow": "2024-07-08T14:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/moi-moche-et-mechant-4-19174",
+    "linkShow": "https://s.pathe.fr/fr/V3143S52182/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "moi moche et mechant 4",
+    "showId": "",
+    "movieId": "moi-moche-et-mechant-4-19174",
+    "cinemaName": "cinema-pathe-les-fauvettes",
+    "dateShow": "2024-07-09T14:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/moi-moche-et-mechant-4-19174",
+    "linkShow": "https://s.pathe.fr/fr/V3143S52184/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "les fantomes",
     "showId": "",
     "movieId": "les-fantomes-38821",
@@ -165,6 +201,18 @@
     "linkShow": "https://s.pathe.fr/fr/V3127S16942/booking",
     "version": "vost",
     "earlyType": "AVPE",
+    "source": "pathe"
+  },
+  {
+    "name": "pourquoi tu souris",
+    "showId": "",
+    "movieId": "pourquoi-tu-souris-36510",
+    "cinemaName": "cinema-pathe-montparnos",
+    "dateShow": "2024-07-01T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/pourquoi-tu-souris-36510",
+    "linkShow": "https://s.pathe.fr/fr/V3127S17341/booking",
+    "version": "vf",
+    "earlyType": "AVP",
     "source": "pathe"
   },
   {
