@@ -228,6 +228,18 @@
     "source": "pathe"
   },
   {
+    "name": "eat the night",
+    "showId": "",
+    "movieId": "eat-the-night-38964",
+    "cinemaName": "cinema-pathe-parnasse",
+    "dateShow": "2024-07-05T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/eat-the-night-38964",
+    "linkShow": "https://s.pathe.fr/fr/V3128S133474/booking",
+    "version": "vf",
+    "earlyType": "AVPE",
+    "source": "pathe"
+  },
+  {
     "name": "moi moche et mechant 4",
     "showId": "",
     "movieId": "moi-moche-et-mechant-4-19174",
