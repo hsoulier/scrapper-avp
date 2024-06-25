@@ -103,8 +103,20 @@
     "dateShow": "2024-07-02T20:00:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/les-fantomes-38821",
     "linkShow": "https://s.pathe.fr/fr/V3136S84575/booking",
-    "version": "vost",
+    "version": "vf",
     "earlyType": "AVPE",
+    "source": "pathe"
+  },
+  {
+    "name": "pourquoi tu souris",
+    "showId": "",
+    "movieId": "pourquoi-tu-souris-36510",
+    "cinemaName": "cinema-pathe-convention",
+    "dateShow": "2024-07-01T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/pourquoi-tu-souris-36510",
+    "linkShow": "https://s.pathe.fr/fr/V3136S85738/booking",
+    "version": "vf",
+    "earlyType": "AVP",
     "source": "pathe"
   },
   {
@@ -199,7 +211,7 @@
     "dateShow": "2024-07-02T19:45:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/les-fantomes-38821",
     "linkShow": "https://s.pathe.fr/fr/V3127S16942/booking",
-    "version": "vost",
+    "version": "vf",
     "earlyType": "AVPE",
     "source": "pathe"
   },
