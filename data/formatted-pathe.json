@@ -36,6 +36,18 @@
     "source": "pathe"
   },
   {
+    "name": "twisters",
+    "showId": "",
+    "movieId": "twisters-35313",
+    "cinemaName": "cinema-gaumont-aquaboulevard",
+    "dateShow": "2024-07-16T19:45:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/twisters-35313",
+    "linkShow": "https://s.pathe.fr/fr/V3140S100819/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "moi moche et mechant 4",
     "showId": "",
     "movieId": "moi-moche-et-mechant-4-19174",
@@ -116,6 +128,18 @@
     "linkMovie": "https://www.pathe.fr/films/deadpool-wolverine-19553",
     "linkShow": "https://s.pathe.fr/fr/V3168S113448/booking",
     "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "twisters",
+    "showId": "",
+    "movieId": "twisters-35313",
+    "cinemaName": "cinema-pathe-la-villette",
+    "dateShow": "2024-07-16T20:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/twisters-35313",
+    "linkShow": "https://s.pathe.fr/fr/V3168S115726/booking",
+    "version": "vf",
     "earlyType": "AVP",
     "source": "pathe"
   },
@@ -259,6 +283,18 @@
     "dateShow": "2024-07-23T23:50:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/deadpool-wolverine-19553",
     "linkShow": "https://s.pathe.fr/fr/V3010S107309/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "twisters",
+    "showId": "",
+    "movieId": "twisters-35313",
+    "cinemaName": "cinema-pathe-wepler",
+    "dateShow": "2024-07-16T22:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/twisters-35313",
+    "linkShow": "https://s.pathe.fr/fr/V3010S108810/booking",
     "version": "vost",
     "earlyType": "AVP",
     "source": "pathe"
