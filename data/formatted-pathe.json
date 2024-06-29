@@ -12,14 +12,14 @@
     "source": "pathe"
   },
   {
-    "name": "les rois du rallye",
+    "name": "petit panda en afrique",
     "showId": "",
-    "movieId": "les-rois-du-rallye-36497",
+    "movieId": "petit-panda-en-afrique-36869",
     "cinemaName": "cinema-gaumont-aquaboulevard",
-    "dateShow": "2024-08-04T11:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/les-rois-du-rallye-36497",
-    "linkShow": "https://s.pathe.fr/fr/V3140S100814/booking",
-    "version": "vost",
+    "dateShow": "2024-07-28T11:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/petit-panda-en-afrique-36869",
+    "linkShow": "https://s.pathe.fr/fr/V3140S100826/booking",
+    "version": "vf",
     "earlyType": "AVP",
     "source": "pathe"
   },
@@ -81,6 +81,18 @@
     "linkShow": "https://s.pathe.fr/fr/V3140S99000/booking",
     "version": "vf",
     "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "maxxxine",
+    "showId": "",
+    "movieId": "maxxxine-38448",
+    "cinemaName": "cinema-pathe-beaugrenelle",
+    "dateShow": "2024-07-04T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/maxxxine-38448",
+    "linkShow": "https://s.pathe.fr/fr/V3166S92837/booking",
+    "version": "vost",
+    "earlyType": "AVPE",
     "source": "pathe"
   },
   {
