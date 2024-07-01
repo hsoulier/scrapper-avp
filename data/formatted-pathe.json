@@ -12,6 +12,18 @@
     "source": "pathe"
   },
   {
+    "name": "moi moche et mechant 4",
+    "showId": "",
+    "movieId": "moi-moche-et-mechant-4-19174",
+    "cinemaName": "cinema-pathe-alesia",
+    "dateShow": "2024-07-07T14:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/moi-moche-et-mechant-4-19174",
+    "linkShow": "https://s.pathe.fr/fr/V3132S68520/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "petit panda en afrique",
     "showId": "",
     "movieId": "petit-panda-en-afrique-36869",
@@ -208,9 +220,9 @@
     "showId": "",
     "movieId": "moi-moche-et-mechant-4-19174",
     "cinemaName": "cinema-pathe-les-fauvettes",
-    "dateShow": "2024-07-08T14:00:00.000Z",
+    "dateShow": "2024-07-08T16:05:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/moi-moche-et-mechant-4-19174",
-    "linkShow": "https://s.pathe.fr/fr/V3143S52182/booking",
+    "linkShow": "https://s.pathe.fr/fr/V3143S52183/booking",
     "version": "vf",
     "earlyType": "AVP",
     "source": "pathe"
@@ -240,6 +252,18 @@
     "source": "pathe"
   },
   {
+    "name": "le vendredi de l horreur maxxxine",
+    "showId": "",
+    "movieId": "le-vendredi-de-l-horreur-maxxxine-40456",
+    "cinemaName": "cinema-pathe-parnasse",
+    "dateShow": "2024-07-12T22:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/le-vendredi-de-l-horreur-maxxxine-40456",
+    "linkShow": "https://s.pathe.fr/fr/V3128S134110/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "eat the night",
     "showId": "",
     "movieId": "eat-the-night-38964",
@@ -249,6 +273,18 @@
     "linkShow": "https://s.pathe.fr/fr/V3128S133474/booking",
     "version": "vf",
     "earlyType": "AVPE",
+    "source": "pathe"
+  },
+  {
+    "name": "twisters",
+    "showId": "",
+    "movieId": "twisters-35313",
+    "cinemaName": "cinema-pathe-parnasse",
+    "dateShow": "2024-07-16T19:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/twisters-35313",
+    "linkShow": "https://s.pathe.fr/fr/V3128S134117/booking",
+    "version": "vost",
+    "earlyType": "AVP",
     "source": "pathe"
   },
   {
