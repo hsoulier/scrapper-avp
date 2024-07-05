@@ -72,6 +72,18 @@
     "source": "pathe"
   },
   {
+    "name": "we are zombies",
+    "showId": "",
+    "movieId": "we-are-zombies-38907",
+    "cinemaName": "cinema-les-7-batignolles",
+    "dateShow": "2024-07-22T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/we-are-zombies-38907",
+    "linkShow": "https://s.pathe.fr/fr/V3017S24290/booking",
+    "version": "vo",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "deadpool wolverine",
     "showId": "",
     "movieId": "deadpool-wolverine-19553",
@@ -81,6 +93,18 @@
     "linkShow": "https://s.pathe.fr/fr/V3166S93271/booking",
     "version": "vost",
     "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "le roman de jim",
+    "showId": "",
+    "movieId": "le-roman-de-jim-38923",
+    "cinemaName": "cinema-pathe-convention",
+    "dateShow": "2024-08-14T16:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/le-roman-de-jim-38923",
+    "linkShow": "https://s.pathe.fr/fr/V3136S86194/booking",
+    "version": "vf",
+    "earlyType": "AVPE",
     "source": "pathe"
   },
   {
