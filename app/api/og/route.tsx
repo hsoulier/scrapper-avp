@@ -1,16 +1,22 @@
 import { backgroundImage } from "@/constants/og-image"
+<<<<<<< Updated upstream
 import { ImageResponse } from "next/og"
 import type { ImageResponseOptions } from "next/server"
+=======
+import satori, { type SatoriOptions } from "satori"
+>>>>>>> Stashed changes
 
-const imageOptions: ImageResponseOptions = {
+const imageOptions: SatoriOptions = {
   width: 1_080,
   height: 1_080,
+  fonts: [],
 }
 
 export const runtime = "edge"
 
 export const GET = async (request: Request) => {
   try {
+<<<<<<< Updated upstream
     const fontExtraLight = await fetch(
       new URL(
         "../../../assets/plus-jakarta-sans-extra-light.ttf",
@@ -29,6 +35,23 @@ export const GET = async (request: Request) => {
       )
     ).then((res) => res.arrayBuffer())
 
+=======
+    const loadFont = async (url: string) => {
+      const fontData = await fetch(new URL(url, import.meta.url))
+      return fontData.arrayBuffer()
+    }
+
+    const fontExtraLight = await loadFont(
+      "../../../../assets/plus-jakarta-sans-extra-light.ttf"
+    )
+
+    const fontNormal = await loadFont(
+      "../../../../assets/plus-jakarta-sans-medium.ttf"
+    )
+    const fontExtraBold = await loadFont(
+      "../../../../assets/plus-jakarta-sans-extra-bold.ttf"
+    )
+>>>>>>> Stashed changes
     imageOptions.fonts = [
       {
         name: "Plus Jakarta Sans",
@@ -88,19 +111,26 @@ export const GET = async (request: Request) => {
       ],
     ]
 
-    return new ImageResponse(
-      (
-        <div
-          style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}
-          tw="flex flex-col justify-center items-center w-full h-full text-white text-4xl"
-        >
+    return satori(
+      <div
+        style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}
+        tw="flex flex-col justify-center items-center w-full h-full text-white text-4xl"
+      >
+        <img
+          width={imageOptions.width}
+          height={imageOptions.height}
+          src={backgroundImage}
+          alt="Background image"
+          tw="absolute inset-0"
+        />
+        <div tw="flex items-center w-full justify-between px-12">
           <img
-            width={imageOptions.width}
-            height={imageOptions.height}
-            src={backgroundImage}
-            alt="Background image"
-            tw="absolute inset-0"
+            width="320"
+            tw="rounded-lg"
+            src="https://www.ugc.fr/dynamique/films/87/16387/fr/poster/large/de768da1f5a4ed8bce86e86e870ed99c_2.jpg"
+            alt="Movie cover"
           />
+<<<<<<< Updated upstream
           <div tw="flex items-center w-full justify-between px-12">
             <img
               width="320"
@@ -117,30 +147,37 @@ export const GET = async (request: Request) => {
                 <span tw="uppercase text-5xl">Avec l'équipe du film</span>
               </div>
               <p tw="mt-4">Le 14/06/2024 à 19H00</p>
+=======
+          <div tw="flex flex-col items-center">
+            <div tw="p-6 rounded-2xl bg-black/30 flex flex-col items-start text-4xl leading-loose">
+              <span tw="uppercase font-extrabold text-6xl">Avant-première</span>
+              <span tw="uppercase text-5xl">Avec l'équipe du film</span>
+>>>>>>> Stashed changes
             </div>
-          </div>
-
-          <div tw="px-12 flex flex-col py-8">
-            {infos.map((infoGroup, index) => (
-              <div
-                tw="flex items-center w-full justify-between"
-                style={{ marginTop: index === 1 ? "3rem" : 0 }}
-                key={index}
-              >
-                {infoGroup.map((info, index) => (
-                  <div tw="flex flex-col items-start w-1/2" key={index}>
-                    <p tw="px-6 py-4 bg-black/50 rounded-xl mb-2 uppercase font-extrabold text-4xl leading-none">
-                      <img src={info.icon} width={40} tw="mr-4" alt="Emoji" />{" "}
-                      {info.title}
-                    </p>
-                    <span>{info.value}</span>
-                  </div>
-                ))}
-              </div>
-            ))}
+            <p tw="mt-4">Le 14/06/2024 à 19H00</p>
           </div>
         </div>
-      ),
+
+        <div tw="px-12 flex flex-col py-8">
+          {infos.map((infoGroup, index) => (
+            <div
+              tw="flex items-center w-full justify-between"
+              style={{ marginTop: index === 1 ? "3rem" : 0 }}
+              key={index}
+            >
+              {infoGroup.map((info, index) => (
+                <div tw="flex flex-col items-start w-1/2" key={index}>
+                  <p tw="px-6 py-4 bg-black/50 rounded-xl mb-2 uppercase font-extrabold text-4xl leading-none">
+                    <img src={info.icon} width={40} tw="mr-4" alt="Emoji" />{" "}
+                    {info.title}
+                  </p>
+                  <span>{info.value}</span>
+                </div>
+              ))}
+            </div>
+          ))}
+        </div>
+      </div>,
       imageOptions
     )
   } catch (error) {
