@@ -12,114 +12,6 @@
     "source": "pathe"
   },
   {
-    "name": "twisters",
-    "showId": "",
-    "movieId": "twisters-35313",
-    "cinemaName": "cinema-pathe-alesia",
-    "dateShow": "2024-07-16T19:50:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/twisters-35313",
-    "linkShow": "https://s.pathe.fr/fr/V3132S68914/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "moi moche et mechant 4",
-    "showId": "",
-    "movieId": "moi-moche-et-mechant-4-19174",
-    "cinemaName": "cinema-pathe-alesia",
-    "dateShow": "2024-07-09T15:45:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/moi-moche-et-mechant-4-19174",
-    "linkShow": "https://s.pathe.fr/fr/V3132S68636/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "moi moche et mechant 4",
-    "showId": "",
-    "movieId": "moi-moche-et-mechant-4-19174",
-    "cinemaName": "cinema-pathe-alesia",
-    "dateShow": "2024-07-10T10:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/moi-moche-et-mechant-4-19174",
-    "linkShow": "https://s.pathe.fr/fr/V3132S68832/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "moi moche et mechant 4",
-    "showId": "",
-    "movieId": "moi-moche-et-mechant-4-19174",
-    "cinemaName": "cinema-pathe-alesia",
-    "dateShow": "2024-07-11T11:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/moi-moche-et-mechant-4-19174",
-    "linkShow": "https://s.pathe.fr/fr/V3132S69065/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "moi moche et mechant 4",
-    "showId": "",
-    "movieId": "moi-moche-et-mechant-4-19174",
-    "cinemaName": "cinema-pathe-alesia",
-    "dateShow": "2024-07-12T11:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/moi-moche-et-mechant-4-19174",
-    "linkShow": "https://s.pathe.fr/fr/V3132S69109/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "moi moche et mechant 4",
-    "showId": "",
-    "movieId": "moi-moche-et-mechant-4-19174",
-    "cinemaName": "cinema-pathe-alesia",
-    "dateShow": "2024-07-13T10:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/moi-moche-et-mechant-4-19174",
-    "linkShow": "https://s.pathe.fr/fr/V3132S69148/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "moi moche et mechant 4",
-    "showId": "",
-    "movieId": "moi-moche-et-mechant-4-19174",
-    "cinemaName": "cinema-pathe-alesia",
-    "dateShow": "2024-07-14T10:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/moi-moche-et-mechant-4-19174",
-    "linkShow": "https://s.pathe.fr/fr/V3132S69193/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "moi moche et mechant 4",
-    "showId": "",
-    "movieId": "moi-moche-et-mechant-4-19174",
-    "cinemaName": "cinema-pathe-alesia",
-    "dateShow": "2024-07-15T10:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/moi-moche-et-mechant-4-19174",
-    "linkShow": "https://s.pathe.fr/fr/V3132S69238/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "moi moche et mechant 4",
-    "showId": "",
-    "movieId": "moi-moche-et-mechant-4-19174",
-    "cinemaName": "cinema-pathe-alesia",
-    "dateShow": "2024-07-16T10:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/moi-moche-et-mechant-4-19174",
-    "linkShow": "https://s.pathe.fr/fr/V3132S69017/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
     "name": "we are zombies",
     "showId": "",
     "movieId": "we-are-zombies-38907",
@@ -156,6 +48,18 @@
     "source": "pathe"
   },
   {
+    "name": "petit panda en afrique",
+    "showId": "",
+    "movieId": "petit-panda-en-afrique-36869",
+    "cinemaName": "cinema-pathe-la-villette",
+    "dateShow": "2024-07-28T16:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/petit-panda-en-afrique-36869",
+    "linkShow": "https://s.pathe.fr/fr/V3168S116306/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "garfield heros malgre lui",
     "showId": "",
     "movieId": "garfield-heros-malgre-lui-19496",
@@ -180,18 +84,6 @@
     "source": "pathe"
   },
   {
-    "name": "twisters",
-    "showId": "",
-    "movieId": "twisters-35313",
-    "cinemaName": "cinema-pathe-la-villette",
-    "dateShow": "2024-07-16T20:30:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/twisters-35313",
-    "linkShow": "https://s.pathe.fr/fr/V3168S115726/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
     "name": "deadpool wolverine",
     "showId": "",
     "movieId": "deadpool-wolverine-19553",
@@ -204,42 +96,6 @@
     "source": "pathe"
   },
   {
-    "name": "le vendredi de l horreur maxxxine",
-    "showId": "",
-    "movieId": "le-vendredi-de-l-horreur-maxxxine-40456",
-    "cinemaName": "cinema-pathe-parnasse",
-    "dateShow": "2024-07-13T00:10:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/le-vendredi-de-l-horreur-maxxxine-40456",
-    "linkShow": "https://s.pathe.fr/fr/V3128S134110/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "le vendredi de l horreur maxxxine",
-    "showId": "",
-    "movieId": "le-vendredi-de-l-horreur-maxxxine-40456",
-    "cinemaName": "cinema-pathe-parnasse",
-    "dateShow": "2024-07-14T00:10:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/le-vendredi-de-l-horreur-maxxxine-40456",
-    "linkShow": "https://s.pathe.fr/fr/V3128S134881/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "twisters",
-    "showId": "",
-    "movieId": "twisters-35313",
-    "cinemaName": "cinema-pathe-parnasse",
-    "dateShow": "2024-07-16T19:30:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/twisters-35313",
-    "linkShow": "https://s.pathe.fr/fr/V3128S134117/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
     "name": "deadpool wolverine",
     "showId": "",
     "movieId": "deadpool-wolverine-19553",
@@ -247,18 +103,6 @@
     "dateShow": "2024-07-23T23:50:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/deadpool-wolverine-19553",
     "linkShow": "https://s.pathe.fr/fr/V3010S107309/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "twisters",
-    "showId": "",
-    "movieId": "twisters-35313",
-    "cinemaName": "cinema-pathe-wepler",
-    "dateShow": "2024-07-16T22:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/twisters-35313",
-    "linkShow": "https://s.pathe.fr/fr/V3010S108810/booking",
     "version": "vost",
     "earlyType": "AVP",
     "source": "pathe"
