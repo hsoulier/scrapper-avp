@@ -24,18 +24,6 @@
     "source": "pathe"
   },
   {
-    "name": "deadpool wolverine",
-    "showId": "",
-    "movieId": "deadpool-wolverine-19553",
-    "cinemaName": "cinema-pathe-beaugrenelle",
-    "dateShow": "2024-07-23T23:45:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/deadpool-wolverine-19553",
-    "linkShow": "https://s.pathe.fr/fr/V3166S93271/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
     "name": "le roman de jim",
     "showId": "",
     "movieId": "le-roman-de-jim-38923",
@@ -80,6 +68,30 @@
     "linkMovie": "https://www.pathe.fr/films/deadpool-wolverine-19553",
     "linkShow": "https://s.pathe.fr/fr/V3168S113448/booking",
     "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "trap",
+    "showId": "",
+    "movieId": "trap-20546",
+    "cinemaName": "cinema-pathe-parnasse",
+    "dateShow": "2024-08-02T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/trap-20546",
+    "linkShow": "https://s.pathe.fr/fr/V3128S135079/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "garfield heros malgre lui",
+    "showId": "",
+    "movieId": "garfield-heros-malgre-lui-19496",
+    "cinemaName": "cinema-pathe-parnasse",
+    "dateShow": "2024-07-22T16:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/garfield-heros-malgre-lui-19496",
+    "linkShow": "https://s.pathe.fr/fr/V3128S135078/booking",
+    "version": "vf",
     "earlyType": "AVP",
     "source": "pathe"
   },
