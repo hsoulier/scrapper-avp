@@ -1,5 +1,17 @@
 [
   {
+    "name": "garfield heros malgre lui",
+    "showId": "",
+    "movieId": "garfield-heros-malgre-lui-19496",
+    "cinemaName": "cinema-pathe-alesia",
+    "dateShow": "2024-07-28T16:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/garfield-heros-malgre-lui-19496",
+    "linkShow": "https://s.pathe.fr/fr/V3132S68915/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "deadpool wolverine",
     "showId": "",
     "movieId": "deadpool-wolverine-19553",
@@ -88,7 +100,7 @@
     "showId": "",
     "movieId": "garfield-heros-malgre-lui-19496",
     "cinemaName": "cinema-pathe-parnasse",
-    "dateShow": "2024-07-22T16:00:00.000Z",
+    "dateShow": "2024-07-22T15:40:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/garfield-heros-malgre-lui-19496",
     "linkShow": "https://s.pathe.fr/fr/V3128S135078/booking",
     "version": "vf",
