@@ -12,30 +12,6 @@
     "source": "pathe"
   },
   {
-    "name": "deadpool wolverine",
-    "showId": "",
-    "movieId": "deadpool-wolverine-19553",
-    "cinemaName": "cinema-pathe-alesia",
-    "dateShow": "2024-07-23T23:50:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/deadpool-wolverine-19553",
-    "linkShow": "https://s.pathe.fr/fr/V3132S66822/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "we are zombies",
-    "showId": "",
-    "movieId": "we-are-zombies-38907",
-    "cinemaName": "cinema-les-7-batignolles",
-    "dateShow": "2024-07-22T20:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/we-are-zombies-38907",
-    "linkShow": "https://s.pathe.fr/fr/V3017S24290/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
     "name": "le roman de jim",
     "showId": "",
     "movieId": "le-roman-de-jim-38923",
@@ -72,18 +48,6 @@
     "source": "pathe"
   },
   {
-    "name": "deadpool wolverine",
-    "showId": "",
-    "movieId": "deadpool-wolverine-19553",
-    "cinemaName": "cinema-pathe-la-villette",
-    "dateShow": "2024-07-24T00:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/deadpool-wolverine-19553",
-    "linkShow": "https://s.pathe.fr/fr/V3168S113448/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
     "name": "trap",
     "showId": "",
     "movieId": "trap-20546",
@@ -91,42 +55,6 @@
     "dateShow": "2024-08-02T20:00:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/trap-20546",
     "linkShow": "https://s.pathe.fr/fr/V3128S135079/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "garfield heros malgre lui",
-    "showId": "",
-    "movieId": "garfield-heros-malgre-lui-19496",
-    "cinemaName": "cinema-pathe-parnasse",
-    "dateShow": "2024-07-22T15:40:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/garfield-heros-malgre-lui-19496",
-    "linkShow": "https://s.pathe.fr/fr/V3128S135078/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "deadpool wolverine",
-    "showId": "",
-    "movieId": "deadpool-wolverine-19553",
-    "cinemaName": "cinema-pathe-parnasse",
-    "dateShow": "2024-07-23T23:50:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/deadpool-wolverine-19553",
-    "linkShow": "https://s.pathe.fr/fr/V3128S131893/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "deadpool wolverine",
-    "showId": "",
-    "movieId": "deadpool-wolverine-19553",
-    "cinemaName": "cinema-pathe-wepler",
-    "dateShow": "2024-07-23T23:50:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/deadpool-wolverine-19553",
-    "linkShow": "https://s.pathe.fr/fr/V3010S107309/booking",
     "version": "vost",
     "earlyType": "AVP",
     "source": "pathe"
