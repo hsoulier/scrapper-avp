@@ -1,5 +1,17 @@
 [
   {
+    "name": "trap",
+    "showId": "",
+    "movieId": "trap-20546",
+    "cinemaName": "cinema-pathe-alesia",
+    "dateShow": "2024-08-02T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/trap-20546",
+    "linkShow": "https://s.pathe.fr/fr/V3132S70045/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "garfield heros malgre lui",
     "showId": "",
     "movieId": "garfield-heros-malgre-lui-19496",
@@ -7,6 +19,18 @@
     "dateShow": "2024-07-28T16:00:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/garfield-heros-malgre-lui-19496",
     "linkShow": "https://s.pathe.fr/fr/V3132S68915/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "garfield heros malgre lui",
+    "showId": "",
+    "movieId": "garfield-heros-malgre-lui-19496",
+    "cinemaName": "cinema-pathe-beaugrenelle",
+    "dateShow": "2024-07-27T15:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/garfield-heros-malgre-lui-19496",
+    "linkShow": "https://s.pathe.fr/fr/V3166S94181/booking",
     "version": "vf",
     "earlyType": "AVP",
     "source": "pathe"
@@ -36,6 +60,18 @@
     "source": "pathe"
   },
   {
+    "name": "trap",
+    "showId": "",
+    "movieId": "trap-20546",
+    "cinemaName": "cinema-pathe-la-villette",
+    "dateShow": "2024-08-02T19:45:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/trap-20546",
+    "linkShow": "https://s.pathe.fr/fr/V3168S117290/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "garfield heros malgre lui",
     "showId": "",
     "movieId": "garfield-heros-malgre-lui-19496",
@@ -56,6 +92,30 @@
     "linkMovie": "https://www.pathe.fr/films/trap-20546",
     "linkShow": "https://s.pathe.fr/fr/V3128S135079/booking",
     "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "petit panda en afrique",
+    "showId": "",
+    "movieId": "petit-panda-en-afrique-36869",
+    "cinemaName": "cinema-pathe-wepler",
+    "dateShow": "2024-07-27T10:25:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/petit-panda-en-afrique-36869",
+    "linkShow": "https://s.pathe.fr/fr/V3010S110659/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "garfield heros malgre lui",
+    "showId": "",
+    "movieId": "garfield-heros-malgre-lui-19496",
+    "cinemaName": "cinema-pathe-wepler",
+    "dateShow": "2024-07-28T15:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/garfield-heros-malgre-lui-19496",
+    "linkShow": "https://s.pathe.fr/fr/V3010S110651/booking",
+    "version": "vf",
     "earlyType": "AVP",
     "source": "pathe"
   }
