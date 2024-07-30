@@ -12,6 +12,18 @@
     "source": "pathe"
   },
   {
+    "name": "trap",
+    "showId": "",
+    "movieId": "trap-20546",
+    "cinemaName": "cinema-pathe-beaugrenelle",
+    "dateShow": "2024-08-02T19:45:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/trap-20546",
+    "linkShow": "https://s.pathe.fr/fr/V3166S93782/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "le roman de jim",
     "showId": "",
     "movieId": "le-roman-de-jim-38923",
