@@ -1,29 +1,5 @@
 [
   {
-    "name": "trap",
-    "showId": "",
-    "movieId": "trap-20546",
-    "cinemaName": "cinema-pathe-alesia",
-    "dateShow": "2024-08-02T20:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/trap-20546",
-    "linkShow": "https://s.pathe.fr/fr/V3132S70045/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "trap",
-    "showId": "",
-    "movieId": "trap-20546",
-    "cinemaName": "cinema-pathe-beaugrenelle",
-    "dateShow": "2024-08-02T19:45:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/trap-20546",
-    "linkShow": "https://s.pathe.fr/fr/V3166S93782/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
     "name": "le roman de jim",
     "showId": "",
     "movieId": "le-roman-de-jim-38923",
@@ -33,30 +9,6 @@
     "linkShow": "https://s.pathe.fr/fr/V3136S86194/booking",
     "version": "vf",
     "earlyType": "AVPE",
-    "source": "pathe"
-  },
-  {
-    "name": "trap",
-    "showId": "",
-    "movieId": "trap-20546",
-    "cinemaName": "cinema-pathe-la-villette",
-    "dateShow": "2024-08-02T19:45:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/trap-20546",
-    "linkShow": "https://s.pathe.fr/fr/V3168S117290/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "trap",
-    "showId": "",
-    "movieId": "trap-20546",
-    "cinemaName": "cinema-pathe-parnasse",
-    "dateShow": "2024-08-02T20:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/trap-20546",
-    "linkShow": "https://s.pathe.fr/fr/V3128S135079/booking",
-    "version": "vost",
-    "earlyType": "AVP",
     "source": "pathe"
   }
 ]
