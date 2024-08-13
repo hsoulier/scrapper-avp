@@ -1,14 +1,50 @@
 [
   {
+    "name": "anzu chat fantome",
+    "showId": "",
+    "movieId": "anzu-chat-fantome-39091",
+    "cinemaName": "cinema-les-7-batignolles",
+    "dateShow": "2024-08-17T17:40:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/anzu-chat-fantome-39091",
+    "linkShow": "https://s.pathe.fr/fr/V3017S25981/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "anzu chat fantome",
+    "showId": "",
+    "movieId": "anzu-chat-fantome-39091",
+    "cinemaName": "cinema-les-7-batignolles",
+    "dateShow": "2024-08-18T13:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/anzu-chat-fantome-39091",
+    "linkShow": "https://s.pathe.fr/fr/V3017S25983/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "le roman de jim",
     "showId": "",
     "movieId": "le-roman-de-jim-38923",
     "cinemaName": "cinema-pathe-convention",
-    "dateShow": "2024-08-14T16:00:00.000Z",
+    "dateShow": "2024-08-14T11:25:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/le-roman-de-jim-38923",
-    "linkShow": "https://s.pathe.fr/fr/V3136S86194/booking",
+    "linkShow": "https://s.pathe.fr/fr/V3136S88630/booking",
     "version": "vf",
     "earlyType": "AVPE",
+    "source": "pathe"
+  },
+  {
+    "name": "anzu chat fantome",
+    "showId": "",
+    "movieId": "anzu-chat-fantome-39091",
+    "cinemaName": "cinema-pathe-la-villette",
+    "dateShow": "2024-08-20T18:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/anzu-chat-fantome-39091",
+    "linkShow": "https://s.pathe.fr/fr/V3168S119357/booking",
+    "version": "vost",
+    "earlyType": "AVP",
     "source": "pathe"
   }
 ]
