@@ -1,5 +1,17 @@
 [
   {
+    "name": "le proces du chien",
+    "showId": "",
+    "movieId": "le-proces-du-chien-38865",
+    "cinemaName": "cinema-pathe-alesia",
+    "dateShow": "2024-09-10T20:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/le-proces-du-chien-38865",
+    "linkShow": "https://s.pathe.fr/fr/V3132S70304/booking",
+    "version": "vf",
+    "earlyType": "AVPE",
+    "source": "pathe"
+  },
+  {
     "name": "soiree des passionnes monsieur aznavour",
     "showId": "",
     "movieId": "soiree-des-passionnes-monsieur-aznavour-42023",
@@ -8,6 +20,78 @@
     "linkMovie": "https://www.pathe.fr/films/soiree-des-passionnes-monsieur-aznavour-42023",
     "linkShow": "https://s.pathe.fr/fr/V3017S26231/booking",
     "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "quand vient l automne",
+    "showId": "",
+    "movieId": "quand-vient-l-automne-39055",
+    "cinemaName": "cinema-pathe-convention",
+    "dateShow": "2024-10-01T19:10:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/quand-vient-l-automne-39055",
+    "linkShow": "https://s.pathe.fr/fr/V3136S89293/booking",
+    "version": "vf",
+    "earlyType": "AVPE",
+    "source": "pathe"
+  },
+  {
+    "name": "beetlejuice beetlejuice",
+    "showId": "",
+    "movieId": "beetlejuice-beetlejuice-35311",
+    "cinemaName": "cinema-pathe-convention",
+    "dateShow": "2024-09-06T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/beetlejuice-beetlejuice-35311",
+    "linkShow": "https://s.pathe.fr/fr/V3136S89297/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "beetlejuice beetlejuice",
+    "showId": "",
+    "movieId": "beetlejuice-beetlejuice-35311",
+    "cinemaName": "cinema-pathe-convention",
+    "dateShow": "2024-09-08T16:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/beetlejuice-beetlejuice-35311",
+    "linkShow": "https://s.pathe.fr/fr/V3136S89298/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "beetlejuice beetlejuice",
+    "showId": "",
+    "movieId": "beetlejuice-beetlejuice-35311",
+    "cinemaName": "cinema-pathe-les-fauvettes",
+    "dateShow": "2024-09-06T19:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/beetlejuice-beetlejuice-35311",
+    "linkShow": "https://s.pathe.fr/fr/V3143S54543/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "beetlejuice beetlejuice",
+    "showId": "",
+    "movieId": "beetlejuice-beetlejuice-35311",
+    "cinemaName": "cinema-pathe-parnasse",
+    "dateShow": "2024-09-06T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/beetlejuice-beetlejuice-35311",
+    "linkShow": "https://s.pathe.fr/fr/V3128S138040/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "beetlejuice beetlejuice",
+    "showId": "",
+    "movieId": "beetlejuice-beetlejuice-35311",
+    "cinemaName": "cinema-pathe-parnasse",
+    "dateShow": "2024-09-08T16:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/beetlejuice-beetlejuice-35311",
+    "linkShow": "https://s.pathe.fr/fr/V3128S138041/booking",
+    "version": "vost",
     "earlyType": "AVP",
     "source": "pathe"
   }
