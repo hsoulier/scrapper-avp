@@ -12,6 +12,30 @@
     "source": "pathe"
   },
   {
+    "name": "beetlejuice beetlejuice",
+    "showId": "",
+    "movieId": "beetlejuice-beetlejuice-35311",
+    "cinemaName": "cinema-les-7-batignolles",
+    "dateShow": "2024-09-06T19:20:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/beetlejuice-beetlejuice-35311",
+    "linkShow": "https://s.pathe.fr/fr/V3017S26232/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "beetlejuice beetlejuice",
+    "showId": "",
+    "movieId": "beetlejuice-beetlejuice-35311",
+    "cinemaName": "cinema-les-7-batignolles",
+    "dateShow": "2024-09-08T16:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/beetlejuice-beetlejuice-35311",
+    "linkShow": "https://s.pathe.fr/fr/V3017S26233/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "soiree des passionnes monsieur aznavour",
     "showId": "",
     "movieId": "soiree-des-passionnes-monsieur-aznavour-42023",
@@ -55,18 +79,6 @@
     "dateShow": "2024-09-08T16:00:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/beetlejuice-beetlejuice-35311",
     "linkShow": "https://s.pathe.fr/fr/V3136S89298/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "beetlejuice beetlejuice",
-    "showId": "",
-    "movieId": "beetlejuice-beetlejuice-35311",
-    "cinemaName": "cinema-pathe-les-fauvettes",
-    "dateShow": "2024-09-06T19:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/beetlejuice-beetlejuice-35311",
-    "linkShow": "https://s.pathe.fr/fr/V3143S54543/booking",
     "version": "vost",
     "earlyType": "AVP",
     "source": "pathe"
