@@ -48,6 +48,18 @@
     "source": "pathe"
   },
   {
+    "name": "beetlejuice beetlejuice",
+    "showId": "",
+    "movieId": "beetlejuice-beetlejuice-35311",
+    "cinemaName": "cinema-pathe-beaugrenelle",
+    "dateShow": "2024-09-08T17:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/beetlejuice-beetlejuice-35311",
+    "linkShow": "https://s.pathe.fr/fr/V3166S96385/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "quand vient l automne",
     "showId": "",
     "movieId": "quand-vient-l-automne-39055",
