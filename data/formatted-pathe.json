@@ -1,5 +1,29 @@
 [
   {
+    "name": "beetlejuice beetlejuice",
+    "showId": "",
+    "movieId": "beetlejuice-beetlejuice-35311",
+    "cinemaName": "cinema-pathe-alesia",
+    "dateShow": "2024-09-06T19:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/beetlejuice-beetlejuice-35311",
+    "linkShow": "https://s.pathe.fr/fr/V3132S72138/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "beetlejuice beetlejuice",
+    "showId": "",
+    "movieId": "beetlejuice-beetlejuice-35311",
+    "cinemaName": "cinema-pathe-alesia",
+    "dateShow": "2024-09-08T17:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/beetlejuice-beetlejuice-35311",
+    "linkShow": "https://s.pathe.fr/fr/V3132S72139/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "le proces du chien",
     "showId": "",
     "movieId": "le-proces-du-chien-38865",
@@ -7,6 +31,18 @@
     "dateShow": "2024-09-10T20:30:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/le-proces-du-chien-38865",
     "linkShow": "https://s.pathe.fr/fr/V3132S70304/booking",
+    "version": "vf",
+    "earlyType": "AVPE",
+    "source": "pathe"
+  },
+  {
+    "name": "super seniors",
+    "showId": "",
+    "movieId": "super-seniors-37093",
+    "cinemaName": "cinema-les-7-batignolles",
+    "dateShow": "2024-09-23T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/super-seniors-37093",
+    "linkShow": "https://s.pathe.fr/fr/V3017S26241/booking",
     "version": "vf",
     "earlyType": "AVPE",
     "source": "pathe"
@@ -44,6 +80,18 @@
     "linkMovie": "https://www.pathe.fr/films/soiree-des-passionnes-monsieur-aznavour-42023",
     "linkShow": "https://s.pathe.fr/fr/V3017S26231/booking",
     "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "beetlejuice beetlejuice",
+    "showId": "",
+    "movieId": "beetlejuice-beetlejuice-35311",
+    "cinemaName": "cinema-pathe-beaugrenelle",
+    "dateShow": "2024-09-06T19:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/beetlejuice-beetlejuice-35311",
+    "linkShow": "https://s.pathe.fr/fr/V3166S96692/booking",
+    "version": "vost",
     "earlyType": "AVP",
     "source": "pathe"
   },
