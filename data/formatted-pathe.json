@@ -120,6 +120,18 @@
     "source": "pathe"
   },
   {
+    "name": "les barbares",
+    "showId": "",
+    "movieId": "les-barbares-38584",
+    "cinemaName": "cinema-pathe-convention",
+    "dateShow": "2024-09-12T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/les-barbares-38584",
+    "linkShow": "https://s.pathe.fr/fr/V3136S89294/booking",
+    "version": "vf",
+    "earlyType": "AVPE",
+    "source": "pathe"
+  },
+  {
     "name": "beetlejuice beetlejuice",
     "showId": "",
     "movieId": "beetlejuice-beetlejuice-35311",
