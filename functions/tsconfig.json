@@ -9,7 +9,10 @@
     "target": "ES2021",
     "skipLibCheck": true,
     "esModuleInterop": true,
-    "baseUrl": "."
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
   },
   "compileOnSave": true,
   "include": ["src"]

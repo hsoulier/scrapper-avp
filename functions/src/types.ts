@@ -36,30 +36,36 @@ export type MovieDoc = {
   movie: DocumentReference
 }
 
+export type ResponsePathShowDay = {
+  tags: string[]
+  bookable: boolean
+  versions: ("vost" | "vf" | "vo")[]
+  flag: "Avant-première" | (string & {})
+}
+
+export type ResponsePatheShow = {
+  // slug movie
+  days: {
+    [key: `${number}-${number}-${number}`]: ResponsePathShowDay
+  }
+  bookable: boolean
+  isBookable: boolean
+  isNew: boolean
+  isComingSoon: boolean
+  isEarlyVisible: boolean
+  isEarlyBookable: boolean
+  isEarlyAVP: boolean
+  cineOrder: number
+  cineSpecialOrder: null
+  cineUpcomingOrder: number
+  cineEntertainmentOrder: number
+  cineEntertainmentOrder2: number
+  specialEvent: boolean
+}
+
 export type ResponseDataCinema = {
   shows: {
-    [key: string]: {
-      // slug movie
-      days: {
-        [key: string]: {
-          bookable: boolean
-          flag: "Avant-première" | (string & {})
-        }
-      }
-      bookable: boolean
-      isBookable: boolean
-      isNew: boolean
-      isComingSoon: boolean
-      isEarlyVisible: boolean
-      isEarlyBookable: boolean
-      isEarlyAVP: boolean
-      cineOrder: number
-      cineSpecialOrder: null
-      cineUpcomingOrder: number
-      cineEntertainmentOrder: number
-      cineEntertainmentOrder2: number
-      specialEvent: boolean
-    }
+    [key: string]: ResponsePatheShow
   }
 }
 
