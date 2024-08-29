@@ -1,10 +1,5 @@
 import { backgroundImage } from "@/constants/og-image"
-<<<<<<< Updated upstream
-import { ImageResponse } from "next/og"
-import type { ImageResponseOptions } from "next/server"
-=======
 import satori, { type SatoriOptions } from "satori"
->>>>>>> Stashed changes
 
 const imageOptions: SatoriOptions = {
   width: 1_080,
@@ -16,62 +11,64 @@ export const runtime = "edge"
 
 export const GET = async (request: Request) => {
   try {
-<<<<<<< Updated upstream
-    const fontExtraLight = await fetch(
-      new URL(
-        "../../../assets/plus-jakarta-sans-extra-light.ttf",
-        import.meta.url
-      )
-    ).then((res) => res.arrayBuffer())
-    console.log("Font loaded", fontExtraLight)
+    // const loadFont = async (url: string) => {
+    //   const fontData = await fetch(new URL(url, import.meta.url))
+    //   return fontData.arrayBuffer()
+    // }
 
-    const fontNormal = await fetch(
-      new URL("../../../assets/plus-jakarta-sans-medium.ttf", import.meta.url)
-    ).then((res) => res.arrayBuffer())
-    const fontExtraBold = await fetch(
-      new URL(
-        "../../../assets/plus-jakarta-sans-extra-bold.ttf",
-        import.meta.url
-      )
+    console.log("Loading fonts", import.meta.url)
+    const manrope = await fetch(
+      new URL("../../../../assets/manrope.ttf", import.meta.url)
     ).then((res) => res.arrayBuffer())
 
-=======
-    const loadFont = async (url: string) => {
-      const fontData = await fetch(new URL(url, import.meta.url))
-      return fontData.arrayBuffer()
+    // const fontNormal = await loadFont(
+    //   "../../../../assets/plus-jakarta-sans-medium.ttf"
+    // )
+    // const fontExtraBold = await loadFont(
+    //   "../../../../assets/plus-jakarta-sans-extra-bold.ttf"
+    // )
+
+    console.log("Fonts loaded", manrope)
+
+    if (!manrope) {
+      throw new Error("Failed to load font")
     }
 
-    const fontExtraLight = await loadFont(
-      "../../../../assets/plus-jakarta-sans-extra-light.ttf"
-    )
-
-    const fontNormal = await loadFont(
-      "../../../../assets/plus-jakarta-sans-medium.ttf"
-    )
-    const fontExtraBold = await loadFont(
-      "../../../../assets/plus-jakarta-sans-extra-bold.ttf"
-    )
->>>>>>> Stashed changes
     imageOptions.fonts = [
       {
-        name: "Plus Jakarta Sans",
-        data: fontExtraLight,
+        name: "Manrope",
+        data: manrope,
         style: "normal",
-        weight: 200,
+        weight: 400,
       },
       {
-        name: "Plus Jakarta Sans",
-        data: fontNormal,
-        style: "normal",
-        weight: 500,
-      },
-      {
-        name: "Plus Jakarta Sans",
-        data: fontExtraBold,
+        name: "Manrope",
+        data: manrope,
         style: "normal",
         weight: 800,
       },
     ]
+
+    // imageOptions.fonts = [
+    //   {
+    //     name: "Plus Jakarta Sans",
+    //     data: fontExtraLight,
+    //     style: "normal",
+    //     weight: 200,
+    //   },
+    //   {
+    //     name: "Plus Jakarta Sans",
+    //     data: fontNormal,
+    //     style: "normal",
+    //     weight: 500,
+    //   },
+    //   {
+    //     name: "Plus Jakarta Sans",
+    //     data: fontExtraBold,
+    //     style: "normal",
+    //     weight: 800,
+    //   },
+    // ]
 
     const { searchParams } = new URL(request.url)
 
@@ -127,32 +124,13 @@ export const GET = async (request: Request) => {
           <img
             width="320"
             tw="rounded-lg"
-            src="https://www.ugc.fr/dynamique/films/87/16387/fr/poster/large/de768da1f5a4ed8bce86e86e870ed99c_2.jpg"
+            src="https://www.ugc.fr/dynamique/films/17/16317/fr/poster/large/86ef4fd30e03877ad59a19cd1854d9af_31.jpg"
             alt="Movie cover"
           />
-<<<<<<< Updated upstream
-          <div tw="flex items-center w-full justify-between px-12">
-            <img
-              width="320"
-              height="400"
-              tw="rounded-lg"
-              src="https://www.ugc.fr/dynamique/films/87/16387/fr/poster/large/de768da1f5a4ed8bce86e86e870ed99c_2.jpg"
-              alt="Movie cover"
-            />
-            <div tw="flex flex-col items-center">
-              <div tw="p-6 rounded-2xl bg-black/30 flex flex-col items-start text-4xl leading-loose">
-                <span tw="uppercase font-extrabold text-6xl">
-                  Avant-première
-                </span>
-                <span tw="uppercase text-5xl">Avec l'équipe du film</span>
-              </div>
-              <p tw="mt-4">Le 14/06/2024 à 19H00</p>
-=======
           <div tw="flex flex-col items-center">
             <div tw="p-6 rounded-2xl bg-black/30 flex flex-col items-start text-4xl leading-loose">
               <span tw="uppercase font-extrabold text-6xl">Avant-première</span>
               <span tw="uppercase text-5xl">Avec l'équipe du film</span>
->>>>>>> Stashed changes
             </div>
             <p tw="mt-4">Le 14/06/2024 à 19H00</p>
           </div>
@@ -181,6 +159,7 @@ export const GET = async (request: Request) => {
       imageOptions
     )
   } catch (error) {
+    console.dir(error, { depth: null })
     if (error instanceof Error) {
       console.log(`${error.message}`)
       return new Response(

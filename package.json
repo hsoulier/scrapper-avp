@@ -2,6 +2,7 @@
   "name": "scrapper-avp",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -14,6 +15,7 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "firebase": "^10.12.3",
+    "firebase-admin": "^12.4.0",
     "lucide-react": "^0.403.0",
     "next": "14.2.3",
     "react": "^18.3.1",
