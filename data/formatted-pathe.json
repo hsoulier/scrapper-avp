@@ -204,6 +204,18 @@
     "source": "pathe"
   },
   {
+    "name": "speak no evil",
+    "showId": "",
+    "movieId": "speak-no-evil-35013",
+    "cinemaName": "cinema-pathe-parnasse",
+    "dateShow": "2024-09-10T19:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/speak-no-evil-35013",
+    "linkShow": "https://s.pathe.fr/fr/V3128S138039/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "beetlejuice beetlejuice",
     "showId": "",
     "movieId": "beetlejuice-beetlejuice-35311",
@@ -249,6 +261,18 @@
     "linkShow": "https://s.pathe.fr/fr/V3010S112976/booking",
     "version": "vost",
     "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "la seance live ni chaines ni maitres",
+    "showId": "",
+    "movieId": "la-seance-live-ni-chaines-ni-maitres-42233",
+    "cinemaName": "cinema-pathe-wepler",
+    "dateShow": "2024-09-10T20:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/la-seance-live-ni-chaines-ni-maitres-42233",
+    "linkShow": "https://s.pathe.fr/fr/V3010S113047/booking",
+    "version": "vf",
+    "earlyType": "AVPE",
     "source": "pathe"
   }
 ]
