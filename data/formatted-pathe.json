@@ -1,5 +1,101 @@
 [
   {
+    "name": "en fanfare",
+    "showId": "",
+    "movieId": "en-fanfare-38955",
+    "cinemaName": "cinema-pathe-alesia",
+    "dateShow": "2024-09-21T21:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/en-fanfare-38955",
+    "linkShow": "https://s.pathe.fr/fr/V3132S72641/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "prodigieuses",
+    "showId": "",
+    "movieId": "prodigieuses-37066",
+    "cinemaName": "cinema-pathe-alesia",
+    "dateShow": "2024-09-23T19:45:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/prodigieuses-37066",
+    "linkShow": "https://s.pathe.fr/fr/V3132S72644/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "a toute allure",
+    "showId": "",
+    "movieId": "a-toute-allure-35334",
+    "cinemaName": "cinema-pathe-alesia",
+    "dateShow": "2024-09-19T20:15:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/a-toute-allure-35334",
+    "linkShow": "https://s.pathe.fr/fr/V3132S72639/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "trois amies",
+    "showId": "",
+    "movieId": "trois-amies-39058",
+    "cinemaName": "cinema-pathe-alesia",
+    "dateShow": "2024-09-22T17:45:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/trois-amies-39058",
+    "linkShow": "https://s.pathe.fr/fr/V3132S72643/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "angelo dans la foret mysterieuse",
+    "showId": "",
+    "movieId": "angelo-dans-la-foret-mysterieuse-36935",
+    "cinemaName": "cinema-pathe-alesia",
+    "dateShow": "2024-09-22T15:50:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/angelo-dans-la-foret-mysterieuse-36935",
+    "linkShow": "https://s.pathe.fr/fr/V3132S72642/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "challenger",
+    "showId": "",
+    "movieId": "challenger-37290",
+    "cinemaName": "cinema-pathe-alesia",
+    "dateShow": "2024-09-20T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/challenger-37290",
+    "linkShow": "https://s.pathe.fr/fr/V3132S72640/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "quand vient l automne",
+    "showId": "",
+    "movieId": "quand-vient-l-automne-39055",
+    "cinemaName": "cinema-pathe-alesia",
+    "dateShow": "2024-09-18T20:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/quand-vient-l-automne-39055",
+    "linkShow": "https://s.pathe.fr/fr/V3132S72638/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "emmanuelle",
+    "showId": "",
+    "movieId": "emmanuelle-39111",
+    "cinemaName": "cinema-pathe-alesia",
+    "dateShow": "2024-09-24T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/emmanuelle-39111",
+    "linkShow": "https://s.pathe.fr/fr/V3132S72645/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "beetlejuice beetlejuice",
     "showId": "",
     "movieId": "beetlejuice-beetlejuice-35311",
@@ -201,6 +297,18 @@
     "linkShow": "https://s.pathe.fr/fr/V3143S54580/booking",
     "version": "vost",
     "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "we blew it",
+    "showId": "",
+    "movieId": "we-blew-it-42242",
+    "cinemaName": "cinema-pathe-les-fauvettes",
+    "dateShow": "2024-09-04T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/we-blew-it-42242",
+    "linkShow": "https://s.pathe.fr/fr/V3143S54923/booking",
+    "version": "vost",
+    "earlyType": "AVPE",
     "source": "pathe"
   },
   {
