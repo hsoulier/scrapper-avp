@@ -588,6 +588,30 @@
     "source": "pathe"
   },
   {
+    "name": "la seance live anora",
+    "showId": "",
+    "movieId": "la-seance-live-anora-42235",
+    "cinemaName": "cinema-pathe-wepler",
+    "dateShow": "2024-09-19T19:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/la-seance-live-anora-42235",
+    "linkShow": "https://s.pathe.fr/fr/V3010S113464/booking",
+    "version": "vost",
+    "earlyType": "AVPE",
+    "source": "pathe"
+  },
+  {
+    "name": "la seance live les barbares",
+    "showId": "",
+    "movieId": "la-seance-live-les-barbares-42246",
+    "cinemaName": "cinema-pathe-wepler",
+    "dateShow": "2024-09-18T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/la-seance-live-les-barbares-42246",
+    "linkShow": "https://s.pathe.fr/fr/V3010S113465/booking",
+    "version": "vf",
+    "earlyType": "AVPE",
+    "source": "pathe"
+  },
+  {
     "name": "la seance live megalopolis",
     "showId": "",
     "movieId": "la-seance-live-megalopolis-42234",
