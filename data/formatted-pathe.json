@@ -192,6 +192,30 @@
     "source": "pathe"
   },
   {
+    "name": "les rendez vous de l anime look back",
+    "showId": "",
+    "movieId": "les-rendez-vous-de-l-anime-look-back-42305",
+    "cinemaName": "cinema-les-7-batignolles",
+    "dateShow": "2024-09-21T14:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/les-rendez-vous-de-l-anime-look-back-42305",
+    "linkShow": "https://s.pathe.fr/fr/V3017S26725/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "c est le monde a l envers",
+    "showId": "",
+    "movieId": "c-est-le-monde-a-l-envers-35178",
+    "cinemaName": "cinema-pathe-beaugrenelle",
+    "dateShow": "2024-10-01T19:45:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/c-est-le-monde-a-l-envers-35178",
+    "linkShow": "https://s.pathe.fr/fr/V3166S94452/booking",
+    "version": "vf",
+    "earlyType": "AVPE",
+    "source": "pathe"
+  },
+  {
     "name": "en fanfare",
     "showId": "",
     "movieId": "en-fanfare-38955",
@@ -285,18 +309,6 @@
     "linkShow": "https://s.pathe.fr/fr/V3136S90049/booking",
     "version": "vost",
     "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "les barbares",
-    "showId": "",
-    "movieId": "les-barbares-38584",
-    "cinemaName": "cinema-pathe-convention",
-    "dateShow": "2024-09-12T20:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/les-barbares-38584",
-    "linkShow": "https://s.pathe.fr/fr/V3136S89294/booking",
-    "version": "vf",
-    "earlyType": "AVPE",
     "source": "pathe"
   },
   {
@@ -588,13 +600,97 @@
     "source": "pathe"
   },
   {
-    "name": "veronique sanson hasta luego le concert au cinema",
+    "name": "en fanfare",
     "showId": "",
-    "movieId": "veronique-sanson-hasta-luego-le-concert-au-cinema-39001",
+    "movieId": "en-fanfare-38955",
+    "cinemaName": "cinema-pathe-wepler",
+    "dateShow": "2024-09-21T19:50:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/en-fanfare-38955",
+    "linkShow": "https://s.pathe.fr/fr/V3010S113862/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "prodigieuses",
+    "showId": "",
+    "movieId": "prodigieuses-37066",
+    "cinemaName": "cinema-pathe-wepler",
+    "dateShow": "2024-09-23T19:50:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/prodigieuses-37066",
+    "linkShow": "https://s.pathe.fr/fr/V3010S113865/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "a toute allure",
+    "showId": "",
+    "movieId": "a-toute-allure-35334",
+    "cinemaName": "cinema-pathe-wepler",
+    "dateShow": "2024-09-19T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/a-toute-allure-35334",
+    "linkShow": "https://s.pathe.fr/fr/V3010S113860/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "trois amies",
+    "showId": "",
+    "movieId": "trois-amies-39058",
+    "cinemaName": "cinema-pathe-wepler",
+    "dateShow": "2024-09-22T18:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/trois-amies-39058",
+    "linkShow": "https://s.pathe.fr/fr/V3010S113864/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "challenger",
+    "showId": "",
+    "movieId": "challenger-37290",
+    "cinemaName": "cinema-pathe-wepler",
+    "dateShow": "2024-09-20T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/challenger-37290",
+    "linkShow": "https://s.pathe.fr/fr/V3010S113861/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "quand vient l automne",
+    "showId": "",
+    "movieId": "quand-vient-l-automne-39055",
+    "cinemaName": "cinema-pathe-wepler",
+    "dateShow": "2024-09-18T19:45:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/quand-vient-l-automne-39055",
+    "linkShow": "https://s.pathe.fr/fr/V3010S113859/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "veronique sanson hasta luego le concert au cin",
+    "showId": "",
+    "movieId": "veronique-sanson-hasta-luego-le-concert-au-cin-39001",
     "cinemaName": "cinema-pathe-wepler",
     "dateShow": "2024-09-26T20:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/veronique-sanson-hasta-luego-le-concert-au-cinema-39001",
+    "linkMovie": "https://www.pathe.fr/films/veronique-sanson-hasta-luego-le-concert-au-cin-39001",
     "linkShow": "https://s.pathe.fr/fr/V3010S104099/booking",
+    "version": "vf",
+    "earlyType": "AVPE",
+    "source": "pathe"
+  },
+  {
+    "name": "la seance live emmanuelle",
+    "showId": "",
+    "movieId": "la-seance-live-emmanuelle-42332",
+    "cinemaName": "cinema-pathe-wepler",
+    "dateShow": "2024-09-24T20:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/la-seance-live-emmanuelle-42332",
+    "linkShow": "https://s.pathe.fr/fr/V3010S113866/booking",
     "version": "vf",
     "earlyType": "AVPE",
     "source": "pathe"
@@ -620,18 +716,6 @@
     "linkMovie": "https://www.pathe.fr/films/la-seance-live-les-barbares-42246",
     "linkShow": "https://s.pathe.fr/fr/V3010S113465/booking",
     "version": "vf",
-    "earlyType": "AVPE",
-    "source": "pathe"
-  },
-  {
-    "name": "la seance live megalopolis",
-    "showId": "",
-    "movieId": "la-seance-live-megalopolis-42234",
-    "cinemaName": "cinema-pathe-wepler",
-    "dateShow": "2024-09-17T19:45:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/la-seance-live-megalopolis-42234",
-    "linkShow": "https://s.pathe.fr/fr/V3010S113471/booking",
-    "version": "vost",
     "earlyType": "AVPE",
     "source": "pathe"
   }
