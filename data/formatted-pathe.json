@@ -400,6 +400,18 @@
     "showId": "",
     "movieId": "quand-vient-l-automne-39055",
     "cinemaName": "cinema-pathe-convention",
+    "dateShow": "2024-09-18T19:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/quand-vient-l-automne-39055",
+    "linkShow": "https://s.pathe.fr/fr/V3136S90041/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "quand vient l automne",
+    "showId": "",
+    "movieId": "quand-vient-l-automne-39055",
+    "cinemaName": "cinema-pathe-convention",
     "dateShow": "2024-10-01T19:10:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/quand-vient-l-automne-39055",
     "linkShow": "https://s.pathe.fr/fr/V3136S89293/booking",
