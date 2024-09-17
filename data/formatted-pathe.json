@@ -132,6 +132,18 @@
     "source": "pathe"
   },
   {
+    "name": "trois amies",
+    "showId": "",
+    "movieId": "trois-amies-39058",
+    "cinemaName": "cinema-les-7-batignolles",
+    "dateShow": "2024-09-22T18:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/trois-amies-39058",
+    "linkShow": "https://s.pathe.fr/fr/V3017S27368/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "angelo dans la foret mysterieuse",
     "showId": "",
     "movieId": "angelo-dans-la-foret-mysterieuse-36935",
@@ -247,18 +259,6 @@
     "dateShow": "2024-09-22T18:00:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/trois-amies-39058",
     "linkShow": "https://s.pathe.fr/fr/V3166S96818/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "angelo dans la foret mysterieuse",
-    "showId": "",
-    "movieId": "angelo-dans-la-foret-mysterieuse-36935",
-    "cinemaName": "cinema-pathe-beaugrenelle",
-    "dateShow": "2024-09-22T16:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/angelo-dans-la-foret-mysterieuse-36935",
-    "linkShow": "https://s.pathe.fr/fr/V3166S96811/booking",
     "version": "vf",
     "earlyType": "AVP",
     "source": "pathe"
@@ -504,6 +504,18 @@
     "source": "pathe"
   },
   {
+    "name": "croquette le chat merveilleux",
+    "showId": "",
+    "movieId": "croquette-le-chat-merveilleux-40221",
+    "cinemaName": "cinema-pathe-la-villette",
+    "dateShow": "2024-10-13T14:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/croquette-le-chat-merveilleux-40221",
+    "linkShow": "https://s.pathe.fr/fr/V3168S122137/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "quand vient l automne",
     "showId": "",
     "movieId": "quand-vient-l-automne-39055",
@@ -636,6 +648,18 @@
     "source": "pathe"
   },
   {
+    "name": "angelo dans la foret mysterieuse",
+    "showId": "",
+    "movieId": "angelo-dans-la-foret-mysterieuse-36935",
+    "cinemaName": "cinema-pathe-montparnos",
+    "dateShow": "2024-09-23T15:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/angelo-dans-la-foret-mysterieuse-36935",
+    "linkShow": "https://s.pathe.fr/fr/V3127S20096/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "en fanfare",
     "showId": "",
     "movieId": "en-fanfare-38955",
@@ -679,18 +703,6 @@
     "dateShow": "2024-09-22T18:00:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/trois-amies-39058",
     "linkShow": "https://s.pathe.fr/fr/V3128S139038/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "angelo dans la foret mysterieuse",
-    "showId": "",
-    "movieId": "angelo-dans-la-foret-mysterieuse-36935",
-    "cinemaName": "cinema-pathe-parnasse",
-    "dateShow": "2024-09-22T14:30:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/angelo-dans-la-foret-mysterieuse-36935",
-    "linkShow": "https://s.pathe.fr/fr/V3128S139037/booking",
     "version": "vf",
     "earlyType": "AVP",
     "source": "pathe"
@@ -787,6 +799,18 @@
     "dateShow": "2024-09-22T18:00:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/trois-amies-39058",
     "linkShow": "https://s.pathe.fr/fr/V3010S113864/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "angelo dans la foret mysterieuse",
+    "showId": "",
+    "movieId": "angelo-dans-la-foret-mysterieuse-36935",
+    "cinemaName": "cinema-pathe-wepler",
+    "dateShow": "2024-09-22T14:10:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/angelo-dans-la-foret-mysterieuse-36935",
+    "linkShow": "https://s.pathe.fr/fr/V3010S113863/booking",
     "version": "vf",
     "earlyType": "AVP",
     "source": "pathe"
