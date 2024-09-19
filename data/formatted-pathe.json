@@ -1,5 +1,29 @@
 [
   {
+    "name": "le robot sauvage",
+    "showId": "",
+    "movieId": "le-robot-sauvage-37764",
+    "cinemaName": "cinema-pathe-alesia",
+    "dateShow": "2024-09-29T14:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/le-robot-sauvage-37764",
+    "linkShow": "https://s.pathe.fr/fr/V3132S72135/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "le robot sauvage",
+    "showId": "",
+    "movieId": "le-robot-sauvage-37764",
+    "cinemaName": "cinema-pathe-alesia",
+    "dateShow": "2024-10-06T14:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/le-robot-sauvage-37764",
+    "linkShow": "https://s.pathe.fr/fr/V3132S72140/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "l amour ouf avant premiere debat retransmis en direct",
     "showId": "",
     "movieId": "l-amour-ouf-avant-premiere-debat-retransmis-en-direct-42223",
@@ -24,6 +48,30 @@
     "source": "pathe"
   },
   {
+    "name": "le robot sauvage",
+    "showId": "",
+    "movieId": "le-robot-sauvage-37764",
+    "cinemaName": "cinema-pathe-beaugrenelle",
+    "dateShow": "2024-09-29T18:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/le-robot-sauvage-37764",
+    "linkShow": "https://s.pathe.fr/fr/V3166S96802/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "le robot sauvage",
+    "showId": "",
+    "movieId": "le-robot-sauvage-37764",
+    "cinemaName": "cinema-pathe-beaugrenelle",
+    "dateShow": "2024-10-06T14:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/le-robot-sauvage-37764",
+    "linkShow": "https://s.pathe.fr/fr/V3166S96803/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "l amour ouf avant premiere debat retransmis en direct",
     "showId": "",
     "movieId": "l-amour-ouf-avant-premiere-debat-retransmis-en-direct-42223",
@@ -36,13 +84,25 @@
     "source": "pathe"
   },
   {
-    "name": "quand vient l automne",
+    "name": "le robot sauvage",
     "showId": "",
-    "movieId": "quand-vient-l-automne-39055",
+    "movieId": "le-robot-sauvage-37764",
     "cinemaName": "cinema-pathe-convention",
-    "dateShow": "2024-09-18T19:30:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/quand-vient-l-automne-39055",
-    "linkShow": "https://s.pathe.fr/fr/V3136S90041/booking",
+    "dateShow": "2024-09-29T11:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/le-robot-sauvage-37764",
+    "linkShow": "https://s.pathe.fr/fr/V3136S89295/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "le robot sauvage",
+    "showId": "",
+    "movieId": "le-robot-sauvage-37764",
+    "cinemaName": "cinema-pathe-convention",
+    "dateShow": "2024-10-06T14:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/le-robot-sauvage-37764",
+    "linkShow": "https://s.pathe.fr/fr/V3136S89296/booking",
     "version": "vf",
     "earlyType": "AVP",
     "source": "pathe"
@@ -91,6 +151,30 @@
     "dateShow": "2024-10-13T16:00:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/l-amour-ouf-avant-premiere-debat-retransmis-en-direct-42223",
     "linkShow": "https://s.pathe.fr/fr/V3128S139032/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "le robot sauvage",
+    "showId": "",
+    "movieId": "le-robot-sauvage-37764",
+    "cinemaName": "cinema-pathe-parnasse",
+    "dateShow": "2024-09-29T11:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/le-robot-sauvage-37764",
+    "linkShow": "https://s.pathe.fr/fr/V3128S138037/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "le robot sauvage",
+    "showId": "",
+    "movieId": "le-robot-sauvage-37764",
+    "cinemaName": "cinema-pathe-parnasse",
+    "dateShow": "2024-10-06T15:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/le-robot-sauvage-37764",
+    "linkShow": "https://s.pathe.fr/fr/V3128S138038/booking",
     "version": "vf",
     "earlyType": "AVP",
     "source": "pathe"
