@@ -132,6 +132,30 @@
     "source": "pathe"
   },
   {
+    "name": "le robot sauvage",
+    "showId": "",
+    "movieId": "le-robot-sauvage-37764",
+    "cinemaName": "cinema-pathe-la-villette",
+    "dateShow": "2024-09-29T14:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/le-robot-sauvage-37764",
+    "linkShow": "https://s.pathe.fr/fr/V3168S121636/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "le robot sauvage",
+    "showId": "",
+    "movieId": "le-robot-sauvage-37764",
+    "cinemaName": "cinema-pathe-la-villette",
+    "dateShow": "2024-10-06T14:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/le-robot-sauvage-37764",
+    "linkShow": "https://s.pathe.fr/fr/V3168S121637/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "l amour ouf avant premiere debat retransmis en direct",
     "showId": "",
     "movieId": "l-amour-ouf-avant-premiere-debat-retransmis-en-direct-42223",
