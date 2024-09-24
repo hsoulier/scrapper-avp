@@ -1,5 +1,17 @@
 [
   {
+    "name": "il etait une fois black swan",
+    "showId": "",
+    "movieId": "il-etait-une-fois-black-swan-42248",
+    "cinemaName": "cinema-pathe-alesia",
+    "dateShow": "2024-10-03T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/il-etait-une-fois-black-swan-42248",
+    "linkShow": "https://s.pathe.fr/fr/V3132S74206/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "le robot sauvage",
     "showId": "",
     "movieId": "le-robot-sauvage-37764",
@@ -24,6 +36,18 @@
     "source": "pathe"
   },
   {
+    "name": "il etait une fois black swan",
+    "showId": "",
+    "movieId": "il-etait-une-fois-black-swan-42248",
+    "cinemaName": "cinema-les-7-batignolles",
+    "dateShow": "2024-10-03T19:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/il-etait-une-fois-black-swan-42248",
+    "linkShow": "https://s.pathe.fr/fr/V3017S27618/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "l amour ouf avant premiere debat retransmis en direct",
     "showId": "",
     "movieId": "l-amour-ouf-avant-premiere-debat-retransmis-en-direct-42223",
@@ -31,6 +55,18 @@
     "dateShow": "2024-10-13T16:00:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/l-amour-ouf-avant-premiere-debat-retransmis-en-direct-42223",
     "linkShow": "https://s.pathe.fr/fr/V3017S26497/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "le robot sauvage",
+    "showId": "",
+    "movieId": "le-robot-sauvage-37764",
+    "cinemaName": "cinema-les-7-batignolles",
+    "dateShow": "2024-09-29T16:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/le-robot-sauvage-37764",
+    "linkShow": "https://s.pathe.fr/fr/V3017S26240/booking",
     "version": "vf",
     "earlyType": "AVP",
     "source": "pathe"
@@ -108,6 +144,18 @@
     "source": "pathe"
   },
   {
+    "name": "all we imagine as light",
+    "showId": "",
+    "movieId": "all-we-imagine-as-light-38862",
+    "cinemaName": "cinema-pathe-convention",
+    "dateShow": "2024-09-30T19:15:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/all-we-imagine-as-light-38862",
+    "linkShow": "https://s.pathe.fr/fr/V3136S91174/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "quand vient l automne",
     "showId": "",
     "movieId": "quand-vient-l-automne-39055",
@@ -168,6 +216,30 @@
     "source": "pathe"
   },
   {
+    "name": "il etait une fois the grand budapest hotel",
+    "showId": "",
+    "movieId": "il-etait-une-fois-the-grand-budapest-hotel-42035",
+    "cinemaName": "cinema-pathe-les-fauvettes",
+    "dateShow": "2024-10-09T20:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/il-etait-une-fois-the-grand-budapest-hotel-42035",
+    "linkShow": "https://s.pathe.fr/fr/V3143S55430/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "le robot sauvage",
+    "showId": "",
+    "movieId": "le-robot-sauvage-37764",
+    "cinemaName": "cinema-pathe-les-fauvettes",
+    "dateShow": "2024-09-29T14:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/le-robot-sauvage-37764",
+    "linkShow": "https://s.pathe.fr/fr/V3143S55561/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "l amour ouf avant premiere debat retransmis en direct",
     "showId": "",
     "movieId": "l-amour-ouf-avant-premiere-debat-retransmis-en-direct-42223",
@@ -199,6 +271,18 @@
     "dateShow": "2024-10-06T15:00:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/le-robot-sauvage-37764",
     "linkShow": "https://s.pathe.fr/fr/V3128S138038/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "le robot sauvage",
+    "showId": "",
+    "movieId": "le-robot-sauvage-37764",
+    "cinemaName": "cinema-pathe-wepler",
+    "dateShow": "2024-09-29T14:20:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/le-robot-sauvage-37764",
+    "linkShow": "https://s.pathe.fr/fr/V3010S114806/booking",
     "version": "vf",
     "earlyType": "AVP",
     "source": "pathe"
