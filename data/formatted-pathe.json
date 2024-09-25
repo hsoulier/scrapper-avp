@@ -36,18 +36,6 @@
     "source": "pathe"
   },
   {
-    "name": "il etait une fois black swan",
-    "showId": "",
-    "movieId": "il-etait-une-fois-black-swan-42248",
-    "cinemaName": "cinema-les-7-batignolles",
-    "dateShow": "2024-10-03T19:30:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/il-etait-une-fois-black-swan-42248",
-    "linkShow": "https://s.pathe.fr/fr/V3017S27618/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
     "name": "l amour ouf avant premiere debat retransmis en direct",
     "showId": "",
     "movieId": "l-amour-ouf-avant-premiere-debat-retransmis-en-direct-42223",
@@ -57,30 +45,6 @@
     "linkShow": "https://s.pathe.fr/fr/V3017S26497/booking",
     "version": "vf",
     "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "le robot sauvage",
-    "showId": "",
-    "movieId": "le-robot-sauvage-37764",
-    "cinemaName": "cinema-les-7-batignolles",
-    "dateShow": "2024-09-29T16:30:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/le-robot-sauvage-37764",
-    "linkShow": "https://s.pathe.fr/fr/V3017S26240/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "c est le monde a l envers",
-    "showId": "",
-    "movieId": "c-est-le-monde-a-l-envers-35178",
-    "cinemaName": "cinema-pathe-beaugrenelle",
-    "dateShow": "2024-10-01T19:45:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/c-est-le-monde-a-l-envers-35178",
-    "linkShow": "https://s.pathe.fr/fr/V3166S94452/booking",
-    "version": "vf",
-    "earlyType": "AVPE",
     "source": "pathe"
   },
   {
@@ -104,6 +68,30 @@
     "linkMovie": "https://www.pathe.fr/films/le-robot-sauvage-37764",
     "linkShow": "https://s.pathe.fr/fr/V3166S96803/booking",
     "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "il etait une fois black swan",
+    "showId": "",
+    "movieId": "il-etait-une-fois-black-swan-42248",
+    "cinemaName": "cinema-pathe-convention",
+    "dateShow": "2024-10-03T21:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/il-etait-une-fois-black-swan-42248",
+    "linkShow": "https://s.pathe.fr/fr/V3136S91225/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "la seance cine hits the full monty",
+    "showId": "",
+    "movieId": "la-seance-cine-hits-the-full-monty-42034",
+    "cinemaName": "cinema-pathe-convention",
+    "dateShow": "2024-10-16T19:45:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/la-seance-cine-hits-the-full-monty-42034",
+    "linkShow": "https://s.pathe.fr/fr/V3136S91227/booking",
+    "version": "vost",
     "earlyType": "AVP",
     "source": "pathe"
   },
@@ -144,27 +132,15 @@
     "source": "pathe"
   },
   {
-    "name": "all we imagine as light",
+    "name": "il etait une fois black swan",
     "showId": "",
-    "movieId": "all-we-imagine-as-light-38862",
-    "cinemaName": "cinema-pathe-convention",
-    "dateShow": "2024-09-30T19:15:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/all-we-imagine-as-light-38862",
-    "linkShow": "https://s.pathe.fr/fr/V3136S91174/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "quand vient l automne",
-    "showId": "",
-    "movieId": "quand-vient-l-automne-39055",
-    "cinemaName": "cinema-pathe-convention",
-    "dateShow": "2024-10-01T19:10:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/quand-vient-l-automne-39055",
-    "linkShow": "https://s.pathe.fr/fr/V3136S89293/booking",
+    "movieId": "il-etait-une-fois-black-swan-42248",
+    "cinemaName": "cinema-pathe-la-villette",
+    "dateShow": "2024-10-03T19:45:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/il-etait-une-fois-black-swan-42248",
+    "linkShow": "https://s.pathe.fr/fr/V3168S122666/booking",
     "version": "vf",
-    "earlyType": "AVPE",
+    "earlyType": "AVP",
     "source": "pathe"
   },
   {
@@ -228,14 +204,14 @@
     "source": "pathe"
   },
   {
-    "name": "le robot sauvage",
+    "name": "il etait une fois black swan",
     "showId": "",
-    "movieId": "le-robot-sauvage-37764",
-    "cinemaName": "cinema-pathe-les-fauvettes",
-    "dateShow": "2024-09-29T14:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/le-robot-sauvage-37764",
-    "linkShow": "https://s.pathe.fr/fr/V3143S55561/booking",
-    "version": "vf",
+    "movieId": "il-etait-une-fois-black-swan-42248",
+    "cinemaName": "cinema-pathe-parnasse",
+    "dateShow": "2024-10-03T21:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/il-etait-une-fois-black-swan-42248",
+    "linkShow": "https://s.pathe.fr/fr/V3128S140686/booking",
+    "version": "vost",
     "earlyType": "AVP",
     "source": "pathe"
   },
@@ -273,30 +249,6 @@
     "linkShow": "https://s.pathe.fr/fr/V3128S138038/booking",
     "version": "vf",
     "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "le robot sauvage",
-    "showId": "",
-    "movieId": "le-robot-sauvage-37764",
-    "cinemaName": "cinema-pathe-wepler",
-    "dateShow": "2024-09-29T14:20:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/le-robot-sauvage-37764",
-    "linkShow": "https://s.pathe.fr/fr/V3010S114806/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "veronique sanson hasta luego le concert au cin",
-    "showId": "",
-    "movieId": "veronique-sanson-hasta-luego-le-concert-au-cin-39001",
-    "cinemaName": "cinema-pathe-wepler",
-    "dateShow": "2024-09-26T20:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/veronique-sanson-hasta-luego-le-concert-au-cin-39001",
-    "linkShow": "https://s.pathe.fr/fr/V3010S104099/booking",
-    "version": "vf",
-    "earlyType": "AVPE",
     "source": "pathe"
   }
 ]
