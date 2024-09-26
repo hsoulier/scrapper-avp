@@ -1,17 +1,5 @@
 [
   {
-    "name": "il etait une fois black swan",
-    "showId": "",
-    "movieId": "il-etait-une-fois-black-swan-42248",
-    "cinemaName": "cinema-pathe-alesia",
-    "dateShow": "2024-10-03T20:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/il-etait-une-fois-black-swan-42248",
-    "linkShow": "https://s.pathe.fr/fr/V3132S74206/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
     "name": "le robot sauvage",
     "showId": "",
     "movieId": "le-robot-sauvage-37764",
@@ -48,6 +36,18 @@
     "source": "pathe"
   },
   {
+    "name": "croquette le chat merveilleux",
+    "showId": "",
+    "movieId": "croquette-le-chat-merveilleux-40221",
+    "cinemaName": "cinema-pathe-beaugrenelle",
+    "dateShow": "2024-10-13T10:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/croquette-le-chat-merveilleux-40221",
+    "linkShow": "https://s.pathe.fr/fr/V3166S98124/booking",
+    "version": "vf",
+    "earlyType": "AVPE",
+    "source": "pathe"
+  },
+  {
     "name": "le robot sauvage",
     "showId": "",
     "movieId": "le-robot-sauvage-37764",
@@ -68,18 +68,6 @@
     "linkMovie": "https://www.pathe.fr/films/le-robot-sauvage-37764",
     "linkShow": "https://s.pathe.fr/fr/V3166S96803/booking",
     "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "il etait une fois black swan",
-    "showId": "",
-    "movieId": "il-etait-une-fois-black-swan-42248",
-    "cinemaName": "cinema-pathe-convention",
-    "dateShow": "2024-10-03T21:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/il-etait-une-fois-black-swan-42248",
-    "linkShow": "https://s.pathe.fr/fr/V3136S91225/booking",
-    "version": "vost",
     "earlyType": "AVP",
     "source": "pathe"
   },
@@ -127,18 +115,6 @@
     "dateShow": "2024-10-06T14:00:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/le-robot-sauvage-37764",
     "linkShow": "https://s.pathe.fr/fr/V3136S89296/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "il etait une fois black swan",
-    "showId": "",
-    "movieId": "il-etait-une-fois-black-swan-42248",
-    "cinemaName": "cinema-pathe-la-villette",
-    "dateShow": "2024-10-03T19:45:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/il-etait-une-fois-black-swan-42248",
-    "linkShow": "https://s.pathe.fr/fr/V3168S122666/booking",
     "version": "vf",
     "earlyType": "AVP",
     "source": "pathe"
@@ -192,6 +168,18 @@
     "source": "pathe"
   },
   {
+    "name": "la seance cine hits little miss sunshine",
+    "showId": "",
+    "movieId": "la-seance-cine-hits-little-miss-sunshine-42032",
+    "cinemaName": "cinema-pathe-les-fauvettes",
+    "dateShow": "2024-10-03T20:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/la-seance-cine-hits-little-miss-sunshine-42032",
+    "linkShow": "https://s.pathe.fr/fr/V3143S55429/booking",
+    "version": "vost",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "il etait une fois the grand budapest hotel",
     "showId": "",
     "movieId": "il-etait-une-fois-the-grand-budapest-hotel-42035",
@@ -199,18 +187,6 @@
     "dateShow": "2024-10-09T20:30:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/il-etait-une-fois-the-grand-budapest-hotel-42035",
     "linkShow": "https://s.pathe.fr/fr/V3143S55430/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "il etait une fois black swan",
-    "showId": "",
-    "movieId": "il-etait-une-fois-black-swan-42248",
-    "cinemaName": "cinema-pathe-parnasse",
-    "dateShow": "2024-10-03T21:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/il-etait-une-fois-black-swan-42248",
-    "linkShow": "https://s.pathe.fr/fr/V3128S140686/booking",
     "version": "vost",
     "earlyType": "AVP",
     "source": "pathe"
