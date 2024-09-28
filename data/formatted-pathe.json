@@ -84,6 +84,18 @@
     "source": "pathe"
   },
   {
+    "name": "sauvages",
+    "showId": "",
+    "movieId": "sauvages-36513",
+    "cinemaName": "cinema-pathe-convention",
+    "dateShow": "2024-10-13T15:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/sauvages-36513",
+    "linkShow": "https://s.pathe.fr/fr/V3136S91280/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "l amour ouf avant premiere debat retransmis en direct",
     "showId": "",
     "movieId": "l-amour-ouf-avant-premiere-debat-retransmis-en-direct-42223",
@@ -117,6 +129,30 @@
     "linkShow": "https://s.pathe.fr/fr/V3136S89296/booking",
     "version": "vf",
     "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "l histoire de souleymane",
+    "showId": "",
+    "movieId": "l-histoire-de-souleymane-38927",
+    "cinemaName": "cinema-pathe-convention",
+    "dateShow": "2024-10-07T19:15:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/l-histoire-de-souleymane-38927",
+    "linkShow": "https://s.pathe.fr/fr/V3136S91281/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "niki",
+    "showId": "",
+    "movieId": "niki-39046",
+    "cinemaName": "cinema-pathe-convention",
+    "dateShow": "2024-10-09T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/niki-39046",
+    "linkShow": "https://s.pathe.fr/fr/V3136S91279/booking",
+    "version": "vf",
+    "earlyType": "AVPE",
     "source": "pathe"
   },
   {
@@ -156,6 +192,18 @@
     "source": "pathe"
   },
   {
+    "name": "l histoire de souleymane",
+    "showId": "",
+    "movieId": "l-histoire-de-souleymane-38927",
+    "cinemaName": "cinema-pathe-la-villette",
+    "dateShow": "2024-10-08T19:45:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/l-histoire-de-souleymane-38927",
+    "linkShow": "https://s.pathe.fr/fr/V3168S122672/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "l amour ouf avant premiere debat retransmis en direct",
     "showId": "",
     "movieId": "l-amour-ouf-avant-premiere-debat-retransmis-en-direct-42223",
@@ -168,26 +216,38 @@
     "source": "pathe"
   },
   {
-    "name": "la seance cine hits little miss sunshine",
+    "name": "le robot sauvage",
     "showId": "",
-    "movieId": "la-seance-cine-hits-little-miss-sunshine-42032",
+    "movieId": "le-robot-sauvage-37764",
     "cinemaName": "cinema-pathe-les-fauvettes",
-    "dateShow": "2024-10-03T20:30:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/la-seance-cine-hits-little-miss-sunshine-42032",
-    "linkShow": "https://s.pathe.fr/fr/V3143S55429/booking",
-    "version": "vost",
+    "dateShow": "2024-09-29T14:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/le-robot-sauvage-37764",
+    "linkShow": "https://s.pathe.fr/fr/V3143S55561/booking",
+    "version": "vf",
     "earlyType": "AVP",
     "source": "pathe"
   },
   {
-    "name": "il etait une fois the grand budapest hotel",
+    "name": "le robot sauvage",
     "showId": "",
-    "movieId": "il-etait-une-fois-the-grand-budapest-hotel-42035",
+    "movieId": "le-robot-sauvage-37764",
     "cinemaName": "cinema-pathe-les-fauvettes",
-    "dateShow": "2024-10-09T20:30:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/il-etait-une-fois-the-grand-budapest-hotel-42035",
-    "linkShow": "https://s.pathe.fr/fr/V3143S55430/booking",
-    "version": "vost",
+    "dateShow": "2024-10-06T16:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/le-robot-sauvage-37764",
+    "linkShow": "https://s.pathe.fr/fr/V3143S55606/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "l histoire de souleymane",
+    "showId": "",
+    "movieId": "l-histoire-de-souleymane-38927",
+    "cinemaName": "cinema-pathe-montparnos",
+    "dateShow": "2024-10-08T19:45:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/l-histoire-de-souleymane-38927",
+    "linkShow": "https://s.pathe.fr/fr/V3127S20277/booking",
+    "version": "vf",
     "earlyType": "AVP",
     "source": "pathe"
   },
