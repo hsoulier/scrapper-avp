@@ -4,9 +4,9 @@
     "showId": "",
     "movieId": "le-robot-sauvage-37764",
     "cinemaName": "cinema-pathe-alesia",
-    "dateShow": "2024-10-06T14:00:00.000Z",
+    "dateShow": "2024-10-06T11:00:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/le-robot-sauvage-37764",
-    "linkShow": "https://s.pathe.fr/fr/V3132S72140/booking",
+    "linkShow": "https://s.pathe.fr/fr/V3132S73022/booking",
     "version": "vf",
     "earlyType": "AVP",
     "source": "pathe"
@@ -19,6 +19,18 @@
     "dateShow": "2024-10-13T16:00:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/l-amour-ouf-avant-premiere-debat-retransmis-en-direct-42223",
     "linkShow": "https://s.pathe.fr/fr/V3017S26497/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "le robot sauvage",
+    "showId": "",
+    "movieId": "le-robot-sauvage-37764",
+    "cinemaName": "cinema-les-7-batignolles",
+    "dateShow": "2024-10-06T10:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/le-robot-sauvage-37764",
+    "linkShow": "https://s.pathe.fr/fr/V3017S26726/booking",
     "version": "vf",
     "earlyType": "AVP",
     "source": "pathe"
@@ -40,10 +52,10 @@
     "showId": "",
     "movieId": "le-robot-sauvage-37764",
     "cinemaName": "cinema-pathe-beaugrenelle",
-    "dateShow": "2024-10-06T14:00:00.000Z",
+    "dateShow": "2024-10-06T11:05:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/le-robot-sauvage-37764",
-    "linkShow": "https://s.pathe.fr/fr/V3166S96803/booking",
-    "version": "vf",
+    "linkShow": "https://s.pathe.fr/fr/V3166S99039/booking",
+    "version": "vost",
     "earlyType": "AVP",
     "source": "pathe"
   },
@@ -211,6 +223,18 @@
     "dateShow": "2024-10-06T15:00:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/le-robot-sauvage-37764",
     "linkShow": "https://s.pathe.fr/fr/V3128S138038/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "le robot sauvage",
+    "showId": "",
+    "movieId": "le-robot-sauvage-37764",
+    "cinemaName": "cinema-pathe-wepler",
+    "dateShow": "2024-10-06T10:10:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/le-robot-sauvage-37764",
+    "linkShow": "https://s.pathe.fr/fr/V3010S115585/booking",
     "version": "vf",
     "earlyType": "AVP",
     "source": "pathe"
