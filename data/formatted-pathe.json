@@ -1,17 +1,5 @@
 [
   {
-    "name": "le robot sauvage",
-    "showId": "",
-    "movieId": "le-robot-sauvage-37764",
-    "cinemaName": "cinema-pathe-alesia",
-    "dateShow": "2024-10-06T11:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/le-robot-sauvage-37764",
-    "linkShow": "https://s.pathe.fr/fr/V3132S73022/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
     "name": "l amour ouf avant premiere debat retransmis en direct",
     "showId": "",
     "movieId": "l-amour-ouf-avant-premiere-debat-retransmis-en-direct-42223",
@@ -19,18 +7,6 @@
     "dateShow": "2024-10-13T16:00:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/l-amour-ouf-avant-premiere-debat-retransmis-en-direct-42223",
     "linkShow": "https://s.pathe.fr/fr/V3017S26497/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "le robot sauvage",
-    "showId": "",
-    "movieId": "le-robot-sauvage-37764",
-    "cinemaName": "cinema-les-7-batignolles",
-    "dateShow": "2024-10-06T10:30:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/le-robot-sauvage-37764",
-    "linkShow": "https://s.pathe.fr/fr/V3017S26726/booking",
     "version": "vf",
     "earlyType": "AVP",
     "source": "pathe"
@@ -45,18 +21,6 @@
     "linkShow": "https://s.pathe.fr/fr/V3166S98124/booking",
     "version": "vf",
     "earlyType": "AVPE",
-    "source": "pathe"
-  },
-  {
-    "name": "le robot sauvage",
-    "showId": "",
-    "movieId": "le-robot-sauvage-37764",
-    "cinemaName": "cinema-pathe-beaugrenelle",
-    "dateShow": "2024-10-06T11:05:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/le-robot-sauvage-37764",
-    "linkShow": "https://s.pathe.fr/fr/V3166S99039/booking",
-    "version": "vost",
-    "earlyType": "AVP",
     "source": "pathe"
   },
   {
@@ -96,30 +60,6 @@
     "source": "pathe"
   },
   {
-    "name": "le robot sauvage",
-    "showId": "",
-    "movieId": "le-robot-sauvage-37764",
-    "cinemaName": "cinema-pathe-convention",
-    "dateShow": "2024-10-06T14:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/le-robot-sauvage-37764",
-    "linkShow": "https://s.pathe.fr/fr/V3136S89296/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "l histoire de souleymane",
-    "showId": "",
-    "movieId": "l-histoire-de-souleymane-38927",
-    "cinemaName": "cinema-pathe-convention",
-    "dateShow": "2024-10-07T19:15:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/l-histoire-de-souleymane-38927",
-    "linkShow": "https://s.pathe.fr/fr/V3136S91281/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
     "name": "niki",
     "showId": "",
     "movieId": "niki-39046",
@@ -144,30 +84,6 @@
     "source": "pathe"
   },
   {
-    "name": "le robot sauvage",
-    "showId": "",
-    "movieId": "le-robot-sauvage-37764",
-    "cinemaName": "cinema-pathe-la-villette",
-    "dateShow": "2024-10-06T14:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/le-robot-sauvage-37764",
-    "linkShow": "https://s.pathe.fr/fr/V3168S121637/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "l histoire de souleymane",
-    "showId": "",
-    "movieId": "l-histoire-de-souleymane-38927",
-    "cinemaName": "cinema-pathe-la-villette",
-    "dateShow": "2024-10-08T19:45:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/l-histoire-de-souleymane-38927",
-    "linkShow": "https://s.pathe.fr/fr/V3168S122672/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
     "name": "l amour ouf avant premiere debat retransmis en direct",
     "showId": "",
     "movieId": "l-amour-ouf-avant-premiere-debat-retransmis-en-direct-42223",
@@ -180,30 +96,6 @@
     "source": "pathe"
   },
   {
-    "name": "le robot sauvage",
-    "showId": "",
-    "movieId": "le-robot-sauvage-37764",
-    "cinemaName": "cinema-pathe-les-fauvettes",
-    "dateShow": "2024-10-06T16:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/le-robot-sauvage-37764",
-    "linkShow": "https://s.pathe.fr/fr/V3143S55606/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "l histoire de souleymane",
-    "showId": "",
-    "movieId": "l-histoire-de-souleymane-38927",
-    "cinemaName": "cinema-pathe-montparnos",
-    "dateShow": "2024-10-08T19:45:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/l-histoire-de-souleymane-38927",
-    "linkShow": "https://s.pathe.fr/fr/V3127S20277/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
     "name": "l amour ouf avant premiere debat retransmis en direct",
     "showId": "",
     "movieId": "l-amour-ouf-avant-premiere-debat-retransmis-en-direct-42223",
@@ -211,30 +103,6 @@
     "dateShow": "2024-10-13T16:00:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/l-amour-ouf-avant-premiere-debat-retransmis-en-direct-42223",
     "linkShow": "https://s.pathe.fr/fr/V3128S139032/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "le robot sauvage",
-    "showId": "",
-    "movieId": "le-robot-sauvage-37764",
-    "cinemaName": "cinema-pathe-parnasse",
-    "dateShow": "2024-10-06T15:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/le-robot-sauvage-37764",
-    "linkShow": "https://s.pathe.fr/fr/V3128S138038/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "le robot sauvage",
-    "showId": "",
-    "movieId": "le-robot-sauvage-37764",
-    "cinemaName": "cinema-pathe-wepler",
-    "dateShow": "2024-10-06T10:10:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/le-robot-sauvage-37764",
-    "linkShow": "https://s.pathe.fr/fr/V3010S115585/booking",
     "version": "vf",
     "earlyType": "AVP",
     "source": "pathe"
