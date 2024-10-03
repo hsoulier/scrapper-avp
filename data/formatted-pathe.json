@@ -1,5 +1,17 @@
 [
   {
+    "name": "seance tenante monsieur aznavour",
+    "showId": "",
+    "movieId": "seance-tenante-monsieur-aznavour-42664",
+    "cinemaName": "cinema-pathe-alesia",
+    "dateShow": "2024-10-16T19:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/seance-tenante-monsieur-aznavour-42664",
+    "linkShow": "https://s.pathe.fr/fr/V3132S74547/booking",
+    "version": "vf",
+    "earlyType": "AVPE",
+    "source": "pathe"
+  },
+  {
     "name": "l amour ouf avant premiere debat retransmis en direct",
     "showId": "",
     "movieId": "l-amour-ouf-avant-premiere-debat-retransmis-en-direct-42223",
