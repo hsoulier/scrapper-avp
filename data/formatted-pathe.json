@@ -12,6 +12,18 @@
     "source": "pathe"
   },
   {
+    "name": "sauvages",
+    "showId": "",
+    "movieId": "sauvages-36513",
+    "cinemaName": "cinema-les-7-batignolles",
+    "dateShow": "2024-10-13T10:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/sauvages-36513",
+    "linkShow": "https://s.pathe.fr/fr/V3017S27888/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "l amour ouf avant premiere debat retransmis en direct",
     "showId": "",
     "movieId": "l-amour-ouf-avant-premiere-debat-retransmis-en-direct-42223",
@@ -33,18 +45,6 @@
     "linkShow": "https://s.pathe.fr/fr/V3166S98124/booking",
     "version": "vf",
     "earlyType": "AVPE",
-    "source": "pathe"
-  },
-  {
-    "name": "la seance cine hits the full monty",
-    "showId": "",
-    "movieId": "la-seance-cine-hits-the-full-monty-42034",
-    "cinemaName": "cinema-pathe-convention",
-    "dateShow": "2024-10-16T19:45:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/la-seance-cine-hits-the-full-monty-42034",
-    "linkShow": "https://s.pathe.fr/fr/V3136S91227/booking",
-    "version": "vost",
-    "earlyType": "AVP",
     "source": "pathe"
   },
   {
@@ -91,6 +91,18 @@
     "dateShow": "2024-10-13T14:00:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/croquette-le-chat-merveilleux-40221",
     "linkShow": "https://s.pathe.fr/fr/V3168S122137/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "sauvages",
+    "showId": "",
+    "movieId": "sauvages-36513",
+    "cinemaName": "cinema-pathe-la-villette",
+    "dateShow": "2024-10-13T14:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/sauvages-36513",
+    "linkShow": "https://s.pathe.fr/fr/V3168S123187/booking",
     "version": "vf",
     "earlyType": "AVP",
     "source": "pathe"
