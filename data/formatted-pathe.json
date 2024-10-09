@@ -36,42 +36,6 @@
     "source": "pathe"
   },
   {
-    "name": "l amour ouf avant premiere debat retransmis en direct",
-    "showId": "",
-    "movieId": "l-amour-ouf-avant-premiere-debat-retransmis-en-direct-42223",
-    "cinemaName": "cinema-pathe-alesia",
-    "dateShow": "2024-10-13T16:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/l-amour-ouf-avant-premiere-debat-retransmis-en-direct-42223",
-    "linkShow": "https://s.pathe.fr/fr/V3132S72637/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "sauvages",
-    "showId": "",
-    "movieId": "sauvages-36513",
-    "cinemaName": "cinema-les-7-batignolles",
-    "dateShow": "2024-10-13T10:30:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/sauvages-36513",
-    "linkShow": "https://s.pathe.fr/fr/V3017S27888/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "l amour ouf avant premiere debat retransmis en direct",
-    "showId": "",
-    "movieId": "l-amour-ouf-avant-premiere-debat-retransmis-en-direct-42223",
-    "cinemaName": "cinema-les-7-batignolles",
-    "dateShow": "2024-10-13T16:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/l-amour-ouf-avant-premiere-debat-retransmis-en-direct-42223",
-    "linkShow": "https://s.pathe.fr/fr/V3017S26497/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
     "name": "venom the last dance",
     "showId": "",
     "movieId": "venom-the-last-dance-38422",
@@ -96,18 +60,6 @@
     "source": "pathe"
   },
   {
-    "name": "croquette le chat merveilleux",
-    "showId": "",
-    "movieId": "croquette-le-chat-merveilleux-40221",
-    "cinemaName": "cinema-pathe-beaugrenelle",
-    "dateShow": "2024-10-13T10:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/croquette-le-chat-merveilleux-40221",
-    "linkShow": "https://s.pathe.fr/fr/V3166S98124/booking",
-    "version": "vf",
-    "earlyType": "AVPE",
-    "source": "pathe"
-  },
-  {
     "name": "dedicace avec xavier dolan suivie d une rencontre et projection de mommy",
     "showId": "",
     "movieId": "dedicace-avec-xavier-dolan-suivie-d-une-rencontre-et-projection-de-mommy-42698",
@@ -120,39 +72,15 @@
     "source": "pathe"
   },
   {
-    "name": "sauvages",
+    "name": "une nuit au zoo",
     "showId": "",
-    "movieId": "sauvages-36513",
-    "cinemaName": "cinema-pathe-convention",
-    "dateShow": "2024-10-13T15:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/sauvages-36513",
-    "linkShow": "https://s.pathe.fr/fr/V3136S91280/booking",
+    "movieId": "une-nuit-au-zoo-39043",
+    "cinemaName": "cinema-pathe-la-villette",
+    "dateShow": "2024-10-31T14:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/une-nuit-au-zoo-39043",
+    "linkShow": "https://s.pathe.fr/fr/V3168S123688/booking",
     "version": "vf",
     "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "l amour ouf avant premiere debat retransmis en direct",
-    "showId": "",
-    "movieId": "l-amour-ouf-avant-premiere-debat-retransmis-en-direct-42223",
-    "cinemaName": "cinema-pathe-convention",
-    "dateShow": "2024-10-13T16:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/l-amour-ouf-avant-premiere-debat-retransmis-en-direct-42223",
-    "linkShow": "https://s.pathe.fr/fr/V3136S90015/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "niki",
-    "showId": "",
-    "movieId": "niki-39046",
-    "cinemaName": "cinema-pathe-convention",
-    "dateShow": "2024-10-09T10:05:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/niki-39046",
-    "linkShow": "https://s.pathe.fr/fr/V3136S91743/booking",
-    "version": "vf",
-    "earlyType": "AVPE",
     "source": "pathe"
   },
   {
@@ -180,90 +108,6 @@
     "source": "pathe"
   },
   {
-    "name": "croquette le chat merveilleux",
-    "showId": "",
-    "movieId": "croquette-le-chat-merveilleux-40221",
-    "cinemaName": "cinema-pathe-la-villette",
-    "dateShow": "2024-10-13T14:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/croquette-le-chat-merveilleux-40221",
-    "linkShow": "https://s.pathe.fr/fr/V3168S122137/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "sauvages",
-    "showId": "",
-    "movieId": "sauvages-36513",
-    "cinemaName": "cinema-pathe-la-villette",
-    "dateShow": "2024-10-13T15:50:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/sauvages-36513",
-    "linkShow": "https://s.pathe.fr/fr/V3168S123683/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "l amour ouf avant premiere debat retransmis en direct",
-    "showId": "",
-    "movieId": "l-amour-ouf-avant-premiere-debat-retransmis-en-direct-42223",
-    "cinemaName": "cinema-pathe-les-fauvettes",
-    "dateShow": "2024-10-13T16:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/l-amour-ouf-avant-premiere-debat-retransmis-en-direct-42223",
-    "linkShow": "https://s.pathe.fr/fr/V3143S55016/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "il etait une fois the grand budapest hotel",
-    "showId": "",
-    "movieId": "il-etait-une-fois-the-grand-budapest-hotel-42035",
-    "cinemaName": "cinema-pathe-les-fauvettes",
-    "dateShow": "2024-10-09T10:30:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/il-etait-une-fois-the-grand-budapest-hotel-42035",
-    "linkShow": "https://s.pathe.fr/fr/V3143S55817/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "sauvages",
-    "showId": "",
-    "movieId": "sauvages-36513",
-    "cinemaName": "cinema-pathe-montparnos",
-    "dateShow": "2024-10-13T14:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/sauvages-36513",
-    "linkShow": "https://s.pathe.fr/fr/V3127S20460/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "transformers le commencement",
-    "showId": "",
-    "movieId": "transformers-le-commencement-13712",
-    "cinemaName": "cinema-pathe-parnasse",
-    "dateShow": "2024-10-13T11:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/transformers-le-commencement-13712",
-    "linkShow": "https://s.pathe.fr/fr/V3128S141677/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "l amour ouf avant premiere debat retransmis en direct",
-    "showId": "",
-    "movieId": "l-amour-ouf-avant-premiere-debat-retransmis-en-direct-42223",
-    "cinemaName": "cinema-pathe-parnasse",
-    "dateShow": "2024-10-13T16:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/l-amour-ouf-avant-premiere-debat-retransmis-en-direct-42223",
-    "linkShow": "https://s.pathe.fr/fr/V3128S139032/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
     "name": "venom the last dance",
     "showId": "",
     "movieId": "venom-the-last-dance-38422",
@@ -273,18 +117,6 @@
     "linkShow": "https://s.pathe.fr/fr/V3010S115813/booking",
     "version": "vost",
     "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "l amour ouf avant premiere debat retransmis en direct",
-    "showId": "",
-    "movieId": "l-amour-ouf-avant-premiere-debat-retransmis-en-direct-42223",
-    "cinemaName": "cinema-pathe-wepler",
-    "dateShow": "2024-10-13T16:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/l-amour-ouf-avant-premiere-debat-retransmis-en-direct-42223",
-    "linkShow": "https://s.pathe.fr/fr/V3010S114804/booking",
-    "version": "vf",
-    "earlyType": "AVPE",
     "source": "pathe"
   }
 ]
