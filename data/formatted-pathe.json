@@ -60,15 +60,27 @@
     "source": "pathe"
   },
   {
-    "name": "trois amies",
+    "name": "la seance live trois amies",
     "showId": "",
-    "movieId": "trois-amies-39058",
+    "movieId": "la-seance-live-trois-amies-42835",
     "cinemaName": "cinema-pathe-convention",
     "dateShow": "2024-11-05T19:35:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/trois-amies-39058",
+    "linkMovie": "https://www.pathe.fr/films/la-seance-live-trois-amies-42835",
     "linkShow": "https://s.pathe.fr/fr/V3136S91660/booking",
     "version": "vf",
     "earlyType": "AVPE",
+    "source": "pathe"
+  },
+  {
+    "name": "avant premiere debat 3 kilometres jusqu a la fin du monde",
+    "showId": "",
+    "movieId": "avant-premiere-debat-3-kilometres-jusqu-a-la-fin-du-monde-42808",
+    "cinemaName": "cinema-pathe-convention",
+    "dateShow": "2024-10-22T19:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/avant-premiere-debat-3-kilometres-jusqu-a-la-fin-du-monde-42808",
+    "linkShow": "https://s.pathe.fr/fr/V3136S92149/booking",
+    "version": "vost",
+    "earlyType": "AVP",
     "source": "pathe"
   },
   {
@@ -79,7 +91,7 @@
     "dateShow": "2024-10-20T14:30:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/dedicace-avec-xavier-dolan-suivie-d-une-rencontre-et-projection-de-mommy-42698",
     "linkShow": "https://s.pathe.fr/fr/V3136S91224/booking",
-    "version": "vf",
+    "version": "vost",
     "earlyType": "AVPE",
     "source": "pathe"
   },
