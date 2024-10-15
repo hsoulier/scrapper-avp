@@ -1,35 +1,93 @@
-import { db } from "@/lib/firebase.admin"
+import Image from "next/image"
 
-const Home = async () => {
-  try {
-    const docs = await db.collection("movies").get()
-
-    const shows = docs.docs.map((doc) => ({
-      ...doc.data(),
-      id: doc.id,
-    })) as any[]
-
-    return (
-      <main className="grid grid-cols-[repeat(auto-fit,_minmax(400px,_1fr))] gap-4 container mt-4">
-        {shows.map((show) => (
-          <section key={show.id}>
-            <img
-              src={show?.posterPath?.lg || ""}
-              alt=""
-              className="rounded-md border border-gray-100 w-full"
-            />
-            <h1 className="mx-1 font-semibold mb-1 mt-4">
-              {show.originalTitle}
-            </h1>
-            <p>{show.synopsis}</p>
-          </section>
-        ))}
-      </main>
-    )
-  } catch (error) {
-    console.error(error)
-    return <div>Error</div>
-  }
+const films = [
+  {
+    title: "Film",
+    cover:
+      "https://m.media-amazon.com/images/I/71XlZvKMwoL._AC_UF1000,1000_QL80_.jpg",
+    date: new Date(),
+  },
+  {
+    title: "Film",
+    cover:
+      "https://m.media-amazon.com/images/I/71XlZvKMwoL._AC_UF1000,1000_QL80_.jpg",
+    date: new Date(),
+  },
+  {
+    title: "Film",
+    cover:
+      "https://m.media-amazon.com/images/I/71XlZvKMwoL._AC_UF1000,1000_QL80_.jpg",
+    date: new Date(),
+  },
+  {
+    title: "Film",
+    cover:
+      "https://m.media-amazon.com/images/I/71XlZvKMwoL._AC_UF1000,1000_QL80_.jpg",
+    date: new Date(),
+  },
+  {
+    title: "Film",
+    cover:
+      "https://m.media-amazon.com/images/I/71XlZvKMwoL._AC_UF1000,1000_QL80_.jpg",
+    date: new Date(),
+  },
+  {
+    title: "Film",
+    cover:
+      "https://m.media-amazon.com/images/I/71XlZvKMwoL._AC_UF1000,1000_QL80_.jpg",
+    date: new Date(),
+  },
+  {
+    title: "Film",
+    cover:
+      "https://m.media-amazon.com/images/I/71XlZvKMwoL._AC_UF1000,1000_QL80_.jpg",
+    date: new Date(),
+  },
+  {
+    title: "Film",
+    cover:
+      "https://m.media-amazon.com/images/I/71XlZvKMwoL._AC_UF1000,1000_QL80_.jpg",
+    date: new Date(),
+  },
+  {
+    title: "Film",
+    cover:
+      "https://m.media-amazon.com/images/I/71XlZvKMwoL._AC_UF1000,1000_QL80_.jpg",
+    date: new Date(),
+  },
+  {
+    title: "Film",
+    cover:
+      "https://m.media-amazon.com/images/I/71XlZvKMwoL._AC_UF1000,1000_QL80_.jpg",
+    date: new Date(),
+  },
+]
+export default function MusicPage() {
+  return (
+    <>
+      <section>
+        <h1 className="text-4xl font-bold mb-8">Films récents</h1>
+        <div className="grid grid-cols-[repeat(auto-fit,_minmax(200px,1fr))] gap-y-6 gap-x-4">
+          {films.map((film) => (
+            <article key={film.title} className="space-y-4">
+              <img
+                src={film.cover}
+                alt={`Cover du film ${film.title}`}
+                className="w-full h-64 object-cover rounded"
+              />
+              <div className="flex flex-col">
+                <h2 className="font-semibold text-xl">{film.title}</h2>
+                <time
+                  className="text-foreground/70 text-sm"
+                  dateTime={film.date.toISOString()}
+                >
+                  {film.date.toLocaleDateString()}
+                </time>
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
+    </>
+  )
 }
-
-export default Home
