@@ -20,4 +20,4 @@ function getApp() {
 
 const firebaseApp = getApp()
 
-export const db = getFirestore(firebaseApp, "avp-movies")
+export const dbAdmin = getFirestore(firebaseApp, "avp-movies")
