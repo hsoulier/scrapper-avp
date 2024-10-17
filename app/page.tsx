@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 const films = [
   {
@@ -68,8 +69,8 @@ export default function MusicPage() {
       <section>
         <h1 className="text-4xl font-bold mb-8">Films récents</h1>
         <div className="grid grid-cols-[repeat(auto-fit,_minmax(200px,1fr))] gap-y-6 gap-x-4">
-          {films.map((film) => (
-            <article key={film.title} className="space-y-4">
+          {films.map((film, index) => (
+            <Link href={`?seance=${index}`} key={index} className="space-y-4">
               <img
                 src={film.cover}
                 alt={`Cover du film ${film.title}`}
@@ -84,7 +85,7 @@ export default function MusicPage() {
                   {film.date.toLocaleDateString()}
                 </time>
               </div>
-            </article>
+            </Link>
           ))}
         </div>
       </section>
