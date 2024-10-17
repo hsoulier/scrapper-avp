@@ -4,6 +4,7 @@ import "./globals.css"
 import { cn } from "@/lib/utils"
 import Link from "next/link"
 import { Input } from "@/components/ui/input"
+import { Seance } from "@/components/seance"
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" })
 
@@ -35,6 +36,7 @@ export default function RootLayout({
         <main className="col-span-3 lg:col-span-4 lg:border-l p-4">
           {children}
         </main>
+        <Seance />
       </body>
     </html>
   )
