@@ -48,6 +48,18 @@
     "source": "pathe"
   },
   {
+    "name": "finalement",
+    "showId": "",
+    "movieId": "finalement-39057",
+    "cinemaName": "cinema-pathe-convention",
+    "dateShow": "2024-11-19T20:00:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/finalement-39057",
+    "linkShow": "https://s.pathe.fr/fr/V3136S91658/booking",
+    "version": "vf",
+    "earlyType": "AVPE",
+    "source": "pathe"
+  },
+  {
     "name": "la seance live trois amies",
     "showId": "",
     "movieId": "la-seance-live-trois-amies-42835",
@@ -55,6 +67,18 @@
     "dateShow": "2024-11-05T19:35:00.000Z",
     "linkMovie": "https://www.pathe.fr/films/la-seance-live-trois-amies-42835",
     "linkShow": "https://s.pathe.fr/fr/V3136S91660/booking",
+    "version": "vf",
+    "earlyType": "AVPE",
+    "source": "pathe"
+  },
+  {
+    "name": "vermines",
+    "showId": "",
+    "movieId": "vermines-35429",
+    "cinemaName": "cinema-pathe-convention",
+    "dateShow": "2024-10-31T20:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/vermines-35429",
+    "linkShow": "https://s.pathe.fr/fr/V3136S92643/booking",
     "version": "vf",
     "earlyType": "AVPE",
     "source": "pathe"
@@ -92,6 +116,18 @@
     "linkMovie": "https://www.pathe.fr/films/venom-the-last-dance-38422",
     "linkShow": "https://s.pathe.fr/fr/V3168S123192/booking",
     "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "venom the last dance",
+    "showId": "",
+    "movieId": "venom-the-last-dance-38422",
+    "cinemaName": "cinema-pathe-wepler",
+    "dateShow": "2024-10-25T19:45:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/venom-the-last-dance-38422",
+    "linkShow": "https://s.pathe.fr/fr/V3010S115810/booking",
+    "version": "vost",
     "earlyType": "AVP",
     "source": "pathe"
   },
