@@ -1892,18 +1892,18 @@
         }
       },
       {
-        "title": "Les vendredi de l'horreur-The Substance-Présentée par l'équipe de Chaos Reign",
-        "subtitle": "Les vendredi de l'horreur-The Substance-Présentée par l'équipe de Chaos Reign",
-        "dateType": "exact",
-        "date": "2024-11-01T21:00:00",
+        "title": "Les Vendredis de l'Horreur",
+        "subtitle": "Les Vendredis de l'Horreur : The Substance",
+        "dateType": "exactWithoutHours",
+        "date": "2024-11-01T20:00:00",
         "endDate": null,
-        "ctaLabel": "Réservez dès maintenant !",
+        "ctaLabel": "Réservez vos places",
         "ctaBlank": false,
-        "slideUrl": "https://www.pathe.fr/evenements/les-vendredis-de-l-horreur-the-substance-42247/filters/date-2024-11-01",
-        "backdropPath": "https://media.pathe.fr/movie/mx/42247/md/49/media?20241023123826",
+        "slideUrl": "https://www.pathe.fr/evenements/les-vendredis-de-l-horreur-the-substance-42247",
+        "backdropPath": "https://media.pathe.fr/slide/common/backdrop/146597/9oydz5gdoil8h67e3ccv3ohtmm2.jpg",
         "contentTag": {
-          "title": "Évènement",
-          "color": "#34bd9e"
+          "title": "Rendez-vous",
+          "color": "#f6035e"
         }
       }
     ],
@@ -4806,5 +4806,82 @@
     "cinemaWeekStart": 2,
     "premium": false,
     "cinemaPremium": null
+  },
+  {
+    "slug": "ugc-ciné-cité-les-halles",
+    "name": "UGC Ciné Cité Les Halles",
+    "address": "Forum des Halles - Niveau -3  75001 PARIS",
+    "link": "https://www.ugc.fr/cinema-ugc-cine-cite-les-halles.html",
+    "source": "ugc"
+  },
+  {
+    "slug": "ugc-ciné-cité-maillot",
+    "name": "UGC Ciné Cité Maillot",
+    "address": "2, place de la Porte Maillot - Palais des Congrès - Niveau -1  75017 PARIS",
+    "link": "https://www.ugc.fr/cinema-ugc-cine-cite-maillot.html",
+    "source": "ugc"
+  },
+  {
+    "slug": "ugc-montparnasse",
+    "name": "UGC Montparnasse",
+    "address": "83, boulevard du Montparnasse  75006 PARIS",
+    "link": "https://www.ugc.fr/cinema-ugc-montparnasse.html",
+    "source": "ugc"
+  },
+  {
+    "slug": "ugc-rotonde",
+    "name": "UGC Rotonde",
+    "address": "103, boulevard du Montparnasse  75006 PARIS",
+    "link": "https://www.ugc.fr/cinema-ugc-rotonde.html",
+    "source": "ugc"
+  },
+  {
+    "slug": "ugc-odéon",
+    "name": "UGC Odéon",
+    "address": "124, boulevard Saint-Germain  75006 PARIS",
+    "link": "https://www.ugc.fr/cinema-ugc-odeon.html",
+    "source": "ugc"
+  },
+  {
+    "slug": "ugc-danton",
+    "name": "UGC Danton",
+    "address": "99, boulevard Saint-Germain  75006 PARIS",
+    "link": "https://www.ugc.fr/cinema-ugc-danton.html",
+    "source": "ugc"
+  },
+  {
+    "slug": "ugc-ciné-cité-bercy",
+    "name": "UGC Ciné Cité Bercy",
+    "address": "2, cour Saint Emilion  75012 PARIS",
+    "link": "https://www.ugc.fr/cinema-ugc-cine-cite-bercy.html",
+    "source": "ugc"
+  },
+  {
+    "slug": "ugc-lyon-bastille",
+    "name": "UGC Lyon Bastille",
+    "address": "12, rue de Lyon  75012 PARIS",
+    "link": "https://www.ugc.fr/cinema-ugc-lyon-bastille.html",
+    "source": "ugc"
+  },
+  {
+    "slug": "ugc-gobelins",
+    "name": "UGC Gobelins",
+    "address": "66 bis, avenue des Gobelins  75013 PARIS",
+    "link": "https://www.ugc.fr/cinema-ugc-gobelins.html",
+    "source": "ugc"
+  },
+  {
+    "slug": "ugc-opéra",
+    "name": "UGC Opéra",
+    "address": "32, boulevard des Italiens  75009 PARIS",
+    "link": "https://www.ugc.fr/cinema-ugc-opera.html",
+    "source": "ugc"
+  },
+  {
+    "slug": "ugc-ciné-cité-paris-19",
+    "name": "UGC Ciné Cité Paris 19",
+    "address": "166, Boulevard Macdonald  75019 PARIS",
+    "link": "https://www.ugc.fr/cinema-ugc-cine-cite-paris-19.html",
+    "source": "ugc"
   }
 ]

@@ -27,9 +27,9 @@ type Show = (typeof shows)[number]
 cinemaInfo.find((cinema) => cinema.slug === shows[0]?.cinemaName)
 
 const Line = ({ show }: { show: Show }) => {
-  const cinema = cinemaInfo.find(
-    (cinema) => cinema.slug === shows[0]?.cinemaName
-  )
+  const cinema = cinemaInfo.find((c) => c.slug === show?.cinemaName)
+
+  console.log({ cinema })
 
   if (!cinema) return null
 
@@ -118,7 +118,7 @@ export const MoviePopup = () => {
       <DialogContent className="max-h-[50vh] overflow-y-auto">
         <DialogHeader>
           <DialogTitle className="flex items-center gap-1 text-xl">
-            Seances de {shows[0].name}
+            Seances de {shows[0].title}
           </DialogTitle>
           <DialogDescription asChild>
             <div className="flex flex-col gap-1">

@@ -75,18 +75,23 @@ const getCinemaShows = async (cinema) => {
     const resMovie = await fetch(`https://www.pathe.fr/api/show/${show.slug}`)
     const dataMovie = await resMovie.json()
 
+    // console.log("dataShow -------------------------")
+    // console.dir(dataMovie, { depth: null })
+    // console.log("------------------------------------")
+
     const formattedShow = {
       name: show.title,
-      showId: dataShow.refCmd.split("/").at(-2),
-      movieId: show.slug,
-      cinemaName: cinema,
-      cover: dataMovie.posterPath.lg,
-      dateShow: new Date(dataShow.time),
-      linkMovie: show.movieLink,
-      linkShow: dataShow.refCmd,
-      version: dataShow.version,
-      earlyType: show.AVPType,
+      title: dataMovie.title,
       source: "pathe",
+      showId: dataShow.refCmd.split("/").at(-2),
+      linkShow: dataShow.refCmd,
+      earlyType: show.AVPType,
+      movieId: show.slug,
+      linkMovie: show.movieLink,
+      cinemaName: cinema,
+      version: dataShow.version,
+      dateShow: new Date(dataShow.time),
+      cover: dataMovie.posterPath.lg,
     }
 
     if (previewsList.has(show.slug)) {
@@ -107,7 +112,7 @@ const getCinemaShows = async (cinema) => {
 //   return parisTheaters
 // }
 
-const scrapPathe = async () => {
+export const scrapPathe = async () => {
   console.log("🚀 Pathé scrapping started")
   console.log("------------------------------------")
   for (const cinema of CINEMAS) {
@@ -131,7 +136,7 @@ const scrapPathe = async () => {
   // console.dir(Object.fromEntries(previewsList), { depth: null })
 }
 
-const getCinemaInfo = async () => {
+export const getPatheTheaters = async () => {
   const info = []
   for (const cinema of CINEMAS) {
     console.log("🥷 Fetched cinema shows -> ", cinema)
@@ -144,6 +149,3 @@ const getCinemaInfo = async () => {
 
   writeFileSync("./public/cinema-info.json", JSON.stringify(info, null, 2))
 }
-
-// scrapPathe()
-getCinemaInfo()
