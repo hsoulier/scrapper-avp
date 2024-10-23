@@ -1,65 +1,5 @@
 [
   {
-    "name": "venom the last dance",
-    "showId": "",
-    "movieId": "venom-the-last-dance-38422",
-    "cinemaName": "cinema-pathe-alesia",
-    "dateShow": "2024-10-25T19:45:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/venom-the-last-dance-38422",
-    "linkShow": "https://s.pathe.fr/fr/V3132S74616/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "venom the last dance",
-    "showId": "",
-    "movieId": "venom-the-last-dance-38422",
-    "cinemaName": "cinema-pathe-alesia",
-    "dateShow": "2024-10-29T20:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/venom-the-last-dance-38422",
-    "linkShow": "https://s.pathe.fr/fr/V3132S74623/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "flow le chat qui n avait plus peur de l eau",
-    "showId": "",
-    "movieId": "flow-le-chat-qui-n-avait-plus-peur-de-l-eau-39044",
-    "cinemaName": "cinema-les-7-batignolles",
-    "dateShow": "2024-10-27T15:30:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/flow-le-chat-qui-n-avait-plus-peur-de-l-eau-39044",
-    "linkShow": "https://s.pathe.fr/fr/V3017S28672/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "venom the last dance",
-    "showId": "",
-    "movieId": "venom-the-last-dance-38422",
-    "cinemaName": "cinema-pathe-beaugrenelle",
-    "dateShow": "2024-10-25T19:45:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/venom-the-last-dance-38422",
-    "linkShow": "https://s.pathe.fr/fr/V3166S99179/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "venom the last dance",
-    "showId": "",
-    "movieId": "venom-the-last-dance-38422",
-    "cinemaName": "cinema-pathe-beaugrenelle",
-    "dateShow": "2024-10-29T19:15:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/venom-the-last-dance-38422",
-    "linkShow": "https://s.pathe.fr/fr/V3166S99181/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
     "name": "la seance live finalement",
     "showId": "",
     "movieId": "la-seance-live-finalement-42836",
@@ -96,18 +36,6 @@
     "source": "pathe"
   },
   {
-    "name": "flow le chat qui n avait plus peur de l eau",
-    "showId": "",
-    "movieId": "flow-le-chat-qui-n-avait-plus-peur-de-l-eau-39044",
-    "cinemaName": "cinema-pathe-convention",
-    "dateShow": "2024-10-27T15:40:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/flow-le-chat-qui-n-avait-plus-peur-de-l-eau-39044",
-    "linkShow": "https://s.pathe.fr/fr/V3136S93036/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
     "name": "une nuit au zoo",
     "showId": "",
     "movieId": "une-nuit-au-zoo-39043",
@@ -116,90 +44,6 @@
     "linkMovie": "https://www.pathe.fr/films/une-nuit-au-zoo-39043",
     "linkShow": "https://s.pathe.fr/fr/V3168S123688/booking",
     "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "venom the last dance",
-    "showId": "",
-    "movieId": "venom-the-last-dance-38422",
-    "cinemaName": "cinema-pathe-la-villette",
-    "dateShow": "2024-10-25T19:15:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/venom-the-last-dance-38422",
-    "linkShow": "https://s.pathe.fr/fr/V3168S123188/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "venom the last dance",
-    "showId": "",
-    "movieId": "venom-the-last-dance-38422",
-    "cinemaName": "cinema-pathe-la-villette",
-    "dateShow": "2024-10-29T09:55:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/venom-the-last-dance-38422",
-    "linkShow": "https://s.pathe.fr/fr/V3168S123190/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "flow le chat qui n avait plus peur de l eau",
-    "showId": "",
-    "movieId": "flow-le-chat-qui-n-avait-plus-peur-de-l-eau-39044",
-    "cinemaName": "cinema-pathe-montparnos",
-    "dateShow": "2024-10-27T11:00:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/flow-le-chat-qui-n-avait-plus-peur-de-l-eau-39044",
-    "linkShow": "https://s.pathe.fr/fr/V3127S21150/booking",
-    "version": "vf",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "venom the last dance",
-    "showId": "",
-    "movieId": "venom-the-last-dance-38422",
-    "cinemaName": "cinema-pathe-parnasse",
-    "dateShow": "2024-10-25T22:45:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/venom-the-last-dance-38422",
-    "linkShow": "https://s.pathe.fr/fr/V3128S143599/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "venom the last dance",
-    "showId": "",
-    "movieId": "venom-the-last-dance-38422",
-    "cinemaName": "cinema-pathe-parnasse",
-    "dateShow": "2024-10-29T19:15:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/venom-the-last-dance-38422",
-    "linkShow": "https://s.pathe.fr/fr/V3128S141307/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "venom the last dance",
-    "showId": "",
-    "movieId": "venom-the-last-dance-38422",
-    "cinemaName": "cinema-pathe-wepler",
-    "dateShow": "2024-10-25T19:45:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/venom-the-last-dance-38422",
-    "linkShow": "https://s.pathe.fr/fr/V3010S115810/booking",
-    "version": "vost",
-    "earlyType": "AVP",
-    "source": "pathe"
-  },
-  {
-    "name": "venom the last dance",
-    "showId": "",
-    "movieId": "venom-the-last-dance-38422",
-    "cinemaName": "cinema-pathe-wepler",
-    "dateShow": "2024-10-29T19:30:00.000Z",
-    "linkMovie": "https://www.pathe.fr/films/venom-the-last-dance-38422",
-    "linkShow": "https://s.pathe.fr/fr/V3010S117779/booking",
-    "version": "vost",
     "earlyType": "AVP",
     "source": "pathe"
   }
