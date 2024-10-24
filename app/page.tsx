@@ -1,5 +1,6 @@
 import Link from "next/link"
 import movies from "@/public/database.json"
+import { Card } from "@/components/card"
 
 export default function Page() {
   const shows = movies.reduce((acc, movie) => {
@@ -17,39 +18,9 @@ export default function Page() {
         Films récents ({showsArray.length})
       </h1>
       <section className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-6 gap-x-4">
-        {showsArray.map((film) => {
-          const isLiveShow = film.title?.startsWith("La Séance live")
-          return (
-            <Link
-              href={`?movie=${film.movieId}`}
-              key={film.showId}
-              className="space-y-4"
-            >
-              <img
-                src={film?.cover}
-                alt={`Cover du film ${film.title}`}
-                className="w-full h-64 object-cover rounded"
-              />
-              <div className="flex flex-col">
-                <h2 className="font-semibold text-xl">
-                  {isLiveShow ? film.title.split(":")[1] : film.title}
-                </h2>
-                <time
-                  className="text-foreground/70 text-sm"
-                  dateTime={new Date(film.dateShow).toISOString()}
-                >
-                  {new Date(film.dateShow).toLocaleDateString("fr-FR", {
-                    year: "numeric",
-                    month: "short",
-                    day: "numeric",
-                    hour: "numeric",
-                    minute: "numeric",
-                  })}
-                </time>
-              </div>
-            </Link>
-          )
-        })}
+        {showsArray.map((movie) => (
+          <Card key={movie.movieId} movie={movie} />
+        ))}
       </section>
     </main>
   )

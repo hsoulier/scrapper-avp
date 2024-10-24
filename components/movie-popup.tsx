@@ -113,16 +113,27 @@ export const MoviePopup = () => {
 
   if (!shows || !showsCinema) return null
 
+  const release = shows[0]?.officialRelease
+    ? new Date(shows[0]?.officialRelease)
+    : null
+
   return (
     <Dialog open={isOpen} onOpenChange={(open) => !open && toggle(null)}>
       <DialogContent className="max-h-[50vh] overflow-y-auto">
         <DialogHeader>
           <DialogTitle className="flex items-center gap-1 text-xl">
-            Seances de {shows[0].title}
+            Séances de {shows[0].title}
           </DialogTitle>
           <DialogDescription asChild>
             <div>
-              <p className="text-sm">Sortie initiale le {"DATE"}</p>
+              <p className="text-sm">
+                Sortie initiale le{" "}
+                {release?.toLocaleDateString("fr-FR", {
+                  month: "short",
+                  day: "numeric",
+                  year: "numeric",
+                })}{" "}
+              </p>
               <div className="flex flex-col gap-1">
                 <Accordion type="single" collapsible className="w-full">
                   {Object.entries(showsCinema).map(([cinemaName, shows]) => {

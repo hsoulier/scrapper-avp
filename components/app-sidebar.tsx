@@ -12,7 +12,6 @@ import {
   Map,
   Film,
 } from "lucide-react"
-import slugify from "slugify"
 import {
   Sidebar,
   SidebarContent,
@@ -58,25 +57,39 @@ const data = {
   navMain: [
     {
       title: "Pathé",
-      url: "#",
       icon: PatheIcon,
+      provider: "pathe",
       isActive: true,
-      items: cinemaPathe.map((c) => ({
-        title: c.name,
-        slug: c.slug,
-        url: `/cinema/${c.slug}`,
-      })),
+      items: [
+        {
+          title: "Tous les cinémas",
+          slug: "pathe",
+          url: "/cinema/pathe",
+        },
+        ...cinemaPathe.map((c) => ({
+          title: c.name,
+          slug: c.slug,
+          url: `/cinema/${c.slug}`,
+        })),
+      ],
     },
     {
       title: "UGC",
-      url: "#",
       icon: UGCIcon,
+      provider: "ugc",
       isActive: false,
-      items: cinemaUGC.map((c) => ({
-        title: c.name,
-        slug: c.slug,
-        url: `/cinema/${c.slug}`,
-      })),
+      items: [
+        {
+          title: "Tous les cinémas",
+          slug: "ugc",
+          url: "/cinema/ugc",
+        },
+        ...cinemaUGC.map((c) => ({
+          title: c.name,
+          slug: c.slug,
+          url: `/cinema/${c.slug}`,
+        })),
+      ],
     },
   ],
   projects: [
@@ -103,13 +116,13 @@ export function AppSidebar() {
   const params = useParams()
 
   const cinema = params.id?.toString()
-  const multiplexProvider = cinema?.split("-")[0]
+  const mutliplexType = cinema?.split("-")[0]
 
   return (
     <Sidebar variant="sidebar" collapsible="icon">
       <SidebarHeader>
         <form>
-          <SidebarGroup className="py-0">
+          <SidebarGroup className="pt-2">
             <SidebarGroupContent className="relative">
               <Label htmlFor="search" className="sr-only">
                 Rechercher un film
@@ -145,11 +158,12 @@ export function AppSidebar() {
                 key={item.title}
                 asChild
                 className="group/collapsible"
+                defaultOpen={item.provider === mutliplexType}
               >
                 <SidebarMenuItem>
                   <CollapsibleTrigger asChild>
                     <SidebarMenuButton tooltip={item.title}>
-                      {item.icon && <item.icon />}
+                      {item.icon && <item.icon className="dark:invert" />}
                       <span>{item.title}</span>
                       <ChevronRight className="ml-auto transition-transform duration-200 group-data-[state=open]/collapsible:rotate-90" />
                     </SidebarMenuButton>
@@ -164,10 +178,7 @@ export function AppSidebar() {
                             }
                             asChild
                           >
-                            <Link
-                              href={subItem.url}
-                              onClick={() => console.log(cinema, subItem)}
-                            >
+                            <Link href={subItem.url}>
                               <span>{subItem.title}</span>
                             </Link>
                           </SidebarMenuSubButton>

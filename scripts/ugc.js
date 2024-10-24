@@ -1,5 +1,8 @@
 import { parseHTML } from "linkedom"
-import { read, readFileSync, writeFileSync } from "fs"
+import { readFileSync, writeFileSync } from "fs"
+import slugify from "slugify"
+import { getIMDBInfo } from "./imdb.js"
+import { getAlloCineInfo } from "./allocine.js"
 
 const TYPE_SHOWS = ["Avant-première avec équipe", "Avant-première"]
 
@@ -70,11 +73,30 @@ export const scrapUGC = async () => {
   console.log("🏗️ Movies to fetch -> ", titles.length)
   console.log("------------------------------------")
 
-  for (const title of titles) {
+  for (const title of titles.splice(0, 2)) {
     console.log("🥷 Fetching media -> ", title.title?.toLowerCase())
     const res2 = await fetch(title.link)
     const html2 = await res2.text()
     const { document: document2 } = parseHTML(html2)
+
+    const mediaRes = await fetch(title.mediaLink)
+    const mediaHtml = await mediaRes.text()
+    const { document: mediaDocument } = parseHTML(mediaHtml)
+
+    const [imdbInfo, allocineInfo] = await Promise.all([
+      await getIMDBInfo({
+        title: title.title?.toLowerCase(),
+        year: new Date().getFullYear(),
+      }),
+      await getAlloCineInfo({
+        title: title.title?.toLowerCase(),
+        year: new Date().getFullYear(),
+      }),
+    ])
+
+    const release = mediaDocument.querySelector(
+      ".group-info .color--dark-blue"
+    ).textContent
 
     // ? Get All show types for each projection card
     const showTypes = document2.querySelectorAll(
@@ -89,11 +111,14 @@ export const scrapUGC = async () => {
     for (const preview of previews) {
       const el = preview?.closest("button")
       const details = {
+        imdb: imdbInfo,
+        allocine: allocineInfo,
         name: title.title?.toLowerCase(),
         title:
           title.title[0].toUpperCase() +
             title.title.substring(1).toLowerCase() || "",
         source: "ugc",
+        officialRelease: release ? new Date(release) : null,
       }
       if (!el?.dataset) continue
       for (const detail in el.dataset) {
@@ -118,10 +143,9 @@ export const scrapUGC = async () => {
           )}`
         }
         if (detail === "cinema") {
-          details.cinemaName = el
-            ?.getAttribute(`data-${detail}`)
-            .toLowerCase()
-            .replaceAll(" ", "-")
+          details.cinemaName = slugify(el?.getAttribute(`data-${detail}`), {
+            lower: true,
+          })
         }
         if (detail === "showing") {
           details.showId = el?.getAttribute(`data-${detail}`)
@@ -140,7 +164,6 @@ export const scrapUGC = async () => {
 
         details.cover = title.cover
       }
-
       previewsList.push(details)
     }
   }
@@ -184,7 +207,7 @@ export const getUGCTheaters = async () => {
     const address = cinema.querySelector(".address").textContent
     const link = cinema.querySelector("a").href
     return {
-      slug: name.toLowerCase().replaceAll(" ", "-"),
+      slug: slugify(name, { lower: true }),
       name,
       address,
       link: `https://www.ugc.fr/${link}`,

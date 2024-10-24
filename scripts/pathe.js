@@ -1,13 +1,18 @@
 import { writeFileSync } from "fs"
+import { getIMDBInfo } from "./imdb.js"
+import { getAlloCineInfo } from "./allocine.js"
 
-const DEFAULT_CITY = "paris"
 const TAGS_AVP = [
   "avant-première",
   "avant-premiere-+-équipe",
   "AVP",
   "avp-equipe",
 ]
+
+const specialTitles = ["séance all inclusive : ", "la séance live : "]
+
 const previewsList = new Map()
+
 const CINEMAS = [
   "cinema-pathe-alesia",
   "cinema-gaumont-aquaboulevard",
@@ -92,7 +97,32 @@ const getCinemaShows = async (cinema) => {
       version: dataShow.version,
       dateShow: new Date(dataShow.time),
       cover: dataMovie.posterPath.lg,
+      officialRelease: new Date(dataMovie.releaseAt.FR_FR),
     }
+
+    const indexSpecialTitle = specialTitles.findIndex((t) =>
+      formattedShow.title.toLowerCase().startsWith(t)
+    )
+
+    if (indexSpecialTitle !== -1) {
+      formattedShow.title = formattedShow.title
+        .toLowerCase()
+        .replace(specialTitles[indexSpecialTitle], "")
+    }
+
+    const [imdbInfo, allocineInfo] = await Promise.all([
+      await getIMDBInfo({
+        title: formattedShow.title?.toLowerCase(),
+        year: new Date(dataMovie.releaseAt.FR_FR).getFullYear(),
+      }),
+      await getAlloCineInfo({
+        title: formattedShow.title?.toLowerCase(),
+        year: new Date(dataMovie.releaseAt.FR_FR).getFullYear(),
+      }),
+    ])
+
+    formattedShow.imdb = imdbInfo
+    formattedShow.allocine = allocineInfo
 
     if (previewsList.has(show.slug)) {
       previewsList.set(show.slug, [

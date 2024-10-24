@@ -3982,15 +3982,15 @@
     "nearbyCities": null,
     "slides": [
       {
-        "title": "La séance All Inclusive",
-        "subtitle": "Séance All Inclusive : Gladiator II",
-        "dateType": "exact",
-        "date": "2024-11-10T20:00:00",
+        "title": "Gladiator II",
+        "subtitle": "Avant-première",
+        "dateType": "from",
+        "date": "2024-11-10T09:00:00",
         "endDate": null,
-        "ctaLabel": "Réservez vos places",
-        "ctaBlank": true,
-        "slideUrl": "https://www.pathe.fr/films/seance-all-inclusive-gladiator-2-43025/filters/date-2024-11-10",
-        "backdropPath": "https://media.pathe.fr/movie/mx/38423/md/106/media?20241024123508",
+        "ctaLabel": "Réserver vos places",
+        "ctaBlank": false,
+        "slideUrl": "https://www.pathe.fr/films/gladiator-2-38423",
+        "backdropPath": "https://media.pathe.fr/slide/common/backdrop/158546/gl2-07257r3-1920.jpg",
         "contentTag": {
           "title": "Avant-première",
           "color": "#f6035e"
@@ -4819,14 +4819,14 @@
     "source": "pathe"
   },
   {
-    "slug": "ugc-ciné-cité-les-halles",
+    "slug": "ugc-cine-cite-les-halles",
     "name": "UGC Ciné Cité Les Halles",
     "address": "Forum des Halles - Niveau -3  75001 PARIS",
     "link": "https://www.ugc.fr/cinema-ugc-cine-cite-les-halles.html",
     "source": "ugc"
   },
   {
-    "slug": "ugc-ciné-cité-maillot",
+    "slug": "ugc-cine-cite-maillot",
     "name": "UGC Ciné Cité Maillot",
     "address": "2, place de la Porte Maillot - Palais des Congrès - Niveau -1  75017 PARIS",
     "link": "https://www.ugc.fr/cinema-ugc-cine-cite-maillot.html",
@@ -4847,7 +4847,7 @@
     "source": "ugc"
   },
   {
-    "slug": "ugc-odéon",
+    "slug": "ugc-odeon",
     "name": "UGC Odéon",
     "address": "124, boulevard Saint-Germain  75006 PARIS",
     "link": "https://www.ugc.fr/cinema-ugc-odeon.html",
@@ -4861,7 +4861,7 @@
     "source": "ugc"
   },
   {
-    "slug": "ugc-ciné-cité-bercy",
+    "slug": "ugc-cine-cite-bercy",
     "name": "UGC Ciné Cité Bercy",
     "address": "2, cour Saint Emilion  75012 PARIS",
     "link": "https://www.ugc.fr/cinema-ugc-cine-cite-bercy.html",
@@ -4882,14 +4882,14 @@
     "source": "ugc"
   },
   {
-    "slug": "ugc-opéra",
+    "slug": "ugc-opera",
     "name": "UGC Opéra",
     "address": "32, boulevard des Italiens  75009 PARIS",
     "link": "https://www.ugc.fr/cinema-ugc-opera.html",
     "source": "ugc"
   },
   {
-    "slug": "ugc-ciné-cité-paris-19",
+    "slug": "ugc-cine-cite-paris-19",
     "name": "UGC Ciné Cité Paris 19",
     "address": "166, Boulevard Macdonald  75019 PARIS",
     "link": "https://www.ugc.fr/cinema-ugc-cine-cite-paris-19.html",
