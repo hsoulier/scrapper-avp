@@ -144,7 +144,7 @@ export const getPatheTheaters = async () => {
       `https://www.pathe.fr/api/cinema/${cinema}?language=fr`
     )
     const dataCinema = await resCinema.json()
-    info.push(dataCinema)
+    info.push({ ...dataCinema, source: "pathe" })
   }
 
   writeFileSync("./public/cinema-info.json", JSON.stringify(info, null, 2))

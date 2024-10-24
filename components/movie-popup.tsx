@@ -121,30 +121,33 @@ export const MoviePopup = () => {
             Seances de {shows[0].title}
           </DialogTitle>
           <DialogDescription asChild>
-            <div className="flex flex-col gap-1">
-              <Accordion type="single" collapsible className="w-full">
-                {Object.entries(showsCinema).map(([cinemaName, shows]) => {
-                  const cinema = cinemaInfo.find((c) => c.slug === cinemaName)
+            <div>
+              <p className="text-sm">Sortie initiale le {"DATE"}</p>
+              <div className="flex flex-col gap-1">
+                <Accordion type="single" collapsible className="w-full">
+                  {Object.entries(showsCinema).map(([cinemaName, shows]) => {
+                    const cinema = cinemaInfo.find((c) => c.slug === cinemaName)
 
-                  return (
-                    <AccordionItem key={cinemaName} value={cinemaName}>
-                      <AccordionTrigger>
-                        {cinema?.name || "Cinema"}
-                      </AccordionTrigger>
-                      <AccordionContent>
-                        <div className="space-y-4">
-                          {shows.map((show) => (
-                            <Line key={show.showId} show={show} />
-                          ))}
-                        </div>
-                      </AccordionContent>
-                    </AccordionItem>
-                  )
-                })}
-              </Accordion>
-              {/* {shows.map((show) => (
+                    return (
+                      <AccordionItem key={cinemaName} value={cinemaName}>
+                        <AccordionTrigger>
+                          {cinema?.name || "Cinema"}
+                        </AccordionTrigger>
+                        <AccordionContent>
+                          <div className="space-y-4">
+                            {shows.map((show) => (
+                              <Line key={show.showId} show={show} />
+                            ))}
+                          </div>
+                        </AccordionContent>
+                      </AccordionItem>
+                    )
+                  })}
+                </Accordion>
+                {/* {shows.map((show) => (
                 <Line key={show.showId} show={show} />
               ))} */}
+              </div>
             </div>
           </DialogDescription>
         </DialogHeader>
