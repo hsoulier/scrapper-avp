@@ -1,23 +1,40 @@
-import Link from "next/link"
 import movies from "@/public/database.json"
+import cinemas from "@/public/cinema-info.json"
+import Link from "next/link"
 
-export default function Page() {
-  const shows = movies.reduce((acc, movie) => {
-    if (!acc.has(movie.movieId)) {
-      acc.set(movie.movieId, movie)
+const Page = ({ params }: { params: { id: string } }) => {
+  const shows = movies.reduce((acc, show) => {
+    if (
+      show.cinemaName === params.id &&
+      !acc.find((s) => s.movieId === show.movieId)
+    ) {
+      acc.push(show)
     }
     return acc
-  }, new Map<string, (typeof movies)[number]>())
+  }, [] as typeof movies)
+  const cinema = cinemas.find((c) => c.slug === params.id)
 
-  const showsArray = Array.from(shows.values())
+  if (!cinema) return null
+
+  if (!shows.length) {
+    return (
+      <main className="p-4 relative flex h-svh flex-1 flex-col bg-background">
+        <h1 className="text-4xl font-bold mb-8">{cinema?.name}</h1>
+        <p className="text-lg text-foreground/70 grow grid place-content-center">
+          Aucun film n'est actuellement programmé dans ce cinéma.
+        </p>
+      </main>
+    )
+  }
 
   return (
     <main className="p-4 relative flex min-h-svh flex-1 flex-col bg-background">
-      <h1 className="text-4xl font-bold mb-8">
-        Films récents ({showsArray.length})
-      </h1>
+      <h1 className="text-4xl font-bold mb-8">{cinema?.name}</h1>
+      <h2 className="text-2xl font-semibold mb-4">
+        Films récents ({shows.length})
+      </h2>
       <section className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-6 gap-x-4">
-        {showsArray.map((film) => {
+        {shows.map((film) => {
           const isLiveShow = film.title?.startsWith("La Séance live")
           return (
             <Link
@@ -28,7 +45,7 @@ export default function Page() {
               <img
                 src={film?.cover}
                 alt={`Cover du film ${film.title}`}
-                className="w-full h-64 object-cover rounded"
+                className="w-full object-cover rounded aspect-[2/3] border border-gray-200"
               />
               <div className="flex flex-col">
                 <h2 className="font-semibold text-xl">
@@ -54,3 +71,5 @@ export default function Page() {
     </main>
   )
 }
+
+export default Page

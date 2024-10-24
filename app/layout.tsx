@@ -6,6 +6,7 @@ import { MoviePopup } from "@/components/movie-popup"
 import { Suspense } from "react"
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar"
 import { AppSidebar } from "@/components/app-sidebar"
+import { ThemeProvider } from "@/app/theme-provider"
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" })
 
@@ -25,14 +26,21 @@ export default function RootLayout({
       <body
         className={cn("min-h-screen font-sans antialiased", inter.variable)}
       >
-        <SidebarProvider>
-          <AppSidebar />
-          {children}
-        </SidebarProvider>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <SidebarProvider>
+            <AppSidebar />
+            {children}
+          </SidebarProvider>
 
-        <Suspense>
-          <MoviePopup />
-        </Suspense>
+          <Suspense>
+            <MoviePopup />
+          </Suspense>
+        </ThemeProvider>
       </body>
     </html>
   )

@@ -88,7 +88,7 @@ const getCinemaShows = async (cinema) => {
       earlyType: show.AVPType,
       movieId: show.slug,
       linkMovie: show.movieLink,
-      cinemaName: cinema,
+      cinemaName: `pathe-${cinema}`,
       version: dataShow.version,
       dateShow: new Date(dataShow.time),
       cover: dataMovie.posterPath.lg,
@@ -144,7 +144,11 @@ export const getPatheTheaters = async () => {
       `https://www.pathe.fr/api/cinema/${cinema}?language=fr`
     )
     const dataCinema = await resCinema.json()
-    info.push({ ...dataCinema, source: "pathe" })
+    info.push({
+      ...dataCinema,
+      slug: `pathe-${dataCinema.slug}`,
+      source: "pathe",
+    })
   }
 
   writeFileSync("./public/cinema-info.json", JSON.stringify(info, null, 2))
