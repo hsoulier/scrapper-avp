@@ -84,6 +84,30 @@
     "source": "pathe"
   },
   {
+    "name": "une nuit au zoo",
+    "showId": "",
+    "movieId": "une-nuit-au-zoo-39043",
+    "cinemaName": "cinema-pathe-convention",
+    "dateShow": "2024-10-31T10:30:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/une-nuit-au-zoo-39043",
+    "linkShow": "https://s.pathe.fr/fr/V3136S93179/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
+    "name": "niko le petit renne mission pere noel",
+    "showId": "",
+    "movieId": "niko-le-petit-renne-mission-pere-noel-35493",
+    "cinemaName": "cinema-pathe-convention",
+    "dateShow": "2024-11-24T10:15:00.000Z",
+    "linkMovie": "https://www.pathe.fr/films/niko-le-petit-renne-mission-pere-noel-35493",
+    "linkShow": "https://s.pathe.fr/fr/V3136S93044/booking",
+    "version": "vf",
+    "earlyType": "AVP",
+    "source": "pathe"
+  },
+  {
     "name": "la seance live finalement",
     "showId": "",
     "movieId": "la-seance-live-finalement-42836",
