@@ -9,10 +9,10 @@ export const EARLY_TYPE = {
   AVANT_PREMIERE_WITH_CREW: "Avant Première en présence de l'équipe",
 } as const
 
-export const SOURCE = {
-  UGC: "UGC",
-  PATHE: "Pathé",
-  REX: "Le Grand Rex",
-  MK2: "MK2",
-  CGR: "CGR",
+export const SOURCE_PROVIDER = {
+  ugc: "UGC",
+  pathe: "Pathé",
+  rex: "Le Grand Rex",
+  mk2: "MK2",
+  cgr: "CGR",
 } as const

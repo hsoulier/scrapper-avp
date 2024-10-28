@@ -21,6 +21,15 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion"
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+} from "@/components/ui/sheet"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { SOURCE_PROVIDER } from "@/constants/mapping"
 
 type Show = (typeof shows)[number]
 
@@ -28,8 +37,6 @@ cinemaInfo.find((cinema) => cinema.slug === shows[0]?.cinemaName)
 
 const Line = ({ show }: { show: Show }) => {
   const cinema = cinemaInfo.find((c) => c.slug === show?.cinemaName)
-
-  console.log({ cinema })
 
   if (!cinema) return null
 
@@ -85,46 +92,60 @@ const Line = ({ show }: { show: Show }) => {
 export const MoviePopup = () => {
   const [movieId, toggle] = useQueryState("movie", parseAsString)
   const [shows, setShows] = useState<Show[]>()
-  const [showsCinema, setShowsCinema] = useState<Record<string, Show[]>>()
+
+  const sources =
+    shows?.reduce((acc, show) => {
+      if (!acc.includes(show.source)) {
+        acc.push(show.source)
+      }
+
+      return acc
+    }, [] as string[]) || []
 
   useEffect(() => {
     if (!movieId) return
 
     fetch(`/api/movie/${movieId}`)
       .then((res) => res.json())
-      .then((data: Show[]) => {
-        setShows(data)
-
-        const showsByCinema = data.reduce((acc, movie) => {
-          if (!acc.has(movie.cinemaName)) {
-            acc.set(movie.cinemaName, [movie])
-          } else {
-            acc.set(movie.cinemaName, [...acc.get(movie.cinemaName)!, movie])
-          }
-
-          return acc
-        }, new Map<string, Show[]>())
-
-        setShowsCinema(Object.fromEntries(showsByCinema))
-      })
+      .then((data: Show[]) => setShows(data))
   }, [movieId])
 
   const isOpen = !!movieId
 
-  if (!shows || !showsCinema) return null
+  if (!shows) return null
+
+  const showsCinema = sources.map((source) => {
+    const showsByCinema = shows.filter((show) => show.source === source)
+
+    return showsByCinema.reduce((acc, show) => {
+      const cinema = acc.find((c) => c.cinemaName === show.cinemaName)
+
+      if (cinema) {
+        cinema.shows.push(show)
+      } else {
+        acc.push({
+          cinemaName: show.cinemaName,
+          shows: [show],
+        })
+      }
+
+      return acc
+    }, [] as { cinemaName: string; shows: Show[] }[])
+  })
 
   const release = shows[0]?.officialRelease
     ? new Date(shows[0]?.officialRelease)
     : null
 
+  console.log(showsCinema)
   return (
-    <Dialog open={isOpen} onOpenChange={(open) => !open && toggle(null)}>
-      <DialogContent className="max-h-[50vh] overflow-y-auto">
-        <DialogHeader>
-          <DialogTitle className="flex items-center gap-1 text-xl">
+    <Sheet open={isOpen} onOpenChange={(open) => !open && toggle(null)}>
+      <SheetContent className="overflow-y-auto">
+        <SheetHeader>
+          <SheetTitle className="flex items-center gap-1 text-xl">
             Séances de {shows[0].title}
-          </DialogTitle>
-          <DialogDescription asChild>
+          </SheetTitle>
+          <SheetDescription asChild>
             <div>
               <p className="text-sm">
                 Sortie initiale le{" "}
@@ -134,35 +155,48 @@ export const MoviePopup = () => {
                   year: "numeric",
                 })}{" "}
               </p>
-              <div className="flex flex-col gap-1">
-                <Accordion type="single" collapsible className="w-full">
-                  {Object.entries(showsCinema).map(([cinemaName, shows]) => {
-                    const cinema = cinemaInfo.find((c) => c.slug === cinemaName)
 
-                    return (
-                      <AccordionItem key={cinemaName} value={cinemaName}>
-                        <AccordionTrigger>
-                          {cinema?.name || "Cinema"}
-                        </AccordionTrigger>
-                        <AccordionContent>
-                          <div className="space-y-4">
-                            {shows.map((show) => (
-                              <Line key={show.showId} show={show} />
-                            ))}
-                          </div>
-                        </AccordionContent>
-                      </AccordionItem>
-                    )
-                  })}
-                </Accordion>
-                {/* {shows.map((show) => (
-                <Line key={show.showId} show={show} />
-              ))} */}
-              </div>
+              <Tabs defaultValue={sources[0]} className="mt-8 w-full">
+                <TabsList className="w-full">
+                  {sources.map((source) => (
+                    <TabsTrigger className="w-1/2" key={source} value={source}>
+                      {SOURCE_PROVIDER[source as keyof typeof SOURCE_PROVIDER]}
+                    </TabsTrigger>
+                  ))}
+                </TabsList>
+                {sources.map((source) => (
+                  <TabsContent key={source} value={source}>
+                    <Accordion type="single" collapsible className="w-full">
+                      {showsCinema[sources.findIndex((s) => s === source)].map(
+                        ({ cinemaName, shows }) => {
+                          const cinema = cinemaInfo.find(
+                            (c) => c.slug === cinemaName
+                          )
+
+                          return (
+                            <AccordionItem key={cinemaName} value={cinemaName}>
+                              <AccordionTrigger>
+                                {cinema?.name || "Cinema"}
+                              </AccordionTrigger>
+                              <AccordionContent>
+                                <div className="space-y-4">
+                                  {shows.map((show) => (
+                                    <Line key={show.showId} show={show} />
+                                  ))}
+                                </div>
+                              </AccordionContent>
+                            </AccordionItem>
+                          )
+                        }
+                      )}
+                    </Accordion>
+                  </TabsContent>
+                ))}
+              </Tabs>
             </div>
-          </DialogDescription>
-        </DialogHeader>
-      </DialogContent>
-    </Dialog>
+          </SheetDescription>
+        </SheetHeader>
+      </SheetContent>
+    </Sheet>
   )
 }

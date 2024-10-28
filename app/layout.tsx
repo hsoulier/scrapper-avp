@@ -4,6 +4,7 @@ import "./globals.css"
 import { cn } from "@/lib/utils"
 import { MoviePopup } from "@/components/movie-popup"
 import { Suspense } from "react"
+import { NuqsAdapter } from "nuqs/adapters/next/app"
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar"
 import { AppSidebar } from "@/components/app-sidebar"
 import { ThemeProvider } from "@/app/theme-provider"
@@ -26,21 +27,23 @@ export default function RootLayout({
       <body
         className={cn("min-h-screen font-sans antialiased", inter.variable)}
       >
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
-          <SidebarProvider>
-            <AppSidebar />
-            {children}
-          </SidebarProvider>
+        <Suspense fallback={null}>
+          <NuqsAdapter>
+            <ThemeProvider
+              attribute="class"
+              defaultTheme="system"
+              enableSystem
+              disableTransitionOnChange
+            >
+              <SidebarProvider>
+                <AppSidebar />
+                {children}
+              </SidebarProvider>
 
-          <Suspense>
-            <MoviePopup />
-          </Suspense>
-        </ThemeProvider>
+              <MoviePopup />
+            </ThemeProvider>
+          </NuqsAdapter>
+        </Suspense>
       </body>
     </html>
   )

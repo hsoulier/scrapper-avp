@@ -169,19 +169,23 @@ export const scrapPathe = async () => {
 }
 
 export const getPatheTheaters = async () => {
+  const res = await fetch("https://www.pathe.fr/api/cinemas?language=fr")
+  const data = await res.json()
   const info = []
-  for (const cinema of CINEMAS) {
-    console.log("🥷 Fetched cinema shows -> ", cinema)
-    const resCinema = await fetch(
-      `https://www.pathe.fr/api/cinema/${cinema}?language=fr`
-    )
-    const dataCinema = await resCinema.json()
-    info.push({
-      ...dataCinema,
-      slug: `pathe-${dataCinema.slug}`,
+
+  const cinemas = data.reduce((acc, cinema) => {
+    const isInParis = cinema.citySlug === "paris"
+    if (!isInParis) return acc
+
+    acc.push({
+      slug: `pathe-${cinema.slug}`,
+      name: cinema.name,
+      googleMaps: cinema.googleMyBusinessUrl,
       source: "pathe",
     })
-  }
 
-  writeFileSync("./public/cinema-info.json", JSON.stringify(info, null, 2))
+    return acc
+  }, [])
+
+  writeFileSync("./public/cinema-info.json", JSON.stringify(cinemas, null, 2))
 }

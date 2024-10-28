@@ -6,7 +6,9 @@ export const GET = async (
 ) => {
   const { id } = params
 
-  const shows = movies.filter((film) => film.movieId === id)
+  const shows = movies.filter(
+    (film) => film.movieId === id || film.imdb?.id === id
+  )
 
   return Response.json(shows)
 }
