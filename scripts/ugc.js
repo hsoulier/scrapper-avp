@@ -73,7 +73,7 @@ export const scrapUGC = async () => {
   console.log("🏗️ Movies to fetch -> ", titles.length)
   console.log("------------------------------------")
 
-  for (const title of titles.splice(0, 2)) {
+  for (const title of titles) {
     console.log("🥷 Fetching media -> ", title.title?.toLowerCase())
     const res2 = await fetch(title.link)
     const html2 = await res2.text()

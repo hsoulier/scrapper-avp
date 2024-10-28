@@ -147,7 +147,9 @@ export const scrapPathe = async () => {
   console.log("------------------------------------")
   for (const cinema of CINEMAS) {
     console.log("🥷 Fetched cinema shows -> ", cinema)
+    console.group(cinema)
     await getCinemaShows(cinema)
+    console.groupEnd()
   }
   console.log("------------------------------------")
   console.log(

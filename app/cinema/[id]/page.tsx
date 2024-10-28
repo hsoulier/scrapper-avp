@@ -2,31 +2,11 @@ import movies from "@/public/database.json"
 import cinemas from "@/public/cinema-info.json"
 import Link from "next/link"
 import { Card } from "@/components/card"
+import { getMoviesByCinema } from "@/lib/movies"
 
 const Page = ({ params }: { params: { id: string } }) => {
-  const isMultiplex = params.id === "ugc" || params.id === "pathe"
-  const showsA = movies.reduce((acc, show) => {
-    const currentId = show.imdb?.id || show.movieId
-    const isAlreadyInList = acc.has(currentId)
-
-    if (isAlreadyInList) return acc
-
-    if (isMultiplex) {
-      if (show.source !== params.id) return acc
-
-      acc.set(currentId, show)
-
-      return acc
-    }
-
-    if (show.cinemaName === params.id) {
-      acc.set(currentId, show)
-    }
-
-    return acc
-  }, new Map<string, (typeof movies)[number]>())
-
-  const shows = Array.from(showsA.values())
+  const isMultiplex = params?.id === "ugc" || params?.id === "pathe"
+  const shows = getMoviesByCinema(params)
 
   const cinema = cinemas.find((c) => c.slug === params.id)
 

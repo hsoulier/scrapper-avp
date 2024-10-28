@@ -216,6 +216,21 @@
           "title": "Offre",
           "color": "#1da1f2"
         }
+      },
+      {
+        "title": "Avant-Permière Gladiator 2",
+        "subtitle": "Découvrez-le en Dolby Cinema !",
+        "dateType": "from",
+        "date": "2024-11-10T09:00:00",
+        "endDate": null,
+        "ctaLabel": "Réserver vos places",
+        "ctaBlank": false,
+        "slideUrl": "https://www.pathe.fr/films/gladiator-2-38423?types=dolby",
+        "backdropPath": "https://media.pathe.fr/slide/common/backdrop/158538/gl2-07257r3-1920.jpg",
+        "contentTag": {
+          "title": "Avant-première",
+          "color": "#f6035e"
+        }
       }
     ],
     "premiumSlides": [],
@@ -722,17 +737,17 @@
         }
       },
       {
-        "title": "Séance spéciale",
-        "subtitle": "Gladiator",
-        "dateType": "exact",
-        "date": "2024-10-27T16:30:00",
+        "title": "Avant-première",
+        "subtitle": "Avant-première : Une nuit au zoo",
+        "dateType": "exactWithoutHours",
+        "date": "2024-10-31T11:00:00",
         "endDate": null,
-        "ctaLabel": "Réserver",
-        "ctaBlank": true,
-        "slideUrl": "https://s.pathe.fr/fr/V3140S109132/booking?_gl=1*130qg0f*_gcl_au*MTMyNjUwNjE3MS4xNzI1Mjc3OTA0*FPAU*MTMyNjUwNjE3MS4xNzI1Mjc3OTA0&pos=c2VhdGluZw%3D%3D",
-        "backdropPath": "https://media.pathe.fr/movie/900218/backdrop/md/23/1280x720_gladiator-24944_5d4a9d09a5be4.jpg?20200626195254",
+        "ctaLabel": "Réservez vos places",
+        "ctaBlank": false,
+        "slideUrl": "https://www.pathe.fr/films/une-nuit-au-zoo-39043",
+        "backdropPath": "https://media.pathe.fr/slide/common/backdrop/153667/photo-01.jpg",
         "contentTag": {
-          "title": "Séance spéciale",
+          "title": "Avant-première",
           "color": "#f6035e"
         }
       }
@@ -1866,21 +1881,6 @@
     "nearbyCities": null,
     "slides": [
       {
-        "title": "\"Trois amies\" -Avant-première suivie d'un débat avec le réalisateur Emmanuel Moure",
-        "subtitle": "\"Trois amies\" -Avant-première suivie d'un débat avec le réalisateur Emmanuel Mouret",
-        "dateType": "exact",
-        "date": "2024-11-05T19:35:00",
-        "endDate": null,
-        "ctaLabel": "Réservez dès maintenant !",
-        "ctaBlank": false,
-        "slideUrl": "https://www.pathe.fr/evenements/la-seance-live-trois-amies-42835/filters/date-2024-11-05/localisation-cinema-pathe-convention",
-        "backdropPath": "https://media.pathe.fr/movie/mx/42835/md/9/media?20241024123136",
-        "contentTag": {
-          "title": "Évènement",
-          "color": "#34bd9e"
-        }
-      },
-      {
         "title": "\"Vermines\" -Suivie d'un débat avec l'équipe du film",
         "subtitle": "\"Vermines\" -Suivie d'un débat avec l'équipe du film",
         "dateType": "exact",
@@ -1896,6 +1896,21 @@
         }
       },
       {
+        "title": "\"Trois amies\" -Avant-première suivie d'un débat avec le réalisateur Emmanuel Moure",
+        "subtitle": "\"Trois amies\" -Avant-première suivie d'un débat avec le réalisateur Emmanuel Mouret",
+        "dateType": "exact",
+        "date": "2024-11-05T19:35:00",
+        "endDate": null,
+        "ctaLabel": "Réservez dès maintenant !",
+        "ctaBlank": false,
+        "slideUrl": "https://www.pathe.fr/evenements/la-seance-live-trois-amies-42835/filters/date-2024-11-05/localisation-cinema-pathe-convention",
+        "backdropPath": "https://media.pathe.fr/movie/mx/42835/md/13/media?20241028113124",
+        "contentTag": {
+          "title": "Évènement",
+          "color": "#34bd9e"
+        }
+      },
+      {
         "title": "Séance présentée par l'équipe de Chaos Reign",
         "subtitle": "Les Vendredis de l'horreur-The Susbtance-Séance présentée par l'équipe de Chaos Reign",
         "dateType": "exact",
@@ -1904,7 +1919,7 @@
         "ctaLabel": "Réservez dès maintenant !",
         "ctaBlank": false,
         "slideUrl": "https://www.pathe.fr/evenements/les-vendredis-de-l-horreur-the-substance-42247",
-        "backdropPath": "https://media.pathe.fr/movie/mx/42247/md/50/media?20241024124129",
+        "backdropPath": "https://media.pathe.fr/movie/mx/42247/md/54/media?20241028114029",
         "contentTag": {
           "title": "Évènement",
           "color": "#34bd9e"
@@ -3982,21 +3997,6 @@
     "nearbyCities": null,
     "slides": [
       {
-        "title": "Gladiator II",
-        "subtitle": "Avant-première",
-        "dateType": "from",
-        "date": "2024-11-10T09:00:00",
-        "endDate": null,
-        "ctaLabel": "Réserver vos places",
-        "ctaBlank": false,
-        "slideUrl": "https://www.pathe.fr/films/gladiator-2-38423",
-        "backdropPath": "https://media.pathe.fr/slide/common/backdrop/158546/gl2-07257r3-1920.jpg",
-        "contentTag": {
-          "title": "Avant-première",
-          "color": "#f6035e"
-        }
-      },
-      {
         "title": "Supplément Offert !",
         "subtitle": "Supplément Offert du lundi au vendredi avant 18h !",
         "dateType": "until",
@@ -4020,10 +4020,25 @@
         "ctaLabel": "Réserver vos places",
         "ctaBlank": false,
         "slideUrl": "https://www.pathe.fr/cinemas/cinema-pathe-parnasse",
-        "backdropPath": "https://media.pathe.fr/slide/common/backdrop/157143/15-euro-00-happyhour-18h00-slider-1280x720px.jpg",
+        "backdropPath": "https://media.pathe.fr/slide/common/backdrop/157143/parnasse-happy-15euro-slider-1280x720px.jpg",
         "contentTag": {
           "title": "Offre",
           "color": "#1da1f2"
+        }
+      },
+      {
+        "title": "Gladiator II",
+        "subtitle": "Avant-première",
+        "dateType": "from",
+        "date": "2024-11-10T09:00:00",
+        "endDate": null,
+        "ctaLabel": "Réserver vos places",
+        "ctaBlank": false,
+        "slideUrl": "https://www.pathe.fr/films/gladiator-2-38423",
+        "backdropPath": "https://media.pathe.fr/slide/common/backdrop/158546/gl2-07257r3-1920.jpg",
+        "contentTag": {
+          "title": "Avant-première",
+          "color": "#f6035e"
         }
       }
     ],
