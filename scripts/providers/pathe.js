@@ -1,6 +1,5 @@
 import { writeFileSync } from "fs"
-import { getIMDBInfo } from "./imdb.js"
-import { getAlloCineInfo } from "./allocine.js"
+import { getInfoFromDb } from "../db/index.js"
 
 const TAGS_AVP = [
   "avant-première",
@@ -110,19 +109,15 @@ const getCinemaShows = async (cinema) => {
         .replace(specialTitles[indexSpecialTitle], "")
     }
 
-    const [imdbInfo, allocineInfo] = await Promise.all([
-      await getIMDBInfo({
-        title: formattedShow.title?.toLowerCase(),
-        year: new Date(dataMovie.releaseAt.FR_FR).getFullYear(),
-      }),
-      await getAlloCineInfo({
-        title: formattedShow.title?.toLowerCase(),
-        year: new Date(dataMovie.releaseAt.FR_FR).getFullYear(),
-      }),
-    ])
+    const t = formattedShow.title?.toLowerCase()
+    const y = new Date(dataMovie.releaseAt.FR_FR).getFullYear()
 
-    formattedShow.imdb = imdbInfo
-    formattedShow.allocine = allocineInfo
+    const { db, allocine, imdb, tmdb } = await getInfoFromDb(t, y)
+
+    formattedShow.db = db
+    formattedShow.imdb = imdb
+    formattedShow.allocine = allocine
+    formattedShow.tmdb = tmdb
 
     if (previewsList.has(show.slug)) {
       previewsList.set(show.slug, [

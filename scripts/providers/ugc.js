@@ -1,8 +1,7 @@
 import { parseHTML } from "linkedom"
 import { readFileSync, writeFileSync } from "fs"
 import slugify from "slugify"
-import { getIMDBInfo } from "./imdb.js"
-import { getAlloCineInfo } from "./allocine.js"
+import { getInfoFromDb } from "../db/index.js"
 
 const TYPE_SHOWS = ["Avant-première avec équipe", "Avant-première"]
 
@@ -83,16 +82,10 @@ export const scrapUGC = async () => {
     const mediaHtml = await mediaRes.text()
     const { document: mediaDocument } = parseHTML(mediaHtml)
 
-    const [imdbInfo, allocineInfo] = await Promise.all([
-      await getIMDBInfo({
-        title: title.title?.toLowerCase(),
-        year: new Date().getFullYear(),
-      }),
-      await getAlloCineInfo({
-        title: title.title?.toLowerCase(),
-        year: new Date().getFullYear(),
-      }),
-    ])
+    const t = title.title?.toLowerCase()
+    const y = new Date().getFullYear()
+
+    const { db, allocine, imdb, tmdb } = await getInfoFromDb(t, y)
 
     const release = mediaDocument.querySelector(
       ".group-info .color--dark-blue"
@@ -111,8 +104,10 @@ export const scrapUGC = async () => {
     for (const preview of previews) {
       const el = preview?.closest("button")
       const details = {
-        imdb: imdbInfo,
-        allocine: allocineInfo,
+        imdb,
+        allocine,
+        tmdb,
+        db,
         name: title.title?.toLowerCase(),
         title:
           title.title[0].toUpperCase() +

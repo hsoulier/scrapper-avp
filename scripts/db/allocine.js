@@ -10,19 +10,11 @@ export const getAlloCineInfo = async ({ title, year }) => {
   const matches = [...document.querySelectorAll(".movies-results li")]
 
   if (!matches.length) {
-    console.dir(matches, { depth: null })
     console.log("❌ [ALLOCINE] No movies found for", title)
   }
 
   if (matches.length > 1) {
-    console.log("🎬 Multiple movies found on Allocine for", title)
-    // console.dir(
-    //   matches.map((match) => ({
-    //     title: match.querySelector("h2")?.textContent?.trim(),
-    //     year: match.querySelector(".date")?.textContent?.trim(),
-    //   })),
-    //   { depth: null }
-    // )
+    // console.log("🎬 Multiple movies found on Allocine for", title)
   }
 
   const movie = matches.find((match) => {

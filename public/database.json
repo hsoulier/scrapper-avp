@@ -1,402 +1,589 @@
 [
   {
-    "name": "gladiator 2",
-    "title": "Gladiator 2",
+    "name": "elle s au cinema sarah bernhardt la divine",
+    "title": "Elle(s) au cinéma : Sarah Bernhardt, La Divine",
     "source": "pathe",
-    "showId": "V3132S75756",
-    "linkShow": "https://s.pathe.fr/fr/V3132S75756/booking",
+    "showId": "V3132S76228",
+    "linkShow": "https://s.pathe.fr/fr/V3132S76228/booking",
     "earlyType": "AVP",
-    "movieId": "gladiator-2-38423",
-    "linkMovie": "https://www.pathe.fr/films/gladiator-2-38423",
+    "movieId": "elle-s-au-cinema-sarah-bernhardt-la-divine-42809",
+    "linkMovie": "https://www.pathe.fr/films/elle-s-au-cinema-sarah-bernhardt-la-divine-42809",
+    "cinemaName": "pathe-cinema-pathe-alesia",
+    "version": "vf",
+    "dateShow": "2024-12-15T16:45:00.000Z",
+    "cover": "https://media.pathe.fr/movie/alex/HO00008479/poster/lg/11/movie&uuid=0807F72F-353E-4201-9A07-AC8D03C9DC87",
+    "officialRelease": "2024-12-15T00:00:00.000Z",
+    "db": {
+      "id": "",
+      "title": "",
+      "poster": ""
+    },
+    "imdb": {
+      "id": "",
+      "title": "",
+      "poster": ""
+    },
+    "allocine": {
+      "id": "",
+      "title": "",
+      "poster": ""
+    },
+    "tmdb": null
+  },
+  {
+    "name": "elle s au cinema sarah bernhardt la divine",
+    "title": "Elle(s) au cinéma : Sarah Bernhardt, La Divine",
+    "source": "pathe",
+    "showId": "V3128S144493",
+    "linkShow": "https://s.pathe.fr/fr/V3128S144493/booking",
+    "earlyType": "AVP",
+    "movieId": "elle-s-au-cinema-sarah-bernhardt-la-divine-42809",
+    "linkMovie": "https://www.pathe.fr/films/elle-s-au-cinema-sarah-bernhardt-la-divine-42809",
+    "cinemaName": "pathe-cinema-pathe-parnasse",
+    "version": "vf",
+    "dateShow": "2024-12-15T17:00:00.000Z",
+    "cover": "https://media.pathe.fr/movie/alex/HO00008479/poster/lg/11/movie&uuid=0807F72F-353E-4201-9A07-AC8D03C9DC87",
+    "officialRelease": "2024-12-15T00:00:00.000Z",
+    "db": {
+      "id": "",
+      "title": "",
+      "poster": ""
+    },
+    "imdb": {
+      "id": "",
+      "title": "",
+      "poster": ""
+    },
+    "allocine": {
+      "id": "",
+      "title": "",
+      "poster": ""
+    },
+    "tmdb": null
+  },
+  {
+    "name": "wicked",
+    "title": "Wicked",
+    "source": "pathe",
+    "showId": "V3132S76226",
+    "linkShow": "https://s.pathe.fr/fr/V3132S76226/booking",
+    "earlyType": "AVP",
+    "movieId": "wicked-12390",
+    "linkMovie": "https://www.pathe.fr/films/wicked-12390",
     "cinemaName": "pathe-cinema-pathe-alesia",
     "version": "vost",
-    "dateShow": "2024-11-10T22:00:00.000Z",
-    "cover": "https://media.pathe.fr/movie/alex/HO00007481/poster/lg/76/movie&uuid=32B7CDD1-2609-45DA-93D6-3DEAA0806931",
-    "officialRelease": "2024-11-13T00:00:00.000Z",
+    "dateShow": "2024-11-22T20:15:00.000Z",
+    "cover": "https://media.pathe.fr/movie/alex/HO00000637/poster/lg/98/movie&uuid=B8EABB10-256B-4E57-AA01-CE414F888D55",
+    "officialRelease": "2024-12-04T00:00:00.000Z",
+    "db": {
+      "id": "tt1262426",
+      "title": "Wicked",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmNmOWFmYTMtOGU1OC00YjI4LWFkMTItNzM5NzFmZTg5MzEyXkEyXkFqcGc@._V1_.jpg"
+    },
     "imdb": {
-      "id": "tt9218128",
-      "title": "Gladiator II",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYmFiODg0ZmEtNjU4MC00NzRhLThiZTgtNjRmMWQwNzY5ODlkXkEyXkFqcGc@._V1_.jpg"
+      "id": "tt1262426",
+      "title": "Wicked",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmNmOWFmYTMtOGU1OC00YjI4LWFkMTItNzM5NzFmZTg5MzEyXkEyXkFqcGc@._V1_.jpg"
     },
     "allocine": {
       "id": "",
-      "title": "Gladiator II",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
+      "title": "",
+      "poster": ""
+    },
+    "tmdb": {
+      "id": 402431,
+      "title": "Wicked",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/kQkgPhj6sCuoMWzPKWQVOWUXzib.jpg"
     }
   },
   {
-    "name": "gladiator 2",
-    "title": "Gladiator 2",
+    "name": "wicked",
+    "title": "Wicked",
     "source": "pathe",
-    "showId": "V3132S74895",
-    "linkShow": "https://s.pathe.fr/fr/V3132S74895/booking",
+    "showId": "V3132S75194",
+    "linkShow": "https://s.pathe.fr/fr/V3132S75194/booking",
     "earlyType": "AVP",
-    "movieId": "gladiator-2-38423",
-    "linkMovie": "https://www.pathe.fr/films/gladiator-2-38423",
+    "movieId": "wicked-12390",
+    "linkMovie": "https://www.pathe.fr/films/wicked-12390",
     "cinemaName": "pathe-cinema-pathe-alesia",
-    "version": "vost",
-    "dateShow": "2024-11-11T14:35:00.000Z",
-    "cover": "https://media.pathe.fr/movie/alex/HO00007481/poster/lg/76/movie&uuid=32B7CDD1-2609-45DA-93D6-3DEAA0806931",
-    "officialRelease": "2024-11-13T00:00:00.000Z",
+    "version": "vf",
+    "dateShow": "2024-11-24T15:00:00.000Z",
+    "cover": "https://media.pathe.fr/movie/alex/HO00000637/poster/lg/98/movie&uuid=B8EABB10-256B-4E57-AA01-CE414F888D55",
+    "officialRelease": "2024-12-04T00:00:00.000Z",
+    "db": {
+      "id": "tt1262426",
+      "title": "Wicked",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmNmOWFmYTMtOGU1OC00YjI4LWFkMTItNzM5NzFmZTg5MzEyXkEyXkFqcGc@._V1_.jpg"
+    },
     "imdb": {
-      "id": "tt9218128",
-      "title": "Gladiator II",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYmFiODg0ZmEtNjU4MC00NzRhLThiZTgtNjRmMWQwNzY5ODlkXkEyXkFqcGc@._V1_.jpg"
+      "id": "tt1262426",
+      "title": "Wicked",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmNmOWFmYTMtOGU1OC00YjI4LWFkMTItNzM5NzFmZTg5MzEyXkEyXkFqcGc@._V1_.jpg"
     },
     "allocine": {
       "id": "",
-      "title": "Gladiator II",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
+      "title": "",
+      "poster": ""
+    },
+    "tmdb": {
+      "id": 402431,
+      "title": "Wicked",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/kQkgPhj6sCuoMWzPKWQVOWUXzib.jpg"
     }
   },
   {
-    "name": "gladiator 2",
-    "title": "Gladiator 2",
+    "name": "wicked",
+    "title": "Wicked",
     "source": "pathe",
-    "showId": "V3017S28673",
-    "linkShow": "https://s.pathe.fr/fr/V3017S28673/booking",
+    "showId": "V3017S28676",
+    "linkShow": "https://s.pathe.fr/fr/V3017S28676/booking",
     "earlyType": "AVP",
-    "movieId": "gladiator-2-38423",
-    "linkMovie": "https://www.pathe.fr/films/gladiator-2-38423",
+    "movieId": "wicked-12390",
+    "linkMovie": "https://www.pathe.fr/films/wicked-12390",
     "cinemaName": "pathe-cinema-les-7-batignolles",
-    "version": "vost",
-    "dateShow": "2024-11-10T16:30:00.000Z",
-    "cover": "https://media.pathe.fr/movie/alex/HO00007481/poster/lg/76/movie&uuid=32B7CDD1-2609-45DA-93D6-3DEAA0806931",
-    "officialRelease": "2024-11-13T00:00:00.000Z",
+    "version": "vf",
+    "dateShow": "2024-11-24T15:00:00.000Z",
+    "cover": "https://media.pathe.fr/movie/alex/HO00000637/poster/lg/98/movie&uuid=B8EABB10-256B-4E57-AA01-CE414F888D55",
+    "officialRelease": "2024-12-04T00:00:00.000Z",
+    "db": {
+      "id": "tt1262426",
+      "title": "Wicked",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmNmOWFmYTMtOGU1OC00YjI4LWFkMTItNzM5NzFmZTg5MzEyXkEyXkFqcGc@._V1_.jpg"
+    },
     "imdb": {
-      "id": "tt9218128",
-      "title": "Gladiator II",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYmFiODg0ZmEtNjU4MC00NzRhLThiZTgtNjRmMWQwNzY5ODlkXkEyXkFqcGc@._V1_.jpg"
+      "id": "tt1262426",
+      "title": "Wicked",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmNmOWFmYTMtOGU1OC00YjI4LWFkMTItNzM5NzFmZTg5MzEyXkEyXkFqcGc@._V1_.jpg"
     },
     "allocine": {
       "id": "",
-      "title": "Gladiator II",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
-    }
-  },
-  {
-    "name": "gladiator 2",
-    "title": "Gladiator 2",
-    "source": "pathe",
-    "showId": "V3017S28143",
-    "linkShow": "https://s.pathe.fr/fr/V3017S28143/booking",
-    "earlyType": "AVP",
-    "movieId": "gladiator-2-38423",
-    "linkMovie": "https://www.pathe.fr/films/gladiator-2-38423",
-    "cinemaName": "pathe-cinema-les-7-batignolles",
-    "version": "vost",
-    "dateShow": "2024-11-11T13:30:00.000Z",
-    "cover": "https://media.pathe.fr/movie/alex/HO00007481/poster/lg/76/movie&uuid=32B7CDD1-2609-45DA-93D6-3DEAA0806931",
-    "officialRelease": "2024-11-13T00:00:00.000Z",
-    "imdb": {
-      "id": "tt9218128",
-      "title": "Gladiator II",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYmFiODg0ZmEtNjU4MC00NzRhLThiZTgtNjRmMWQwNzY5ODlkXkEyXkFqcGc@._V1_.jpg"
+      "title": "",
+      "poster": ""
     },
-    "allocine": {
-      "id": "",
-      "title": "Gladiator II",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
+    "tmdb": {
+      "id": 402431,
+      "title": "Wicked",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/kQkgPhj6sCuoMWzPKWQVOWUXzib.jpg"
     }
   },
   {
-    "name": "gladiator 2",
-    "title": "Gladiator 2",
+    "name": "wicked",
+    "title": "Wicked",
     "source": "pathe",
-    "showId": "V3166S100414",
-    "linkShow": "https://s.pathe.fr/fr/V3166S100414/booking",
+    "showId": "V3166S100921",
+    "linkShow": "https://s.pathe.fr/fr/V3166S100921/booking",
     "earlyType": "AVP",
-    "movieId": "gladiator-2-38423",
-    "linkMovie": "https://www.pathe.fr/films/gladiator-2-38423",
+    "movieId": "wicked-12390",
+    "linkMovie": "https://www.pathe.fr/films/wicked-12390",
     "cinemaName": "pathe-cinema-pathe-beaugrenelle",
     "version": "vost",
-    "dateShow": "2024-11-10T17:00:00.000Z",
-    "cover": "https://media.pathe.fr/movie/alex/HO00007481/poster/lg/76/movie&uuid=32B7CDD1-2609-45DA-93D6-3DEAA0806931",
-    "officialRelease": "2024-11-13T00:00:00.000Z",
+    "dateShow": "2024-11-22T17:15:00.000Z",
+    "cover": "https://media.pathe.fr/movie/alex/HO00000637/poster/lg/98/movie&uuid=B8EABB10-256B-4E57-AA01-CE414F888D55",
+    "officialRelease": "2024-12-04T00:00:00.000Z",
+    "db": {
+      "id": "tt1262426",
+      "title": "Wicked",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmNmOWFmYTMtOGU1OC00YjI4LWFkMTItNzM5NzFmZTg5MzEyXkEyXkFqcGc@._V1_.jpg"
+    },
     "imdb": {
-      "id": "tt9218128",
-      "title": "Gladiator II",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYmFiODg0ZmEtNjU4MC00NzRhLThiZTgtNjRmMWQwNzY5ODlkXkEyXkFqcGc@._V1_.jpg"
+      "id": "tt1262426",
+      "title": "Wicked",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmNmOWFmYTMtOGU1OC00YjI4LWFkMTItNzM5NzFmZTg5MzEyXkEyXkFqcGc@._V1_.jpg"
     },
     "allocine": {
       "id": "",
-      "title": "Gladiator II",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
+      "title": "",
+      "poster": ""
+    },
+    "tmdb": {
+      "id": 402431,
+      "title": "Wicked",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/kQkgPhj6sCuoMWzPKWQVOWUXzib.jpg"
     }
   },
   {
-    "name": "gladiator 2",
-    "title": "Gladiator 2",
+    "name": "wicked",
+    "title": "Wicked",
     "source": "pathe",
-    "showId": "V3166S100425",
-    "linkShow": "https://s.pathe.fr/fr/V3166S100425/booking",
+    "showId": "V3166S100859",
+    "linkShow": "https://s.pathe.fr/fr/V3166S100859/booking",
     "earlyType": "AVP",
-    "movieId": "gladiator-2-38423",
-    "linkMovie": "https://www.pathe.fr/films/gladiator-2-38423",
+    "movieId": "wicked-12390",
+    "linkMovie": "https://www.pathe.fr/films/wicked-12390",
     "cinemaName": "pathe-cinema-pathe-beaugrenelle",
-    "version": "vost",
-    "dateShow": "2024-11-11T15:00:00.000Z",
-    "cover": "https://media.pathe.fr/movie/alex/HO00007481/poster/lg/76/movie&uuid=32B7CDD1-2609-45DA-93D6-3DEAA0806931",
-    "officialRelease": "2024-11-13T00:00:00.000Z",
+    "version": "vf",
+    "dateShow": "2024-11-24T15:00:00.000Z",
+    "cover": "https://media.pathe.fr/movie/alex/HO00000637/poster/lg/98/movie&uuid=B8EABB10-256B-4E57-AA01-CE414F888D55",
+    "officialRelease": "2024-12-04T00:00:00.000Z",
+    "db": {
+      "id": "tt1262426",
+      "title": "Wicked",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmNmOWFmYTMtOGU1OC00YjI4LWFkMTItNzM5NzFmZTg5MzEyXkEyXkFqcGc@._V1_.jpg"
+    },
     "imdb": {
-      "id": "tt9218128",
-      "title": "Gladiator II",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYmFiODg0ZmEtNjU4MC00NzRhLThiZTgtNjRmMWQwNzY5ODlkXkEyXkFqcGc@._V1_.jpg"
+      "id": "tt1262426",
+      "title": "Wicked",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmNmOWFmYTMtOGU1OC00YjI4LWFkMTItNzM5NzFmZTg5MzEyXkEyXkFqcGc@._V1_.jpg"
     },
     "allocine": {
       "id": "",
-      "title": "Gladiator II",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
+      "title": "",
+      "poster": ""
+    },
+    "tmdb": {
+      "id": 402431,
+      "title": "Wicked",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/kQkgPhj6sCuoMWzPKWQVOWUXzib.jpg"
     }
   },
   {
-    "name": "gladiator 2",
-    "title": "Gladiator 2",
+    "name": "wicked",
+    "title": "Wicked",
     "source": "pathe",
-    "showId": "V3136S93038",
-    "linkShow": "https://s.pathe.fr/fr/V3136S93038/booking",
+    "showId": "V3136S93045",
+    "linkShow": "https://s.pathe.fr/fr/V3136S93045/booking",
     "earlyType": "AVP",
-    "movieId": "gladiator-2-38423",
-    "linkMovie": "https://www.pathe.fr/films/gladiator-2-38423",
+    "movieId": "wicked-12390",
+    "linkMovie": "https://www.pathe.fr/films/wicked-12390",
     "cinemaName": "pathe-cinema-pathe-convention",
     "version": "vost",
-    "dateShow": "2024-11-10T16:50:00.000Z",
-    "cover": "https://media.pathe.fr/movie/alex/HO00007481/poster/lg/76/movie&uuid=32B7CDD1-2609-45DA-93D6-3DEAA0806931",
-    "officialRelease": "2024-11-13T00:00:00.000Z",
+    "dateShow": "2024-11-22T19:30:00.000Z",
+    "cover": "https://media.pathe.fr/movie/alex/HO00000637/poster/lg/98/movie&uuid=B8EABB10-256B-4E57-AA01-CE414F888D55",
+    "officialRelease": "2024-12-04T00:00:00.000Z",
+    "db": {
+      "id": "tt1262426",
+      "title": "Wicked",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmNmOWFmYTMtOGU1OC00YjI4LWFkMTItNzM5NzFmZTg5MzEyXkEyXkFqcGc@._V1_.jpg"
+    },
     "imdb": {
-      "id": "tt9218128",
-      "title": "Gladiator II",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYmFiODg0ZmEtNjU4MC00NzRhLThiZTgtNjRmMWQwNzY5ODlkXkEyXkFqcGc@._V1_.jpg"
+      "id": "tt1262426",
+      "title": "Wicked",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmNmOWFmYTMtOGU1OC00YjI4LWFkMTItNzM5NzFmZTg5MzEyXkEyXkFqcGc@._V1_.jpg"
     },
     "allocine": {
       "id": "",
-      "title": "Gladiator II",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
+      "title": "",
+      "poster": ""
+    },
+    "tmdb": {
+      "id": 402431,
+      "title": "Wicked",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/kQkgPhj6sCuoMWzPKWQVOWUXzib.jpg"
     }
   },
   {
-    "name": "gladiator 2",
-    "title": "Gladiator 2",
+    "name": "wicked",
+    "title": "Wicked",
     "source": "pathe",
-    "showId": "V3136S93040",
-    "linkShow": "https://s.pathe.fr/fr/V3136S93040/booking",
+    "showId": "V3136S93043",
+    "linkShow": "https://s.pathe.fr/fr/V3136S93043/booking",
     "earlyType": "AVP",
-    "movieId": "gladiator-2-38423",
-    "linkMovie": "https://www.pathe.fr/films/gladiator-2-38423",
+    "movieId": "wicked-12390",
+    "linkMovie": "https://www.pathe.fr/films/wicked-12390",
     "cinemaName": "pathe-cinema-pathe-convention",
-    "version": "vost",
-    "dateShow": "2024-11-11T13:50:00.000Z",
-    "cover": "https://media.pathe.fr/movie/alex/HO00007481/poster/lg/76/movie&uuid=32B7CDD1-2609-45DA-93D6-3DEAA0806931",
-    "officialRelease": "2024-11-13T00:00:00.000Z",
+    "version": "vf",
+    "dateShow": "2024-11-24T15:00:00.000Z",
+    "cover": "https://media.pathe.fr/movie/alex/HO00000637/poster/lg/98/movie&uuid=B8EABB10-256B-4E57-AA01-CE414F888D55",
+    "officialRelease": "2024-12-04T00:00:00.000Z",
+    "db": {
+      "id": "tt1262426",
+      "title": "Wicked",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmNmOWFmYTMtOGU1OC00YjI4LWFkMTItNzM5NzFmZTg5MzEyXkEyXkFqcGc@._V1_.jpg"
+    },
     "imdb": {
-      "id": "tt9218128",
-      "title": "Gladiator II",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYmFiODg0ZmEtNjU4MC00NzRhLThiZTgtNjRmMWQwNzY5ODlkXkEyXkFqcGc@._V1_.jpg"
+      "id": "tt1262426",
+      "title": "Wicked",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmNmOWFmYTMtOGU1OC00YjI4LWFkMTItNzM5NzFmZTg5MzEyXkEyXkFqcGc@._V1_.jpg"
     },
     "allocine": {
       "id": "",
-      "title": "Gladiator II",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
+      "title": "",
+      "poster": ""
+    },
+    "tmdb": {
+      "id": 402431,
+      "title": "Wicked",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/kQkgPhj6sCuoMWzPKWQVOWUXzib.jpg"
     }
   },
   {
-    "name": "gladiator 2",
-    "title": "Gladiator 2",
+    "name": "wicked",
+    "title": "Wicked",
     "source": "pathe",
-    "showId": "V3168S124712",
-    "linkShow": "https://s.pathe.fr/fr/V3168S124712/booking",
+    "showId": "V3168S126593",
+    "linkShow": "https://s.pathe.fr/fr/V3168S126593/booking",
     "earlyType": "AVP",
-    "movieId": "gladiator-2-38423",
-    "linkMovie": "https://www.pathe.fr/films/gladiator-2-38423",
+    "movieId": "wicked-12390",
+    "linkMovie": "https://www.pathe.fr/films/wicked-12390",
+    "cinemaName": "pathe-cinema-pathe-la-villette",
+    "version": "vost",
+    "dateShow": "2024-11-22T19:00:00.000Z",
+    "cover": "https://media.pathe.fr/movie/alex/HO00000637/poster/lg/98/movie&uuid=B8EABB10-256B-4E57-AA01-CE414F888D55",
+    "officialRelease": "2024-12-04T00:00:00.000Z",
+    "db": {
+      "id": "tt1262426",
+      "title": "Wicked",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmNmOWFmYTMtOGU1OC00YjI4LWFkMTItNzM5NzFmZTg5MzEyXkEyXkFqcGc@._V1_.jpg"
+    },
+    "imdb": {
+      "id": "tt1262426",
+      "title": "Wicked",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmNmOWFmYTMtOGU1OC00YjI4LWFkMTItNzM5NzFmZTg5MzEyXkEyXkFqcGc@._V1_.jpg"
+    },
+    "allocine": {
+      "id": "",
+      "title": "",
+      "poster": ""
+    },
+    "tmdb": {
+      "id": 402431,
+      "title": "Wicked",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/kQkgPhj6sCuoMWzPKWQVOWUXzib.jpg"
+    }
+  },
+  {
+    "name": "wicked",
+    "title": "Wicked",
+    "source": "pathe",
+    "showId": "V3168S125323",
+    "linkShow": "https://s.pathe.fr/fr/V3168S125323/booking",
+    "earlyType": "AVP",
+    "movieId": "wicked-12390",
+    "linkMovie": "https://www.pathe.fr/films/wicked-12390",
     "cinemaName": "pathe-cinema-pathe-la-villette",
     "version": "vf",
-    "dateShow": "2024-11-10T17:00:00.000Z",
-    "cover": "https://media.pathe.fr/movie/alex/HO00007481/poster/lg/76/movie&uuid=32B7CDD1-2609-45DA-93D6-3DEAA0806931",
-    "officialRelease": "2024-11-13T00:00:00.000Z",
+    "dateShow": "2024-11-24T15:00:00.000Z",
+    "cover": "https://media.pathe.fr/movie/alex/HO00000637/poster/lg/98/movie&uuid=B8EABB10-256B-4E57-AA01-CE414F888D55",
+    "officialRelease": "2024-12-04T00:00:00.000Z",
+    "db": {
+      "id": "tt1262426",
+      "title": "Wicked",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmNmOWFmYTMtOGU1OC00YjI4LWFkMTItNzM5NzFmZTg5MzEyXkEyXkFqcGc@._V1_.jpg"
+    },
     "imdb": {
-      "id": "tt9218128",
-      "title": "Gladiator II",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYmFiODg0ZmEtNjU4MC00NzRhLThiZTgtNjRmMWQwNzY5ODlkXkEyXkFqcGc@._V1_.jpg"
+      "id": "tt1262426",
+      "title": "Wicked",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmNmOWFmYTMtOGU1OC00YjI4LWFkMTItNzM5NzFmZTg5MzEyXkEyXkFqcGc@._V1_.jpg"
     },
     "allocine": {
       "id": "",
-      "title": "Gladiator II",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
+      "title": "",
+      "poster": ""
+    },
+    "tmdb": {
+      "id": 402431,
+      "title": "Wicked",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/kQkgPhj6sCuoMWzPKWQVOWUXzib.jpg"
     }
   },
   {
-    "name": "gladiator 2",
-    "title": "Gladiator 2",
+    "name": "wicked",
+    "title": "Wicked",
     "source": "pathe",
-    "showId": "V3168S124715",
-    "linkShow": "https://s.pathe.fr/fr/V3168S124715/booking",
+    "showId": "V3143S56692",
+    "linkShow": "https://s.pathe.fr/fr/V3143S56692/booking",
     "earlyType": "AVP",
-    "movieId": "gladiator-2-38423",
-    "linkMovie": "https://www.pathe.fr/films/gladiator-2-38423",
-    "cinemaName": "pathe-cinema-pathe-la-villette",
+    "movieId": "wicked-12390",
+    "linkMovie": "https://www.pathe.fr/films/wicked-12390",
+    "cinemaName": "pathe-cinema-pathe-les-fauvettes",
     "version": "vf",
-    "dateShow": "2024-11-11T12:30:00.000Z",
-    "cover": "https://media.pathe.fr/movie/alex/HO00007481/poster/lg/76/movie&uuid=32B7CDD1-2609-45DA-93D6-3DEAA0806931",
-    "officialRelease": "2024-11-13T00:00:00.000Z",
+    "dateShow": "2024-11-24T15:00:00.000Z",
+    "cover": "https://media.pathe.fr/movie/alex/HO00000637/poster/lg/98/movie&uuid=B8EABB10-256B-4E57-AA01-CE414F888D55",
+    "officialRelease": "2024-12-04T00:00:00.000Z",
+    "db": {
+      "id": "tt1262426",
+      "title": "Wicked",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmNmOWFmYTMtOGU1OC00YjI4LWFkMTItNzM5NzFmZTg5MzEyXkEyXkFqcGc@._V1_.jpg"
+    },
     "imdb": {
-      "id": "tt9218128",
-      "title": "Gladiator II",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYmFiODg0ZmEtNjU4MC00NzRhLThiZTgtNjRmMWQwNzY5ODlkXkEyXkFqcGc@._V1_.jpg"
+      "id": "tt1262426",
+      "title": "Wicked",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmNmOWFmYTMtOGU1OC00YjI4LWFkMTItNzM5NzFmZTg5MzEyXkEyXkFqcGc@._V1_.jpg"
     },
     "allocine": {
       "id": "",
-      "title": "Gladiator II",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
-    }
-  },
-  {
-    "name": "gladiator 2",
-    "title": "Gladiator 2",
-    "source": "pathe",
-    "showId": "V3143S56308",
-    "linkShow": "https://s.pathe.fr/fr/V3143S56308/booking",
-    "earlyType": "AVP",
-    "movieId": "gladiator-2-38423",
-    "linkMovie": "https://www.pathe.fr/films/gladiator-2-38423",
-    "cinemaName": "pathe-cinema-pathe-les-fauvettes",
-    "version": "vost",
-    "dateShow": "2024-11-10T16:20:00.000Z",
-    "cover": "https://media.pathe.fr/movie/alex/HO00007481/poster/lg/76/movie&uuid=32B7CDD1-2609-45DA-93D6-3DEAA0806931",
-    "officialRelease": "2024-11-13T00:00:00.000Z",
-    "imdb": {
-      "id": "tt9218128",
-      "title": "Gladiator II",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYmFiODg0ZmEtNjU4MC00NzRhLThiZTgtNjRmMWQwNzY5ODlkXkEyXkFqcGc@._V1_.jpg"
+      "title": "",
+      "poster": ""
     },
-    "allocine": {
-      "id": "",
-      "title": "Gladiator II",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
+    "tmdb": {
+      "id": 402431,
+      "title": "Wicked",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/kQkgPhj6sCuoMWzPKWQVOWUXzib.jpg"
     }
   },
   {
-    "name": "gladiator 2",
-    "title": "Gladiator 2",
+    "name": "wicked",
+    "title": "Wicked",
     "source": "pathe",
-    "showId": "V3143S56311",
-    "linkShow": "https://s.pathe.fr/fr/V3143S56311/booking",
+    "showId": "V3128S144491",
+    "linkShow": "https://s.pathe.fr/fr/V3128S144491/booking",
     "earlyType": "AVP",
-    "movieId": "gladiator-2-38423",
-    "linkMovie": "https://www.pathe.fr/films/gladiator-2-38423",
-    "cinemaName": "pathe-cinema-pathe-les-fauvettes",
-    "version": "vost",
-    "dateShow": "2024-11-11T13:50:00.000Z",
-    "cover": "https://media.pathe.fr/movie/alex/HO00007481/poster/lg/76/movie&uuid=32B7CDD1-2609-45DA-93D6-3DEAA0806931",
-    "officialRelease": "2024-11-13T00:00:00.000Z",
-    "imdb": {
-      "id": "tt9218128",
-      "title": "Gladiator II",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYmFiODg0ZmEtNjU4MC00NzRhLThiZTgtNjRmMWQwNzY5ODlkXkEyXkFqcGc@._V1_.jpg"
-    },
-    "allocine": {
-      "id": "",
-      "title": "Gladiator II",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
-    }
-  },
-  {
-    "name": "gladiator 2",
-    "title": "Gladiator 2",
-    "source": "pathe",
-    "showId": "V3128S143609",
-    "linkShow": "https://s.pathe.fr/fr/V3128S143609/booking",
-    "earlyType": "AVP",
-    "movieId": "gladiator-2-38423",
-    "linkMovie": "https://www.pathe.fr/films/gladiator-2-38423",
+    "movieId": "wicked-12390",
+    "linkMovie": "https://www.pathe.fr/films/wicked-12390",
     "cinemaName": "pathe-cinema-pathe-parnasse",
     "version": "vost",
-    "dateShow": "2024-11-10T17:30:00.000Z",
-    "cover": "https://media.pathe.fr/movie/alex/HO00007481/poster/lg/76/movie&uuid=32B7CDD1-2609-45DA-93D6-3DEAA0806931",
-    "officialRelease": "2024-11-13T00:00:00.000Z",
+    "dateShow": "2024-11-22T18:30:00.000Z",
+    "cover": "https://media.pathe.fr/movie/alex/HO00000637/poster/lg/98/movie&uuid=B8EABB10-256B-4E57-AA01-CE414F888D55",
+    "officialRelease": "2024-12-04T00:00:00.000Z",
+    "db": {
+      "id": "tt1262426",
+      "title": "Wicked",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmNmOWFmYTMtOGU1OC00YjI4LWFkMTItNzM5NzFmZTg5MzEyXkEyXkFqcGc@._V1_.jpg"
+    },
     "imdb": {
-      "id": "tt9218128",
-      "title": "Gladiator II",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYmFiODg0ZmEtNjU4MC00NzRhLThiZTgtNjRmMWQwNzY5ODlkXkEyXkFqcGc@._V1_.jpg"
+      "id": "tt1262426",
+      "title": "Wicked",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmNmOWFmYTMtOGU1OC00YjI4LWFkMTItNzM5NzFmZTg5MzEyXkEyXkFqcGc@._V1_.jpg"
     },
     "allocine": {
       "id": "",
-      "title": "Gladiator II",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
+      "title": "",
+      "poster": ""
+    },
+    "tmdb": {
+      "id": 402431,
+      "title": "Wicked",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/kQkgPhj6sCuoMWzPKWQVOWUXzib.jpg"
     }
   },
   {
-    "name": "gladiator 2",
-    "title": "Gladiator 2",
+    "name": "wicked",
+    "title": "Wicked",
     "source": "pathe",
-    "showId": "V3128S142391",
-    "linkShow": "https://s.pathe.fr/fr/V3128S142391/booking",
+    "showId": "V3128S144490",
+    "linkShow": "https://s.pathe.fr/fr/V3128S144490/booking",
     "earlyType": "AVP",
-    "movieId": "gladiator-2-38423",
-    "linkMovie": "https://www.pathe.fr/films/gladiator-2-38423",
+    "movieId": "wicked-12390",
+    "linkMovie": "https://www.pathe.fr/films/wicked-12390",
     "cinemaName": "pathe-cinema-pathe-parnasse",
-    "version": "vost",
-    "dateShow": "2024-11-11T15:00:00.000Z",
-    "cover": "https://media.pathe.fr/movie/alex/HO00007481/poster/lg/76/movie&uuid=32B7CDD1-2609-45DA-93D6-3DEAA0806931",
-    "officialRelease": "2024-11-13T00:00:00.000Z",
+    "version": "vf",
+    "dateShow": "2024-11-24T15:00:00.000Z",
+    "cover": "https://media.pathe.fr/movie/alex/HO00000637/poster/lg/98/movie&uuid=B8EABB10-256B-4E57-AA01-CE414F888D55",
+    "officialRelease": "2024-12-04T00:00:00.000Z",
+    "db": {
+      "id": "tt1262426",
+      "title": "Wicked",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmNmOWFmYTMtOGU1OC00YjI4LWFkMTItNzM5NzFmZTg5MzEyXkEyXkFqcGc@._V1_.jpg"
+    },
     "imdb": {
-      "id": "tt9218128",
-      "title": "Gladiator II",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYmFiODg0ZmEtNjU4MC00NzRhLThiZTgtNjRmMWQwNzY5ODlkXkEyXkFqcGc@._V1_.jpg"
+      "id": "tt1262426",
+      "title": "Wicked",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmNmOWFmYTMtOGU1OC00YjI4LWFkMTItNzM5NzFmZTg5MzEyXkEyXkFqcGc@._V1_.jpg"
     },
     "allocine": {
       "id": "",
-      "title": "Gladiator II",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
+      "title": "",
+      "poster": ""
+    },
+    "tmdb": {
+      "id": 402431,
+      "title": "Wicked",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/kQkgPhj6sCuoMWzPKWQVOWUXzib.jpg"
     }
   },
   {
-    "name": "gladiator 2",
-    "title": "Gladiator 2",
+    "name": "wicked",
+    "title": "Wicked",
     "source": "pathe",
-    "showId": "V3010S116469",
-    "linkShow": "https://s.pathe.fr/fr/V3010S116469/booking",
+    "showId": "V3010S119206",
+    "linkShow": "https://s.pathe.fr/fr/V3010S119206/booking",
     "earlyType": "AVP",
-    "movieId": "gladiator-2-38423",
-    "linkMovie": "https://www.pathe.fr/films/gladiator-2-38423",
+    "movieId": "wicked-12390",
+    "linkMovie": "https://www.pathe.fr/films/wicked-12390",
     "cinemaName": "pathe-cinema-pathe-wepler",
     "version": "vost",
-    "dateShow": "2024-11-10T17:00:00.000Z",
-    "cover": "https://media.pathe.fr/movie/alex/HO00007481/poster/lg/76/movie&uuid=32B7CDD1-2609-45DA-93D6-3DEAA0806931",
-    "officialRelease": "2024-11-13T00:00:00.000Z",
+    "dateShow": "2024-11-22T19:15:00.000Z",
+    "cover": "https://media.pathe.fr/movie/alex/HO00000637/poster/lg/98/movie&uuid=B8EABB10-256B-4E57-AA01-CE414F888D55",
+    "officialRelease": "2024-12-04T00:00:00.000Z",
+    "db": {
+      "id": "tt1262426",
+      "title": "Wicked",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmNmOWFmYTMtOGU1OC00YjI4LWFkMTItNzM5NzFmZTg5MzEyXkEyXkFqcGc@._V1_.jpg"
+    },
     "imdb": {
-      "id": "tt9218128",
-      "title": "Gladiator II",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYmFiODg0ZmEtNjU4MC00NzRhLThiZTgtNjRmMWQwNzY5ODlkXkEyXkFqcGc@._V1_.jpg"
+      "id": "tt1262426",
+      "title": "Wicked",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmNmOWFmYTMtOGU1OC00YjI4LWFkMTItNzM5NzFmZTg5MzEyXkEyXkFqcGc@._V1_.jpg"
     },
     "allocine": {
       "id": "",
-      "title": "Gladiator II",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
+      "title": "",
+      "poster": ""
+    },
+    "tmdb": {
+      "id": 402431,
+      "title": "Wicked",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/kQkgPhj6sCuoMWzPKWQVOWUXzib.jpg"
     }
   },
   {
-    "name": "gladiator 2",
-    "title": "Gladiator 2",
+    "name": "wicked",
+    "title": "Wicked",
     "source": "pathe",
-    "showId": "V3010S117792",
-    "linkShow": "https://s.pathe.fr/fr/V3010S117792/booking",
+    "showId": "V3010S118883",
+    "linkShow": "https://s.pathe.fr/fr/V3010S118883/booking",
     "earlyType": "AVP",
-    "movieId": "gladiator-2-38423",
-    "linkMovie": "https://www.pathe.fr/films/gladiator-2-38423",
+    "movieId": "wicked-12390",
+    "linkMovie": "https://www.pathe.fr/films/wicked-12390",
     "cinemaName": "pathe-cinema-pathe-wepler",
-    "version": "vost",
-    "dateShow": "2024-11-11T15:00:00.000Z",
-    "cover": "https://media.pathe.fr/movie/alex/HO00007481/poster/lg/76/movie&uuid=32B7CDD1-2609-45DA-93D6-3DEAA0806931",
-    "officialRelease": "2024-11-13T00:00:00.000Z",
+    "version": "vf",
+    "dateShow": "2024-11-24T15:00:00.000Z",
+    "cover": "https://media.pathe.fr/movie/alex/HO00000637/poster/lg/98/movie&uuid=B8EABB10-256B-4E57-AA01-CE414F888D55",
+    "officialRelease": "2024-12-04T00:00:00.000Z",
+    "db": {
+      "id": "tt1262426",
+      "title": "Wicked",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmNmOWFmYTMtOGU1OC00YjI4LWFkMTItNzM5NzFmZTg5MzEyXkEyXkFqcGc@._V1_.jpg"
+    },
     "imdb": {
-      "id": "tt9218128",
-      "title": "Gladiator II",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYmFiODg0ZmEtNjU4MC00NzRhLThiZTgtNjRmMWQwNzY5ODlkXkEyXkFqcGc@._V1_.jpg"
+      "id": "tt1262426",
+      "title": "Wicked",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmNmOWFmYTMtOGU1OC00YjI4LWFkMTItNzM5NzFmZTg5MzEyXkEyXkFqcGc@._V1_.jpg"
     },
     "allocine": {
       "id": "",
-      "title": "Gladiator II",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
+      "title": "",
+      "poster": ""
+    },
+    "tmdb": {
+      "id": 402431,
+      "title": "Wicked",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/kQkgPhj6sCuoMWzPKWQVOWUXzib.jpg"
+    }
+  },
+  {
+    "name": "niko le petit renne mission pere noel",
+    "title": "Niko le petit renne, mission Père Noël",
+    "source": "pathe",
+    "showId": "V3132S76120",
+    "linkShow": "https://s.pathe.fr/fr/V3132S76120/booking",
+    "earlyType": "AVP",
+    "movieId": "niko-le-petit-renne-mission-pere-noel-35493",
+    "linkMovie": "https://www.pathe.fr/films/niko-le-petit-renne-mission-pere-noel-35493",
+    "cinemaName": "pathe-cinema-pathe-alesia",
+    "version": "vf",
+    "dateShow": "2024-11-24T10:15:00.000Z",
+    "cover": "https://media.pathe.fr/movie/alex/HO00006382/poster/lg/22/movie&uuid=CD3A0A4A-7E8E-4B8F-A64C-CD7CC8EB753C",
+    "officialRelease": "2024-12-04T00:00:00.000Z",
+    "db": {
+      "id": "",
+      "title": "",
+      "poster": ""
+    },
+    "imdb": {
+      "id": "",
+      "title": "",
+      "poster": ""
+    },
+    "allocine": {
+      "id": "",
+      "title": "",
+      "poster": ""
+    },
+    "tmdb": {
+      "id": 717196,
+      "title": "Niko le petit renne, mission Père Noël",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/55KEwlAraIcmYM4WmaZz0CeweiD.jpg"
     }
   },
   {
@@ -411,8 +598,13 @@
     "cinemaName": "pathe-cinema-les-7-batignolles",
     "version": "vf",
     "dateShow": "2024-11-24T09:30:00.000Z",
-    "cover": "https://media.pathe.fr/movie/alex/HO00006382/poster/lg/15/movie&uuid=0BE189DD-1F9C-4739-90DC-AD179C70026F",
+    "cover": "https://media.pathe.fr/movie/alex/HO00006382/poster/lg/22/movie&uuid=CD3A0A4A-7E8E-4B8F-A64C-CD7CC8EB753C",
     "officialRelease": "2024-12-04T00:00:00.000Z",
+    "db": {
+      "id": "",
+      "title": "",
+      "poster": ""
+    },
     "imdb": {
       "id": "",
       "title": "",
@@ -420,8 +612,48 @@
     },
     "allocine": {
       "id": "",
+      "title": "",
+      "poster": ""
+    },
+    "tmdb": {
+      "id": 717196,
       "title": "Niko le petit renne, mission Père Noël",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/55KEwlAraIcmYM4WmaZz0CeweiD.jpg"
+    }
+  },
+  {
+    "name": "niko le petit renne mission pere noel",
+    "title": "Niko le petit renne, mission Père Noël",
+    "source": "pathe",
+    "showId": "V3166S100860",
+    "linkShow": "https://s.pathe.fr/fr/V3166S100860/booking",
+    "earlyType": "AVP",
+    "movieId": "niko-le-petit-renne-mission-pere-noel-35493",
+    "linkMovie": "https://www.pathe.fr/films/niko-le-petit-renne-mission-pere-noel-35493",
+    "cinemaName": "pathe-cinema-pathe-beaugrenelle",
+    "version": "vf",
+    "dateShow": "2024-11-24T09:15:00.000Z",
+    "cover": "https://media.pathe.fr/movie/alex/HO00006382/poster/lg/22/movie&uuid=CD3A0A4A-7E8E-4B8F-A64C-CD7CC8EB753C",
+    "officialRelease": "2024-12-04T00:00:00.000Z",
+    "db": {
+      "id": "",
+      "title": "",
+      "poster": ""
+    },
+    "imdb": {
+      "id": "",
+      "title": "",
+      "poster": ""
+    },
+    "allocine": {
+      "id": "",
+      "title": "",
+      "poster": ""
+    },
+    "tmdb": {
+      "id": 717196,
+      "title": "Niko le petit renne, mission Père Noël",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/55KEwlAraIcmYM4WmaZz0CeweiD.jpg"
     }
   },
   {
@@ -436,8 +668,13 @@
     "cinemaName": "pathe-cinema-pathe-convention",
     "version": "vf",
     "dateShow": "2024-11-24T09:15:00.000Z",
-    "cover": "https://media.pathe.fr/movie/alex/HO00006382/poster/lg/15/movie&uuid=0BE189DD-1F9C-4739-90DC-AD179C70026F",
+    "cover": "https://media.pathe.fr/movie/alex/HO00006382/poster/lg/22/movie&uuid=CD3A0A4A-7E8E-4B8F-A64C-CD7CC8EB753C",
     "officialRelease": "2024-12-04T00:00:00.000Z",
+    "db": {
+      "id": "",
+      "title": "",
+      "poster": ""
+    },
     "imdb": {
       "id": "",
       "title": "",
@@ -445,903 +682,670 @@
     },
     "allocine": {
       "id": "",
+      "title": "",
+      "poster": ""
+    },
+    "tmdb": {
+      "id": 717196,
       "title": "Niko le petit renne, mission Père Noël",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/55KEwlAraIcmYM4WmaZz0CeweiD.jpg"
     }
   },
   {
-    "name": "the substance",
-    "title": "The Substance",
+    "name": "niko le petit renne mission pere noel",
+    "title": "Niko le petit renne, mission Père Noël",
     "source": "pathe",
-    "showId": "V3017S28675",
-    "linkShow": "https://s.pathe.fr/fr/V3017S28675/booking",
+    "showId": "V3168S125322",
+    "linkShow": "https://s.pathe.fr/fr/V3168S125322/booking",
     "earlyType": "AVP",
-    "movieId": "the-substance-40005",
-    "linkMovie": "https://www.pathe.fr/films/the-substance-40005",
-    "cinemaName": "pathe-cinema-les-7-batignolles",
-    "version": "vost",
-    "dateShow": "2024-11-01T20:30:00.000Z",
-    "cover": "https://media.pathe.fr/movie/alex/HO00007842/poster/lg/29/movie&uuid=FBE6F973-EDA2-430F-AC5E-42F35F6F2E89",
-    "officialRelease": "2024-11-06T00:00:00.000Z",
-    "imdb": {
-      "id": "tt17526714",
-      "title": "The Substance",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMmNhNWZiZGItMWJlYS00ZDc2LWI0ZGEtOGIwM2I0OTM3MDEzXkEyXkFqcGc@._V1_.jpg"
-    },
-    "allocine": {
-      "id": "",
-      "title": "The Substance",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
-    }
-  },
-  {
-    "name": "seance all inclusive gladiator 2",
-    "title": "gladiator 2",
-    "source": "pathe",
-    "showId": "V3166S99177",
-    "linkShow": "https://s.pathe.fr/fr/V3166S99177/booking",
-    "earlyType": "AVP",
-    "movieId": "seance-all-inclusive-gladiator-2-43025",
-    "linkMovie": "https://www.pathe.fr/films/seance-all-inclusive-gladiator-2-43025",
-    "cinemaName": "pathe-cinema-pathe-beaugrenelle",
-    "version": "vost",
-    "dateShow": "2024-11-10T18:15:00.000Z",
-    "cover": "https://media.pathe.fr/movie/alex/HO00008557/poster/lg/3/movie&uuid=497529A8-E7CE-4960-961F-5C9B3F010E26",
-    "officialRelease": "2024-11-10T00:00:00.000Z",
-    "imdb": {
-      "id": "tt9218128",
-      "title": "Gladiator II",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYmFiODg0ZmEtNjU4MC00NzRhLThiZTgtNjRmMWQwNzY5ODlkXkEyXkFqcGc@._V1_.jpg"
-    },
-    "allocine": {
-      "id": "",
-      "title": "Gladiator II",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
-    }
-  },
-  {
-    "name": "une nuit au zoo",
-    "title": "Une nuit au zoo",
-    "source": "pathe",
-    "showId": "V3136S93179",
-    "linkShow": "https://s.pathe.fr/fr/V3136S93179/booking",
-    "earlyType": "AVP",
-    "movieId": "une-nuit-au-zoo-39043",
-    "linkMovie": "https://www.pathe.fr/films/une-nuit-au-zoo-39043",
-    "cinemaName": "pathe-cinema-pathe-convention",
-    "version": "vf",
-    "dateShow": "2024-10-31T09:30:00.000Z",
-    "cover": "https://media.pathe.fr/movie/alex/HO00007734/poster/lg/10/movie&uuid=09543225-1452-41E1-B8C8-C077906EE46F",
-    "officialRelease": "2025-01-29T00:00:00.000Z",
-    "imdb": {
-      "id": "tt29544253",
-      "title": "Une nuit au zoo",
-      "poster": "https://m.media-amazon.com/images/M/MV5BN2E4ODJhMTQtZGRhZi00MmQ4LThhZGQtYjM4YThjMTIxZTM1XkEyXkFqcGc@._V1_.jpg"
-    },
-    "allocine": {
-      "id": "",
-      "title": "Une nuit au zoo",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
-    }
-  },
-  {
-    "name": "une nuit au zoo",
-    "title": "Une nuit au zoo",
-    "source": "pathe",
-    "showId": "V3168S123688",
-    "linkShow": "https://s.pathe.fr/fr/V3168S123688/booking",
-    "earlyType": "AVP",
-    "movieId": "une-nuit-au-zoo-39043",
-    "linkMovie": "https://www.pathe.fr/films/une-nuit-au-zoo-39043",
+    "movieId": "niko-le-petit-renne-mission-pere-noel-35493",
+    "linkMovie": "https://www.pathe.fr/films/niko-le-petit-renne-mission-pere-noel-35493",
     "cinemaName": "pathe-cinema-pathe-la-villette",
     "version": "vf",
-    "dateShow": "2024-10-31T13:00:00.000Z",
-    "cover": "https://media.pathe.fr/movie/alex/HO00007734/poster/lg/10/movie&uuid=09543225-1452-41E1-B8C8-C077906EE46F",
-    "officialRelease": "2025-01-29T00:00:00.000Z",
+    "dateShow": "2024-11-24T12:45:00.000Z",
+    "cover": "https://media.pathe.fr/movie/alex/HO00006382/poster/lg/22/movie&uuid=CD3A0A4A-7E8E-4B8F-A64C-CD7CC8EB753C",
+    "officialRelease": "2024-12-04T00:00:00.000Z",
+    "db": {
+      "id": "",
+      "title": "",
+      "poster": ""
+    },
     "imdb": {
-      "id": "tt29544253",
-      "title": "Une nuit au zoo",
-      "poster": "https://m.media-amazon.com/images/M/MV5BN2E4ODJhMTQtZGRhZi00MmQ4LThhZGQtYjM4YThjMTIxZTM1XkEyXkFqcGc@._V1_.jpg"
+      "id": "",
+      "title": "",
+      "poster": ""
     },
     "allocine": {
       "id": "",
-      "title": "Une nuit au zoo",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
+      "title": "",
+      "poster": ""
+    },
+    "tmdb": {
+      "id": 717196,
+      "title": "Niko le petit renne, mission Père Noël",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/55KEwlAraIcmYM4WmaZz0CeweiD.jpg"
     }
   },
   {
-    "name": "prodigieuses",
-    "title": "Prodigieuses",
+    "name": "niko le petit renne mission pere noel",
+    "title": "Niko le petit renne, mission Père Noël",
     "source": "pathe",
-    "showId": "V3136S93187",
-    "linkShow": "https://s.pathe.fr/fr/V3136S93187/booking",
+    "showId": "V3143S56693",
+    "linkShow": "https://s.pathe.fr/fr/V3143S56693/booking",
+    "earlyType": "AVP",
+    "movieId": "niko-le-petit-renne-mission-pere-noel-35493",
+    "linkMovie": "https://www.pathe.fr/films/niko-le-petit-renne-mission-pere-noel-35493",
+    "cinemaName": "pathe-cinema-pathe-les-fauvettes",
+    "version": "vf",
+    "dateShow": "2024-11-24T13:00:00.000Z",
+    "cover": "https://media.pathe.fr/movie/alex/HO00006382/poster/lg/22/movie&uuid=CD3A0A4A-7E8E-4B8F-A64C-CD7CC8EB753C",
+    "officialRelease": "2024-12-04T00:00:00.000Z",
+    "db": {
+      "id": "",
+      "title": "",
+      "poster": ""
+    },
+    "imdb": {
+      "id": "",
+      "title": "",
+      "poster": ""
+    },
+    "allocine": {
+      "id": "",
+      "title": "",
+      "poster": ""
+    },
+    "tmdb": {
+      "id": 717196,
+      "title": "Niko le petit renne, mission Père Noël",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/55KEwlAraIcmYM4WmaZz0CeweiD.jpg"
+    }
+  },
+  {
+    "name": "niko le petit renne mission pere noel",
+    "title": "Niko le petit renne, mission Père Noël",
+    "source": "pathe",
+    "showId": "V3128S144489",
+    "linkShow": "https://s.pathe.fr/fr/V3128S144489/booking",
+    "earlyType": "AVP",
+    "movieId": "niko-le-petit-renne-mission-pere-noel-35493",
+    "linkMovie": "https://www.pathe.fr/films/niko-le-petit-renne-mission-pere-noel-35493",
+    "cinemaName": "pathe-cinema-pathe-parnasse",
+    "version": "vf",
+    "dateShow": "2024-11-24T10:00:00.000Z",
+    "cover": "https://media.pathe.fr/movie/alex/HO00006382/poster/lg/22/movie&uuid=CD3A0A4A-7E8E-4B8F-A64C-CD7CC8EB753C",
+    "officialRelease": "2024-12-04T00:00:00.000Z",
+    "db": {
+      "id": "",
+      "title": "",
+      "poster": ""
+    },
+    "imdb": {
+      "id": "",
+      "title": "",
+      "poster": ""
+    },
+    "allocine": {
+      "id": "",
+      "title": "",
+      "poster": ""
+    },
+    "tmdb": {
+      "id": 717196,
+      "title": "Niko le petit renne, mission Père Noël",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/55KEwlAraIcmYM4WmaZz0CeweiD.jpg"
+    }
+  },
+  {
+    "name": "niko le petit renne mission pere noel",
+    "title": "Niko le petit renne, mission Père Noël",
+    "source": "pathe",
+    "showId": "V3010S118884",
+    "linkShow": "https://s.pathe.fr/fr/V3010S118884/booking",
+    "earlyType": "AVP",
+    "movieId": "niko-le-petit-renne-mission-pere-noel-35493",
+    "linkMovie": "https://www.pathe.fr/films/niko-le-petit-renne-mission-pere-noel-35493",
+    "cinemaName": "pathe-cinema-pathe-wepler",
+    "version": "vf",
+    "dateShow": "2024-11-24T12:50:00.000Z",
+    "cover": "https://media.pathe.fr/movie/alex/HO00006382/poster/lg/22/movie&uuid=CD3A0A4A-7E8E-4B8F-A64C-CD7CC8EB753C",
+    "officialRelease": "2024-12-04T00:00:00.000Z",
+    "db": {
+      "id": "",
+      "title": "",
+      "poster": ""
+    },
+    "imdb": {
+      "id": "",
+      "title": "",
+      "poster": ""
+    },
+    "allocine": {
+      "id": "",
+      "title": "",
+      "poster": ""
+    },
+    "tmdb": {
+      "id": 717196,
+      "title": "Niko le petit renne, mission Père Noël",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/55KEwlAraIcmYM4WmaZz0CeweiD.jpg"
+    }
+  },
+  {
+    "name": "en fanfare",
+    "title": "En fanfare",
+    "source": "pathe",
+    "showId": "V3136S93592",
+    "linkShow": "https://s.pathe.fr/fr/V3136S93592/booking",
     "earlyType": "AVPE",
-    "movieId": "prodigieuses-37066",
-    "linkMovie": "https://www.pathe.fr/films/prodigieuses-37066",
+    "movieId": "en-fanfare-38955",
+    "linkMovie": "https://www.pathe.fr/films/en-fanfare-38955",
     "cinemaName": "pathe-cinema-pathe-convention",
     "version": "vf",
-    "dateShow": "2024-11-12T18:30:00.000Z",
-    "cover": "https://media.pathe.fr/movie/alex/HO00006939/poster/lg/61/movie&uuid=0DB91C9C-80B4-4565-B371-C5E1E19DBE4C",
-    "officialRelease": "2024-11-20T00:00:00.000Z",
+    "dateShow": "2024-11-25T18:10:00.000Z",
+    "cover": "https://media.pathe.fr/movie/alex/HO00007694/poster/lg/24/movie&uuid=748A9CF0-75C4-47B3-929E-09C84B5540AF",
+    "officialRelease": "2024-11-27T00:00:00.000Z",
+    "db": {
+      "id": "tt30327451",
+      "title": "En fanfare",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYTI1N2ZmNWMtOTFkMi00ZDA5LTk3NjktMWE5NGEzOTgzODc1XkEyXkFqcGc@._V1_.jpg"
+    },
     "imdb": {
-      "id": "tt31948263",
-      "title": "Prodigieuses",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYWQ3NGE4NjItZDM3ZS00ZjgyLThmNmEtZmE0ZjA1YzFlYzIxXkEyXkFqcGc@._V1_.jpg"
+      "id": "tt30327451",
+      "title": "En fanfare",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYTI1N2ZmNWMtOTFkMi00ZDA5LTk3NjktMWE5NGEzOTgzODc1XkEyXkFqcGc@._V1_.jpg"
     },
     "allocine": {
       "id": "",
-      "title": "Prodigieuses",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
+      "title": "",
+      "poster": ""
+    },
+    "tmdb": {
+      "id": 1000866,
+      "title": "En fanfare",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/knB9YhFbWjAjHwD3a3W9fhfoOuW.jpg"
     }
   },
   {
-    "name": "la seance live finalement",
-    "title": "finalement",
+    "name": "les reines du drame",
+    "title": "Les Reines du drame",
     "source": "pathe",
-    "showId": "V3136S91658",
-    "linkShow": "https://s.pathe.fr/fr/V3136S91658/booking",
+    "showId": "V3136S93977",
+    "linkShow": "https://s.pathe.fr/fr/V3136S93977/booking",
     "earlyType": "AVPE",
-    "movieId": "la-seance-live-finalement-42836",
-    "linkMovie": "https://www.pathe.fr/films/la-seance-live-finalement-42836",
+    "movieId": "les-reines-du-drame-40065",
+    "linkMovie": "https://www.pathe.fr/films/les-reines-du-drame-40065",
     "cinemaName": "pathe-cinema-pathe-convention",
     "version": "vf",
-    "dateShow": "2024-11-19T19:00:00.000Z",
-    "cover": "https://media.pathe.fr/movie/alex/HO00008506/poster/lg/6/movie&uuid=1C1BD036-C4A1-41C2-AB60-531D4FD4A0D2",
-    "officialRelease": "2024-11-19T00:00:00.000Z",
+    "dateShow": "2024-11-22T19:30:00.000Z",
+    "cover": "https://media.pathe.fr/movie/alex/HO00007863/poster/lg/6/movie&uuid=0BA0F452-725B-49D2-B5D4-DAF006FD078F",
+    "officialRelease": "2024-11-27T00:00:00.000Z",
+    "db": {
+      "id": "tt28349668",
+      "title": "Les reines du drame",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNGU0YTUxYTAtYTUxNS00N2Y3LThjOWItODUzMjZiZjc2MmJlXkEyXkFqcGc@._V1_.jpg"
+    },
     "imdb": {
-      "id": "tt27819140",
-      "title": "Finalement",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMDgzZTI0MzUtZTdmNy00NDQ1LThjYTktZTgxNzMwMWM3YThiXkEyXkFqcGc@._V1_.jpg"
+      "id": "tt28349668",
+      "title": "Les reines du drame",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNGU0YTUxYTAtYTUxNS00N2Y3LThjOWItODUzMjZiZjc2MmJlXkEyXkFqcGc@._V1_.jpg"
     },
     "allocine": {
       "id": "",
-      "title": "Finalement",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
+      "title": "",
+      "poster": ""
+    },
+    "tmdb": {
+      "id": 1001376,
+      "title": "Les reines du drame",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/gZtBtBJPpGSeFVXF0S2Kt388rE1.jpg"
     }
   },
   {
-    "name": "la seance live trois amies",
-    "title": "trois amies",
+    "name": "les femmes au balcon",
+    "title": "Les Femmes au balcon",
     "source": "pathe",
-    "showId": "V3136S91660",
-    "linkShow": "https://s.pathe.fr/fr/V3136S91660/booking",
+    "showId": "V3010S118886",
+    "linkShow": "https://s.pathe.fr/fr/V3010S118886/booking",
     "earlyType": "AVPE",
-    "movieId": "la-seance-live-trois-amies-42835",
-    "linkMovie": "https://www.pathe.fr/films/la-seance-live-trois-amies-42835",
-    "cinemaName": "pathe-cinema-pathe-convention",
+    "movieId": "les-femmes-au-balcon-38924",
+    "linkMovie": "https://www.pathe.fr/films/les-femmes-au-balcon-38924",
+    "cinemaName": "pathe-cinema-pathe-wepler",
     "version": "vf",
-    "dateShow": "2024-11-05T18:35:00.000Z",
-    "cover": "https://media.pathe.fr/movie/alex/HO00008505/poster/lg/3/movie&uuid=A633974E-944A-47CB-AFBE-B3E356CCE114",
-    "officialRelease": "2024-11-05T00:00:00.000Z",
+    "dateShow": "2024-11-25T18:45:00.000Z",
+    "cover": "https://media.pathe.fr/movie/alex/HO00007679/poster/lg/38/movie&uuid=15B9E4A3-171C-4287-9AAA-CB80507879B4",
+    "officialRelease": "2024-12-11T00:00:00.000Z",
+    "db": {
+      "id": "tt28375311",
+      "title": "Les femmes au balcon",
+      "poster": "https://m.media-amazon.com/images/M/MV5BM2Q2YTgyZTktMDM2MC00NTkxLThkZDEtOGE0NDk1MTQwYjA3XkEyXkFqcGc@._V1_.jpg"
+    },
     "imdb": {
-      "id": "tt30325268",
-      "title": "Trois amies",
-      "poster": "https://m.media-amazon.com/images/M/MV5BOTAwMmVhNzktN2I2Mi00NzMyLWI2MzItOTUxMmEwZjAzMDA2XkEyXkFqcGc@._V1_.jpg"
+      "id": "tt28375311",
+      "title": "Les femmes au balcon",
+      "poster": "https://m.media-amazon.com/images/M/MV5BM2Q2YTgyZTktMDM2MC00NTkxLThkZDEtOGE0NDk1MTQwYjA3XkEyXkFqcGc@._V1_.jpg"
     },
     "allocine": {
       "id": "",
-      "title": "Trois amies",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
-    }
-  },
-  {
-    "name": "la seance live vermines",
-    "title": "vermines",
-    "source": "pathe",
-    "showId": "V3136S92643",
-    "linkShow": "https://s.pathe.fr/fr/V3136S92643/booking",
-    "earlyType": "AVPE",
-    "movieId": "la-seance-live-vermines-42969",
-    "linkMovie": "https://www.pathe.fr/films/la-seance-live-vermines-42969",
-    "cinemaName": "pathe-cinema-pathe-convention",
-    "version": "vf",
-    "dateShow": "2024-10-31T19:30:00.000Z",
-    "cover": "https://media.pathe.fr/movie/alex/HO00008534/poster/lg/6/movie&uuid=0C7F1E9C-2DFF-49B8-A243-F9C5258E623D",
-    "officialRelease": "2024-10-31T00:00:00.000Z",
-    "imdb": {
-      "id": "tt26744289",
-      "title": "Vermines",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNGMxYWM0NTYtNTYwZC00NjQ2LWI2NGMtYWQyZThmMDcwZmRjXkEyXkFqcGc@._V1_.jpg"
+      "title": "",
+      "poster": ""
     },
-    "allocine": {
-      "id": "",
-      "title": "Vermines",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
+    "tmdb": {
+      "id": 1112466,
+      "title": "Les femmes au balcon",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/mkWUu4lkeVlZyV11XUDEksHmzkz.jpg"
     }
   },
   {
     "imdb": {
-      "id": "tt31047957",
-      "title": "Dans la cuisine des Nguyen"
+      "id": "tt27503400",
+      "title": "Animale",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTVhN2M1MTktNDI4ZS00ZWM5LThhNjgtYWYxOWVmN2RiYTk1XkEyXkFqcGc@._V1_.jpg"
     },
     "allocine": {
       "id": "",
-      "title": "Dans la cuisine des Nguyen",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
+      "title": "",
+      "poster": ""
     },
-    "name": "dans la cuisine des nguyen",
-    "title": "Dans la cuisine des nguyen",
+    "tmdb": {
+      "id": 1020822,
+      "title": "Animale",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/pBa0Rmp4AVjbFXtJOPVsw6gnk4P.jpg"
+    },
+    "db": {
+      "id": "tt27503400",
+      "title": "Animale",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTVhN2M1MTktNDI4ZS00ZWM5LThhNjgtYWYxOWVmN2RiYTk1XkEyXkFqcGc@._V1_.jpg"
+    },
+    "name": "animale",
+    "title": "Animale",
     "source": "ugc",
     "officialRelease": null,
-    "showId": "330550425428",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550425428",
+    "showId": "330171726359",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171726359",
     "earlyType": "AVPE",
-    "cover": "https://www.ugc.fr/dynamique/films/07/16707/fr/poster/large/2b4ec7df4872b3a2a39265e04f77cd57_5.jpg",
-    "movieId": "16707",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16707",
-    "cinemaName": "ugc-cine-cite-paris-19",
-    "version": "vf",
-    "dateShow": "2024-11-11T19:00:00.000Z"
-  },
-  {
-    "imdb": {
-      "id": "tt9218128",
-      "title": "Gladiator II",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYmFiODg0ZmEtNjU4MC00NzRhLThiZTgtNjRmMWQwNzY5ODlkXkEyXkFqcGc@._V1_.jpg"
-    },
-    "allocine": {
-      "id": "",
-      "title": "Gladiator II",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
-    },
-    "name": "gladiator ii",
-    "title": "Gladiator ii",
-    "source": "ugc",
-    "officialRelease": "2024-11-12T23:00:00.000Z",
-    "showId": "330171720070",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171720070",
-    "earlyType": "AVP",
-    "cover": "https://www.ugc.fr/dynamique/films/04/16104/fr/poster/large/d65be9c3a6f9dc13a987f71c59351855_208.jpg",
-    "movieId": "16104",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16104",
+    "cover": "https://www.ugc.fr/dynamique/films/25/16325/fr/poster/large/002a3e6ef13c7fab43256a78a358612f_663.jpg",
+    "movieId": "16325",
+    "linkMovie": "https://www.ugc.fr/film.html?id=16325",
     "cinemaName": "ugc-cine-cite-les-halles",
-    "version": "vost",
-    "dateShow": "2024-11-10T17:00:00.000Z"
+    "version": "vf",
+    "dateShow": "2024-11-25T19:15:00.000Z"
   },
   {
     "imdb": {
-      "id": "tt9218128",
-      "title": "Gladiator II",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYmFiODg0ZmEtNjU4MC00NzRhLThiZTgtNjRmMWQwNzY5ODlkXkEyXkFqcGc@._V1_.jpg"
+      "id": "tt30327451",
+      "title": "En fanfare",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYTI1N2ZmNWMtOTFkMi00ZDA5LTk3NjktMWE5NGEzOTgzODc1XkEyXkFqcGc@._V1_.jpg"
     },
     "allocine": {
       "id": "",
-      "title": "Gladiator II",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
+      "title": "",
+      "poster": ""
     },
-    "name": "gladiator ii",
-    "title": "Gladiator ii",
+    "tmdb": {
+      "id": 1000866,
+      "title": "En fanfare",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/knB9YhFbWjAjHwD3a3W9fhfoOuW.jpg"
+    },
+    "db": {
+      "id": "tt30327451",
+      "title": "En fanfare",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYTI1N2ZmNWMtOTFkMi00ZDA5LTk3NjktMWE5NGEzOTgzODc1XkEyXkFqcGc@._V1_.jpg"
+    },
+    "name": "en fanfare",
+    "title": "En fanfare",
     "source": "ugc",
-    "officialRelease": "2024-11-12T23:00:00.000Z",
-    "showId": "330020267036",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330020267036",
+    "officialRelease": "2024-11-26T23:00:00.000Z",
+    "showId": "330020270034",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330020270034",
     "earlyType": "AVP",
-    "cover": "https://www.ugc.fr/dynamique/films/04/16104/fr/poster/large/d65be9c3a6f9dc13a987f71c59351855_208.jpg",
-    "movieId": "16104",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16104",
+    "cover": "https://www.ugc.fr/dynamique/films/51/16351/fr/poster/large/647422e028e4ec2074828047f69efa08_27.jpg",
+    "movieId": "16351",
+    "linkMovie": "https://www.ugc.fr/film.html?id=16351",
     "cinemaName": "ugc-cine-cite-maillot",
-    "version": "vost",
-    "dateShow": "2024-11-10T18:00:00.000Z"
-  },
-  {
-    "imdb": {
-      "id": "tt9218128",
-      "title": "Gladiator II",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYmFiODg0ZmEtNjU4MC00NzRhLThiZTgtNjRmMWQwNzY5ODlkXkEyXkFqcGc@._V1_.jpg"
-    },
-    "allocine": {
-      "id": "",
-      "title": "Gladiator II",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
-    },
-    "name": "gladiator ii",
-    "title": "Gladiator ii",
-    "source": "ugc",
-    "officialRelease": "2024-11-12T23:00:00.000Z",
-    "showId": "330051018013",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330051018013",
-    "earlyType": "AVP",
-    "cover": "https://www.ugc.fr/dynamique/films/04/16104/fr/poster/large/d65be9c3a6f9dc13a987f71c59351855_208.jpg",
-    "movieId": "16104",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16104",
-    "cinemaName": "ugc-odeon",
-    "version": "vost",
-    "dateShow": "2024-11-10T17:00:00.000Z"
-  },
-  {
-    "imdb": {
-      "id": "tt9218128",
-      "title": "Gladiator II",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYmFiODg0ZmEtNjU4MC00NzRhLThiZTgtNjRmMWQwNzY5ODlkXkEyXkFqcGc@._V1_.jpg"
-    },
-    "allocine": {
-      "id": "",
-      "title": "Gladiator II",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
-    },
-    "name": "gladiator ii",
-    "title": "Gladiator ii",
-    "source": "ugc",
-    "officialRelease": "2024-11-12T23:00:00.000Z",
-    "showId": "330091425021",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091425021",
-    "earlyType": "AVP",
-    "cover": "https://www.ugc.fr/dynamique/films/04/16104/fr/poster/large/d65be9c3a6f9dc13a987f71c59351855_208.jpg",
-    "movieId": "16104",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16104",
-    "cinemaName": "ugc-cine-cite-bercy",
     "version": "vf",
-    "dateShow": "2024-11-10T17:00:00.000Z"
+    "dateShow": "2024-11-24T18:30:00.000Z"
   },
   {
     "imdb": {
-      "id": "tt9218128",
-      "title": "Gladiator II",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYmFiODg0ZmEtNjU4MC00NzRhLThiZTgtNjRmMWQwNzY5ODlkXkEyXkFqcGc@._V1_.jpg"
+      "id": "tt30327451",
+      "title": "En fanfare",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYTI1N2ZmNWMtOTFkMi00ZDA5LTk3NjktMWE5NGEzOTgzODc1XkEyXkFqcGc@._V1_.jpg"
     },
     "allocine": {
       "id": "",
-      "title": "Gladiator II",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
+      "title": "",
+      "poster": ""
     },
-    "name": "gladiator ii",
-    "title": "Gladiator ii",
+    "tmdb": {
+      "id": 1000866,
+      "title": "En fanfare",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/knB9YhFbWjAjHwD3a3W9fhfoOuW.jpg"
+    },
+    "db": {
+      "id": "tt30327451",
+      "title": "En fanfare",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYTI1N2ZmNWMtOTFkMi00ZDA5LTk3NjktMWE5NGEzOTgzODc1XkEyXkFqcGc@._V1_.jpg"
+    },
+    "name": "en fanfare",
+    "title": "En fanfare",
     "source": "ugc",
-    "officialRelease": "2024-11-12T23:00:00.000Z",
-    "showId": "330091425022",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091425022",
+    "officialRelease": "2024-11-26T23:00:00.000Z",
+    "showId": "330081126326",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330081126326",
     "earlyType": "AVP",
-    "cover": "https://www.ugc.fr/dynamique/films/04/16104/fr/poster/large/d65be9c3a6f9dc13a987f71c59351855_208.jpg",
-    "movieId": "16104",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16104",
-    "cinemaName": "ugc-cine-cite-bercy",
-    "version": "vost",
-    "dateShow": "2024-11-10T20:05:00.000Z"
-  },
-  {
-    "imdb": {
-      "id": "tt9218128",
-      "title": "Gladiator II",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYmFiODg0ZmEtNjU4MC00NzRhLThiZTgtNjRmMWQwNzY5ODlkXkEyXkFqcGc@._V1_.jpg"
-    },
-    "allocine": {
-      "id": "",
-      "title": "Gladiator II",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
-    },
-    "name": "gladiator ii",
-    "title": "Gladiator ii",
-    "source": "ugc",
-    "officialRelease": "2024-11-12T23:00:00.000Z",
-    "showId": "330181098098",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330181098098",
-    "earlyType": "AVP",
-    "cover": "https://www.ugc.fr/dynamique/films/04/16104/fr/poster/large/d65be9c3a6f9dc13a987f71c59351855_208.jpg",
-    "movieId": "16104",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16104",
-    "cinemaName": "ugc-lyon-bastille",
-    "version": "vf",
-    "dateShow": "2024-11-10T17:00:00.000Z"
-  },
-  {
-    "imdb": {
-      "id": "tt9218128",
-      "title": "Gladiator II",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYmFiODg0ZmEtNjU4MC00NzRhLThiZTgtNjRmMWQwNzY5ODlkXkEyXkFqcGc@._V1_.jpg"
-    },
-    "allocine": {
-      "id": "",
-      "title": "Gladiator II",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
-    },
-    "name": "gladiator ii",
-    "title": "Gladiator ii",
-    "source": "ugc",
-    "officialRelease": "2024-11-12T23:00:00.000Z",
-    "showId": "330081123680",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330081123680",
-    "earlyType": "AVP",
-    "cover": "https://www.ugc.fr/dynamique/films/04/16104/fr/poster/large/d65be9c3a6f9dc13a987f71c59351855_208.jpg",
-    "movieId": "16104",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16104",
+    "cover": "https://www.ugc.fr/dynamique/films/51/16351/fr/poster/large/647422e028e4ec2074828047f69efa08_27.jpg",
+    "movieId": "16351",
+    "linkMovie": "https://www.ugc.fr/film.html?id=16351",
     "cinemaName": "ugc-gobelins",
-    "version": "vost",
-    "dateShow": "2024-11-10T16:30:00.000Z"
-  },
-  {
-    "imdb": {
-      "id": "tt9218128",
-      "title": "Gladiator II",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYmFiODg0ZmEtNjU4MC00NzRhLThiZTgtNjRmMWQwNzY5ODlkXkEyXkFqcGc@._V1_.jpg"
-    },
-    "allocine": {
-      "id": "",
-      "title": "Gladiator II",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
-    },
-    "name": "gladiator ii",
-    "title": "Gladiator ii",
-    "source": "ugc",
-    "officialRelease": "2024-11-12T23:00:00.000Z",
-    "showId": "330550426086",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550426086",
-    "earlyType": "AVP",
-    "cover": "https://www.ugc.fr/dynamique/films/04/16104/fr/poster/large/d65be9c3a6f9dc13a987f71c59351855_208.jpg",
-    "movieId": "16104",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16104",
-    "cinemaName": "ugc-cine-cite-paris-19",
-    "version": "vost",
-    "dateShow": "2024-11-10T17:00:00.000Z"
-  },
-  {
-    "imdb": {
-      "id": "tt27804164",
-      "title": "Julie se tait",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYjUyNzczM2MtNzU0OS00ZjVkLTk2ODAtMDAxNDk3Mzg3NTI0XkEyXkFqcGc@._V1_.jpg"
-    },
-    "allocine": {
-      "id": "",
-      "title": "Julie se tait",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
-    },
-    "name": "julie se tait",
-    "title": "Julie se tait",
-    "source": "ugc",
-    "officialRelease": null,
-    "showId": "330550426089",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550426089",
-    "earlyType": "AVP",
-    "cover": "https://www.ugc.fr/dynamique/films/54/16554/fr/poster/large/72fde2e7d86c5ac943c394abc8ac6dad_75.jpg",
-    "movieId": "16554",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16554",
-    "cinemaName": "ugc-cine-cite-paris-19",
-    "version": "vost",
-    "dateShow": "2024-11-07T17:00:00.000Z"
-  },
-  {
-    "imdb": {
-      "id": "tt32890051",
-      "title": "Kouté Vwa",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNzIwYzU5ZTctMzQzZS00YmZhLWFiODQtZmQ2MmFiNzc3OGNjXkEyXkFqcGc@._V1_.jpg"
-    },
-    "allocine": {
-      "id": "",
-      "title": "",
-      "poster": ""
-    },
-    "name": "koute vwa",
-    "title": "Koute vwa",
-    "source": "ugc",
-    "officialRelease": null,
-    "showId": "330550426090",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550426090",
-    "earlyType": "AVPE",
-    "cover": "https://www.ugc.fr/dynamique/images/koute_vwa.jpg",
-    "movieId": "16736",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16736",
-    "cinemaName": "ugc-cine-cite-paris-19",
-    "version": "vost",
-    "dateShow": "2024-11-07T19:30:00.000Z"
-  },
-  {
-    "imdb": {
-      "id": "tt30060943",
-      "title": "L'art d'être heureux",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTIxYzZjYmQtOTk1ZS00ZWIzLWIyNzgtMjgxZmFmODBlZTI2XkEyXkFqcGc@._V1_.jpg"
-    },
-    "allocine": {
-      "id": "",
-      "title": "L'Art d'être heureux",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
-    },
-    "name": "l'art d'etre heureux",
-    "title": "L'art d'etre heureux",
-    "source": "ugc",
-    "officialRelease": "2024-10-29T23:00:00.000Z",
-    "showId": "330171721299",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171721299",
-    "earlyType": "AVPE",
-    "cover": "https://www.ugc.fr/dynamique/films/24/16424/fr/poster/large/bccbc8ed63c5edfa83295a9818a70396_82.jpg",
-    "movieId": "16424",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16424",
-    "cinemaName": "ugc-cine-cite-les-halles",
     "version": "vf",
-    "dateShow": "2024-10-28T18:00:00.000Z"
+    "dateShow": "2024-11-24T17:15:00.000Z"
   },
   {
     "imdb": {
-      "id": "tt33022320",
-      "title": "Little Jaffna",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMDZhMTNjZjEtZTM1Mi00ZmJhLWFiMDMtMDFlNjNlMWVkOTgwXkEyXkFqcGc@._V1_.jpg"
+      "id": "tt30327451",
+      "title": "En fanfare",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYTI1N2ZmNWMtOTFkMi00ZDA5LTk3NjktMWE5NGEzOTgzODc1XkEyXkFqcGc@._V1_.jpg"
     },
     "allocine": {
       "id": "",
       "title": "",
       "poster": ""
     },
-    "name": "little jaffna",
-    "title": "Little jaffna",
-    "source": "ugc",
-    "officialRelease": "2024-12-31T23:00:00.000Z",
-    "showId": "330550426093",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550426093",
-    "earlyType": "AVPE",
-    "cover": "https://www.ugc.fr/dynamique/films/90/15790/fr/poster/large/ec9838a064eb7889a016633d80941681_1.jpg",
-    "movieId": "15790",
-    "linkMovie": "https://www.ugc.fr/film.html?id=15790",
-    "cinemaName": "ugc-cine-cite-paris-19",
-    "version": "vost",
-    "dateShow": "2024-11-08T19:30:00.000Z"
-  },
-  {
-    "imdb": {
-      "id": "",
-      "title": "",
-      "poster": ""
+    "tmdb": {
+      "id": 1000866,
+      "title": "En fanfare",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/knB9YhFbWjAjHwD3a3W9fhfoOuW.jpg"
     },
-    "allocine": {
-      "id": "",
-      "title": "Marmaille",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
+    "db": {
+      "id": "tt30327451",
+      "title": "En fanfare",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYTI1N2ZmNWMtOTFkMi00ZDA5LTk3NjktMWE5NGEzOTgzODc1XkEyXkFqcGc@._V1_.jpg"
     },
-    "name": "marmaille",
-    "title": "Marmaille",
+    "name": "en fanfare",
+    "title": "En fanfare",
     "source": "ugc",
-    "officialRelease": null,
-    "showId": "330550425424",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550425424",
-    "earlyType": "AVPE",
-    "cover": "https://www.ugc.fr/dynamique/films/28/16828/fr/poster/large/4ae1000f3103d08008892670b3f9e503_3.jpg",
-    "movieId": "16828",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16828",
+    "officialRelease": "2024-11-26T23:00:00.000Z",
+    "showId": "330550428213",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550428213",
+    "earlyType": "AVP",
+    "cover": "https://www.ugc.fr/dynamique/films/51/16351/fr/poster/large/647422e028e4ec2074828047f69efa08_27.jpg",
+    "movieId": "16351",
+    "linkMovie": "https://www.ugc.fr/film.html?id=16351",
     "cinemaName": "ugc-cine-cite-paris-19",
     "version": "vf",
-    "dateShow": "2024-11-06T19:00:00.000Z"
-  },
-  {
-    "imdb": {
-      "id": "tt17526714",
-      "title": "The Substance",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMmNhNWZiZGItMWJlYS00ZDc2LWI0ZGEtOGIwM2I0OTM3MDEzXkEyXkFqcGc@._V1_.jpg"
-    },
-    "allocine": {
-      "id": "",
-      "title": "The Substance",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
-    },
-    "name": "the substance",
-    "title": "The substance",
-    "source": "ugc",
-    "officialRelease": null,
-    "showId": "330091422605",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091422605",
-    "earlyType": "AVP",
-    "cover": "https://www.ugc.fr/dynamique/films/50/16550/fr/poster/large/dc5e71f5a015d5d24f0135ee600ac27b_21.jpg",
-    "movieId": "16550",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16550",
-    "cinemaName": "ugc-cine-cite-bercy",
-    "version": "vost",
-    "dateShow": "2024-11-01T19:00:00.000Z"
-  },
-  {
-    "imdb": {
-      "id": "tt17526714",
-      "title": "The Substance",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMmNhNWZiZGItMWJlYS00ZDc2LWI0ZGEtOGIwM2I0OTM3MDEzXkEyXkFqcGc@._V1_.jpg"
-    },
-    "allocine": {
-      "id": "",
-      "title": "The Substance",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
-    },
-    "name": "the substance",
-    "title": "The substance",
-    "source": "ugc",
-    "officialRelease": null,
-    "showId": "330091424138",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091424138",
-    "earlyType": "AVP",
-    "cover": "https://www.ugc.fr/dynamique/films/50/16550/fr/poster/large/dc5e71f5a015d5d24f0135ee600ac27b_21.jpg",
-    "movieId": "16550",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16550",
-    "cinemaName": "ugc-cine-cite-bercy",
-    "version": "vost",
-    "dateShow": "2024-11-01T19:10:00.000Z"
-  },
-  {
-    "imdb": {
-      "id": "tt17526714",
-      "title": "The Substance",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMmNhNWZiZGItMWJlYS00ZDc2LWI0ZGEtOGIwM2I0OTM3MDEzXkEyXkFqcGc@._V1_.jpg"
-    },
-    "allocine": {
-      "id": "",
-      "title": "The Substance",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
-    },
-    "name": "the substance",
-    "title": "The substance",
-    "source": "ugc",
-    "officialRelease": null,
-    "showId": "330550424202",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550424202",
-    "earlyType": "AVP",
-    "cover": "https://www.ugc.fr/dynamique/films/50/16550/fr/poster/large/dc5e71f5a015d5d24f0135ee600ac27b_21.jpg",
-    "movieId": "16550",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16550",
-    "cinemaName": "ugc-cine-cite-paris-19",
-    "version": "vost",
-    "dateShow": "2024-11-01T19:00:00.000Z"
+    "dateShow": "2024-11-24T17:00:00.000Z"
   },
   {
     "imdb": {},
     "allocine": {
       "id": "",
-      "title": "Toutes pour une",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
+      "title": "",
+      "poster": ""
     },
-    "name": "toutes pour une",
-    "title": "Toutes pour une",
+    "tmdb": {
+      "id": 1020969,
+      "title": "Le Noël de Teddy l'ourson",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/xegXeb1LbFcU9fR2ZNZw4eColY0.jpg"
+    },
+    "db": {},
+    "name": "le noël de teddy l'ourson",
+    "title": "Le noël de teddy l'ourson",
     "source": "ugc",
-    "officialRelease": "2025-01-07T23:00:00.000Z",
-    "showId": "330550425426",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550425426",
+    "officialRelease": null,
+    "showId": "330020269466",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330020269466",
+    "earlyType": "AVP",
+    "cover": "https://www.ugc.fr/dynamique/films/41/15541/fr/poster/large/5496683_149.jpg",
+    "movieId": "15541",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15541",
+    "cinemaName": "ugc-cine-cite-maillot",
+    "version": "vf",
+    "dateShow": "2024-12-08T10:00:00.000Z"
+  },
+  {
+    "imdb": {
+      "id": "",
+      "title": "",
+      "poster": ""
+    },
+    "allocine": {
+      "id": "",
+      "title": "",
+      "poster": ""
+    },
+    "tmdb": {
+      "id": 717196,
+      "title": "Niko le petit renne, mission Père Noël",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/55KEwlAraIcmYM4WmaZz0CeweiD.jpg"
+    },
+    "db": {
+      "id": "",
+      "title": "",
+      "poster": ""
+    },
+    "name": "niko le petit renne, mission père nöel",
+    "title": "Niko le petit renne, mission père nöel",
+    "source": "ugc",
+    "officialRelease": null,
+    "showId": "330020269467",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330020269467",
+    "earlyType": "AVP",
+    "cover": "https://www.ugc.fr/dynamique/films/03/16103/fr/poster/large/01ef3db776a88ed6cd1b73ccc32f6e10_12.jpg",
+    "movieId": "16103",
+    "linkMovie": "https://www.ugc.fr/film.html?id=16103",
+    "cinemaName": "ugc-cine-cite-maillot",
+    "version": "vf",
+    "dateShow": "2024-12-01T10:00:00.000Z"
+  },
+  {
+    "imdb": {
+      "id": "tt33298252",
+      "title": "Rabia",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNmRlY2U3ZTYtOGVkOC00YzFiLTgwMDgtNWYyNWM0NjYzMzgzXkEyXkFqcGc@._V1_.jpg"
+    },
+    "allocine": {
+      "id": "",
+      "title": "",
+      "poster": ""
+    },
+    "tmdb": {
+      "id": 999142,
+      "title": "Rabia",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3XSp7cBOELTYuoUGAcSe9lSCxHu.jpg"
+    },
+    "db": {
+      "id": "tt33298252",
+      "title": "Rabia",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNmRlY2U3ZTYtOGVkOC00YzFiLTgwMDgtNWYyNWM0NjYzMzgzXkEyXkFqcGc@._V1_.jpg"
+    },
+    "name": "rabia",
+    "title": "Rabia",
+    "source": "ugc",
+    "officialRelease": "2024-11-26T23:00:00.000Z",
+    "showId": "330171726361",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171726361",
     "earlyType": "AVPE",
-    "cover": "https://www.ugc.fr/dynamique/images/affiches/toutes-pour-une_320x426-v2.jpg",
-    "movieId": "16562",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16562",
-    "cinemaName": "ugc-cine-cite-paris-19",
+    "cover": "https://www.ugc.fr/dynamique/films/26/16426/fr/poster/large/539e1948c4b76127ff44b39322480503_38.jpg",
+    "movieId": "16426",
+    "linkMovie": "https://www.ugc.fr/film.html?id=16426",
+    "cinemaName": "ugc-cine-cite-les-halles",
     "version": "vf",
-    "dateShow": "2024-11-13T19:00:00.000Z"
+    "dateShow": "2024-11-26T19:15:00.000Z"
   },
   {
     "imdb": {
+      "id": "tt1262426",
+      "title": "Wicked",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmNmOWFmYTMtOGU1OC00YjI4LWFkMTItNzM5NzFmZTg5MzEyXkEyXkFqcGc@._V1_.jpg"
+    },
+    "allocine": {
       "id": "",
       "title": "",
       "poster": ""
     },
-    "allocine": {
-      "id": "",
-      "title": "Venom: The Last Dance",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
+    "tmdb": {
+      "id": 402431,
+      "title": "Wicked",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/kQkgPhj6sCuoMWzPKWQVOWUXzib.jpg"
     },
-    "name": "venom the last dance",
-    "title": "Venom the last dance",
+    "db": {
+      "id": "tt1262426",
+      "title": "Wicked",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmNmOWFmYTMtOGU1OC00YjI4LWFkMTItNzM5NzFmZTg5MzEyXkEyXkFqcGc@._V1_.jpg"
+    },
+    "name": "wicked",
+    "title": "Wicked",
     "source": "ugc",
     "officialRelease": null,
-    "showId": "330171721293",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171721293",
+    "showId": "330171723911",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171723911",
     "earlyType": "AVP",
-    "cover": "https://www.ugc.fr/dynamique/films/65/16265/fr/poster/large/57b356018fe053ff81efa47e79cfb780_43.jpg",
-    "movieId": "16265",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16265",
+    "cover": "https://www.ugc.fr/dynamique/films/72/15972/fr/poster/large/1c637da2ba5462df0d49da335124208a_421.jpg",
+    "movieId": "15972",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15972",
     "cinemaName": "ugc-cine-cite-les-halles",
     "version": "vost",
-    "dateShow": "2024-10-29T18:20:00.000Z"
+    "dateShow": "2024-11-22T19:30:00.000Z"
   },
   {
     "imdb": {
+      "id": "tt1262426",
+      "title": "Wicked",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmNmOWFmYTMtOGU1OC00YjI4LWFkMTItNzM5NzFmZTg5MzEyXkEyXkFqcGc@._V1_.jpg"
+    },
+    "allocine": {
       "id": "",
       "title": "",
       "poster": ""
     },
-    "allocine": {
-      "id": "",
-      "title": "Venom: The Last Dance",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
+    "tmdb": {
+      "id": 402431,
+      "title": "Wicked",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/kQkgPhj6sCuoMWzPKWQVOWUXzib.jpg"
     },
-    "name": "venom the last dance",
-    "title": "Venom the last dance",
+    "db": {
+      "id": "tt1262426",
+      "title": "Wicked",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmNmOWFmYTMtOGU1OC00YjI4LWFkMTItNzM5NzFmZTg5MzEyXkEyXkFqcGc@._V1_.jpg"
+    },
+    "name": "wicked",
+    "title": "Wicked",
     "source": "ugc",
     "officialRelease": null,
-    "showId": "330171721294",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171721294",
+    "showId": "330020268393",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330020268393",
     "earlyType": "AVP",
-    "cover": "https://www.ugc.fr/dynamique/films/65/16265/fr/poster/large/57b356018fe053ff81efa47e79cfb780_43.jpg",
-    "movieId": "16265",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16265",
-    "cinemaName": "ugc-cine-cite-les-halles",
+    "cover": "https://www.ugc.fr/dynamique/films/72/15972/fr/poster/large/1c637da2ba5462df0d49da335124208a_421.jpg",
+    "movieId": "15972",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15972",
+    "cinemaName": "ugc-cine-cite-maillot",
     "version": "vost",
-    "dateShow": "2024-10-29T20:50:00.000Z"
+    "dateShow": "2024-11-22T19:30:00.000Z"
   },
   {
     "imdb": {
+      "id": "tt1262426",
+      "title": "Wicked",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmNmOWFmYTMtOGU1OC00YjI4LWFkMTItNzM5NzFmZTg5MzEyXkEyXkFqcGc@._V1_.jpg"
+    },
+    "allocine": {
       "id": "",
       "title": "",
       "poster": ""
     },
-    "allocine": {
-      "id": "",
-      "title": "Venom: The Last Dance",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
+    "tmdb": {
+      "id": 402431,
+      "title": "Wicked",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/kQkgPhj6sCuoMWzPKWQVOWUXzib.jpg"
     },
-    "name": "venom the last dance",
-    "title": "Venom the last dance",
+    "db": {
+      "id": "tt1262426",
+      "title": "Wicked",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmNmOWFmYTMtOGU1OC00YjI4LWFkMTItNzM5NzFmZTg5MzEyXkEyXkFqcGc@._V1_.jpg"
+    },
+    "name": "wicked",
+    "title": "Wicked",
     "source": "ugc",
     "officialRelease": null,
-    "showId": "330231082145",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330231082145",
+    "showId": "330231083131",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330231083131",
     "earlyType": "AVP",
-    "cover": "https://www.ugc.fr/dynamique/films/65/16265/fr/poster/large/57b356018fe053ff81efa47e79cfb780_43.jpg",
-    "movieId": "16265",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16265",
+    "cover": "https://www.ugc.fr/dynamique/films/72/15972/fr/poster/large/1c637da2ba5462df0d49da335124208a_421.jpg",
+    "movieId": "15972",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15972",
     "cinemaName": "ugc-montparnasse",
     "version": "vost",
-    "dateShow": "2024-10-29T18:40:00.000Z"
+    "dateShow": "2024-11-22T19:30:00.000Z"
   },
   {
     "imdb": {
+      "id": "tt1262426",
+      "title": "Wicked",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmNmOWFmYTMtOGU1OC00YjI4LWFkMTItNzM5NzFmZTg5MzEyXkEyXkFqcGc@._V1_.jpg"
+    },
+    "allocine": {
       "id": "",
       "title": "",
       "poster": ""
     },
-    "allocine": {
-      "id": "",
-      "title": "Venom: The Last Dance",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
+    "tmdb": {
+      "id": 402431,
+      "title": "Wicked",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/kQkgPhj6sCuoMWzPKWQVOWUXzib.jpg"
     },
-    "name": "venom the last dance",
-    "title": "Venom the last dance",
+    "db": {
+      "id": "tt1262426",
+      "title": "Wicked",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmNmOWFmYTMtOGU1OC00YjI4LWFkMTItNzM5NzFmZTg5MzEyXkEyXkFqcGc@._V1_.jpg"
+    },
+    "name": "wicked",
+    "title": "Wicked",
     "source": "ugc",
     "officialRelease": null,
-    "showId": "330231082146",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330231082146",
+    "showId": "330091426526",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091426526",
     "earlyType": "AVP",
-    "cover": "https://www.ugc.fr/dynamique/films/65/16265/fr/poster/large/57b356018fe053ff81efa47e79cfb780_43.jpg",
-    "movieId": "16265",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16265",
-    "cinemaName": "ugc-montparnasse",
-    "version": "vost",
-    "dateShow": "2024-10-29T21:05:00.000Z"
-  },
-  {
-    "imdb": {
-      "id": "",
-      "title": "",
-      "poster": ""
-    },
-    "allocine": {
-      "id": "",
-      "title": "Venom: The Last Dance",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
-    },
-    "name": "venom the last dance",
-    "title": "Venom the last dance",
-    "source": "ugc",
-    "officialRelease": null,
-    "showId": "330091424951",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091424951",
-    "earlyType": "AVP",
-    "cover": "https://www.ugc.fr/dynamique/films/65/16265/fr/poster/large/57b356018fe053ff81efa47e79cfb780_43.jpg",
-    "movieId": "16265",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16265",
-    "cinemaName": "ugc-cine-cite-bercy",
-    "version": "vf",
-    "dateShow": "2024-10-29T18:00:00.000Z"
-  },
-  {
-    "imdb": {
-      "id": "",
-      "title": "",
-      "poster": ""
-    },
-    "allocine": {
-      "id": "",
-      "title": "Venom: The Last Dance",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
-    },
-    "name": "venom the last dance",
-    "title": "Venom the last dance",
-    "source": "ugc",
-    "officialRelease": null,
-    "showId": "330091424952",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091424952",
-    "earlyType": "AVP",
-    "cover": "https://www.ugc.fr/dynamique/films/65/16265/fr/poster/large/57b356018fe053ff81efa47e79cfb780_43.jpg",
-    "movieId": "16265",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16265",
+    "cover": "https://www.ugc.fr/dynamique/films/72/15972/fr/poster/large/1c637da2ba5462df0d49da335124208a_421.jpg",
+    "movieId": "15972",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15972",
     "cinemaName": "ugc-cine-cite-bercy",
     "version": "vost",
-    "dateShow": "2024-10-29T20:20:00.000Z"
+    "dateShow": "2024-11-22T19:30:00.000Z"
   },
   {
     "imdb": {
+      "id": "tt1262426",
+      "title": "Wicked",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmNmOWFmYTMtOGU1OC00YjI4LWFkMTItNzM5NzFmZTg5MzEyXkEyXkFqcGc@._V1_.jpg"
+    },
+    "allocine": {
       "id": "",
       "title": "",
       "poster": ""
     },
-    "allocine": {
-      "id": "",
-      "title": "Venom: The Last Dance",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
+    "tmdb": {
+      "id": 402431,
+      "title": "Wicked",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/kQkgPhj6sCuoMWzPKWQVOWUXzib.jpg"
     },
-    "name": "venom the last dance",
-    "title": "Venom the last dance",
+    "db": {
+      "id": "tt1262426",
+      "title": "Wicked",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmNmOWFmYTMtOGU1OC00YjI4LWFkMTItNzM5NzFmZTg5MzEyXkEyXkFqcGc@._V1_.jpg"
+    },
+    "name": "wicked",
+    "title": "Wicked",
     "source": "ugc",
     "officialRelease": null,
-    "showId": "330181098367",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330181098367",
+    "showId": "330550427673",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550427673",
     "earlyType": "AVP",
-    "cover": "https://www.ugc.fr/dynamique/films/65/16265/fr/poster/large/57b356018fe053ff81efa47e79cfb780_43.jpg",
-    "movieId": "16265",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16265",
-    "cinemaName": "ugc-lyon-bastille",
-    "version": "vf",
-    "dateShow": "2024-10-29T18:45:00.000Z"
-  },
-  {
-    "imdb": {
-      "id": "",
-      "title": "",
-      "poster": ""
-    },
-    "allocine": {
-      "id": "",
-      "title": "Venom: The Last Dance",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
-    },
-    "name": "venom the last dance",
-    "title": "Venom the last dance",
-    "source": "ugc",
-    "officialRelease": null,
-    "showId": "330550425978",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550425978",
-    "earlyType": "AVP",
-    "cover": "https://www.ugc.fr/dynamique/films/65/16265/fr/poster/large/57b356018fe053ff81efa47e79cfb780_43.jpg",
-    "movieId": "16265",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16265",
+    "cover": "https://www.ugc.fr/dynamique/films/72/15972/fr/poster/large/1c637da2ba5462df0d49da335124208a_421.jpg",
+    "movieId": "15972",
+    "linkMovie": "https://www.ugc.fr/film.html?id=15972",
     "cinemaName": "ugc-cine-cite-paris-19",
     "version": "vost",
-    "dateShow": "2024-10-29T19:00:00.000Z"
-  },
-  {
-    "imdb": {
-      "id": "",
-      "title": "",
-      "poster": ""
-    },
-    "allocine": {
-      "id": "",
-      "title": "Venom: The Last Dance",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
-    },
-    "name": "venom the last dance",
-    "title": "Venom the last dance",
-    "source": "ugc",
-    "officialRelease": null,
-    "showId": "330550425980",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550425980",
-    "earlyType": "AVP",
-    "cover": "https://www.ugc.fr/dynamique/films/65/16265/fr/poster/large/57b356018fe053ff81efa47e79cfb780_43.jpg",
-    "movieId": "16265",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16265",
-    "cinemaName": "ugc-cine-cite-paris-19",
-    "version": "vost",
-    "dateShow": "2024-10-29T20:30:00.000Z"
-  },
-  {
-    "imdb": {
-      "id": "",
-      "title": "",
-      "poster": ""
-    },
-    "allocine": {
-      "id": "",
-      "title": "To a Land Unknown",
-      "poster": "data:image/gif;base64,R0lGODlhAwAEAIAAAAAAAAAAACH5BAEAAAAALAAAAAADAAQAAAIDhI9WADs="
-    },
-    "name": "vers un pays inconnu - to a land unknown",
-    "title": "Vers un pays inconnu - to a land unknown",
-    "source": "ugc",
-    "officialRelease": null,
-    "showId": "330550426092",
-    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550426092",
-    "earlyType": "AVP",
-    "cover": "https://www.ugc.fr/dynamique/films/93/16593/fr/poster/large/d01b363e9caa23947a1d0034db9aefc7_2.jpg",
-    "movieId": "16593",
-    "linkMovie": "https://www.ugc.fr/film.html?id=16593",
-    "cinemaName": "ugc-cine-cite-paris-19",
-    "version": "vost",
-    "dateShow": "2024-11-12T19:30:00.000Z"
+    "dateShow": "2024-11-22T19:30:00.000Z"
   }
 ]

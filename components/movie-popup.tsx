@@ -51,9 +51,9 @@ const Line = ({ show }: { show: Show }) => {
             minute: "numeric",
           })}{" "}
           à {cinema.name}{" "}
-          {cinema.googleMyBusinessUrl && (
+          {cinema.googleMaps && (
             <Link
-              href={cinema.googleMyBusinessUrl}
+              href={cinema.googleMaps}
               className="hover:bg-neutral-100 p-2 rounded-full transition-opacity duration-100"
               target="_blank"
             >

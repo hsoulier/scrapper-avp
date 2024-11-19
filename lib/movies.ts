@@ -1,9 +1,9 @@
 import movies from "@/public/database.json"
 import type { useParams } from "next/navigation"
 
-export const getMoviesByImdbId = () => {
+export const getMoviesByDbId = () => {
   return movies.reduce((acc, show) => {
-    const currentId = show.imdb?.id || show.movieId
+    const currentId = show.db?.id || show.movieId
     const isAlreadyInList = acc.has(currentId)
 
     if (isAlreadyInList) return acc
@@ -17,7 +17,7 @@ export const getMoviesByImdbId = () => {
 export const getMoviesByCinema = (params?: ReturnType<typeof useParams>) => {
   const isMultiplex = params?.id === "ugc" || params?.id === "pathe"
   const showsA = movies.reduce((acc, show) => {
-    const currentId = show.imdb?.id || show.movieId
+    const currentId = show.db?.id || show.movieId
     const isAlreadyInList = acc.has(currentId)
 
     if (isAlreadyInList) return acc

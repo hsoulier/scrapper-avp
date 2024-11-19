@@ -1,8 +1,8 @@
 import { Card } from "@/components/card"
-import { getMoviesByImdbId } from "@/lib/movies"
+import { getMoviesByDbId } from "@/lib/movies"
 
 export default function Page() {
-  const shows = Array.from(getMoviesByImdbId().values())
+  const shows = Array.from(getMoviesByDbId().values())
 
   return (
     <main className="p-4 relative flex min-h-svh flex-1 flex-col bg-background">

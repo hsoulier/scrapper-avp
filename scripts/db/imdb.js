@@ -12,7 +12,6 @@ export const getIMDBInfo = async ({ title, year }) => {
   const matches = json.props.pageProps.titleResults.results || []
 
   if (!matches.length) {
-    console.dir(json?.props?.pageProps?.titleResults, { depth: null })
     console.log("❌ [IMDB] No movies found for", title)
 
     return { id: "", title: "", poster: "" }

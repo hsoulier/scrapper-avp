@@ -1,5 +1,5 @@
-import { scrapPathe, getPatheTheaters } from "./pathe.js"
-import { scrapUGC, getUGCTheaters } from "./ugc.js"
+import { scrapPathe, getPatheTheaters } from "./providers/pathe.js"
+import { scrapUGC, getUGCTheaters } from "./providers/ugc.js"
 
 const scrap = async () => {
   await scrapPathe()
