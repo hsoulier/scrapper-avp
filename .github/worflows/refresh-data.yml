@@ -1,27 +1,28 @@
-name: Deploy
 on:
-  push:
-    branches: main
-  pull_request:
-    branches: main
+  schedule:
+    - cron: "0 0 * * *"
 
 jobs:
-  deploy:
-    name: Deploy
+  scrap:
     runs-on: ubuntu-latest
-
-    permissions:
-      id-token: write # Needed for auth with Deno Deploy
-      contents: read # Needed to clone the repository
-
     steps:
-      - name: Clone repository
-        uses: actions/checkout@v3
-
-      - name: Install Deno
-        uses: denoland/setup-deno@v2
+      - name: 📂 Checkout
+        uses: actions/checkout@v4
+      - name: 🧶 Set up Node.js
+        uses: actions/setup-node@v4
         with:
-          deno-version: v2.x
-
-      - name: Build step
-        run: "deno task build"
+          node-version: 20
+          cache: "yarn"
+      - name: 📦 Install dependencies
+        uses: borales/actions-yarn@v5
+        with:
+          cmd: install --frozen-lockfile
+      - name: 📊 Scrap
+        run: node ./scripts/scrapper.js
+      - name: Get current date
+        run: echo "NOW=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+      - name: 📤 Commit
+        uses: EndBug/add-and-commit@v9
+        with:
+          default_author: github_actor
+          message: 📊 Scrap of $NOW
