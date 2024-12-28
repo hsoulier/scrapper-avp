@@ -35,7 +35,9 @@ export default function RootLayout({
         >
           <Navigation />
           <Filters />
-          <main className="container gap-8 grid grid-cols-6">{children}</main>
+          <main className="container gap-8 grid grid-cols-3 lg:grid-cols-6">
+            {children}
+          </main>
         </ThemeProvider>
       </body>
     </html>
