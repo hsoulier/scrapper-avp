@@ -1,6 +1,13 @@
 "use client"
 import { AnimatePresence, motion, Transition, Variants } from "motion/react"
-import React, { createContext, useContext, useEffect, useRef } from "react"
+import React, {
+  createContext,
+  useContext,
+  useEffect,
+  useRef,
+  type Component,
+  type ComponentPropsWithoutRef,
+} from "react"
 import { cn } from "@/lib/utils"
 import { useId } from "react"
 import { createPortal } from "react-dom"
@@ -140,17 +147,15 @@ function Dialog({
   )
 }
 
-type DialogTriggerProps = {
-  children?: React.ReactNode
-  className?: string
-}
+type DialogTriggerProps = ComponentPropsWithoutRef<"article">
 
-function DialogTrigger({ children, className }: DialogTriggerProps) {
+function DialogTrigger({ children, ...rest }: DialogTriggerProps) {
   const context = useContext(DialogContext)
   if (!context) throw new Error("DialogTrigger must be used within Dialog")
 
   return (
     <article
+      {...rest}
       onClick={context.handleTrigger}
       className="group relative after:z-10 after:inset-0 after:absolute after:content-[''] after:bg-gradient-to-b after:from-0% after:from-transparent after:via-black/70 after:via-40% after:to-black after:to-100% after:rounded-[inherit] rounded-xl w-full aspect-[9/16] cursor-pointer"
     >
