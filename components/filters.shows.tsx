@@ -1,5 +1,6 @@
 "use client"
 
+import { SuperParams } from "@/lib/utils"
 import {
   CheckIcon,
   ChevronDownIcon,
@@ -8,7 +9,7 @@ import {
   UserIcon,
 } from "@heroicons/react/24/outline"
 import * as DropdownMenu from "@radix-ui/react-dropdown-menu"
-import { useState } from "react"
+import { useSearchParams } from "next/navigation"
 
 const values = [
   { value: "AVP", label: "AVP classiques", Icon: FilmIcon },
@@ -24,14 +25,25 @@ const values = [
   },
 ] as const
 
+const key = "shows" as const
+
 type Value = (typeof values)[number]["value"]
 
 export const FilterShows = () => {
-  const [itemSelected, setItemSelected] = useState<Value>()
+  const searchParams = useSearchParams()
+
+  const itemSelected = searchParams.get(key) as Value | null
+
+  const updateFilter = (value: Value) => {
+    const params = new SuperParams(searchParams.toString())
+    params.toggle(key, value)
+
+    window.history.pushState(null, "", `?${params.toString()}`)
+  }
 
   return (
     <DropdownMenu.Root>
-      <DropdownMenu.Trigger className="flex items-center gap-2 p-3 border border-gray-200 rounded-xl text-gray-800">
+      <DropdownMenu.Trigger className="focus:outline-none flex items-center gap-2 px-3 py-[10px] border border-gray-200 rounded-xl text-gray-800">
         Type de séances <ChevronDownIcon className="size-4" />
       </DropdownMenu.Trigger>
 
@@ -44,8 +56,8 @@ export const FilterShows = () => {
           <DropdownMenu.CheckboxItem
             key={value}
             checked={itemSelected === value}
-            onCheckedChange={() => setItemSelected(value)}
-            className="relative flex items-center py-2 gap-2 pl-10 pr-2 rounded-lg aria-checked:bg-gray-100 aria-checked:text-gray-white cursor-pointer"
+            onCheckedChange={() => updateFilter(value)}
+            className="relative flex items-center py-2 gap-2 pl-10 pr-2 rounded-lg aria-checked:bg-gray-100 aria-checked:text-gray-white cursor-pointer hover:bg-gray-100 transition-colors duration-100 ease-out hover:outline-none"
           >
             <DropdownMenu.ItemIndicator asChild>
               <CheckIcon className="size-4 absolute left-4 top-1/2 -translate-y-2" />

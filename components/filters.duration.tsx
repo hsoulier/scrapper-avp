@@ -8,7 +8,7 @@ export const FilterDuration = () => {
 
   return (
     <DropdownMenu.Root>
-      <DropdownMenu.Trigger className="flex items-center gap-2 p-3 border border-gray-200 rounded-xl text-gray-800">
+      <DropdownMenu.Trigger className="focus:outline-none flex items-center gap-2 p-3 border border-gray-200 rounded-xl text-gray-800">
         Durée <ChevronDownIcon className="size-4" />
       </DropdownMenu.Trigger>
 

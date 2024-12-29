@@ -5,6 +5,7 @@ import "./globals.css"
 import { cn } from "@/lib/utils"
 import { Navigation } from "@/components/navigation"
 import { Filters } from "@/components/filters"
+import { Suspense } from "react"
 
 const font = Bricolage_Grotesque({
   subsets: ["latin"],
@@ -26,7 +27,7 @@ export default function RootLayout({
       <head />
       <body
         className={cn(
-          "bg-gray-background min-h-screen font-sans antialiased",
+          "dark:text-gray-white bg-gray-background min-h-screen font-sans antialiased",
           font.variable
         )}
       >
@@ -36,11 +37,13 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <Navigation />
-          <Filters />
-          <main className="container gap-8 grid grid-cols-3 lg:grid-cols-6">
-            {children}
-          </main>
+          <Suspense>
+            <Navigation />
+            <Filters />
+            <main className="container gap-8 grid grid-cols-3 lg:grid-cols-6">
+              {children}
+            </main>
+          </Suspense>
         </ThemeProvider>
       </body>
     </html>
