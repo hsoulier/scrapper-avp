@@ -3,6 +3,7 @@ import { FilterDuration } from "@/components/filters.duration"
 import { FilterLanguage } from "@/components/filters.language"
 import { FilterLocation } from "@/components/filters.location"
 import { FilterShows } from "@/components/filters.shows"
+import { Dialog } from "@/components/ui/dialog"
 
 export const Filters = () => {
   return (

@@ -1,12 +1,15 @@
 import type { Metadata } from "next"
-import { Inter } from "next/font/google"
+import { Bricolage_Grotesque } from "next/font/google"
 import { ThemeProvider } from "next-themes"
 import "./globals.css"
 import { cn } from "@/lib/utils"
 import { Navigation } from "@/components/navigation"
 import { Filters } from "@/components/filters"
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-sans" })
+const font = Bricolage_Grotesque({
+  subsets: ["latin"],
+  variable: "--font-sans",
+})
 
 export const metadata: Metadata = {
   title: "Avant première Paris",
@@ -24,7 +27,7 @@ export default function RootLayout({
       <body
         className={cn(
           "bg-gray-background min-h-screen font-sans antialiased",
-          inter.variable
+          font.variable
         )}
       >
         <ThemeProvider
