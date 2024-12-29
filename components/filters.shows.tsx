@@ -33,6 +33,7 @@ export const FilterShows = () => {
   const searchParams = useSearchParams()
 
   const itemSelected = searchParams.get(key) as Value | null
+  const hasValue = searchParams.has(key)
 
   const updateFilter = (value: Value) => {
     const params = new SuperParams(searchParams.toString())
@@ -44,7 +45,11 @@ export const FilterShows = () => {
   return (
     <DropdownMenu.Root>
       <DropdownMenu.Trigger className="focus:outline-none flex items-center gap-2 px-3 py-[10px] border border-gray-200 rounded-xl text-gray-800">
-        Type de séances <ChevronDownIcon className="size-4" />
+        Type de séances
+        {hasValue && (
+          <span className="bg-gray-100 rounded-lg px-2.5">1</span>
+        )}{" "}
+        <ChevronDownIcon className="size-4" />
       </DropdownMenu.Trigger>
 
       <DropdownMenu.Content

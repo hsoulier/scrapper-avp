@@ -20,6 +20,7 @@ export const FilterCinema = () => {
   const searchParams = useSearchParams()
 
   const itemSelected = searchParams.get(key) as Value | null
+  const hasValue = searchParams.has(key)
 
   const updateFilter = (value: Value) => {
     const params = new SuperParams(searchParams.toString())
@@ -31,7 +32,9 @@ export const FilterCinema = () => {
   return (
     <DropdownMenu.Root>
       <DropdownMenu.Trigger className="focus:outline-none flex items-center gap-2 px-3 py-[10px] border border-gray-200 rounded-xl text-gray-800">
-        Cinéma <ChevronDownIcon className="size-4" />
+        Cinéma{" "}
+        {hasValue && <span className="bg-gray-100 rounded-lg px-2.5">1</span>}{" "}
+        <ChevronDownIcon className="size-4" />
       </DropdownMenu.Trigger>
 
       <DropdownMenu.Content

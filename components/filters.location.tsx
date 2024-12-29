@@ -13,6 +13,7 @@ export const FilterLocation = () => {
 
   const itemSelected = searchParams.get(key)
   const cinemaSelected = searchParams.get("cinema")
+  const hasValue = searchParams.has(key)
 
   const values = cinemas
     .filter((c) => (cinemaSelected ? c.source === cinemaSelected : true))
@@ -28,7 +29,11 @@ export const FilterLocation = () => {
   return (
     <DropdownMenu.Root>
       <DropdownMenu.Trigger className="focus:outline-none flex items-center gap-2 px-3 py-[10px] border border-gray-200 rounded-xl text-gray-800">
-        Localisations <ChevronDownIcon className="size-4" />
+        Localisations
+        {hasValue && (
+          <span className="bg-gray-100 rounded-lg px-2.5">1</span>
+        )}{" "}
+        <ChevronDownIcon className="size-4" />
       </DropdownMenu.Trigger>
 
       <DropdownMenu.Content
