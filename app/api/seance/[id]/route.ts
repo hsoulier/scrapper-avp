@@ -1,9 +1,7 @@
 import movies from "@/public/database.json"
 
-export const GET = async (
-  request: Request,
-  { params }: { params: { id: string } }
-) => {
+export const GET = async (request: Request, props: { params: Promise<{ id: string }> }) => {
+  const params = await props.params;
   const { id } = params
 
   const movie = movies.find((film) => film.showId === id)

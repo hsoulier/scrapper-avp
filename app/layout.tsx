@@ -1,15 +1,16 @@
 import type { Metadata } from "next"
-import { Inter } from "next/font/google"
+import { Bricolage_Grotesque } from "next/font/google"
+import { ThemeProvider } from "next-themes"
 import "./globals.css"
 import { cn } from "@/lib/utils"
-import { MoviePopup } from "@/components/movie-popup"
+import { Navigation } from "@/components/navigation"
+import { Filters } from "@/components/filters"
 import { Suspense } from "react"
-import { NuqsAdapter } from "nuqs/adapters/next/app"
-import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar"
-import { AppSidebar } from "@/components/app-sidebar"
-import { ThemeProvider } from "@/app/theme-provider"
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-sans" })
+const font = Bricolage_Grotesque({
+  subsets: ["latin"],
+  variable: "--font-sans",
+})
 
 export const metadata: Metadata = {
   title: "Avant première Paris",
@@ -22,28 +23,28 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="fr" suppressHydrationWarning>
       <head />
       <body
-        className={cn("min-h-screen font-sans antialiased", inter.variable)}
+        className={cn(
+          "dark:text-gray-white bg-gray-background min-h-screen font-sans antialiased",
+          font.variable
+        )}
       >
-        <Suspense fallback={null}>
-          <NuqsAdapter>
-            <ThemeProvider
-              attribute="class"
-              defaultTheme="system"
-              enableSystem
-              disableTransitionOnChange
-            >
-              <SidebarProvider>
-                <AppSidebar />
-                {children}
-              </SidebarProvider>
-
-              <MoviePopup />
-            </ThemeProvider>
-          </NuqsAdapter>
-        </Suspense>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <Suspense>
+            <Navigation />
+            <Filters />
+            <main className="container gap-8 grid grid-cols-3 lg:grid-cols-6">
+              {children}
+            </main>
+          </Suspense>
+        </ThemeProvider>
       </body>
     </html>
   )
