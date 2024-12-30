@@ -11,26 +11,14 @@ export type Movie = (typeof movies)[number]
 const showsMap = movies.reduce((acc, movie) => {
   const id = movie.db?.id || movie.movieId
 
-  if (acc.has(id)) {
-    acc.set(id, [...(acc.get(movie.db.id || "") || []), movie])
-
-    return acc
-  }
-  acc.set(id, [movie])
+  if (!acc.has(id)) acc.set(id, [movie])
 
   return acc
 }, new Map<string, Movie[]>())
 
 const shows = [...showsMap.values()].flat()
 
-const Page = () => {
-  return (
-    <>
-      {shows.map((show) => (
-        <MovieCard key={show.showId} show={show} />
-      ))}
-    </>
-  )
-}
+const Page = () =>
+  shows.map((show) => <MovieCard key={show.showId} show={show} />)
 
 export default Page

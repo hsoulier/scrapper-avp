@@ -5,7 +5,6 @@ import { MoviePopupInfo } from "@/components/movie-popup.info"
 import { MoviePopupRating } from "@/components/movie-popup.rating"
 import { MoviePopupShow } from "@/components/movie-popup.shows"
 import { DialogContent } from "@/components/ui/dialog"
-import { cn } from "@/lib/utils"
 
 export const MoviePopup = ({ show }: { show: Movie }) => {
   const cover = show.db?.poster || show.cover || ""
@@ -26,7 +25,7 @@ export const MoviePopup = ({ show }: { show: Movie }) => {
         </div>
         <MoviePopupRating />
       </div>
-      <div className="space-y-6 flex-grow">
+      <div className="space-y-6 flex-grow max-h-[29rem] overflow-auto">
         <MoviePopupInfo />
         <MoviePopupShow />
       </div>

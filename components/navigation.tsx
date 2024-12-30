@@ -1,10 +1,15 @@
 "use client"
 
 import { Logo } from "@/components/logo"
-import { ThemeSwitch } from "@/components/theme-switch"
 import { MagnifyingGlassIcon } from "@heroicons/react/24/outline"
+import dynamic from "next/dynamic"
 import Link from "next/link"
 import { useSearchParams } from "next/navigation"
+
+const ThemeSwitch = dynamic(
+  () => import("./theme-switch").then((m) => m.ThemeSwitch),
+  { ssr: false }
+)
 
 export const Navigation = () => {
   const value = useSearchParams().get("film")

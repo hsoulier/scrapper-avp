@@ -1,16 +1,32 @@
 "use client"
 
+import { useSearchParams } from "next/navigation"
 import { DialogHeader, DialogTitle } from "@/components/ui/dialog"
 import { UserGroupIcon } from "@heroicons/react/24/outline"
+import movies from "@/public/database.json"
+
+const mappingAVP = {
+  AVPE: "AVP avec équipe du film",
+  AVP: "Avant-première",
+} as const
 
 export const MoviePopupInfo = () => {
+  const searchParams = useSearchParams()
+  const showId = searchParams.get("id")
+
+  if (!showId) return null
+
+  const show = movies.find(
+    (movie) => (movie.db?.id || movie.movieId) === showId
+  )
+
   return (
     <DialogHeader className="space-y-4">
-      <DialogTitle className="text-2xl font-semibold">
-        Motel Destino{" "}
-        <span className="font-normal ml-4 bg-gray-100 inline-flex gap-2 p-2 rounded-xl text-xs">
+      <DialogTitle className="text-2xl font-semibold flex gap-1">
+        <span className="truncate">{show?.title}</span>
+        <span className="flex-shrink-0 font-normal ml-4 bg-gray-100 inline-flex gap-2 p-2 rounded-xl text-xs">
           <UserGroupIcon className="size-4 text-gray-500" />
-          AVP avec équipe du film
+          {mappingAVP[show?.earlyType as keyof typeof mappingAVP]}
         </span>
       </DialogTitle>
       <div className="space-y-3">

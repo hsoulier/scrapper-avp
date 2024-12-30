@@ -5,7 +5,6 @@ import React, {
   useContext,
   useEffect,
   useRef,
-  type Component,
   type ComponentPropsWithoutRef,
 } from "react"
 import { cn } from "@/lib/utils"
@@ -157,7 +156,7 @@ function DialogTrigger({ children, ...rest }: DialogTriggerProps) {
     <article
       {...rest}
       onClick={context.handleTrigger}
-      className="group relative after:z-10 after:inset-0 after:absolute after:content-[''] after:bg-gradient-to-b after:from-0% after:from-transparent after:via-black/70 after:via-40% after:to-black after:to-100% after:rounded-[inherit] rounded-xl w-full aspect-[9/16] cursor-pointer"
+      className="group relative after:z-10 after:inset-0 after:absolute after:content-[''] after:bg-gradient-to-b after:from-0% after:from-transparent after:via-black/70 after:via-40% after:to-black after:to-100% after:rounded-[inherit] rounded-xl w-full aspect-[27/40] cursor-pointer"
     >
       {children}
     </article>

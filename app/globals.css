@@ -37,3 +37,8 @@
   -webkit-appearance: none;
   appearance: none;
 }
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: hsl(var(--gray-200)) transparent;
+}
