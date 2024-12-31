@@ -1,13 +1,7 @@
 import { parseHTML } from "linkedom"
-import { getTmDbInfo } from "../db/tmdb.js"
 import { writeFileSync } from "fs"
+import { getTmDbInfo } from "../db/tmdb.js"
 import { scrapUGC } from "../providers/ugc.js"
-
-const years = [
-  new Date().getFullYear() + 1,
-  new Date().getFullYear(),
-  new Date().getFullYear() - 1,
-]
 
 const moviesFromUgc = async () => {
   const $pathe = await fetch(
@@ -31,7 +25,7 @@ const moviesFromUgc = async () => {
 
   const movies = await Promise.all(
     moviesWithAVP.map(({ title, link }) =>
-      getTmDbInfo(title, years).then((m) => ({ ...m, link }))
+      getTmDbInfo(title).then((m) => ({ ...m, link }))
     )
   )
 

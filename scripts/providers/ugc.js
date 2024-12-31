@@ -1,6 +1,5 @@
 import { parseHTML } from "linkedom"
 import { readFileSync, writeFileSync } from "fs"
-import slugify from "slugify"
 
 const TYPE_SHOWS = ["Avant-première avec équipe", "Avant-première"]
 

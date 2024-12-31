@@ -97,5 +97,77 @@
     "address": "166, Boulevard Macdonald  75019 PARIS",
     "link": "https://www.ugc.fr/cinema-ugc-cine-cite-paris-19.html",
     "source": "ugc"
+  },
+  {
+    "id": "mk2-1",
+    "slug": "mk2-bibliotheque",
+    "name": "Bibliothèque",
+    "arrondissement": 13,
+    "address": "128 / 162 avenue de France, 75013 PARIS",
+    "link": "https://www.mk2.com/salle/mk2-bibliotheque",
+    "source": "mk2"
+  },
+  {
+    "id": "mk2-2",
+    "slug": "mk2-nation",
+    "name": "Nation",
+    "arrondissement": 12,
+    "address": "133 boulevard Diderot, 75012 PARIS",
+    "link": "https://www.mk2.com/salle/mk2-nation",
+    "source": "mk2"
+  },
+  {
+    "id": "mk2-3",
+    "slug": "mk2-quai-loire",
+    "name": "Quai de Loire",
+    "arrondissement": 19,
+    "address": "14 quai de la Seine / 7 quai de la Loire, 75019 PARIS",
+    "link": "https://www.mk2.com/salle/mk2-quai-seine-quai-loire",
+    "source": "mk2"
+  },
+  {
+    "id": "mk2-4",
+    "slug": "mk2-bastille-beaumarchais",
+    "name": "Bastille (côté Beaumarchais)",
+    "arrondissement": 4,
+    "address": "4 boulevard Beaumarchais / 5 rue du Faubourg Saint-Antoine, 75004 / 75011 PARIS",
+    "link": "https://www.mk2.com/salle/mk2-bastille-beaumarchais-fg-st-antoine",
+    "source": "mk2"
+  },
+  {
+    "id": "mk2-5",
+    "slug": "mk2-odeon-st-michel",
+    "name": "Odéon (côté St Michel)",
+    "arrondissement": 6,
+    "address": "113 boulevard Saint Germain / 7 rue Hautefeuille, 75006 PARIS",
+    "link": "https://www.mk2.com/salle/mk2-odeon-st-germain-st-michel",
+    "source": "mk2"
+  },
+  {
+    "id": "mk2-6",
+    "slug": "mk2-beaubourg",
+    "name": "Beaubourg",
+    "arrondissement": 3,
+    "address": "50 rue Rambuteau, 75003 PARIS",
+    "link": "https://www.mk2.com/salle/mk2-beaubourg",
+    "source": "mk2"
+  },
+  {
+    "id": "mk2-7",
+    "slug": "mk2-parnasse",
+    "name": "Parnasse",
+    "arrondissement": 6,
+    "address": "11 rue Jules Chaplain, 75006 PARIS",
+    "link": "https://www.mk2.com/salle/mk2-parnasse",
+    "source": "mk2"
+  },
+  {
+    "id": "mk2-8",
+    "slug": "mk2-gambetta",
+    "name": "Gambetta",
+    "arrondissement": 20,
+    "address": "6 rue Belgrand, 75020 PARIS",
+    "link": "https://www.mk2.com/salle/mk2-gambetta",
+    "source": "mk2"
   }
 ]

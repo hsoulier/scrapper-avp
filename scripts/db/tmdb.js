@@ -7,8 +7,13 @@ const options = {
     Authorization: `Bearer ${process.env.TMDB_ACCESS_TOKEN}`,
   },
 }
+const years = [
+  new Date().getFullYear() + 1,
+  new Date().getFullYear(),
+  new Date().getFullYear() - 1,
+]
 
-export const getMovieFromYears = async (title, years) => {
+export const getMovieFromYears = async (title) => {
   const encodedTitle = encodeURIComponent(title)
   let movie = null
 
@@ -33,9 +38,9 @@ export const getMovieFromYears = async (title, years) => {
   return movie
 }
 
-export const getTmDbInfo = async (title, years) => {
+export const getTmDbInfo = async (title) => {
   try {
-    const result = await getMovieFromYears(title, years)
+    const result = await getMovieFromYears(title)
 
     if (!result) return null
 
