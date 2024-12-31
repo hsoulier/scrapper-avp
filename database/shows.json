@@ -1,0 +1,142 @@
+[
+  {
+    "id": "330020272136",
+    "cinemaId": "ugc-2",
+    "language": "vf",
+    "date": "",
+    "avpType": "AVP",
+    "movieId": "16526",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330020272136",
+    "linkMovie": "https://www.ugc.fr/film_god_save_the_tuche_16526.html"
+  },
+  {
+    "id": "330231084144",
+    "cinemaId": "ugc-3",
+    "language": "vf",
+    "date": "",
+    "avpType": "AVP",
+    "movieId": "16526",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330231084144",
+    "linkMovie": "https://www.ugc.fr/film_god_save_the_tuche_16526.html"
+  },
+  {
+    "id": "330091431170",
+    "cinemaId": "ugc-7",
+    "language": "vf",
+    "date": "",
+    "avpType": "AVP",
+    "movieId": "16526",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091431170",
+    "linkMovie": "https://www.ugc.fr/film_god_save_the_tuche_16526.html"
+  },
+  {
+    "id": "330181100433",
+    "cinemaId": "ugc-8",
+    "language": "vf",
+    "date": "",
+    "avpType": "AVP",
+    "movieId": "16526",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330181100433",
+    "linkMovie": "https://www.ugc.fr/film_god_save_the_tuche_16526.html"
+  },
+  {
+    "id": "330081128844",
+    "cinemaId": "ugc-9",
+    "language": "vf",
+    "date": "",
+    "avpType": "AVP",
+    "movieId": "16526",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330081128844",
+    "linkMovie": "https://www.ugc.fr/film_god_save_the_tuche_16526.html"
+  },
+  {
+    "id": "330550430829",
+    "cinemaId": "ugc-11",
+    "language": "vf",
+    "date": "",
+    "avpType": "AVP",
+    "movieId": "16526",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550430829",
+    "linkMovie": "https://www.ugc.fr/film_god_save_the_tuche_16526.html"
+  },
+  {
+    "id": "330171733798",
+    "cinemaId": "ugc-1",
+    "language": "vost",
+    "date": "",
+    "avpType": "AVPE",
+    "movieId": "16585",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171733798",
+    "linkMovie": "https://www.ugc.fr/film_hiver_a_sokcho_16585.html"
+  },
+  {
+    "id": "330020273262",
+    "cinemaId": "ugc-2",
+    "language": "vost",
+    "date": "",
+    "avpType": "AVP",
+    "movieId": "16693",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330020273262",
+    "linkMovie": "https://www.ugc.fr/film_memoires_d_un_escargot_16693.html"
+  },
+  {
+    "id": "330550431952",
+    "cinemaId": "ugc-11",
+    "language": "vost",
+    "date": "",
+    "avpType": "AVP",
+    "movieId": "16693",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550431952",
+    "linkMovie": "https://www.ugc.fr/film_memoires_d_un_escargot_16693.html"
+  },
+  {
+    "id": "330020272731",
+    "cinemaId": "ugc-2",
+    "language": "vf",
+    "date": "",
+    "avpType": "AVP",
+    "movieId": "16525",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330020272731",
+    "linkMovie": "https://www.ugc.fr/film_paddington_au_perou_16525.html"
+  },
+  {
+    "id": "330091431934",
+    "cinemaId": "ugc-7",
+    "language": "vf",
+    "date": "",
+    "avpType": "AVP",
+    "movieId": "16525",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330091431934",
+    "linkMovie": "https://www.ugc.fr/film_paddington_au_perou_16525.html"
+  },
+  {
+    "id": "330081128947",
+    "cinemaId": "ugc-9",
+    "language": "vf",
+    "date": "",
+    "avpType": "AVP",
+    "movieId": "16525",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330081128947",
+    "linkMovie": "https://www.ugc.fr/film_paddington_au_perou_16525.html"
+  },
+  {
+    "id": "330550431424",
+    "cinemaId": "ugc-11",
+    "language": "vf",
+    "date": "",
+    "avpType": "AVP",
+    "movieId": "16525",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330550431424",
+    "linkMovie": "https://www.ugc.fr/film_paddington_au_perou_16525.html"
+  },
+  {
+    "id": "330171733797",
+    "cinemaId": "ugc-1",
+    "language": "vf",
+    "date": "",
+    "avpType": "AVPE",
+    "movieId": "16436",
+    "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171733797",
+    "linkMovie": "https://www.ugc.fr/film_spectateurs__16436.html"
+  }
+]

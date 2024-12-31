@@ -1,0 +1,101 @@
+[
+  {
+    "id": "ugc-1",
+    "slug": "cinema-ugc-cine-cite-les-halles",
+    "name": "UGC Ciné Cité Les Halles",
+    "arrondissement": 1,
+    "address": "Forum des Halles - Niveau -3  75001 PARIS",
+    "link": "https://www.ugc.fr/cinema-ugc-cine-cite-les-halles.html",
+    "source": "ugc"
+  },
+  {
+    "id": "ugc-2",
+    "slug": "cinema-ugc-cine-cite-maillot",
+    "name": "UGC Ciné Cité Maillot",
+    "arrondissement": 17,
+    "address": "2, place de la Porte Maillot - Palais des Congrès - Niveau -1  75017 PARIS",
+    "link": "https://www.ugc.fr/cinema-ugc-cine-cite-maillot.html",
+    "source": "ugc"
+  },
+  {
+    "id": "ugc-3",
+    "slug": "cinema-ugc-montparnasse",
+    "name": "UGC Montparnasse",
+    "arrondissement": 6,
+    "address": "83, boulevard du Montparnasse  75006 PARIS",
+    "link": "https://www.ugc.fr/cinema-ugc-montparnasse.html",
+    "source": "ugc"
+  },
+  {
+    "id": "ugc-4",
+    "slug": "cinema-ugc-rotonde",
+    "name": "UGC Rotonde",
+    "arrondissement": 6,
+    "address": "103, boulevard du Montparnasse  75006 PARIS",
+    "link": "https://www.ugc.fr/cinema-ugc-rotonde.html",
+    "source": "ugc"
+  },
+  {
+    "id": "ugc-5",
+    "slug": "cinema-ugc-odeon",
+    "name": "UGC Odéon",
+    "arrondissement": 6,
+    "address": "124, boulevard Saint-Germain  75006 PARIS",
+    "link": "https://www.ugc.fr/cinema-ugc-odeon.html",
+    "source": "ugc"
+  },
+  {
+    "id": "ugc-6",
+    "slug": "cinema-ugc-danton",
+    "name": "UGC Danton",
+    "arrondissement": 6,
+    "address": "99, boulevard Saint-Germain  75006 PARIS",
+    "link": "https://www.ugc.fr/cinema-ugc-danton.html",
+    "source": "ugc"
+  },
+  {
+    "id": "ugc-7",
+    "slug": "cinema-ugc-cine-cite-bercy",
+    "name": "UGC Ciné Cité Bercy",
+    "arrondissement": 12,
+    "address": "2, cour Saint Emilion  75012 PARIS",
+    "link": "https://www.ugc.fr/cinema-ugc-cine-cite-bercy.html",
+    "source": "ugc"
+  },
+  {
+    "id": "ugc-8",
+    "slug": "cinema-ugc-lyon-bastille",
+    "name": "UGC Lyon Bastille",
+    "arrondissement": 12,
+    "address": "12, rue de Lyon  75012 PARIS",
+    "link": "https://www.ugc.fr/cinema-ugc-lyon-bastille.html",
+    "source": "ugc"
+  },
+  {
+    "id": "ugc-9",
+    "slug": "cinema-ugc-gobelins",
+    "name": "UGC Gobelins",
+    "arrondissement": 13,
+    "address": "66 bis, avenue des Gobelins  75013 PARIS",
+    "link": "https://www.ugc.fr/cinema-ugc-gobelins.html",
+    "source": "ugc"
+  },
+  {
+    "id": "ugc-10",
+    "slug": "cinema-ugc-opera",
+    "name": "UGC Opéra",
+    "arrondissement": 9,
+    "address": "32, boulevard des Italiens  75009 PARIS",
+    "link": "https://www.ugc.fr/cinema-ugc-opera.html",
+    "source": "ugc"
+  },
+  {
+    "id": "ugc-11",
+    "slug": "cinema-ugc-cine-cite-paris-19",
+    "name": "UGC Ciné Cité Paris 19",
+    "arrondissement": 19,
+    "address": "166, Boulevard Macdonald  75019 PARIS",
+    "link": "https://www.ugc.fr/cinema-ugc-cine-cite-paris-19.html",
+    "source": "ugc"
+  }
+]

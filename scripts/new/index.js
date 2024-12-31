@@ -20,7 +20,7 @@ const moviesFromUgc = async () => {
     ...document.querySelectorAll(".results-container > .row > *"),
   ]
 
-  const info = $movies.map((movie) => {
+  const moviesWithAVP = $movies.map((movie) => {
     const $link = movie.querySelector(".img-wrapper a")
 
     return {
@@ -29,42 +29,26 @@ const moviesFromUgc = async () => {
     }
   })
 
-  // for (const link of moviePages) {
-  //   const $pathe = await fetch(link)
-  //   const html = await $pathe.text()
-  //   const { document } = parseHTML(html)
-  // }
-
   const movies = await Promise.all(
-    info.map(({ title, link }) =>
-      getTmDbInfo(title, years).then((m) => ({
-        ...m,
-        link,
-      }))
+    moviesWithAVP.map(({ title, link }) =>
+      getTmDbInfo(title, years).then((m) => ({ ...m, link }))
     )
   )
 
-  const shows = []
+  await scrapUGC(moviesWithAVP)
 
-  const a = await scrapUGC(info)
-
-  // for (const movie of movies) {
-  //   const $show = await fetch(
-  //     "https://www.ugc.fr/filmsAjaxAction!getFilmsAndFilters.action?filter=onPreview&page=30010&cinemaId=&reset=false&"
-  //   )
-  //   const html = await $show.text()
-  //   const { document } = parseHTML(html)
-  // }
-
-  return {
-    movies: movies.map((m) => {
-      const { link, ...rest } = m
-      return rest
-    }),
-    shows,
-  }
+  writeFileSync(
+    "./database/movies.json",
+    JSON.stringify(
+      movies.map((m) => {
+        const { link, ...rest } = m
+        return rest
+      }),
+      null,
+      2
+    ),
+    "utf-8"
+  )
 }
 
-moviesFromUgc().then((m) => {
-  // writeFileSync("./database/movies.json", JSON.stringify(m, null, 2), "utf-8")
-})
+moviesFromUgc()

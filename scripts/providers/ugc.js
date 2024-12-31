@@ -28,10 +28,10 @@ function urlAVPMovie(id, firstDate) {
 export const scrapUGC = async (info) => {
   const previewsList = []
 
-  // ? Get first date of projection (to get available previews)
-
   console.log("🏗️ Movies to fetch -> ", info.length)
   console.log("------------------------------------")
+
+  const cinemas = JSON.parse(readFileSync("./database/cinemas.json", "utf-8"))
 
   for (const { title, link } of info) {
     const id = link.split("_").at(-1).replace(".html", "")
@@ -74,7 +74,7 @@ export const scrapUGC = async (info) => {
 
       const details = {
         id: attributes?.showing,
-        cinemaId: "",
+        cinemaId: cinemas.find((c) => c.name === attributes.cinema)?.id,
         language: attributes?.version === "VOSTF" ? "vost" : "vf",
         date,
         avpType:
@@ -85,28 +85,6 @@ export const scrapUGC = async (info) => {
         linkShow: `https://www.ugc.fr/reservationSeances.html?id=${attributes?.showing}`,
         linkMovie: link,
       }
-
-      // for (const detail in el.dataset) {
-      // if (detail === "seanceHour" || detail === "seanceDate") {
-      //   const date = attributes?.seanceDate?.split("/")
-      //   const hour = attributes?.seanceHour?.split(":")
-      //   if (date && hour) {
-      //     details.date = new Date(
-      //       date[2],
-      //       date[1] - 1,
-      //       date[0],
-      //       hour[0],
-      //       hour[1]
-      //     ).toISOString()
-      //   }
-      //   continue
-      // }
-      // if (detail === "cinema") {
-      //   details.cinemaName = slugify(el?.getAttribute(`data-${detail}`), {
-      //     lower: true,
-      //   })
-      // }
-      // }
 
       previewsList.push(details)
     }
@@ -119,13 +97,13 @@ export const scrapUGC = async (info) => {
     info.length
   )
 
-  console.dir(previewsList, { depth: null })
+  const newDb = [...previewsList]
 
-  // writeFileSync(
-  //   "./public/database.json",
-  //   JSON.stringify(newDb, null, 2),
-  //   "utf-8"
-  // )
+  writeFileSync(
+    "./database/shows.json",
+    JSON.stringify(newDb, null, 2),
+    "utf-8"
+  )
 }
 
 export const getUGCTheaters = async () => {
@@ -141,29 +119,33 @@ export const getUGCTheaters = async () => {
 
   console.log("🏗️ Cinemas to fetch -> ", cinemasElements.length)
 
-  const cinemas = cinemasElements.map((cinema) => {
+  const cinemas = cinemasElements.map((cinema, index) => {
     const name = cinema.querySelector("a").textContent.trim()
     const address = cinema.querySelector(".address").textContent
     const link = cinema.querySelector("a").href
+
     return {
-      slug: slugify(name, { lower: true }),
+      id: `ugc-${index + 1}`,
+      slug: link.replace(".html", ""),
       name,
+      arrondissement: parseInt(address.split("  750")[1]),
       address,
       link: `https://www.ugc.fr/${link}`,
       source: "ugc",
     }
   })
 
-  const existingDb = readFileSync("./public/cinema-info.json", "utf-8")
+  // const existingDb = readFileSync("./public/cinema-info.json", "utf-8")
 
-  const db = JSON.parse(existingDb)
+  // const db = JSON.parse(existingDb)
 
-  const newDb = [...db, ...cinemas]
+  // const newDb = [...db, ...cinemas]
+  const newDb = [...cinemas]
 
   console.log("📦 Saving new cinema info", newDb.length)
 
   writeFileSync(
-    "./public/cinema-info.json",
+    "./database/cinemas.json",
     JSON.stringify(newDb, null, 2),
     "utf-8"
   )
