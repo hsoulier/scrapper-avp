@@ -7,6 +7,7 @@ const options = {
     Authorization: `Bearer ${process.env.TMDB_ACCESS_TOKEN}`,
   },
 }
+
 const years = [
   new Date().getFullYear() + 1,
   new Date().getFullYear(),
@@ -68,5 +69,8 @@ export const getTmDbInfo = async (title) => {
       imdbId: info.imdb_id,
       poster: `https://image.tmdb.org/t/p/w1280${info.poster_path}`,
     }
-  } catch (error) {}
+  } catch (error) {
+    console.error("❌ [TMDB] Error", error)
+    return null
+  }
 }

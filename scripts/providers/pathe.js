@@ -1,5 +1,10 @@
-import { writeFileSync } from "fs"
+import { readFileSync, writeFileSync } from "fs"
 import { getInfoFromDb } from "../db/index.js"
+import { getTmDbInfo } from "../db/tmdb.js"
+
+const cinemas = JSON.parse(readFileSync("./database/cinemas.json", "utf-8"))
+const movies = JSON.parse(readFileSync("./database/movies.json", "utf-8"))
+const shows = JSON.parse(readFileSync("./database/shows.json", "utf-8"))
 
 const TAGS_AVP = [
   "avant-première",
@@ -8,9 +13,9 @@ const TAGS_AVP = [
   "avp-equipe",
 ]
 
-const specialTitles = ["séance all inclusive : ", "la séance live : "]
-
 const previewsList = new Map()
+const moviesUnique = new Set()
+const showsList = []
 
 const CINEMAS = [
   "cinema-pathe-alesia",
@@ -26,161 +31,157 @@ const CINEMAS = [
   "cinema-pathe-wepler",
 ]
 
-const getCinemaShows = async (cinema) => {
-  const resCinema = await fetch(
-    `https://www.pathe.fr/api/cinema/${cinema}/shows?language=fr`
-  )
-  const dataCinema = await resCinema.json()
-
-  // console.log("dataCinema -------------------------")
-  // console.dir(dataCinema, { depth: null })
-  // console.log("------------------------------------")
-
-  const preFilterAVP = Object.entries(dataCinema.shows)
-    .filter(([, value]) => value.isEarlyAVP)
-    .map(([slug, value]) => ({
-      title: slug.split("-").slice(0, -1).join(" "),
-      cinema,
-      slug,
-      ...value,
-    }))
-
-  const filteredAVP = preFilterAVP.map((show) => {
-    const { days, ...rest } = show
-    const obj = Object.entries(show.days).filter(([, infos]) =>
-      TAGS_AVP.includes(
-        infos?.flag?.toLowerCase()?.trim()?.replaceAll(" ", "-")
-      )
-    )
-    return { days: obj.map(([date, infos]) => ({ date, ...infos })), ...rest }
-  })
-
-  const shows = filteredAVP
-    .map((show) => {
-      const { days, ...rest } = show
-      return days.map((day) => ({
-        ...day,
-        ...rest,
-        AVPType:
-          day?.flag?.toLowerCase()?.trim()?.replaceAll(" ", "-") ===
-          "avant-première"
-            ? "AVP"
-            : "AVPE",
-        apiLinkInfos: `https://www.pathe.fr/api/show/${rest.slug}/showtimes/${cinema}/${day.date}?language=fr`,
-        movieLink: `https://www.pathe.fr/films/${rest.slug}`,
-      }))
-    })
-    .flat()
-
-  for (const show of shows) {
-    const resShow = await fetch(show.apiLinkInfos)
-    const dataShow = (await resShow.json())[0]
-
-    const resMovie = await fetch(`https://www.pathe.fr/api/show/${show.slug}`)
-    const dataMovie = await resMovie.json()
-
-    // console.log("dataShow -------------------------")
-    // console.dir(dataMovie, { depth: null })
-    // console.log("------------------------------------")
-
-    const formattedShow = {
-      name: show.title,
-      title: dataMovie.title,
-      source: "pathe",
-      showId: dataShow.refCmd.split("/").at(-2),
-      linkShow: dataShow.refCmd,
-      earlyType: show.AVPType,
-      movieId: show.slug,
-      linkMovie: show.movieLink,
-      cinemaName: `pathe-${cinema}`,
-      version: dataShow.version,
-      dateShow: new Date(dataShow.time),
-      cover: dataMovie.posterPath.lg,
-      officialRelease: new Date(dataMovie.releaseAt.FR_FR),
-    }
-
-    const indexSpecialTitle = specialTitles.findIndex((t) =>
-      formattedShow.title.toLowerCase().startsWith(t)
-    )
-
-    if (indexSpecialTitle !== -1) {
-      formattedShow.title = formattedShow.title
-        .toLowerCase()
-        .replace(specialTitles[indexSpecialTitle], "")
-    }
-
-    const t = formattedShow.title?.toLowerCase()
-    const y = new Date(dataMovie.releaseAt.FR_FR).getFullYear()
-
-    const { db, allocine, imdb, tmdb } = await getInfoFromDb(t, y)
-
-    formattedShow.db = db
-    formattedShow.imdb = imdb
-    formattedShow.allocine = allocine
-    formattedShow.tmdb = tmdb
-
-    if (previewsList.has(show.slug)) {
-      previewsList.set(show.slug, [
-        ...previewsList.get(show.slug),
-        formattedShow,
-      ])
-    } else {
-      previewsList.set(show.slug, [formattedShow])
-    }
-  }
+const fetchData = async (url, { fr } = { fr: true }) => {
+  const res = await fetch(`${url}?${fr ? "language=fr" : ""}`)
+  return await res.json()
 }
 
-// async function getCinemaOfCity(city = DEFAULT_CITY) {
-//   const res = await fetch("https://www.pathe.fr/api/cities?language=fr")
-//   const data = await res.json()
-//   const parisTheaters = data.find((c: any) => c.slug === city)?.cinemas
-//   return parisTheaters
-// }
+const uniqueArray = (a) =>
+  a.filter(
+    (value, index, self) => index === self.findIndex((t) => t.id === value.id)
+  )
+
+const getCinemaShows2 = async (cinema) => {
+  const dataCinema = await fetchData(
+    `https://www.pathe.fr/api/cinema/${cinema}/shows`
+  )
+
+  const $movies = Object.entries(dataCinema.shows).reduce((acc, [slug, v]) => {
+    if (!v.isEarlyAVP) return acc
+    return [...acc, { ...v, slug }]
+  }, [])
+
+  $movies.map((m) => {
+    const days = Object.values(m.days)
+
+    if (days.filter((d) => d.tags.some((i) => TAGS_AVP.includes(i)))) {
+      previewsList.set(m.slug, { ...m, cinema })
+      moviesUnique.add(m.slug)
+    }
+  })
+}
+
+const getTitle = async (slug) => {
+  const data = await fetchData(`https://www.pathe.fr/api/show/${slug}`)
+
+  if (data.genres.includes("Courts-Métrages")) {
+    console.log("🚫 Skip short movie")
+    return null
+  }
+
+  const movie = await getTmDbInfo(data.title)
+
+  if (!movie) {
+    const { title, synopsis, directors, duration, releaseAt, posterPath } = data
+    return {
+      id: slug.split("-").at(-1),
+      title,
+      synopsis,
+      director: directors,
+      duration,
+      release: releaseAt.FR_FR,
+      imdbId: "",
+      poster: posterPath.lg,
+    }
+  }
+
+  return movie
+}
 
 export const scrapPathe = async () => {
   console.log("🚀 Pathé scrapping started")
   console.log("------------------------------------")
+
   for (const cinema of CINEMAS) {
-    console.log("🥷 Fetched cinema shows -> ", cinema)
-    console.group(cinema)
-    await getCinemaShows(cinema)
+    await getCinemaShows2(cinema)
+  }
+
+  for (const slug of [...moviesUnique].filter(Boolean)) {
+    console.group(`🥷 Get movie ${slug}`)
+
+    const movie = await getTitle(slug)
+
+    if (!movie) {
+      console.groupEnd()
+      continue
+    }
+
+    !movies.find((m) => m.id === movie.id) && movies.push(movie)
+
+    if (!previewsList.has(slug)) {
+      console.groupEnd()
+      continue
+    }
+    const showsEl = previewsList.get(slug)
+
+    for (const date in showsEl.days) {
+      const data = await fetchData(
+        `https://www.pathe.fr/api/show/${slug}/showtimes/${showsEl.cinema}/${date}`,
+        { fr: false }
+      )
+
+      shows.push(
+        ...data.map((d) => ({
+          id: d.refCmd.split("/").at(-2),
+          cinemaId: cinemas.find((c) => c.slug === showsEl.cinema)?.id,
+          language: d.version === "vf" ? "vf" : "vost",
+          date: new Date(d.time).toString(),
+          avpType: showsEl.days[date].tags.includes("avp-equipe")
+            ? "AVPE"
+            : "AVP",
+          movieId: movie.id,
+          linkShow: d.refCmd,
+          linkMovie: `https://www.pathe.fr/films/${slug}`,
+        }))
+      )
+    }
+
     console.groupEnd()
   }
-  console.log("------------------------------------")
-  console.log(
-    "✅ Pathé scrapping done -> number of movies retrieved",
-    previewsList.length
-  )
 
   writeFileSync(
-    "./public/database.json",
-    JSON.stringify(
-      Array.from(previewsList, ([_, name]) => name).flat(),
-      null,
-      2
-    )
+    "./database/movies.json",
+    JSON.stringify(uniqueArray(movies), null, 2)
   )
-  // console.dir(Object.fromEntries(previewsList), { depth: null })
+  writeFileSync(
+    "./database/shows.json",
+    JSON.stringify(uniqueArray(shows), null, 2)
+  )
+
+  console.log("------------------------------------")
+  console.log(
+    `✅ Pathé scraped -> ${
+      [...moviesUnique].filter(Boolean).length
+    } movies and ${showsList.length} shows retrieved`
+  )
 }
 
 export const getPatheTheaters = async () => {
-  const res = await fetch("https://www.pathe.fr/api/cinemas?language=fr")
-  const data = await res.json()
-  const info = []
+  const data = await fetchData("https://www.pathe.fr/api/cinemas")
 
-  const cinemas = data.reduce((acc, cinema) => {
+  const newCinemas = data.reduce((acc, cinema, index) => {
     const isInParis = cinema.citySlug === "paris"
     if (!isInParis) return acc
 
+    const details = cinema.theaters[0]
+
     acc.push({
-      slug: `pathe-${cinema.slug}`,
+      id: `pathe-${index + 1}`,
+      slug: cinema.slug,
       name: cinema.name,
-      googleMaps: cinema.googleMyBusinessUrl,
+      arrondissement: parseInt(details.addressCity.replace("750", "")),
+      address: `${details.addressLine1}, ${details.addressZip} ${details.addressCity}`,
       source: "pathe",
     })
 
     return acc
   }, [])
 
-  writeFileSync("./public/cinema-info.json", JSON.stringify(cinemas, null, 2))
+  writeFileSync(
+    "./database/cinemas.json",
+    JSON.stringify(uniqueArray([...cinemas, ...newCinemas]), null, 2)
+  )
 }
+
+scrapPathe()
+getPatheTheaters()

@@ -169,5 +169,109 @@
     "address": "6 rue Belgrand, 75020 PARIS",
     "link": "https://www.mk2.com/salle/mk2-gambetta",
     "source": "mk2"
+  },
+  {
+    "id": "pathe-28",
+    "slug": "cinema-pathe-alesia",
+    "name": "Pathé Alésia",
+    "arrondissement": null,
+    "address": "73 avenue du Général Leclerc, 75014 Paris",
+    "source": "pathe"
+  },
+  {
+    "id": "pathe-29",
+    "slug": "cinema-pathe-aquaboulevard",
+    "name": "Pathé Aquaboulevard",
+    "arrondissement": null,
+    "address": "8 rue du Colonel Pierre Avia, 75015 Paris",
+    "source": "pathe"
+  },
+  {
+    "id": "pathe-30",
+    "slug": "cinema-pathe-convention",
+    "name": "Pathé Convention",
+    "arrondissement": null,
+    "address": "29 rue Alain Chartier, 75015 Paris",
+    "source": "pathe"
+  },
+  {
+    "id": "pathe-31",
+    "slug": "cinema-pathe-les-fauvettes",
+    "name": "Pathé Les Fauvettes",
+    "arrondissement": null,
+    "address": "58 avenue des Gobelins, 75013 Paris",
+    "source": "pathe"
+  },
+  {
+    "id": "pathe-50",
+    "slug": "cinema-pathe-beaugrenelle",
+    "name": "Pathé Beaugrenelle",
+    "arrondissement": null,
+    "address": "7 rue Linois - Centre Commercial Beaugrenelle, 75015 Paris",
+    "source": "pathe"
+  },
+  {
+    "id": "pathe-51",
+    "slug": "cinema-pathe-parnasse",
+    "name": "Pathé Parnasse",
+    "arrondissement": null,
+    "address": "3 rue dOdessa, 75014 Paris",
+    "source": "pathe"
+  },
+  {
+    "id": "pathe-54",
+    "slug": "cinema-pathe-wepler",
+    "name": "Pathé Wepler",
+    "arrondissement": null,
+    "address": "boulevard de Clichy, 75018 Paris",
+    "source": "pathe"
+  },
+  {
+    "id": "pathe-55",
+    "slug": "cinema-pathe-la-villette",
+    "name": "Pathé La Villette",
+    "arrondissement": null,
+    "address": "30 avenue Corentin Cariou, 75019 Paris",
+    "source": "pathe"
+  },
+  {
+    "id": "pathe-67",
+    "slug": "cinema-pathe-montparnos",
+    "name": "Pathé Montparnos",
+    "arrondissement": null,
+    "address": "16 rue d'Odessa, 75014 Paris",
+    "source": "pathe"
+  },
+  {
+    "id": "pathe-69",
+    "slug": "cinema-les-7-batignolles",
+    "name": "Les 7 Batignolles",
+    "arrondissement": null,
+    "address": "86 rue Mstislav Rostropovitch, 75017 Paris",
+    "source": "pathe"
+  },
+  {
+    "id": "pathe-73",
+    "slug": "cinema-le-miramar",
+    "name": "Le Miramar",
+    "arrondissement": null,
+    "address": "3 Rue du Départ, 75014 Paris",
+    "source": "pathe"
+  },
+  {
+    "id": "pathe-74",
+    "slug": "cinema-pathe-palace",
+    "name": "Pathé Palace",
+    "arrondissement": null,
+    "address": "2 boulevard des Capucines, 75009 Paris",
+    "source": "pathe"
+  },
+  {
+    "id": "pathe-75",
+    "slug": "cinema-la-geode",
+    "name": "La Géode",
+    "arrondissement": null,
+    "address": "26 Av. Corentin Cariou, 75019 Paris",
+    "source": "pathe"
   }
 ]

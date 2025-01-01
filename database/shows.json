@@ -138,5 +138,55 @@
     "movieId": "16436",
     "linkShow": "https://www.ugc.fr/reservationSeances.html?id=330171733797",
     "linkMovie": "https://www.ugc.fr/film_spectateurs__16436.html"
+  },
+  {
+    "id": "V3017S31295",
+    "cinemaId": "pathe-69",
+    "language": "vf",
+    "date": "Sat Jan 11 2025 14:00:00 GMT+0100 (Central European Standard Time)",
+    "avpType": "AVPE",
+    "movieId": 1135569,
+    "linkShow": "https://s.pathe.fr/V3017S31295/booking",
+    "linkMovie": "https://www.pathe.fr/films/ollie-42763"
+  },
+  {
+    "id": "V3017S30987",
+    "cinemaId": "pathe-69",
+    "language": "vf",
+    "date": "Thu Jan 16 2025 21:00:00 GMT+0100 (Central European Standard Time)",
+    "avpType": "AVPE",
+    "movieId": 1059264,
+    "linkShow": "https://s.pathe.fr/V3017S30987/booking",
+    "linkMovie": "https://www.pathe.fr/films/mon-inseparable-40222"
+  },
+  {
+    "id": "V3017S30988",
+    "cinemaId": "pathe-69",
+    "language": "vf",
+    "date": "Tue Jan 14 2025 14:00:00 GMT+0100 (Central European Standard Time)",
+    "avpType": "AVPE",
+    "movieId": "42492",
+    "linkShow": "https://s.pathe.fr/V3017S30988/booking",
+    "linkMovie": "https://www.pathe.fr/films/olympe-une-femme-dans-la-revolution-42492"
+  },
+  {
+    "id": "V3017S30989",
+    "cinemaId": "pathe-69",
+    "language": "vf",
+    "date": "Tue Jan 14 2025 21:00:00 GMT+0100 (Central European Standard Time)",
+    "avpType": "AVPE",
+    "movieId": "42492",
+    "linkShow": "https://s.pathe.fr/V3017S30989/booking",
+    "linkMovie": "https://www.pathe.fr/films/olympe-une-femme-dans-la-revolution-42492"
+  },
+  {
+    "id": "V3136S97459",
+    "cinemaId": "pathe-30",
+    "language": "vost",
+    "date": "Sun Jan 12 2025 15:00:00 GMT+0100 (Central European Standard Time)",
+    "avpType": "AVP",
+    "movieId": 1064486,
+    "linkShow": "https://s.pathe.fr/V3136S97459/booking",
+    "linkMovie": "https://www.pathe.fr/films/memoires-d-un-escargot-40370"
   }
 ]
