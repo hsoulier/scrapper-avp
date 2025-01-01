@@ -1,14 +1,6 @@
-import { readFileSync, writeFileSync } from "fs"
+import { writeFileSync } from "fs"
 import { getTmDbInfo } from "../db/tmdb.js"
-import { uniqueArray } from "../utils.js"
-
-const cinemas = JSON.parse(
-  readFileSync("./database/cinemas.json", "utf-8") || "[]"
-)
-const movies = JSON.parse(
-  readFileSync("./database/movies.json", "utf-8") || "[]"
-)
-const shows = JSON.parse(readFileSync("./database/shows.json", "utf-8") || "[]")
+import { loadJson, uniqueArray } from "../utils.js"
 
 const TAGS_AVP = [
   "avant-première",
@@ -95,6 +87,9 @@ export const scrapPathe = async () => {
     await getCinemaShows2(cinema)
   }
 
+  const movies = loadJson("./database/movies.json")
+  const shows = loadJson("./database/shows.json")
+
   for (const slug of [...moviesUnique].filter(Boolean)) {
     console.group(`🥷 Get movie ${slug}`)
 
@@ -105,7 +100,7 @@ export const scrapPathe = async () => {
       continue
     }
 
-    !movies.find((m) => m.id === movie.id) && movies.push(movie)
+    movies.push(movie)
 
     if (!previewsList.has(slug)) {
       console.groupEnd()
@@ -122,13 +117,15 @@ export const scrapPathe = async () => {
       shows.push(
         ...data.map((d) => ({
           id: d.refCmd.split("/").at(-2),
-          cinemaId: cinemas.find((c) => c.slug === showsEl.cinema)?.id,
+          cinemaId: loadJson("./database/cinemas.json").find(
+            (c) => c.slug === showsEl.cinema
+          )?.id,
           language: d.version === "vf" ? "vf" : "vost",
           date: new Date(d.time),
           avpType: showsEl.days[date].tags.includes("avp-equipe")
             ? "AVPE"
             : "AVP",
-          movieId: movie.id.toString(),
+          movieId: movie.id,
           linkShow: d.refCmd,
           linkMovie: `https://www.pathe.fr/films/${slug}`,
         }))
@@ -137,6 +134,8 @@ export const scrapPathe = async () => {
 
     console.groupEnd()
   }
+
+  console.log("🚀 number movies AFTER", movies.length)
 
   writeFileSync(
     "./database/movies.json",
@@ -168,8 +167,9 @@ export const getPatheTheaters = async () => {
       id: `pathe-${index + 1}`,
       slug: cinema.slug,
       name: cinema.name,
-      arrondissement: parseInt(details.addressCity.replace("750", "")),
+      arrondissement: parseInt(details.addressZip.replace("750", "")),
       address: `${details.addressLine1}, ${details.addressZip} ${details.addressCity}`,
+      link: `https://www.pathe.fr/cinema/${cinema.slug}`,
       source: "pathe",
     })
 
@@ -178,6 +178,10 @@ export const getPatheTheaters = async () => {
 
   writeFileSync(
     "./database/cinemas.json",
-    JSON.stringify(uniqueArray([...cinemas, ...newCinemas]), null, 2)
+    JSON.stringify(
+      uniqueArray([...loadJson("./database/cinemas.json"), ...newCinemas]),
+      null,
+      2
+    )
   )
 }

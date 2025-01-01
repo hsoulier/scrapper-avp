@@ -168,5 +168,55 @@
     "release": "2025-01-22",
     "imdbId": "tt14949634",
     "poster": "https://image.tmdb.org/t/p/w1280/tk1P28sL4Q1woYFYvGTfbMshLdS.jpg"
+  },
+  {
+    "id": 1135569,
+    "title": "Ollie",
+    "synopsis": "A 13 ans, Pierre revient vivre à la ferme de son père après le décès brutal de sa mère. Harcelé à l'école, il se réfugie dans sa passion : le skate. Il rencontre Bertrand, un marginal qui cache un passé d'ancien skateur, et qui le prend sous son aile. Ensemble, ils vont tenter de se reconstruire.",
+    "director": "Antoine Besse",
+    "duration": 102,
+    "release": "2025-05-21",
+    "imdbId": "tt30415406",
+    "poster": "https://image.tmdb.org/t/p/w1280/wTBiTiAMlNh70Qzh8IjG0siZmRP.jpg"
+  },
+  {
+    "id": 1059264,
+    "title": "Les Inséparables",
+    "synopsis": "Quand les lumières s’éteignent dans le vieux théâtre de Central Park, les marionnettes prennent vie. Parmi elles, Don, qui joue le même rôle de bouffon depuis des années. Il rêve d’avoir pour une fois un rôle de vrai héros et de découvrir le monde. Il prend son courage à deux mains et claque la porte. En chemin, il croise DJ Doggie Dog, une peluche abandonnée qui aimerait devenir une star du rap. C’est le début d’une extraordinaire histoire d’amitié. Une grande aventure en plein cœur de New York pour transformer leurs rêves en réalité : même les plus petits personnages peuvent jouer de grands rôles !",
+    "director": "Jérémie Degruson",
+    "duration": 85,
+    "release": "2023-09-01",
+    "imdbId": "tt20221460",
+    "poster": "https://image.tmdb.org/t/p/w1280/3l0PUYdNaZG8Z2q2nIvv12xABMN.jpg"
+  },
+  {
+    "id": "42492",
+    "title": "Olympe, une femme dans la révolution",
+    "synopsis": "Paris, juillet 1793. La situation est explosive et la Terreur bat son plein. Au milieu de ce monde de violences et de mutations, une seule constante : les femmes n’ont le droit à rien. Olympe de Gouges est l’une des rares à oser s’élever contre cette injustice. Femme de lettres, femme de combats, Olympe s’oppose frontalement à Robespierre. Arrêtée par la police d’État, elle attend son procès, enfermée dans une maison d’arrêt. Au milieu des autres condamnées, Olympe va continuer de lutter.",
+    "director": "Julie Gayet, Mathieu Busson",
+    "duration": 90,
+    "release": "2024-10-04",
+    "imdbId": "",
+    "poster": "https://media.pathe.fr/movie/alex/HO00008320/poster/lg/4/movie&uuid=1DC52923-057C-452D-BD18-1A9DA4EAEE03"
+  },
+  {
+    "id": 959596,
+    "title": "Le dossier Maldoror",
+    "synopsis": "Belgique,1995. La disparition inquiétante de deux jeunes filles bouleverse la population et déclenche une frénésie médiatique sans précédent. Paul Chartier, jeune gendarme idéaliste, rejoint l'opération secrète « Maldoror » dédiée à la surveillance d'un suspect récidiviste. Confronté aux dysfonctionnements du système policier, il se lance seul dans une chasse à l’homme qui le fera sombrer dans l’obsession.",
+    "director": "Fabrice Du Welz",
+    "duration": 155,
+    "release": "2024-11-14",
+    "imdbId": "tt15459206",
+    "poster": "https://image.tmdb.org/t/p/w1280/l49236NzSYAgoVTsnyVJcK101rk.jpg"
+  },
+  {
+    "id": 1301218,
+    "title": "7 Promenades avec Mark Brown",
+    "synopsis": "",
+    "director": "Pierre Creton",
+    "duration": 104,
+    "release": "2024-06-28",
+    "imdbId": "tt32874925",
+    "poster": "https://image.tmdb.org/t/p/w1280/rQDX7bsfyBbe4Q6RcB4IC0ZLUKR.jpg"
   }
 ]
