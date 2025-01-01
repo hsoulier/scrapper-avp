@@ -1,10 +1,14 @@
 import { readFileSync, writeFileSync } from "fs"
-import { getInfoFromDb } from "../db/index.js"
 import { getTmDbInfo } from "../db/tmdb.js"
+import { uniqueArray } from "../utils.js"
 
-const cinemas = JSON.parse(readFileSync("./database/cinemas.json", "utf-8"))
-const movies = JSON.parse(readFileSync("./database/movies.json", "utf-8"))
-const shows = JSON.parse(readFileSync("./database/shows.json", "utf-8"))
+const cinemas = JSON.parse(
+  readFileSync("./database/cinemas.json", "utf-8") || "[]"
+)
+const movies = JSON.parse(
+  readFileSync("./database/movies.json", "utf-8") || "[]"
+)
+const shows = JSON.parse(readFileSync("./database/shows.json", "utf-8") || "[]")
 
 const TAGS_AVP = [
   "avant-première",
@@ -35,11 +39,6 @@ const fetchData = async (url, { fr } = { fr: true }) => {
   const res = await fetch(`${url}?${fr ? "language=fr" : ""}`)
   return await res.json()
 }
-
-const uniqueArray = (a) =>
-  a.filter(
-    (value, index, self) => index === self.findIndex((t) => t.id === value.id)
-  )
 
 const getCinemaShows2 = async (cinema) => {
   const dataCinema = await fetchData(
@@ -125,11 +124,11 @@ export const scrapPathe = async () => {
           id: d.refCmd.split("/").at(-2),
           cinemaId: cinemas.find((c) => c.slug === showsEl.cinema)?.id,
           language: d.version === "vf" ? "vf" : "vost",
-          date: new Date(d.time).toString(),
+          date: new Date(d.time),
           avpType: showsEl.days[date].tags.includes("avp-equipe")
             ? "AVPE"
             : "AVP",
-          movieId: movie.id,
+          movieId: movie.id.toString(),
           linkShow: d.refCmd,
           linkMovie: `https://www.pathe.fr/films/${slug}`,
         }))
@@ -182,6 +181,3 @@ export const getPatheTheaters = async () => {
     JSON.stringify(uniqueArray([...cinemas, ...newCinemas]), null, 2)
   )
 }
-
-scrapPathe()
-getPatheTheaters()

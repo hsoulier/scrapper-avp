@@ -1,8 +1,12 @@
 import { readFileSync, writeFileSync } from "fs"
 import { parseHTML } from "linkedom"
 import { getTmDbInfo } from "../db/tmdb.js"
+import { uniqueArray } from "../utils.js"
 
-const cinemas = JSON.parse(readFileSync("./database/cinemas.json", "utf-8"))
+const cinemas = JSON.parse(
+  readFileSync("./database/cinemas.json", "utf-8") || "[]"
+)
+const shows = JSON.parse(readFileSync("./database/shows.json", "utf-8") || "[]")
 
 const listAVPs = [
   "avant-premieres-et-seances-exclusives",
@@ -18,13 +22,13 @@ export const scrapMk2 = async () => {
 
   const info = JSON.parse(
     document.querySelector("#__NEXT_DATA__").textContent
-  ).props.pageProps.events.content.filter((c) => listAVPs.includes(c.slug))
+  ).props?.pageProps?.events?.content.filter((c) => listAVPs.includes(c.slug))
 
   const events = info
-    .map((e) => e.events.filter((a) => a.type.id === "avant-premiere"))
+    ?.map((e) => e.events.filter((a) => a.type.id === "avant-premiere"))
     .flat()
 
-  const $movies = events.map((m) => {
+  const $movies = events?.map((m) => {
     return {
       title: m.name,
       link: `https://www.mk2.com/ile-de-france/evenement/${m.slug}`,
@@ -38,8 +42,6 @@ export const scrapMk2 = async () => {
       getTmDbInfo(title).then((m) => ({ ...m, link }))
     )
   )
-
-  const shows = []
 
   for (const movie of movies) {
     console.log("🎬 Movie fetched -> ", movie.title)
@@ -67,7 +69,7 @@ export const scrapMk2 = async () => {
         language,
         date: session.showTime,
         avpType: event.genres[0].id === "equipe-du-film" ? "AVPE" : "AVP",
-        movieId: movie.id,
+        movieId: movie.id.toString(),
         linkShow: `https://www.mk2.com/panier/seance/tickets?cinemaId=${session.cinemaId}&sessionId=${session.sessionId}`,
         linkMovie: movie.link,
       }
@@ -76,7 +78,11 @@ export const scrapMk2 = async () => {
     }
   }
 
-  return shows
+  writeFileSync(
+    "./database/shows.json",
+    JSON.stringify(uniqueArray(shows), null, 2),
+    "utf-8"
+  )
 }
 
 export const getMk2Theaters = async () => {
@@ -105,5 +111,3 @@ export const getMk2Theaters = async () => {
     }
   })
 }
-
-scrapMk2().then(console.log)

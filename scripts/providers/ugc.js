@@ -1,7 +1,11 @@
 import { parseHTML } from "linkedom"
+import { JSDOM } from "jsdom"
 import { readFileSync, writeFileSync } from "fs"
+import { uniqueArray } from "../utils.js"
 
 const TYPE_SHOWS = ["Avant-première avec équipe", "Avant-première"]
+
+const shows = JSON.parse(readFileSync("./database/shows.json", "utf-8") || "[]")
 
 async function getFirstDate(id) {
   const res = await fetch(
@@ -30,7 +34,9 @@ export const scrapUGC = async (info) => {
   console.log("🏗️ Movies to fetch -> ", info.length)
   console.log("------------------------------------")
 
-  const cinemas = JSON.parse(readFileSync("./database/cinemas.json", "utf-8"))
+  const cinemas = JSON.parse(
+    readFileSync("./database/cinemas.json", "utf-8") || "[]"
+  )
 
   for (const { title, link } of info) {
     const id = link.split("_").at(-1).replace(".html", "")
@@ -40,7 +46,7 @@ export const scrapUGC = async (info) => {
     const firstDate = await getFirstDate(id)
     const res2 = await fetch(urlAVPMovie(id, firstDate))
     const html2 = await res2.text()
-    const { document: document2 } = parseHTML(html2)
+    const { document: document2 } = new JSDOM(html2).window
 
     // ? Get All show types for each projection card
     const showTypes = document2.querySelectorAll(
@@ -53,29 +59,16 @@ export const scrapUGC = async (info) => {
     })
 
     for (const preview of previews) {
-      const el = preview?.closest("button")
-      const attributes = el?.dataset
+      const el = preview?.closest("button[type=button]")
+      const attributes = Object.assign({}, el?.dataset)
 
       if (!attributes) continue
-
-      const dateRaw = attributes?.seanceDate?.split("/")
-      const hour = attributes?.seanceHour?.split(":")
-      const date =
-        dateRaw && hour
-          ? (details.date = new Date(
-              dateRaw[2],
-              dateRaw[1] - 1,
-              dateRaw[0],
-              hour[0],
-              hour[1]
-            ).toISOString())
-          : ""
 
       const details = {
         id: attributes?.showing,
         cinemaId: cinemas.find((c) => c.name === attributes.cinema)?.id,
         language: attributes?.version === "VOSTF" ? "vost" : "vf",
-        date,
+        date: "",
         avpType:
           preview?.textContent?.trim() === "Avant-première avec équipe"
             ? "AVPE"
@@ -85,7 +78,20 @@ export const scrapUGC = async (info) => {
         linkMovie: link,
       }
 
-      previewsList.push(details)
+      const dateRaw = attributes?.seancedate?.split("/")
+      const hour = attributes?.seancehour?.split(":")
+
+      if (dateRaw && hour) {
+        details.date = new Date(
+          dateRaw[2],
+          dateRaw[1] - 1,
+          dateRaw[0],
+          hour[0],
+          hour[1]
+        )
+      }
+
+      shows.push(details)
     }
   }
 
@@ -96,11 +102,9 @@ export const scrapUGC = async (info) => {
     info.length
   )
 
-  const newDb = [...previewsList]
-
   writeFileSync(
     "./database/shows.json",
-    JSON.stringify(newDb, null, 2),
+    JSON.stringify(uniqueArray(shows), null, 2),
     "utf-8"
   )
 }
@@ -133,12 +137,6 @@ export const getUGCTheaters = async () => {
       source: "ugc",
     }
   })
-
-  // const existingDb = readFileSync("./public/cinema-info.json", "utf-8")
-
-  // const db = JSON.parse(existingDb)
-
-  // const newDb = [...db, ...cinemas]
   const newDb = [...cinemas]
 
   console.log("📦 Saving new cinema info", newDb.length)

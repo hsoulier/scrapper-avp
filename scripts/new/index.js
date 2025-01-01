@@ -1,7 +1,14 @@
 import { parseHTML } from "linkedom"
-import { writeFileSync } from "fs"
+import { readFileSync, writeFileSync } from "fs"
 import { getTmDbInfo } from "../db/tmdb.js"
+import { uniqueArray } from "../utils.js"
 import { scrapUGC } from "../providers/ugc.js"
+import { scrapPathe } from "../providers/pathe.js"
+import { scrapMk2 } from "../providers/mk2.js"
+
+const movies = JSON.parse(
+  readFileSync("./database/movies.json", "utf-8") || "[]"
+)
 
 const moviesFromUgc = async () => {
   const $pathe = await fetch(
@@ -23,7 +30,7 @@ const moviesFromUgc = async () => {
     }
   })
 
-  const movies = await Promise.all(
+  const newMovies = await Promise.all(
     moviesWithAVP.map(({ title, link }) =>
       getTmDbInfo(title).then((m) => ({ ...m, link }))
     )
@@ -34,10 +41,13 @@ const moviesFromUgc = async () => {
   writeFileSync(
     "./database/movies.json",
     JSON.stringify(
-      movies.map((m) => {
-        const { link, ...rest } = m
-        return rest
-      }),
+      uniqueArray([
+        ...movies,
+        ...newMovies.map((m) => {
+          const { link, ...rest } = m
+          return rest
+        }),
+      ]),
       null,
       2
     ),
@@ -46,3 +56,5 @@ const moviesFromUgc = async () => {
 }
 
 moviesFromUgc()
+scrapPathe()
+scrapMk2()
