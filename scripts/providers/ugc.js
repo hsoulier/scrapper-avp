@@ -1,11 +1,9 @@
 import { parseHTML } from "linkedom"
 import { JSDOM } from "jsdom"
-import { readFileSync, writeFileSync } from "fs"
-import { uniqueArray } from "../utils.js"
+import { writeFileSync } from "fs"
+import { loadJson, uniqueArray } from "../utils.js"
 
 const TYPE_SHOWS = ["Avant-première avec équipe", "Avant-première"]
-
-const shows = JSON.parse(readFileSync("./database/shows.json", "utf-8") || "[]")
 
 async function getFirstDate(id) {
   const res = await fetch(
@@ -34,11 +32,10 @@ export const scrapUGC = async (info) => {
   console.log("🏗️ Movies to fetch -> ", info.length)
   console.log("------------------------------------")
 
-  const cinemas = JSON.parse(
-    readFileSync("./database/cinemas.json", "utf-8") || "[]"
-  )
+  const cinemas = loadJson("./database/cinemas.json")
+  const shows = loadJson("./database/shows.json")
 
-  for (const { title, link } of info) {
+  for (const { title, link, id: movieId } of info) {
     const id = link.split("_").at(-1).replace(".html", "")
 
     console.log("🥷 Fetching media -> ", title?.toLowerCase(), id)
@@ -73,7 +70,7 @@ export const scrapUGC = async (info) => {
           preview?.textContent?.trim() === "Avant-première avec équipe"
             ? "AVPE"
             : "AVP",
-        movieId: id,
+        movieId,
         linkShow: `https://www.ugc.fr/reservationSeances.html?id=${attributes?.showing}`,
         linkMovie: link,
       }
@@ -137,9 +134,11 @@ export const getUGCTheaters = async () => {
       source: "ugc",
     }
   })
-  const newDb = [...cinemas]
 
-  console.log("📦 Saving new cinema info", newDb.length)
+  const newDb = uniqueArray([
+    ...loadJson("./database/cinemas.json"),
+    ...cinemas,
+  ])
 
   writeFileSync(
     "./database/cinemas.json",

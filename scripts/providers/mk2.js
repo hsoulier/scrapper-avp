@@ -1,12 +1,7 @@
-import { readFileSync, writeFileSync } from "fs"
+import { writeFileSync } from "fs"
 import { parseHTML } from "linkedom"
 import { getTmDbInfo } from "../db/tmdb.js"
-import { uniqueArray } from "../utils.js"
-
-const cinemas = JSON.parse(
-  readFileSync("./database/cinemas.json", "utf-8") || "[]"
-)
-const shows = JSON.parse(readFileSync("./database/shows.json", "utf-8") || "[]")
+import { loadJson, uniqueArray } from "../utils.js"
 
 const listAVPs = [
   "avant-premieres-et-seances-exclusives",
@@ -14,6 +9,12 @@ const listAVPs = [
 ]
 
 export const scrapMk2 = async () => {
+  console.log("🕵️‍♂️ Scraping mk2...")
+
+  const cinemas = loadJson("./database/cinemas.json")
+  const movies = loadJson("./database/movies.json")
+  const shows = loadJson("./database/shows.json")
+
   const res = await fetch("https://www.mk2.com/ile-de-france/evenements")
 
   const data = await res.text()
@@ -37,13 +38,24 @@ export const scrapMk2 = async () => {
 
   console.log("🏗️ Movies to fetch -> ", $movies.length)
 
-  const movies = await Promise.all(
+  const moviesData = await Promise.all(
     $movies.map(({ title, link }) =>
       getTmDbInfo(title).then((m) => ({ ...m, link }))
     )
   )
 
-  for (const movie of movies) {
+  const moviesToInsert = uniqueArray([
+    ...movies,
+    ...moviesData.map(({ link, ...rest }) => rest),
+  ])
+
+  writeFileSync(
+    "./database/movies.json",
+    JSON.stringify(moviesToInsert, null, 2),
+    "utf-8"
+  )
+
+  for (const movie of moviesData) {
     console.log("🎬 Movie fetched -> ", movie.title)
 
     const res = await fetch(movie.link)
@@ -61,18 +73,26 @@ export const scrapMk2 = async () => {
           ? "vost"
           : "vf"
 
+      const cinemaSlug =
+        event.sessionsByFilmAndCinema[0].cinema.slug === "mk2-quai-seine"
+          ? "mk2-quai-loire"
+          : event.sessionsByFilmAndCinema[0].cinema.slug
+
       const showDetails = {
         id: session.sessionId,
-        cinemaId: cinemas.find(
-          (c) => c.name === event.sessionsByFilmAndCinema[0].cinema.name
-        )?.id,
+        cinemaId: cinemas.find((c) => c.slug === cinemaSlug)?.id,
         language,
         date: session.showTime,
         avpType: event.genres[0].id === "equipe-du-film" ? "AVPE" : "AVP",
-        movieId: movie.id.toString(),
+        movieId: movie.id,
         linkShow: `https://www.mk2.com/panier/seance/tickets?cinemaId=${session.cinemaId}&sessionId=${session.sessionId}`,
         linkMovie: movie.link,
       }
+
+      console.log(
+        event.sessionsByFilmAndCinema[0].cinema.slug,
+        cinemas.find((c) => c.slug === cinemaSlug)?.id
+      )
 
       shows.push(showDetails)
     }
@@ -83,6 +103,8 @@ export const scrapMk2 = async () => {
     JSON.stringify(uniqueArray(shows), null, 2),
     "utf-8"
   )
+
+  console.log("✅ Mk2 scraping done!")
 }
 
 export const getMk2Theaters = async () => {
@@ -92,13 +114,11 @@ export const getMk2Theaters = async () => {
 
   const { document } = parseHTML(data)
 
-  const cinemas = JSON.parse(
+  const cinemasData = JSON.parse(
     document.querySelector("#__NEXT_DATA__").textContent
   ).props.pageProps.cinemaComplexes
 
-  console.log("🏗️ Cinemas to fetch -> ", cinemas)
-
-  return cinemas.map((c, index) => {
+  const dataToInsert = cinemasData.map((c, index) => {
     const cinema = c.cinemas[0]
     return {
       id: `mk2-${index + 1}`,
@@ -110,4 +130,12 @@ export const getMk2Theaters = async () => {
       source: "mk2",
     }
   })
+
+  const toInsert = [...loadJson("./database/cinemas.json"), ...dataToInsert]
+
+  writeFileSync(
+    "./database/cinemas.json",
+    JSON.stringify(uniqueArray(toInsert), null, 2),
+    "utf-8"
+  )
 }

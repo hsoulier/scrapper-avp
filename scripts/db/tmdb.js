@@ -60,7 +60,7 @@ export const getTmDbInfo = async (title) => {
       .then((r) => r?.crew?.find((a) => a.job === "Director").name)
 
     return {
-      id,
+      id: parseInt(id, 10),
       title: info.title,
       synopsis: info.overview,
       director,
