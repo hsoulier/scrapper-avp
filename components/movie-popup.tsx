@@ -1,16 +1,16 @@
 "use client"
 
-import type { Movie } from "@/app/page"
 import { MoviePopupInfo } from "@/components/movie-popup.info"
 import { MoviePopupRating } from "@/components/movie-popup.rating"
 import { MoviePopupShow } from "@/components/movie-popup.shows"
 import { DialogContent } from "@/components/ui/dialog"
+import type { ShowAggregated } from "@/lib/queries"
 
-export const MoviePopup = ({ show }: { show: Movie }) => {
-  const cover = show.db?.poster || show.cover || ""
+export const MoviePopup = ({ show }: { show: ShowAggregated }) => {
+  const cover = show.moviePoster || ""
 
   return (
-    <DialogContent className="rounded-3xl p-12 flex gap-10 w-[64rem]">
+    <DialogContent className="rounded-3xl p-12 flex gap-10 w-[64rem] outline-none">
       <div className="flex flex-col flex-shrink-0 gap-4">
         <div className="relative">
           <img
@@ -26,8 +26,8 @@ export const MoviePopup = ({ show }: { show: Movie }) => {
         <MoviePopupRating />
       </div>
       <div className="space-y-6 flex-grow max-h-[29rem] overflow-auto">
-        <MoviePopupInfo />
-        <MoviePopupShow />
+        <MoviePopupInfo show={show} />
+        <MoviePopupShow show={show} />
       </div>
     </DialogContent>
   )
