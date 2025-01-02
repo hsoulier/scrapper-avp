@@ -1,11 +1,11 @@
+import { Suspense } from "react"
 import type { Metadata } from "next"
 import { Bricolage_Grotesque } from "next/font/google"
-import { ThemeProvider } from "next-themes"
-import "./globals.css"
-import { cn } from "@/lib/utils"
-import { Navigation } from "@/components/navigation"
+import { Providers } from "@/app/providers"
 import { Filters } from "@/components/filters"
-import { Suspense } from "react"
+import { Navigation } from "@/components/navigation"
+import { cn } from "@/lib/utils"
+import "./globals.css"
 
 const font = Bricolage_Grotesque({
   subsets: ["latin"],
@@ -31,12 +31,7 @@ export default function RootLayout({
           font.variable
         )}
       >
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
+        <Providers>
           <Suspense>
             <Navigation />
             <Filters />
@@ -44,7 +39,7 @@ export default function RootLayout({
               {children}
             </main>
           </Suspense>
-        </ThemeProvider>
+        </Providers>
       </body>
     </html>
   )

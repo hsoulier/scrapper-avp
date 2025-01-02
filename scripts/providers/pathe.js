@@ -1,6 +1,11 @@
-import { writeFileSync } from "fs"
 import { getTmDbInfo } from "../db/tmdb.js"
-import { loadJson, uniqueArray } from "../utils.js"
+import {
+  getCinemaBySlug,
+  getMovie,
+  getShow,
+  insertMovie,
+  insertShow,
+} from "../db/requests.js"
 
 const TAGS_AVP = [
   "avant-première",
@@ -64,6 +69,7 @@ const getTitle = async (slug) => {
 
   if (!movie) {
     const { title, synopsis, directors, duration, releaseAt, posterPath } = data
+
     return {
       id: slug.split("-").at(-1),
       title,
@@ -87,9 +93,6 @@ export const scrapPathe = async () => {
     await getCinemaShows2(cinema)
   }
 
-  const movies = loadJson("./database/movies.json")
-  const shows = loadJson("./database/shows.json")
-
   for (const slug of [...moviesUnique].filter(Boolean)) {
     console.group(`🥷 Get movie ${slug}`)
 
@@ -100,7 +103,11 @@ export const scrapPathe = async () => {
       continue
     }
 
-    movies.push(movie)
+    const existingMovie = await getMovie(movie.id)
+
+    if (!existingMovie) {
+      await insertMovie(movie)
+    }
 
     if (!previewsList.has(slug)) {
       console.groupEnd()
@@ -108,43 +115,43 @@ export const scrapPathe = async () => {
     }
     const showsEl = previewsList.get(slug)
 
-    for (const date in showsEl.days) {
+    for (const day in showsEl.days) {
       const data = await fetchData(
-        `https://www.pathe.fr/api/show/${slug}/showtimes/${showsEl.cinema}/${date}`,
+        `https://www.pathe.fr/api/show/${slug}/showtimes/${showsEl.cinema}/${day}`,
         { fr: false }
       )
 
-      shows.push(
-        ...data.map((d) => ({
-          id: d.refCmd.split("/").at(-2),
-          cinemaId: loadJson("./database/cinemas.json").find(
-            (c) => c.slug === showsEl.cinema
-          )?.id,
-          language: d.version === "vf" ? "vf" : "vost",
-          date: new Date(d.time),
-          avpType: showsEl.days[date].tags.includes("avp-equipe")
+      for (const date of data) {
+        const currentCinema = await getCinemaBySlug(showsEl.cinema)
+
+        if (!currentCinema) {
+          console.log("🚫 Cinema not found for", showsEl.cinema, movie.title)
+          continue
+        }
+
+        const show = {
+          id: date.refCmd.split("/").at(-2),
+          cinemaId: currentCinema?.id,
+          language: date.version === "vf" ? "vf" : "vost",
+          date: new Date(date.time),
+          avpType: showsEl.days[day].tags.includes("avp-equipe")
             ? "AVPE"
             : "AVP",
           movieId: movie.id,
-          linkShow: d.refCmd,
+          linkShow: date.refCmd,
           linkMovie: `https://www.pathe.fr/films/${slug}`,
-        }))
-      )
+        }
+
+        const existingShow = await getShow(show.id)
+
+        if (existingShow) continue
+
+        await insertShow(show)
+      }
     }
 
     console.groupEnd()
   }
-
-  console.log("🚀 number movies AFTER", movies.length)
-
-  writeFileSync(
-    "./database/movies.json",
-    JSON.stringify(uniqueArray(movies), null, 2)
-  )
-  writeFileSync(
-    "./database/shows.json",
-    JSON.stringify(uniqueArray(shows), null, 2)
-  )
 
   console.log("------------------------------------")
   console.log(
@@ -176,12 +183,11 @@ export const getPatheTheaters = async () => {
     return acc
   }, [])
 
-  writeFileSync(
-    "./database/cinemas.json",
-    JSON.stringify(
-      uniqueArray([...loadJson("./database/cinemas.json"), ...newCinemas]),
-      null,
-      2
-    )
-  )
+  for (const cinema of newCinemas) {
+    const existingCinema = await getCinemaBySlug(cinema.slug)
+
+    if (existingCinema) continue
+
+    await insertCinema(cinema)
+  }
 }

@@ -1,7 +1,6 @@
 import { parseHTML } from "linkedom"
 import { JSDOM } from "jsdom"
-import { writeFileSync } from "fs"
-import { loadJson, uniqueArray } from "../utils.js"
+import { getCinemaByName, getShow, insertShow } from "../db/requests.js"
 
 const TYPE_SHOWS = ["Avant-première avec équipe", "Avant-première"]
 
@@ -32,9 +31,6 @@ export const scrapUGC = async (info) => {
   console.log("🏗️ Movies to fetch -> ", info.length)
   console.log("------------------------------------")
 
-  const cinemas = loadJson("./database/cinemas.json")
-  const shows = loadJson("./database/shows.json")
-
   for (const { title, link, id: movieId } of info) {
     const id = link.split("_").at(-1).replace(".html", "")
 
@@ -61,9 +57,15 @@ export const scrapUGC = async (info) => {
 
       if (!attributes) continue
 
+      const existingShow = await getShow(attributes?.showing)
+
+      if (existingShow) continue
+
+      const cinemaId = (await getCinemaByName(attributes.cinema))?.id
+
       const details = {
         id: attributes?.showing,
-        cinemaId: cinemas.find((c) => c.name === attributes.cinema)?.id,
+        cinemaId,
         language: attributes?.version === "VOSTF" ? "vost" : "vf",
         date: "",
         avpType:
@@ -88,7 +90,7 @@ export const scrapUGC = async (info) => {
         )
       }
 
-      shows.push(details)
+      await insertShow(details)
     }
   }
 
@@ -97,12 +99,6 @@ export const scrapUGC = async (info) => {
     "✅ UGC scrapping done -> number of movies retrieved",
     previewsList.length,
     info.length
-  )
-
-  writeFileSync(
-    "./database/shows.json",
-    JSON.stringify(uniqueArray(shows), null, 2),
-    "utf-8"
   )
 }
 
@@ -119,12 +115,16 @@ export const getUGCTheaters = async () => {
 
   console.log("🏗️ Cinemas to fetch -> ", cinemasElements.length)
 
-  const cinemas = cinemasElements.map((cinema, index) => {
+  for (const [index, cinema] of cinemasElements.entries()) {
     const name = cinema.querySelector("a").textContent.trim()
     const address = cinema.querySelector(".address").textContent
     const link = cinema.querySelector("a").href
 
-    return {
+    const existingCinema = await getCinemaByName(name)
+
+    if (existingCinema) continue
+
+    await insertCinema({
       id: `ugc-${index + 1}`,
       slug: link.replace(".html", ""),
       name,
@@ -132,17 +132,6 @@ export const getUGCTheaters = async () => {
       address,
       link: `https://www.ugc.fr/${link}`,
       source: "ugc",
-    }
-  })
-
-  const newDb = uniqueArray([
-    ...loadJson("./database/cinemas.json"),
-    ...cinemas,
-  ])
-
-  writeFileSync(
-    "./database/cinemas.json",
-    JSON.stringify(newDb, null, 2),
-    "utf-8"
-  )
+    })
+  }
 }

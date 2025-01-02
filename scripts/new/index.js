@@ -1,15 +1,12 @@
 import { parseHTML } from "linkedom"
-import { readFileSync, writeFileSync } from "fs"
 import { getTmDbInfo } from "../db/tmdb.js"
-import { uniqueArray } from "../utils.js"
+import { sql } from "../utils.js"
 import { scrapUGC, getUGCTheaters } from "../providers/ugc.js"
 import { scrapPathe, getPatheTheaters } from "../providers/pathe.js"
 import { scrapMk2, getMk2Theaters } from "../providers/mk2.js"
+import { getMovie, insertMovie } from "../db/requests.js"
 
 const moviesFromUgc = async () => {
-  const movies = JSON.parse(
-    readFileSync("./database/movies.json", "utf-8") || "[]"
-  )
   const $pathe = await fetch(
     "https://www.ugc.fr/filmsAjaxAction!getFilmsAndFilters.action?filter=onPreview&page=30010&cinemaId=&reset=false&"
   )
@@ -37,27 +34,22 @@ const moviesFromUgc = async () => {
 
   await scrapUGC(newMovies)
 
-  writeFileSync(
-    "./database/movies.json",
-    JSON.stringify(
-      uniqueArray([
-        ...movies,
-        ...newMovies.map((m) => {
-          const { link, ...rest } = m
-          return rest
-        }),
-      ]),
-      null,
-      2
-    ),
-    "utf-8"
-  )
+  for (const movie of newMovies) {
+    const { link, ...m } = movie
+    const existingMovie = await getMovie(m.id)
+
+    if (existingMovie) continue
+
+    await insertMovie(m)
+  }
 }
 
 const init = async () => {
   await moviesFromUgc()
   await scrapPathe()
   await scrapMk2()
+
+  sql.end()
 }
 
 const cinemas = async () => {

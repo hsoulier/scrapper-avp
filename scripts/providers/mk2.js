@@ -1,7 +1,13 @@
-import { writeFileSync } from "fs"
 import { parseHTML } from "linkedom"
 import { getTmDbInfo } from "../db/tmdb.js"
-import { loadJson, uniqueArray } from "../utils.js"
+import {
+  getMovie,
+  getShow,
+  getCinemaBySlug,
+  insertCinema,
+  insertMovie,
+  insertShow,
+} from "../db/requests.js"
 
 const listAVPs = [
   "avant-premieres-et-seances-exclusives",
@@ -10,10 +16,6 @@ const listAVPs = [
 
 export const scrapMk2 = async () => {
   console.log("🕵️‍♂️ Scraping mk2...")
-
-  const cinemas = loadJson("./database/cinemas.json")
-  const movies = loadJson("./database/movies.json")
-  const shows = loadJson("./database/shows.json")
 
   const res = await fetch("https://www.mk2.com/ile-de-france/evenements")
 
@@ -44,16 +46,14 @@ export const scrapMk2 = async () => {
     )
   )
 
-  const moviesToInsert = uniqueArray([
-    ...movies,
-    ...moviesData.map(({ link, ...rest }) => rest),
-  ])
+  for (const movie of moviesData) {
+    const { link, ...m } = movie
+    const existingMovie = await getMovie(m.id)
 
-  writeFileSync(
-    "./database/movies.json",
-    JSON.stringify(moviesToInsert, null, 2),
-    "utf-8"
-  )
+    if (existingMovie) continue
+
+    await insertMovie(m)
+  }
 
   for (const movie of moviesData) {
     console.log("🎬 Movie fetched -> ", movie.title)
@@ -78,9 +78,11 @@ export const scrapMk2 = async () => {
           ? "mk2-quai-loire"
           : event.sessionsByFilmAndCinema[0].cinema.slug
 
-      const showDetails = {
+      const cinemaId = await getCinemaBySlug(cinemaSlug)?.id
+
+      const show = {
         id: session.sessionId,
-        cinemaId: cinemas.find((c) => c.slug === cinemaSlug)?.id,
+        cinemaId,
         language,
         date: session.showTime,
         avpType: event.genres[0].id === "equipe-du-film" ? "AVPE" : "AVP",
@@ -89,20 +91,13 @@ export const scrapMk2 = async () => {
         linkMovie: movie.link,
       }
 
-      console.log(
-        event.sessionsByFilmAndCinema[0].cinema.slug,
-        cinemas.find((c) => c.slug === cinemaSlug)?.id
-      )
+      const existingShow = await getShow(show.id)
 
-      shows.push(showDetails)
+      if (existingShow) continue
+
+      await insertShow(show)
     }
   }
-
-  writeFileSync(
-    "./database/shows.json",
-    JSON.stringify(uniqueArray(shows), null, 2),
-    "utf-8"
-  )
 
   console.log("✅ Mk2 scraping done!")
 }
@@ -118,9 +113,14 @@ export const getMk2Theaters = async () => {
     document.querySelector("#__NEXT_DATA__").textContent
   ).props.pageProps.cinemaComplexes
 
-  const dataToInsert = cinemasData.map((c, index) => {
+  for (const [index, c] of cinemasData.entries()) {
     const cinema = c.cinemas[0]
-    return {
+
+    const existingCinema = await getCinemaBySlug(cinema.slug)
+
+    if (existingCinema) continue
+
+    await insertCinema({
       id: `mk2-${index + 1}`,
       slug: cinema.slug,
       name: cinema.name,
@@ -128,14 +128,6 @@ export const getMk2Theaters = async () => {
       address: `${c.address}, ${c.zipcode} ${cinema.city}`,
       link: `https://www.mk2.com/salle/${c.slug}`,
       source: "mk2",
-    }
-  })
-
-  const toInsert = [...loadJson("./database/cinemas.json"), ...dataToInsert]
-
-  writeFileSync(
-    "./database/cinemas.json",
-    JSON.stringify(uniqueArray(toInsert), null, 2),
-    "utf-8"
-  )
+    })
+  }
 }
