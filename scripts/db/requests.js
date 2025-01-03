@@ -9,19 +9,19 @@ export const getCinemaByName = async (name) => {
 export const getCinemaBySlug = async (slug) => {
   const data = await sql`select * from cinemas where slug = ${slug}`
 
-  return data[0]
+  return data?.[0]
 }
 
 export const getShow = async (id) => {
   const data = await sql`select * from shows where id = ${id}`
 
-  return data[0]
+  return data?.[0]
 }
 
 export const getMovie = async (id) => {
   const data = await sql`select * from movies where id = ${id}`
 
-  return data[0]
+  return data?.[0]
 }
 
 export const insertMovie = async (movie) => {

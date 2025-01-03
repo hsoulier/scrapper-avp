@@ -1,0 +1,34 @@
+name: Refresh data (Scrap movies from cinemas)
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "*/15 * * * *" # Every 15 minutes
+
+jobs:
+  scrap:
+    name: Scrap movies from cinemas
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📂 Checkout
+        uses: actions/checkout@v4
+
+      - name: 📦 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: 📦 Setup Yarn
+        uses: borales/actions-yarn@v4
+        with:
+          cmd: install
+
+      - name: 📊 Scrap
+        run: node ./scripts/scrapper.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TMDB_API_KEY: ${{ secrets. TMDB_API_KEY }}
+          TMDB_ACCESS_TOKEN: ${{ secrets. TMDB_ACCESS_TOKEN }}
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
