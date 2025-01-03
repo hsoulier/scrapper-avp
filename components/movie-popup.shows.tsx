@@ -2,7 +2,7 @@
 
 import { UGCIcon } from "@/components/icons/ugc"
 import { ArrowRightIcon } from "@heroicons/react/24/outline"
-import { useRouter, useSearchParams } from "next/navigation"
+import { useSearchParams } from "next/navigation"
 import { PatheIcon } from "@/components/icons/pathe"
 import Link from "next/link"
 import type { ShowAggregated } from "@/lib/queries"
@@ -18,7 +18,6 @@ export type Provider = keyof typeof providers
 
 export const MoviePopupShow = ({ show }: { show: ShowAggregated }) => {
   const searchParams = useSearchParams()
-  const router = useRouter()
   const showId = searchParams.get("id")
 
   if (!showId) return null
@@ -38,7 +37,7 @@ export const MoviePopupShow = ({ show }: { show: ShowAggregated }) => {
     <div className="space-y-4">
       <div
         key={show.id}
-        className="bg-gray-background/50 flex-nowrap justify-between items-center border border-gray-200 p-4 rounded-2xl flex"
+        className="bg-gray-background/50 xl:flex-nowrap justify-between items-center border border-gray-200 p-4 rounded-2xl flex"
       >
         <div className="flex flex-nowrap gap-2">
           {providers[show.cinemas.source as Provider]} {show.cinemas.name}

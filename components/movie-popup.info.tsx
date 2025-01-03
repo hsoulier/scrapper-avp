@@ -1,7 +1,11 @@
 "use client"
 
 import { useSearchParams } from "next/navigation"
-import { DialogHeader, DialogTitle } from "@/components/ui/dialog"
+import {
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog"
 import { UserGroupIcon } from "@heroicons/react/24/outline"
 import type { ShowAggregated } from "@/lib/queries"
 import { formatTime } from "@/lib/utils"
@@ -45,7 +49,9 @@ export const MoviePopupInfo = ({ show }: { show: ShowAggregated }) => {
         </div>
         <div className="gap-1 flex flex-col">
           <span className="font-light text-gray-500">Synopsis</span>
-          <p className="font-light">{show.movies.synopsis}</p>
+          <DialogDescription asChild>
+            <p className="font-light">{show.movies.synopsis}</p>
+          </DialogDescription>
         </div>
       </div>
     </DialogHeader>

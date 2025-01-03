@@ -1,5 +1,6 @@
 "use client"
 
+import { getQueryClient } from "@/lib/query-client"
 import { SuperParams } from "@/lib/utils"
 import {
   CheckIcon,
@@ -19,7 +20,7 @@ const values = [
     Icon: UserIcon,
   },
   {
-    value: "AVP-team",
+    value: "AVPE",
     label: "AVP en présence du casting",
     Icon: UserGroupIcon,
   },
@@ -35,11 +36,13 @@ export const FilterShows = () => {
   const itemSelected = searchParams.get(key) as Value | null
   const hasValue = searchParams.has(key)
 
-  const updateFilter = (value: Value) => {
+  const updateFilter = async (value: Value) => {
+    const queryClient = getQueryClient()
     const params = new SuperParams(searchParams.toString())
     params.toggle(key, value)
 
-    router.push(`?${params.toString()}`)
+    window.history.pushState(null, "", `?${params.toString()}`)
+    await queryClient.refetchQueries({ queryKey: ["shows"] })
   }
 
   return (
