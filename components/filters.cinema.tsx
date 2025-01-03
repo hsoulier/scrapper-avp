@@ -1,9 +1,10 @@
 "use client"
 
+import { getQueryClient } from "@/lib/query-client"
 import { SuperParams } from "@/lib/utils"
 import { CheckIcon, ChevronDownIcon } from "@heroicons/react/24/outline"
 import * as DropdownMenu from "@radix-ui/react-dropdown-menu"
-import { useSearchParams } from "next/navigation"
+import { useRouter, useSearchParams } from "next/navigation"
 
 const values = [
   { value: "pathe", label: "Pathé" },
@@ -12,7 +13,7 @@ const values = [
   { value: "indy", label: "Indépendant" },
 ] as const
 
-const key = "cinema" as const
+const key = "source" as const
 
 type Value = (typeof values)[number]["value"]
 
@@ -22,7 +23,7 @@ export const FilterCinema = () => {
   const itemSelected = searchParams.get(key) as Value | null
   const hasValue = searchParams.has(key)
 
-  const updateFilter = (value: Value) => {
+  const updateFilter = async (value: Value) => {
     const params = new SuperParams(searchParams.toString())
     params.toggle(key, value)
 

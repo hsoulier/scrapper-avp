@@ -6,10 +6,12 @@ import { useSearchParams } from "next/navigation"
 import { PatheIcon } from "@/components/icons/pathe"
 import Link from "next/link"
 import type { ShowAggregated } from "@/lib/queries"
+import { Mk2Icon } from "@/components/icons/mk2"
 
 export const providers = {
   ugc: <UGCIcon className="w-6" />,
   pathe: <PatheIcon className="w-6" />,
+  mk2: <Mk2Icon className="w-6" />,
 } as const
 
 export type Provider = keyof typeof providers
@@ -35,12 +37,12 @@ export const MoviePopupShow = ({ show }: { show: ShowAggregated }) => {
     <div className="space-y-4">
       <div
         key={show.id}
-        className="bg-gray-background/50 flex-nowrap justify-between items-center border border-gray-200 p-4 rounded-2xl flex"
+        className="bg-gray-background/50 xl:flex-nowrap justify-between items-center border border-gray-200 p-4 rounded-2xl flex"
       >
         <div className="flex flex-nowrap gap-2">
-          {providers[show.cinemaSource as Provider]} {show.cinemaName}
+          {providers[show.cinemas.source as Provider]} {show.cinemas.name}
           <span>
-            ({show?.cinemaArrondissement || ""}
+            ({show?.cinemas.arrondissement || ""}
             <sup>e</sup>)
           </span>
         </div>

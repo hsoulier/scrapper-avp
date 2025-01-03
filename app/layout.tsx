@@ -35,7 +35,7 @@ export default function RootLayout({
           <Suspense>
             <Navigation />
             <Filters />
-            <main className="container gap-8 grid grid-cols-3 lg:grid-cols-6">
+            <main className="gap-8 grid grid-cols-[repeat(auto-fill,minmax(200px,1fr))] mx-[3%] my-8">
               {children}
             </main>
           </Suspense>

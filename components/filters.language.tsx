@@ -1,13 +1,14 @@
 "use client"
 
+import { getQueryClient } from "@/lib/query-client"
 import { SuperParams } from "@/lib/utils"
 import { CheckIcon, ChevronDownIcon } from "@heroicons/react/24/outline"
 import * as DropdownMenu from "@radix-ui/react-dropdown-menu"
-import { useSearchParams } from "next/navigation"
+import { useRouter, useSearchParams } from "next/navigation"
 
 const values = [
-  { value: "fr", label: "Français" },
-  { value: "vo", label: "Version originale" },
+  { value: "vf", label: "Français" },
+  { value: "vost", label: "Version originale" },
 ] as const
 
 const key = "lang" as const
@@ -20,7 +21,7 @@ export const FilterLanguage = () => {
   const itemSelected = searchParams.get(key) as Value | null
   const hasValue = searchParams.has(key)
 
-  const updateFilter = (value: Value) => {
+  const updateFilter = async (value: Value) => {
     const params = new SuperParams(searchParams.toString())
     params.toggle(key, value)
 

@@ -5,8 +5,9 @@ import { CheckIcon, ChevronDownIcon } from "@heroicons/react/24/outline"
 import * as DropdownMenu from "@radix-ui/react-dropdown-menu"
 import { useSearchParams } from "next/navigation"
 import cinemas from "@/public/cinema-info.json"
+import { getQueryClient } from "@/lib/query-client"
 
-const key = "avp" as const
+const key = "cinemaId" as const
 
 export const FilterLocation = () => {
   const searchParams = useSearchParams()
@@ -19,11 +20,13 @@ export const FilterLocation = () => {
     .filter((c) => (cinemaSelected ? c.source === cinemaSelected : true))
     .map((c) => ({ value: c.slug, label: c.name }))
 
-  const updateFilter = (value: string) => {
+  const updateFilter = async (value: string) => {
+    const queryClient = getQueryClient()
     const params = new SuperParams(searchParams.toString())
     params.toggle(key, value)
 
     window.history.pushState(null, "", `?${params.toString()}`)
+    await queryClient.refetchQueries({ queryKey: ["shows"] })
   }
 
   return (
