@@ -6,7 +6,7 @@ import * as DropdownMenu from "@radix-ui/react-dropdown-menu"
 import { useSearchParams } from "next/navigation"
 import cinemas from "@/public/cinema-info.json"
 
-const key = "avp" as const
+const key = "cinemaId" as const
 
 export const FilterLocation = () => {
   const searchParams = useSearchParams()

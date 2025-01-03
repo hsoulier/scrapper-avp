@@ -25,7 +25,7 @@ const values = [
   },
 ] as const
 
-const key = "shows" as const
+const key = "avpType" as const
 
 type Value = (typeof values)[number]["value"]
 
