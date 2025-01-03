@@ -1,0 +1,22 @@
+name: Refresh data (Scrap movies from cinemas)
+
+on:
+  schedule:
+    - cron: "*/1 * * * *"
+
+jobs:
+  scrap:
+    name: Scrap movies from cinemas
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📂 Checkout
+        uses: actions/checkout@v4
+      - name: 📦 Install dependencies
+        run: npm install
+      - name: 📊 Scrap
+        run: node ./scripts/scrapper.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TMDB_API_KEY: ${{ secrets. TMDB_API_KEY }}
+          TMDB_ACCESS_TOKEN: ${{ secrets. TMDB_ACCESS_TOKEN }}
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
