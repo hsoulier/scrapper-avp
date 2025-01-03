@@ -14,5 +14,5 @@ export const Content = () => {
 
   console.log(res?.data)
 
-  return res?.data?.map((show) => <MovieCard key={show.id} show={show} />)
+  return r
 }

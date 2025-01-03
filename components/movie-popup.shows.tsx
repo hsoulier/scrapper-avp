@@ -2,20 +2,23 @@
 
 import { UGCIcon } from "@/components/icons/ugc"
 import { ArrowRightIcon } from "@heroicons/react/24/outline"
-import { useSearchParams } from "next/navigation"
+import { useRouter, useSearchParams } from "next/navigation"
 import { PatheIcon } from "@/components/icons/pathe"
 import Link from "next/link"
 import type { ShowAggregated } from "@/lib/queries"
+import { Mk2Icon } from "@/components/icons/mk2"
 
 export const providers = {
   ugc: <UGCIcon className="w-6" />,
   pathe: <PatheIcon className="w-6" />,
+  mk2: <Mk2Icon className="w-6" />,
 } as const
 
 export type Provider = keyof typeof providers
 
 export const MoviePopupShow = ({ show }: { show: ShowAggregated }) => {
   const searchParams = useSearchParams()
+  const router = useRouter()
   const showId = searchParams.get("id")
 
   if (!showId) return null
@@ -38,9 +41,9 @@ export const MoviePopupShow = ({ show }: { show: ShowAggregated }) => {
         className="bg-gray-background/50 flex-nowrap justify-between items-center border border-gray-200 p-4 rounded-2xl flex"
       >
         <div className="flex flex-nowrap gap-2">
-          {providers[show.cinemaSource as Provider]} {show.cinemaName}
+          {providers[show.cinemas.source as Provider]} {show.cinemas.name}
           <span>
-            ({show?.cinemaArrondissement || ""}
+            ({show?.cinemas.arrondissement || ""}
             <sup>e</sup>)
           </span>
         </div>

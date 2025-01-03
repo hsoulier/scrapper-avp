@@ -7,7 +7,7 @@ import { DialogContent } from "@/components/ui/dialog"
 import type { ShowAggregated } from "@/lib/queries"
 
 export const MoviePopup = ({ show }: { show: ShowAggregated }) => {
-  const cover = show.moviePoster || ""
+  const cover = show.movies.poster || ""
 
   return (
     <DialogContent className="rounded-3xl p-12 flex gap-10 w-[64rem] outline-none">

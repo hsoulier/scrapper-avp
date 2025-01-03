@@ -3,13 +3,14 @@
 import { SuperParams } from "@/lib/utils"
 import { CheckIcon, ChevronDownIcon } from "@heroicons/react/24/outline"
 import * as DropdownMenu from "@radix-ui/react-dropdown-menu"
-import { useSearchParams } from "next/navigation"
+import { useRouter, useSearchParams } from "next/navigation"
 import cinemas from "@/public/cinema-info.json"
 
 const key = "cinemaId" as const
 
 export const FilterLocation = () => {
   const searchParams = useSearchParams()
+  const router = useRouter()
 
   const itemSelected = searchParams.get(key)
   const cinemaSelected = searchParams.get("cinema")
@@ -23,7 +24,7 @@ export const FilterLocation = () => {
     const params = new SuperParams(searchParams.toString())
     params.toggle(key, value)
 
-    window.history.pushState(null, "", `?${params.toString()}`)
+    router.push(`?${params.toString()}`)
   }
 
   return (

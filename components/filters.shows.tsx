@@ -39,7 +39,7 @@ export const FilterShows = () => {
     const params = new SuperParams(searchParams.toString())
     params.toggle(key, value)
 
-    window.history.pushState(null, "", `?${params.toString()}`)
+    router.push(`?${params.toString()}`)
   }
 
   return (

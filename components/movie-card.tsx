@@ -1,6 +1,6 @@
 "use client"
 
-import { useSearchParams } from "next/navigation"
+import { useRouter, useSearchParams } from "next/navigation"
 import { Dialog, DialogTrigger } from "@/components/ui/dialog"
 import { SuperParams } from "@/lib/utils"
 import { providers, type Provider } from "@/components/movie-popup.shows"
@@ -10,9 +10,11 @@ import { MoviePopup } from "@/components/movie-popup"
 
 export const MovieCard = ({ show }: { show: ShowAggregated }) => {
   const searchParams = useSearchParams()
+  const router = useRouter()
+
   const [open, setOpen] = useState<boolean>(false)
 
-  const cover = show.moviePoster || ""
+  const cover = show.movies.poster || ""
   const id = show.id
 
   const date = new Date(show.date || "")
@@ -25,7 +27,7 @@ export const MovieCard = ({ show }: { show: ShowAggregated }) => {
 
     setOpen(o)
 
-    window.history.pushState(null, "", `?${params.toString()}`)
+    router.push(`?${params.toString()}`)
   }
 
   return (
@@ -39,17 +41,17 @@ export const MovieCard = ({ show }: { show: ShowAggregated }) => {
           />
         </div>
         <div
-          className="opacity-0 group-hover:opacity-20 bg-no-repeat bg-center bg-cover blur-xl absolute saturate-200 -inset-0 -z-10 transition-opacity duration-150 ease-out"
+          className="opacity-0 group-hover:opacity-20 bg-no-repeat bg-center bg-cover blur-xl absolute saturate-100 -inset-0 -z-10 transition-opacity duration-150 ease-out"
           style={{ backgroundImage: `url(${cover})` }}
         />
         <span className="absolute top-4 right-4 bg-gray-background size-8 rounded-lg inline-grid place-content-center">
-          {providers[show.cinemaSource as Provider]}
+          {providers[show.cinemas.source as Provider]}
         </span>
         <header className="absolute bottom-4 inset-x-4 space-y-1 z-20 text-gray-background dark:text-gray-white">
-          <h3 className="text-lg font-semibold">{show.movieTitle}</h3>
+          <h3 className="text-lg font-semibold">{show.movies.title}</h3>
           <p className="text-sm font-light flex justify-between">
             <span>
-              {date.toLocaleTimeString([], {
+              {date.toLocaleTimeString("fr-FR", {
                 hour: "2-digit",
                 minute: "2-digit",
               })}

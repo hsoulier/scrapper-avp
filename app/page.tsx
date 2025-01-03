@@ -1,4 +1,4 @@
-import { Content } from "@/app/page.content"
+import { MovieCard } from "@/components/movie-card"
 import useSupabaseServer from "@/hooks/use-supabase-server"
 import { getShowsAggregatedServer } from "@/lib/queries"
 import { cookies } from "next/headers"
@@ -8,14 +8,17 @@ type AwaitSearchParams = Promise<{
 
 const Page = async ({ searchParams }: { searchParams: AwaitSearchParams }) => {
   const cookieStore = await cookies()
+  const awaitedSearchParams = await searchParams
+
   const supabase = useSupabaseServer(cookieStore)
 
-  const awaitedSearchParams = await searchParams
-  const data = await getShowsAggregatedServer(supabase, awaitedSearchParams)
+  const res = await getShowsAggregatedServer(supabase, awaitedSearchParams)
 
-  console.log(data)
+  console.log(res?.data, awaitedSearchParams)
 
-  return <Content />
+  // return res?.data?.map((show) => <div key={show.id}>{show.movies.title}</div>)
+
+  return res?.data?.map((show) => <MovieCard key={show.id} show={show} />)
 }
 
 export default Page

@@ -3,11 +3,11 @@
 import { SuperParams } from "@/lib/utils"
 import { CheckIcon, ChevronDownIcon } from "@heroicons/react/24/outline"
 import * as DropdownMenu from "@radix-ui/react-dropdown-menu"
-import { useSearchParams } from "next/navigation"
+import { useRouter, useSearchParams } from "next/navigation"
 
 const values = [
-  { value: "fr", label: "Français" },
-  { value: "vo", label: "Version originale" },
+  { value: "vf", label: "Français" },
+  { value: "vost", label: "Version originale" },
 ] as const
 
 const key = "lang" as const
@@ -17,6 +17,8 @@ type Value = (typeof values)[number]["value"]
 export const FilterLanguage = () => {
   const searchParams = useSearchParams()
 
+  const router = useRouter()
+
   const itemSelected = searchParams.get(key) as Value | null
   const hasValue = searchParams.has(key)
 
@@ -24,7 +26,7 @@ export const FilterLanguage = () => {
     const params = new SuperParams(searchParams.toString())
     params.toggle(key, value)
 
-    window.history.pushState(null, "", `?${params.toString()}`)
+    router.push(`?${params.toString()}`)
   }
 
   return (

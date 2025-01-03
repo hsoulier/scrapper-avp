@@ -3,7 +3,7 @@
 import { SuperParams } from "@/lib/utils"
 import { CheckIcon, ChevronDownIcon } from "@heroicons/react/24/outline"
 import * as DropdownMenu from "@radix-ui/react-dropdown-menu"
-import { useSearchParams } from "next/navigation"
+import { useRouter, useSearchParams } from "next/navigation"
 
 const values = [
   { value: "pathe", label: "Pathé" },
@@ -17,6 +17,7 @@ const key = "source" as const
 type Value = (typeof values)[number]["value"]
 
 export const FilterCinema = () => {
+  const router = useRouter()
   const searchParams = useSearchParams()
 
   const itemSelected = searchParams.get(key) as Value | null
@@ -26,7 +27,7 @@ export const FilterCinema = () => {
     const params = new SuperParams(searchParams.toString())
     params.toggle(key, value)
 
-    window.history.pushState(null, "", `?${params.toString()}`)
+    router.push(`?${params.toString()}`)
   }
 
   return (

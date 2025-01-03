@@ -31,32 +31,21 @@ export const getShowsAggregatedServer = async (
   let query = client.from("shows").select(
     `
     *,
-    ...cinemas!inner(
-      cinemaName:name,
-      cinemaSource:source,
-      cinemaArrondissement:arrondissement
-    ),
-    ...movies!inner(
-      movieTitle:title,
-      moviePoster:poster,
-      movieDirector:director,
-      movieRelease:release,
-      movieDuration:duration,
-      movieSynopsis:synopsis
-    )
+    cinemas!inner(*),
+    movies!inner(*)
     `
   )
 
-  if (cinemaId) {
-    query = query.eq("cinema.id", cinemaId)
+  if ("cinemaId" in searchParams && cinemaId) {
+    query = query.eq("cinemas.slug", cinemaId)
   }
-  if (source) {
-    query = query.eq("cinema.source", source)
+  if ("source" in searchParams && source) {
+    query = query.eq("cinemas.source", source)
   }
-  if (avpType) {
+  if ("avpType" in searchParams && avpType) {
     query = query.eq("avpType", avpType)
   }
-  if (lang) {
+  if ("lang" in searchParams && lang) {
     query = query.eq("language", lang)
   }
 
@@ -64,5 +53,5 @@ export const getShowsAggregatedServer = async (
 }
 
 export type ShowAggregated = NonNullable<
-  Awaited<ReturnType<typeof getShowsAggregated>>["data"]
+  Awaited<ReturnType<typeof getShowsAggregatedServer>>["data"]
 >[number]
