@@ -14,7 +14,7 @@ const years = [
   new Date().getFullYear() - 1,
 ]
 
-export const getMovieFromYears = async (title) => {
+const getMovieFromYears = async (title) => {
   const encodedTitle = encodeURIComponent(title)
   let movie = null
 

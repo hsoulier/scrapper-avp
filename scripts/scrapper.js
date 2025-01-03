@@ -1,16 +1,20 @@
-import { insertMovie, insertShow } from "./db/requests.js"
-import { sql, supabase } from "./utils.js"
+import { sql } from "./utils.js"
+import { getUGCTheaters, scrapUGC } from "./providers/ugc.js"
+import { scrapPathe, getPatheTheaters } from "./providers/pathe.js"
+import { scrapMk2, getMk2Theaters } from "./providers/mk2.js"
 
-const scrap = async () => {
-  try {
-    const { data, error } = await supabase.from("movies").select("*")
-
-    console.log(data.length)
-  } catch (error) {
-    console.error(error)
-  }
+const init = async () => {
+  await scrapUGC()
+  await scrapPathe()
+  await scrapMk2()
 
   sql.end()
 }
 
-scrap()
+const getCinemas = async () => {
+  await getMk2Theaters()
+  await getUGCTheaters()
+  await getPatheTheaters()
+}
+
+init()

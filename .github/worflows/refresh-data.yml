@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 11 * * *"
 
 jobs:
   scrap:
@@ -8,21 +8,12 @@ jobs:
     steps:
       - name: 📂 Checkout
         uses: actions/checkout@v4
-      - name: 🧶 Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: "yarn"
       - name: 📦 Install dependencies
-        uses: borales/actions-yarn@v5
-        with:
-          cmd: install --frozen-lockfile
+        run: npm install
       - name: 📊 Scrap
         run: node ./scripts/scrapper.js
-      - name: Get current date
-        run: echo "NOW=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
-      - name: 📤 Commit
-        uses: EndBug/add-and-commit@v9
         with:
-          default_author: github_actor
-          message: 📊 Scrap of $NOW
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TMDB_API_KEY: 4090bdb7b4e54aec7be3b4bcd54150b7
+          TMDB_ACCESS_TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0MDkwYmRiN2I0ZTU0YWVjN2JlM2I0YmNkNTQxNTBiNyIsIm5iZiI6MTczMjAzODU3NC4wNTkyOTQ1LCJzdWIiOiI2NzNjY2ViNTE5YWMzMmNlYjFiZDM3ZmMiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.Z-SWHYucmy40ZPJYUdobVJtkawTjtJNSoGqBxcligpQ
+          DATABASE_URL: postgresql://postgres:gt2Gyj4ZuAFQycBt@db.yafeugsphejhrcwqmesx.supabase.co:5432/postgres

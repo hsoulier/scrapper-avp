@@ -1,6 +1,12 @@
 import { parseHTML } from "linkedom"
 import { JSDOM } from "jsdom"
-import { getCinemaByName, getShow, insertShow } from "../db/requests.js"
+import {
+  getCinemaByName,
+  getMovie,
+  getShow,
+  insertShow,
+} from "../db/requests.js"
+import { getTmDbInfo } from "../db/tmdb.js"
 
 const TYPE_SHOWS = ["Avant-première avec équipe", "Avant-première"]
 
@@ -25,7 +31,7 @@ function urlAVPMovie(id, firstDate) {
   return `https://www.ugc.fr/showingsFilmAjaxAction!getShowingsByFilm.action?filmId=${id}&day=${firstDate}&regionId=1`
 }
 
-export const scrapUGC = async (info) => {
+const getShows = async (info) => {
   const previewsList = []
 
   console.log("🏗️ Movies to fetch -> ", info.length)
@@ -100,6 +106,44 @@ export const scrapUGC = async (info) => {
     previewsList.length,
     info.length
   )
+}
+
+export const scrapUGC = async () => {
+  const $pathe = await fetch(
+    "https://www.ugc.fr/filmsAjaxAction!getFilmsAndFilters.action?filter=onPreview&page=30010&cinemaId=&reset=false&"
+  )
+  const html = await $pathe.text()
+  const { document } = parseHTML(html)
+
+  const $movies = [
+    ...document.querySelectorAll(".results-container > .row > *"),
+  ]
+
+  const moviesWithAVP = $movies.map((movie) => {
+    const $link = movie.querySelector(".img-wrapper a")
+
+    return {
+      title: $link?.getAttribute("title").toLowerCase().trim(),
+      link: `https://www.ugc.fr/${$link?.href}`,
+    }
+  })
+
+  const newMovies = await Promise.all(
+    moviesWithAVP.map(({ title, link }) =>
+      getTmDbInfo(title).then((m) => ({ ...m, link }))
+    )
+  )
+
+  await getShows(newMovies)
+
+  for (const movie of newMovies) {
+    const { link, ...m } = movie
+    const existingMovie = await getMovie(m.id)
+
+    if (existingMovie) continue
+
+    await insertMovie(m)
+  }
 }
 
 export const getUGCTheaters = async () => {
