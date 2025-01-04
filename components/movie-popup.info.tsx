@@ -23,9 +23,9 @@ export const MoviePopupInfo = ({ show }: { show: ShowAggregated }) => {
 
   return (
     <DialogHeader className="space-y-4">
-      <DialogTitle className="text-2xl font-semibold flex gap-1">
+      <DialogTitle className="text-2xl font-semibold flex flex-wrap gap-1 lg:flex-nowrap">
         <span className="truncate">{show?.movies.title}</span>
-        <span className="flex-shrink-0 font-normal ml-4 bg-gray-100 inline-flex gap-2 p-2 rounded-xl text-xs">
+        <span className="flex-shrink-0 font-normal lg:ml-4 bg-gray-100 inline-flex gap-2 p-2 rounded-xl text-xs">
           <UserGroupIcon className="size-4 text-gray-500" />
           {mappingAVP[show?.avpType as keyof typeof mappingAVP]}
         </span>

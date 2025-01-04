@@ -38,7 +38,11 @@
   appearance: none;
 }
 
-* {
+*:not(html) {
   scrollbar-width: thin;
   scrollbar-color: hsl(var(--gray-200)) transparent;
+}
+
+html::-webkit-scrollbar {
+  display: none;
 }

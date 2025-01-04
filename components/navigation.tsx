@@ -21,10 +21,10 @@ export const Navigation = () => {
       </Link>
       <search
         role="search"
-        className="absolute left-1/2 transform -translate-x-1/2 w-fit"
+        className="lg:absolute left-1/2 lg:-translate-x-1/2 w-fit"
       >
-        <form className="relative px-[4rem] lg:px-40 py-3 rounded-lg bg-gray-100">
-          <MagnifyingGlassIcon className="size-4 absolute left-[8.5rem] top-4 text-gray-400" />
+        <form className="relative px-4 lg:px-40 py-3 rounded-lg bg-gray-100">
+          <MagnifyingGlassIcon className="hidden size-4 lg:block absolute left-[8.5rem] top-4 text-gray-400" />
           <input
             type="search"
             name="q"

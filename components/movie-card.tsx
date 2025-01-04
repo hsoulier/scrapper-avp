@@ -2,7 +2,7 @@
 
 import { useSearchParams } from "next/navigation"
 import { SuperParams } from "@/lib/utils"
-import { providers, type Provider } from "@/components/movie-popup.shows"
+import { providers, type Provider } from "@/components/movie-popup.show"
 import type { ShowAggregated } from "@/lib/queries"
 
 export const MovieCard = ({ show }: { show: ShowAggregated }) => {

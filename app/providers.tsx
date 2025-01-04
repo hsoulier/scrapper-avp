@@ -16,7 +16,7 @@ const ReactQueryClientProvider = ({
   return (
     <QueryClientProvider client={queryClient}>
       {children}
-      <ReactQueryDevtools />
+      {!process.env.NEXT_PUBLIC_PROD && <ReactQueryDevtools />}
     </QueryClientProvider>
   )
 }
