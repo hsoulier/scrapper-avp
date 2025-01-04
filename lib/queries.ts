@@ -7,14 +7,9 @@ export const getShowsAggregated = async (
   }
 ) => {
   const { cinemaId, source, avpType, lang, q } = searchParams
+  const now = new Date().toISOString()
 
-  let query = client.from("shows").select(
-    `
-    *,
-    cinemas!inner(*),
-    movies!inner(*)
-    `
-  )
+  let query = client.from("shows").select(`*, cinemas!inner(*),movies!inner(*)`)
 
   if ("cinemaId" in searchParams && cinemaId) {
     query = query.eq("cinemas.slug", cinemaId)
@@ -33,7 +28,7 @@ export const getShowsAggregated = async (
     query = query.ilike("movies.title", `%${q}%`)
   }
 
-  return query.order("date")
+  return query.gt("date", now).order("date")
 }
 
 export const getShowAggregated = async (

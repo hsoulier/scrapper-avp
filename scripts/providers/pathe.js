@@ -14,6 +14,8 @@ const TAGS_AVP = [
   "avp-equipe",
 ]
 
+const specialTitles = ["séance all inclusive : ", "la séance live :"]
+
 const previewsList = new Map()
 const moviesUnique = new Set()
 const showsList = []
@@ -65,6 +67,14 @@ const getTitle = async (slug) => {
     return null
   }
 
+  const isSpecialTitle = specialTitles.some((s) =>
+    data.title.trim().toLowerCase().includes(s)
+  )
+
+  data.title = isSpecialTitle
+    ? data.title.split(":").slice(1).join(":")
+    : data.title
+
   const movie = await getTmDbInfo(data.title)
 
   if (!movie) {
@@ -78,7 +88,7 @@ const getTitle = async (slug) => {
       duration,
       release: releaseAt.FR_FR,
       imdbId: "",
-      poster: posterPath.lg,
+      poster: posterPath?.lg || "",
     }
   }
 
