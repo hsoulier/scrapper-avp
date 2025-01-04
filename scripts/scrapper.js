@@ -8,13 +8,15 @@ const init = async () => {
   await scrapPathe()
   await scrapMk2()
 
-  sql.end()
+  await sql.end()
 }
 
 const getCinemas = async () => {
   await getMk2Theaters()
   await getUGCTheaters()
   await getPatheTheaters()
+
+  sql.end()
 }
 
 init()
