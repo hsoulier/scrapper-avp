@@ -3,6 +3,7 @@ import { JSDOM } from "jsdom"
 import {
   getCinemaByName,
   getMovie,
+  insertMovie,
   getShow,
   insertShow,
 } from "../db/requests.js"
@@ -35,7 +36,6 @@ const getShows = async (info) => {
   const previewsList = []
 
   console.log("🏗️ Movies to fetch -> ", info.length)
-  console.log("------------------------------------")
 
   for (const { title, link, id: movieId } of info) {
     const id = link.split("_").at(-1).replace(".html", "")
@@ -98,6 +98,7 @@ const getShows = async (info) => {
 
       await insertShow(details)
     }
+    console.log("ℹ️ Shows fetched -> ", previews.length)
   }
 
   console.log("------------------------------------")
@@ -133,9 +134,6 @@ export const scrapUGC = async () => {
       getTmDbInfo(title).then((m) => ({ ...m, link }))
     )
   )
-
-  await getShows(newMovies)
-
   for (const movie of newMovies) {
     const { link, ...m } = movie
     const existingMovie = await getMovie(m.id)
@@ -144,6 +142,8 @@ export const scrapUGC = async () => {
 
     await insertMovie(m)
   }
+
+  await getShows(newMovies)
 }
 
 export const getUGCTheaters = async () => {

@@ -1,22 +1,30 @@
 import { sql } from "./utils.js"
-import { getUGCTheaters, scrapUGC } from "./providers/ugc.js"
-import { scrapPathe, getPatheTheaters } from "./providers/pathe.js"
-import { scrapMk2, getMk2Theaters } from "./providers/mk2.js"
+import { scrapUGC } from "./providers/ugc.js"
+import { scrapPathe } from "./providers/pathe.js"
+import { scrapMk2 } from "./providers/mk2.js"
 
 const init = async () => {
+  console.group("🛠️ scrapping UGC")
   await scrapUGC()
+  console.groupEnd()
+
+  console.group("🛠️ scrapping Pathé")
   await scrapPathe()
+  console.groupEnd()
+
+  console.group("🛠️ scrapping Mk2")
   await scrapMk2()
+  console.groupEnd()
 
   await sql.end()
 }
 
-const getCinemas = async () => {
-  await getMk2Theaters()
-  await getUGCTheaters()
-  await getPatheTheaters()
+// const getCinemas = async () => {
+//   await getMk2Theaters()
+//   await getUGCTheaters()
+//   await getPatheTheaters()
 
-  sql.end()
-}
+//   sql.end()
+// }
 
 init()
