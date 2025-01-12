@@ -4,6 +4,7 @@ import { useSearchParams } from "next/navigation"
 import { SuperParams } from "@/lib/utils"
 import { providers, type Provider } from "@/components/movie-popup.show"
 import type { ShowAggregated } from "@/lib/queries"
+import { Tooltip } from "@/components/ui/tooltip"
 
 export const MovieCard = ({ show }: { show: ShowAggregated }) => {
   const searchParams = useSearchParams()
@@ -37,9 +38,19 @@ export const MovieCard = ({ show }: { show: ShowAggregated }) => {
         className="opacity-0 group-hover:opacity-20 bg-no-repeat bg-center bg-cover blur-xl absolute saturate-100 -inset-0 -z-10 transition-opacity duration-150 ease-out"
         style={{ backgroundImage: `url(${cover})` }}
       />
-      <span className="absolute top-4 right-4 bg-gray-background size-8 rounded-lg inline-grid place-content-center">
-        {providers[show.cinemas.source as Provider]}
-      </span>
+
+      <div className="flex absolute inset-x-4 top-4 items-stretch justify-end gap-2">
+        <div className="text-gray-white flex min-w-0 items-center gap-1 rounded-lg bg-gray-background px-2">
+          {providers[show.cinemas.source as Provider]}
+          <div className="truncate text-gray-white font-light">
+            {show.cinemas.name}
+          </div>
+        </div>
+        <Tooltip className="grid size-8 shrink-0 place-content-center rounded-lg bg-gray-background text-gray-white" content="Provider">
+          {providers[show.cinemas.source as Provider]}
+        </Tooltip>
+      </div>
+
       <header className="absolute bottom-4 inset-x-4 space-y-1 z-20 text-gray-background dark:text-gray-white">
         <h3 className="text-lg font-semibold">{show.movies.title}</h3>
         <p className="text-sm font-light flex justify-between">
