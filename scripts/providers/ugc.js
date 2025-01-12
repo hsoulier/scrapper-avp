@@ -11,6 +11,11 @@ import { getTmDbInfo } from "../db/tmdb.js"
 
 const TYPE_SHOWS = ["Avant-première avec équipe", "Avant-première"]
 
+const debug = {
+  movies: 0,
+  shows: 0,
+}
+
 async function getFirstDate(id) {
   const res = await fetch(
     `https://www.ugc.fr/showingsFilmAjaxAction!getDaysByFilm.action?reloadShowingsTopic=reloadShowings&dayForm=dayFormDesktop&filmId=${id}&day=&regionId=1&defaultRegionId=1`
@@ -33,14 +38,8 @@ function urlAVPMovie(id, firstDate) {
 }
 
 const getShows = async (info) => {
-  const previewsList = []
-
-  console.log("🏗️ Movies to fetch -> ", info.length)
-
   for (const { title, link, id: movieId } of info) {
     const id = link.split("_").at(-1).replace(".html", "")
-
-    console.log("🥷 Fetching media -> ", title?.toLowerCase(), id)
 
     const firstDate = await getFirstDate(id)
     const res2 = await fetch(urlAVPMovie(id, firstDate))
@@ -97,16 +96,12 @@ const getShows = async (info) => {
       }
 
       await insertShow(details)
+
+      debug.shows++
     }
-    console.log("ℹ️ Shows fetched -> ", previews.length)
   }
 
-  console.log("------------------------------------")
-  console.log(
-    "✅ UGC scrapping done -> number of movies retrieved",
-    previewsList.length,
-    info.length
-  )
+  console.log("✅ UGC scrapping done", debug)
 }
 
 export const scrapUGC = async () => {
@@ -141,6 +136,8 @@ export const scrapUGC = async () => {
     if (existingMovie) continue
 
     await insertMovie(m)
+
+    debug.movies++
   }
 
   await getShows(newMovies)
@@ -156,8 +153,6 @@ export const getUGCTheaters = async () => {
   const cinemasElements = [
     ...document.querySelectorAll(".text-wrapper.flex-grow-1"),
   ]
-
-  console.log("🏗️ Cinemas to fetch -> ", cinemasElements.length)
 
   for (const [index, cinema] of cinemasElements.entries()) {
     const name = cinema.querySelector("a").textContent.trim()

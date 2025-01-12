@@ -18,7 +18,11 @@ const specialTitles = ["séance all inclusive : ", "la séance live :"]
 
 const previewsList = new Map()
 const moviesUnique = new Set()
-const showsList = []
+
+const debug = {
+  movies: 0,
+  shows: 0,
+}
 
 const CINEMAS = [
   "cinema-pathe-alesia",
@@ -63,7 +67,7 @@ const getTitle = async (slug) => {
   const data = await fetchData(`https://www.pathe.fr/api/show/${slug}`)
 
   if (data.genres.includes("Courts-Métrages")) {
-    console.log("🚫 Skip short movie")
+    console.log(`🚫 Skip short movie (${slug})`)
     return null
   }
 
@@ -96,33 +100,25 @@ const getTitle = async (slug) => {
 }
 
 export const scrapPathe = async () => {
-  console.log("🚀 Pathé scrapping started")
-  console.log("------------------------------------")
-
   for (const cinema of CINEMAS) {
     await getCinemaShows2(cinema)
   }
 
   for (const slug of [...moviesUnique].filter(Boolean)) {
-    console.group(`🥷 Get movie ${slug}`)
-
     const movie = await getTitle(slug)
 
-    if (!movie) {
-      console.groupEnd()
-      continue
-    }
+    if (!movie) continue
 
     const existingMovie = await getMovie(movie.id)
 
     if (!existingMovie) {
       await insertMovie(movie)
+
+      debug.movies++
     }
 
-    if (!previewsList.has(slug)) {
-      console.groupEnd()
-      continue
-    }
+    if (!previewsList.has(slug)) continue
+
     const showsEl = previewsList.get(slug)
 
     for (const day in showsEl.days) {
@@ -134,10 +130,7 @@ export const scrapPathe = async () => {
       for (const date of data) {
         const currentCinema = await getCinemaBySlug(showsEl.cinema)
 
-        if (!currentCinema) {
-          console.log("🚫 Cinema not found for", showsEl.cinema, movie.title)
-          continue
-        }
+        if (!currentCinema) continue
 
         const show = {
           id: date.refCmd.split("/").at(-2),
@@ -157,18 +150,13 @@ export const scrapPathe = async () => {
         if (existingShow) continue
 
         await insertShow(show)
+
+        debug.shows++
       }
     }
-
-    console.groupEnd()
   }
 
-  console.log("------------------------------------")
-  console.log(
-    `✅ Pathé scraped -> ${
-      [...moviesUnique].filter(Boolean).length
-    } movies and ${showsList.length} shows retrieved`
-  )
+  console.log("✅ Pathe scrapping done", debug)
 }
 
 export const getPatheTheaters = async () => {

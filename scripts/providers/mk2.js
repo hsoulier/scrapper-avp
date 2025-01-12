@@ -14,18 +14,29 @@ const listAVPs = [
   "avant-premieres-avec-equipe",
 ]
 
-export const scrapMk2 = async () => {
-  console.log("🕵️‍♂️ Scraping mk2...")
+const debug = {
+  movies: 0,
+  shows: 0,
+}
 
-  const res = await fetch("https://www.mk2.com/ile-de-france/evenements")
+const getDataFromPage = async (page) => {
+  const res = await fetch(page)
 
   const data = await res.text()
 
   const { document } = parseHTML(data)
 
-  const info = JSON.parse(
-    document.querySelector("#__NEXT_DATA__").textContent
-  ).props?.pageProps?.events?.content.filter((c) => listAVPs.includes(c.slug))
+  return JSON.parse(document.querySelector("#__NEXT_DATA__").textContent)?.props
+}
+
+export const scrapMk2 = async () => {
+  const props = await getDataFromPage(
+    "https://www.mk2.com/ile-de-france/evenements"
+  )
+
+  const info = props?.pageProps?.events?.content.filter((c) =>
+    listAVPs.includes(c.slug)
+  )
 
   const events = info
     ?.map((e) => e.events.filter((a) => a.type.id === "avant-premiere"))
@@ -38,8 +49,6 @@ export const scrapMk2 = async () => {
     }
   })
 
-  console.log("🏗️ Movies to fetch -> ", $movies.length)
-
   const moviesData = await Promise.all(
     $movies.map(({ title, link }) =>
       getTmDbInfo(title).then((m) => ({ ...m, link }))
@@ -48,23 +57,51 @@ export const scrapMk2 = async () => {
 
   for (const movie of moviesData) {
     const { link, ...m } = movie
+
+    if (Object.keys(m).length === 0) {
+      const props = await getDataFromPage(link)
+
+      const newMovie = {
+        id: parseInt(props.pageProps.event.id, 10),
+        title: props.pageProps.event.name,
+        synopsis: props.pageProps.event.description,
+        director: "",
+        duration: null,
+        release: new Date(props.pageProps.event.startDate).toLocaleDateString(
+          "en-GB"
+        ),
+        imdbId: "",
+        poster: props.pageProps.event.graphicUrl || "",
+      }
+
+      const currentMovie = moviesData.findIndex((m) => m.link === link)
+
+      moviesData[currentMovie] = { ...newMovie, link }
+
+      const existingMovie = await getMovie(newMovie.id)
+
+      if (existingMovie) continue
+
+      await insertMovie(newMovie)
+
+      debug.movies++
+
+      continue
+    }
+
     const existingMovie = await getMovie(m.id)
 
     if (existingMovie) continue
 
     await insertMovie(m)
+
+    debug.movies++
   }
 
   for (const movie of moviesData) {
-    console.log("🎬 Movie fetched -> ", movie.title)
+    const props = await getDataFromPage(movie.link)
 
-    const res = await fetch(movie.link)
-    const data = await res.text()
-    const { document } = parseHTML(data)
-
-    const event = JSON.parse(
-      document.querySelector("#__NEXT_DATA__").textContent
-    ).props.pageProps.event
+    const event = props.pageProps.event
 
     for (const session of event.sessionsByFilmAndCinema[0].sessions) {
       const language =
@@ -73,12 +110,11 @@ export const scrapMk2 = async () => {
           ? "vost"
           : "vf"
 
-      const cinemaSlug =
-        event.sessionsByFilmAndCinema[0].cinema.slug === "mk2-quai-seine"
-          ? "mk2-quai-loire"
-          : event.sessionsByFilmAndCinema[0].cinema.slug
+      const cinemaSlug = event.sessionsByFilmAndCinema[0].cinema.slug
 
-      const cinemaId = await getCinemaBySlug(cinemaSlug)?.id
+      const cinema = await getCinemaBySlug(cinemaSlug)
+
+      const cinemaId = cinema?.id
 
       const show = {
         id: session.sessionId,
@@ -96,10 +132,12 @@ export const scrapMk2 = async () => {
       if (existingShow) continue
 
       await insertShow(show)
+
+      debug.shows++
     }
   }
 
-  console.log("✅ Mk2 scraping done!")
+  console.log("✅ Mk2 scrapping done", debug)
 }
 
 export const getMk2Theaters = async () => {

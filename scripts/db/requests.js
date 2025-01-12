@@ -7,9 +7,14 @@ export const getCinemaByName = async (name) => {
 }
 
 export const getCinemaBySlug = async (slug) => {
-  const data = await sql`select * from cinemas where slug = ${slug}`
+  try {
+    const data = await sql`select * from cinemas where slug = ${slug}`
 
-  return data?.[0]
+    return data?.[0]
+  } catch (error) {
+    console.log(`select * from cinemas where slug = ${slug}`)
+    console.error(error.message)
+  }
 }
 
 export const getShow = async (id) => {
@@ -38,8 +43,8 @@ export const insertMovie = async (movie) => {
       "imdbId",
       "poster"
     )}
-    returning *
-  `
+    returning *`
+
     return data[0]
   } catch (error) {
     console.error(movie, error)

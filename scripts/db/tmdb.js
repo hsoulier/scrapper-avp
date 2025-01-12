@@ -30,11 +30,10 @@ const getMovieFromYears = async (title) => {
       break
     }
 
-    console.log("❌ [TMDB] No movie match", title, year)
     continue
   }
 
-  if (!movie) console.log("❌ [TMDB] No movie match for all years")
+  if (!movie) console.log(`❌ [TMDB] No movie found for ${title}`)
 
   return movie
 }
