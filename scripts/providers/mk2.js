@@ -105,7 +105,7 @@ export const scrapMk2 = async () => {
 
     for (const session of event.sessionsByFilmAndCinema[0].sessions) {
       const language =
-        session.attributes.find((a) => a.id === "VS00000005").shortName ===
+        session.attributes.find((a) => a.id === "VS00000005")?.shortName ===
         "VOSTF"
           ? "vost"
           : "vf"
@@ -121,7 +121,7 @@ export const scrapMk2 = async () => {
         cinemaId,
         language,
         date: session.showTime,
-        avpType: event.genres[0].id === "equipe-du-film" ? "AVPE" : "AVP",
+        avpType: event.genres?.[0]?.id === "equipe-du-film" ? "AVPE" : "AVP",
         movieId: movie.id,
         linkShow: `https://www.mk2.com/panier/seance/tickets?cinemaId=${session.cinemaId}&sessionId=${session.sessionId}`,
         linkMovie: movie.link,
