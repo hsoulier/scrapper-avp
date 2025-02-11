@@ -15,21 +15,21 @@ export const Navigation = () => {
   const value = useSearchParams().get("q")
 
   return (
-    <nav className="mx-auto px-8 w-full flex items-center justify-between sticky top-0 pt-6 pb-4 z-50 bg-gray-background">
+    <nav className="flex items-center justify-between gap-5 sticky top-0 pt-6 pb-4 z-50">
       <Link href="/">
         <Logo className="h-8" />
       </Link>
       <search
         role="search"
-        className="lg:absolute left-1/2 lg:-translate-x-1/2 w-fit"
+        className="grow lg:absolute left-1/2 lg:-translate-x-1/2"
       >
-        <form className="relative px-4 lg:px-40 py-3 rounded-lg bg-gray-100">
-          <MagnifyingGlassIcon className="hidden size-4 lg:block absolute left-[8.5rem] top-4 text-gray-400" />
+        <form className="grow relative pl-8 lg:px-40 h-10 rounded-2xl bg-gray-100">
+          <MagnifyingGlassIcon className="size-4 left-2 lg:block absolute lg:left-[8.5rem] top-1/2 -translate-y-1/2 text-gray-400" />
           <input
             type="search"
             name="q"
-            placeholder="Rechercher une avant-première ..."
-            className="w-[40vw] lg:w-72 bg-transparent outline-none placeholder:text-gray-400 text-gray-800"
+            placeholder="Rechercher ..."
+            className="min-w-0 w-fit h-full lg:w-72 bg-transparent outline-none placeholder:text-gray-400 text-gray-800"
             defaultValue={value || ""}
           />
         </form>

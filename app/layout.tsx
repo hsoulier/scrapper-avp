@@ -33,9 +33,11 @@ export default function RootLayout({
       >
         <Providers>
           <Suspense>
-            <Navigation />
-            <Filters />
-            <main className="gap-8 grid grid-cols-[repeat(auto-fill,minmax(200px,1fr))] mx-[3%] my-4 lg:my-8">
+            <header className="mx-auto my-4 lg:my-8 max-w-screen-2xl px-5">
+              <Navigation />
+              <Filters />
+            </header>
+            <main className="gap-8 grid grid-cols-[repeat(auto-fill,minmax(150px,1fr))] mx-auto my-4 lg:my-8 max-w-screen-2xl">
               {children}
             </main>
           </Suspense>
