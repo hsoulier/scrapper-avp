@@ -1,25 +1,27 @@
 "use client"
 
 import { useSearchParams } from "next/navigation"
-import { SuperParams } from "@/lib/utils"
 import { providers, type Provider } from "@/components/movie-popup.show"
 import type { ShowAggregated } from "@/lib/queries"
 import { Tooltip } from "@/components/ui/tooltip"
+import { Fragment } from "react"
 
-export const MovieCard = ({ show }: { show: ShowAggregated }) => {
+export const MovieCard = ({ movie }: { movie: ShowAggregated }) => {
   const searchParams = useSearchParams()
 
-  const cover = show.movies.poster || ""
-  const id = show.id
+  const cover = movie.poster || ""
+  const id = movie.movie_id
 
-  const date = new Date(show.date || "")
+  const date = new Date(movie.release || "")
+
+  const mProviders = [
+    ...new Set(movie?.shows.map((show) => show?.cinemaId.split("-")[0])),
+  ]
 
   const toggleOpen = () => {
-    const params = new SuperParams(searchParams.toString())
-
-    params.set("id", id)
-
-    window.history.pushState(null, "", `?${params.toString()}`)
+    // const params = new SuperParams(searchParams.toString())
+    // params.set("id", id)
+    // window.history.pushState(null, "", `?${params.toString()}`)
   }
 
   return (
@@ -40,19 +42,18 @@ export const MovieCard = ({ show }: { show: ShowAggregated }) => {
       />
 
       <div className="flex absolute inset-x-4 top-4 items-stretch justify-end gap-2">
-        <div className="text-gray-white flex min-w-0 items-center gap-1 rounded-lg bg-gray-background px-2">
-          {providers[show.cinemas.source as Provider]}
-          <div className="truncate text-gray-white font-light">
-            {show.cinemas.name}
+        {mProviders.map((provider, index) => (
+          <div
+            key={index}
+            className="size-8 text-gray-white flex min-w-0 items-center rounded-lg bg-gray-background/50 backdrop-blur-sm px-2"
+          >
+            {providers[provider as Provider]}
           </div>
-        </div>
-        <Tooltip className="grid size-8 shrink-0 place-content-center rounded-lg bg-gray-background text-gray-white" content="Provider">
-          {providers[show.cinemas.source as Provider]}
-        </Tooltip>
+        ))}
       </div>
 
       <header className="absolute bottom-4 inset-x-4 space-y-1 z-20 text-gray-background dark:text-gray-white">
-        <h3 className="text-lg font-semibold">{show.movies.title}</h3>
+        <h3 className="text-lg font-semibold">{movie.title}</h3>
         <p className="text-sm font-light flex justify-between">
           <span>
             {date.toLocaleTimeString("fr-FR", {

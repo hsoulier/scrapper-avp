@@ -9,26 +9,29 @@ export const getShowsAggregated = async (
   const { cinemaId, source, avpType, lang, q } = searchParams
   const now = new Date().toISOString()
 
-  let query = client.from("shows").select(`*, cinemas!inner(*),movies!inner(*)`)
+  let query = client
+    .from("movies")
+    .select(`movie_id:id,title, poster,release,shows(*)`)
 
-  if ("cinemaId" in searchParams && cinemaId) {
-    query = query.eq("cinemas.slug", cinemaId)
-  }
-  if ("source" in searchParams && source) {
-    query = query.eq("cinemas.source", source)
-  }
+  // TODO: Reimplement
+  // if ("cinemaId" in searchParams && cinemaId) {
+  //   query = query.eq("cinemas.slug", cinemaId)
+  // }
+  // if ("source" in searchParams && source) {
+  //   query = query.eq("cinemas.source", source)
+  // }
   if ("avpType" in searchParams && avpType) {
-    query = query.eq("avpType", avpType)
+    query = query.eq("shows.avpType", avpType.toString())
   }
   if ("lang" in searchParams && lang) {
-    query = query.eq("language", lang)
+    query = query.eq("shows.language", lang.toString())
   }
 
   if ("q" in searchParams && q) {
-    query = query.ilike("movies.title", `%${q}%`)
+    query = query.ilike("title", `%${q}%`)
   }
 
-  return query.gt("date", now).order("date")
+  return query.gt("release", now).order("release").not("shows", "is", null)
 }
 
 export const getShowAggregated = async (
