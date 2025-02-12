@@ -9,9 +9,9 @@ import type { ShowAggregated } from "@/lib/queries"
 import { Mk2Icon } from "@/components/icons/mk2"
 
 export const providers = {
-  ugc: <UGCIcon className="w-6" />,
-  pathe: <PatheIcon className="w-6" />,
-  mk2: <Mk2Icon className="w-6" />,
+  ugc: <UGCIcon className="w-6 text-white" />,
+  pathe: <PatheIcon className="w-6 text-white" />,
+  mk2: <Mk2Icon className="w-6 text-white" />,
 } as const
 
 export type Provider = keyof typeof providers

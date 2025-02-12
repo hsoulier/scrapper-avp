@@ -18,6 +18,8 @@ export const MovieCard = ({ movie }: { movie: ShowAggregated }) => {
     ...new Set(movie?.shows.map((show) => show?.cinemaId.split("-")[0])),
   ]
 
+  const hasMultipleShows = movie.shows.length > 1
+
   const toggleOpen = () => {
     // const params = new SuperParams(searchParams.toString())
     // params.set("id", id)
@@ -26,7 +28,8 @@ export const MovieCard = ({ movie }: { movie: ShowAggregated }) => {
 
   return (
     <article
-      className="group relative after:z-10 after:inset-0 after:absolute after:content-[''] after:bg-gradient-to-b after:from-0% after:from-transparent after:via-black/70 after:via-40% after:to-black after:to-100% after:rounded-[inherit] rounded-xl w-full aspect-[27/40] cursor-pointer"
+      style={{ "--img": cover } as React.CSSProperties}
+      className="group relative after:z-10 after:inset-0 rounded-xl w-full aspect-[27/40] cursor-pointer"
       onClick={toggleOpen}
     >
       <div className="size-full bg-center bg-cover rounded-[inherit] overflow-hidden">
@@ -36,6 +39,8 @@ export const MovieCard = ({ movie }: { movie: ShowAggregated }) => {
           className="object-cover size-full group-hover:scale-110 transition-transform duration-200 ease-out"
         />
       </div>
+      <div className="thumb rounded-b-xl inset-x-0 h-2/5 bottom-0 bg-cover absolute backdrop-blur-sm" />
+      <div className="rounded-b-xl bg-gradient-to-b h-2/5 w-full absolute bottom-0 inset-x-0 from-transparent via-40% via-black/70 to-black" />
       <div
         className="opacity-0 group-hover:opacity-20 bg-no-repeat bg-center bg-cover blur-xl absolute saturate-100 -inset-0 -z-10 transition-opacity duration-150 ease-out"
         style={{ backgroundImage: `url(${cover})` }}
@@ -45,7 +50,7 @@ export const MovieCard = ({ movie }: { movie: ShowAggregated }) => {
         {mProviders.map((provider, index) => (
           <div
             key={index}
-            className="size-8 text-gray-white flex min-w-0 items-center rounded-lg bg-gray-background/50 backdrop-blur-sm px-2"
+            className="size-8 text-gray-white inline-grid min-w-0 place-content-center rounded-lg bg-[#0B0C0E]/50 backdrop-blur-sm"
           >
             {providers[provider as Provider]}
           </div>
@@ -53,15 +58,9 @@ export const MovieCard = ({ movie }: { movie: ShowAggregated }) => {
       </div>
 
       <header className="absolute bottom-4 inset-x-4 space-y-1 z-20 text-gray-background dark:text-gray-white">
-        <h3 className="text-lg font-semibold">{movie.title}</h3>
+        <h3 className="text-lg font-semibold leading-[1.2]">{movie.title}</h3>
         <p className="text-sm font-light flex justify-between">
-          <span>
-            {date.toLocaleTimeString("fr-FR", {
-              hour: "2-digit",
-              minute: "2-digit",
-            })}
-          </span>
-          <span>{date.toLocaleDateString("fr-FR")}</span>
+          {movie.shows.length} séance{hasMultipleShows && "s"}
         </p>
       </header>
     </article>
