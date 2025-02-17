@@ -1,4 +1,5 @@
 import "dotenv/config"
+import { getMovieByTitle } from "./requests.js"
 
 const options = {
   method: "GET",
@@ -40,6 +41,10 @@ const getMovieFromYears = async (title) => {
 
 export const getTmDbInfo = async (title) => {
   try {
+    const existingMovie = await getMovieByTitle(title)
+
+    if (existingMovie) return existingMovie
+
     const result = await getMovieFromYears(title)
 
     if (!result) return null

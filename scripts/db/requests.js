@@ -29,6 +29,13 @@ export const getMovie = async (id) => {
   return data?.[0]
 }
 
+export const getMovieByTitle = async (title) => {
+  const data =
+    await sql`select * from movies where unaccent(LOWER(title)) ILIKE unaccent(LOWER(${title})) `
+
+  return data?.[0]
+}
+
 export const insertMovie = async (movie) => {
   try {
     const data = await sql`
