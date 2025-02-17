@@ -51,6 +51,17 @@ export const getShowAggregated = async (
     .single()
 }
 
+export const getMovieAggregated = async (
+  client: TypedSupabaseClient,
+  id: number
+) => {
+  return client
+    .from("movies")
+    .select(`movie_id:id,title, poster,release,shows(*)`)
+    .eq("id", id)
+    .single()
+}
+
 export type ShowAggregated = NonNullable<
   Awaited<ReturnType<typeof getShowsAggregated>>["data"]
 >[number]

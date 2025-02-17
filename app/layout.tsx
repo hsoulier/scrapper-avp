@@ -39,7 +39,7 @@ export default function RootLayout({
                 <Navigation />
                 <Filters />
               </header>
-              <main className="gap-x-4 gap-y-6 grid grid-cols-[repeat(auto-fill,minmax(150px,1fr))] mx-4">
+              <main className="gap-x-4 gap-y-6 grid grid-cols-[repeat(auto-fill,minmax(200px,1fr))] mx-4">
                 {children}
               </main>
             </Suspense>
