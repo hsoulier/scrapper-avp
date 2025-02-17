@@ -35,13 +35,12 @@ export default function RootLayout({
         <NuqsAdapter>
           <Providers>
             <Suspense>
-              <header className="mx-auto my-4 lg:my-8 max-w-screen-2xl px-5">
+              <header className="mx-auto max-w-screen-2xl">
                 <Navigation />
                 <Filters />
               </header>
-              <main className="gap-x-4 gap-y-6 grid grid-cols-[repeat(auto-fill,minmax(150px,1fr))] mx-4">
-                {children}
-              </main>
+
+              {children}
             </Suspense>
           </Providers>
         </NuqsAdapter>

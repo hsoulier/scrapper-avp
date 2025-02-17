@@ -15,7 +15,7 @@ export const Navigation = () => {
   const value = useSearchParams().get("q")
 
   return (
-    <nav className="flex items-center justify-between gap-5 sticky top-0 pt-6 pb-4 z-50">
+    <nav className="flex items-center justify-between sticky top-0 py-6 z-50 px-5 space-x-5">
       <Link href="/">
         <Logo className="h-8" />
       </Link>

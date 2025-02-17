@@ -1,18 +1,15 @@
 "use client"
 
-import { useSearchParams } from "next/navigation"
+import { useSearchParams, useRouter } from "next/navigation"
 import { providers, type Provider } from "@/components/movie-popup.show"
 import type { ShowAggregated } from "@/lib/queries"
-import { Tooltip } from "@/components/ui/tooltip"
-import { Fragment } from "react"
 
 export const MovieCard = ({ movie }: { movie: ShowAggregated }) => {
+  const router = useRouter()
   const searchParams = useSearchParams()
 
   const cover = movie.poster || ""
   const id = movie.movie_id
-
-  const date = new Date(movie.release || "")
 
   const mProviders = [
     ...new Set(movie?.shows.map((show) => show?.cinemaId.split("-")[0])),
@@ -20,14 +17,11 @@ export const MovieCard = ({ movie }: { movie: ShowAggregated }) => {
 
   const hasMultipleShows = movie.shows.length > 1
 
-  const toggleOpen = () => {
-    // const params = new SuperParams(searchParams.toString())
-    // params.set("id", id)
-    // window.history.pushState(null, "", `?${params.toString()}`)
-  }
+  const toggleOpen = () => router.push(`/shows/${id}`)
 
   return (
     <article
+      id={`title-${id}`}
       style={{ "--img": cover } as React.CSSProperties}
       className="group relative after:z-10 after:inset-0 rounded-xl w-full aspect-[27/40] cursor-pointer"
       onClick={toggleOpen}
@@ -57,7 +51,7 @@ export const MovieCard = ({ movie }: { movie: ShowAggregated }) => {
         ))}
       </div>
 
-      <header className="absolute bottom-4 inset-x-4 space-y-1 z-20 text-gray-background dark:text-gray-white">
+      <header className="absolute bottom-4 inset-x-4 space-y-1 z-20 text-[#F9FAFA]">
         <h3 className="text-lg font-semibold leading-[1.2]">{movie.title}</h3>
         <p className="text-sm font-light flex justify-between">
           {movie.shows.length} séance{hasMultipleShows && "s"}

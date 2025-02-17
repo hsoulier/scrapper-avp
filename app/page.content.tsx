@@ -30,11 +30,11 @@ export const Content = () => {
   })
 
   return (
-    <>
+    <main className="gap-x-4 gap-y-6 grid grid-cols-[repeat(auto-fill,minmax(200px,1fr))] mx-4">
       {data?.map((movie) => (
         <MovieCard key={movie.movie_id} movie={movie} />
       ))}
       {/* <MoviePopup /> */}
-    </>
+    </main>
   )
 }
