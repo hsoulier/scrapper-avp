@@ -13,7 +13,7 @@ export const ThemeSwitch = () => {
           <MoonIcon className="size-5 text-gray-900" />
         </button>
       )}
-      {theme === "light" && (
+      {(theme === "light" || !theme) && (
         <button onClick={() => setTheme("dark")}>
           <SunIcon className="size-5 text-gray-900" />
         </button>

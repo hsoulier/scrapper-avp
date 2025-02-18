@@ -1,6 +1,5 @@
 "use client"
 
-import { SuperParams } from "@/lib/utils"
 import { CheckIcon, ChevronDownIcon } from "@heroicons/react/24/outline"
 import * as DropdownMenu from "@radix-ui/react-dropdown-menu"
 import { useSearchParams } from "next/navigation"
@@ -22,10 +21,10 @@ export const FilterLocation = () => {
 
   const updateFilter = async (value: string) => {
     const queryClient = getQueryClient()
-    const params = new SuperParams(searchParams.toString())
-    params.toggle(key, value)
+    // const params = new SuperParams(searchParams.toString())
+    // params.toggle(key, value)
 
-    window.history.pushState(null, "", `?${params.toString()}`)
+    // window.history.pushState(null, "", `?${params.toString()}`)
     await queryClient.refetchQueries({ queryKey: ["shows"] })
   }
 
