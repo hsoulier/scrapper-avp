@@ -38,17 +38,27 @@ export const getShowAggregated = async (
   client: TypedSupabaseClient,
   id: string
 ) => {
-  return client
-    .from("shows")
+  return await client
+    .from("movies")
     .select(
       `
-    *,
-    cinemas!inner(*),
-    movies!inner(*)
+    movie_id:id,
+    title,
+    synopsis,
+    director,
+    duration,
+    release,
+    ...shows(
+      show_id:id,
+      show_date:date,
+      ...cinemas(
+        cinema_name:name,
+        cinema_address:address
+      )
+    )
     `
     )
-    .eq("id", id)
-    .single()
+    .eq("id", parseInt(id))
 }
 
 export type ShowAggregated = NonNullable<

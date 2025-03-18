@@ -19,7 +19,7 @@ export const Content = () => {
 
   const supabase = useSupabaseBrowser()
 
-  const { data } = useQuery({
+  const { data, error, status } = useQuery({
     queryKey: [`show-${id}`],
     queryFn: async () => {
       const response = await getShowAggregated(supabase, id)
@@ -27,6 +27,16 @@ export const Content = () => {
       return response.data
     },
   })
+
+  if (status === "pending") {
+    return <div>Loading...</div>
+  }
+
+  if (status === "error") {
+    return <div>Error: {error.message}</div>
+  }
+
+  console.log({ data })
 
   const cover =
     "https://image.tmdb.org/t/p/w1280/7siQLbBArdLKZ8Zz6Uz8C1hb7sI.jpg"
@@ -109,8 +119,13 @@ export const Content = () => {
       </div>
       <section className="flex flex-col gap-12 my-12">
         <div className="flex gap-3">
-          <button>Toutes les séances</button>
-          <button>Avec l'équipe du film</button>
+          <button className="h-10 px-3 rounded-lg border border-transparent bg-gray-100 font-medium text-sm">
+            Toutes les séances
+          </button>
+          <button className="h-10 px-3 rounded-lg border border-primary-yellow/10 text-primary-yellow/50 iline-flex items-center gap-2">
+            <UsersRound className="inline size-4 mr-2" />
+            Avec l'équipe du film
+          </button>
         </div>
         <Accordion type="single" collapsible className="w-full">
           <AccordionItem value="ugc" className="border-none py-0">
@@ -124,7 +139,7 @@ export const Content = () => {
               <div className="flex flex-col gap-6 pt-6">
                 <div className="p-4 border border-gray-100 rounded-xl">
                   <p className="font-medium mb-3">
-                    <UsersRound className="text-[#FDD700] inline size-4 mr-2" />{" "}
+                    <UsersRound className="text-primary-yellow inline size-4 mr-2" />{" "}
                     UGC Ciné Cité Les Halles
                   </p>
                   <div className="flex justify-start gap-4 font-light">
