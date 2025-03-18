@@ -11,7 +11,7 @@ import useSupabaseBrowser from "@/hooks/use-supabase-browser"
 import { getShowAggregated } from "@/lib/queries"
 import { numToTime } from "@/lib/utils"
 import { useQuery } from "@tanstack/react-query"
-import { ChevronLeft } from "lucide-react"
+import { Calendar, ChevronLeft, Clock, UsersRound } from "lucide-react"
 import { useParams } from "next/navigation"
 
 export const Content = () => {
@@ -112,11 +112,55 @@ export const Content = () => {
           <button>Toutes les séances</button>
           <button>Avec l'équipe du film</button>
         </div>
-        <Accordion type="multiple" className="w-full">
-          <AccordionItem value="item-1">
-            <AccordionTrigger>Is it a f accordion</AccordionTrigger>
+        <Accordion type="single" collapsible className="w-full">
+          <AccordionItem value="ugc" className="border-none py-0">
+            <AccordionTrigger className="hover:no-underline py-0">
+              <div className="flex items-center justify-start w-full gap-1 hover:no-underline">
+                <span className="text-2xl font-semibold">UGC</span>
+                <span className="text-2xl font-light">(3)</span>
+              </div>
+            </AccordionTrigger>
             <AccordionContent>
-              Yes. It adheres to the WAI-ARIA design pattern.
+              <div className="flex flex-col gap-6 pt-6">
+                <div className="p-4 border border-gray-100 rounded-xl">
+                  <p className="font-medium mb-3">
+                    <UsersRound className="text-[#FDD700] inline size-4 mr-2" />{" "}
+                    UGC Ciné Cité Les Halles
+                  </p>
+                  <div className="flex justify-start gap-4 font-light">
+                    <span>
+                      <Calendar className="inline size-4 text-gray-500 mr-1" />
+                      01/01/2025
+                    </span>
+                    <span>
+                      <Clock className="inline size-4 text-gray-500 mr-1" />
+                      20h30
+                    </span>
+                  </div>
+                  <button className="mt-4 rounded-lg w-full bg-gray-100 h-10 text-sm font-light">
+                    Réserver
+                  </button>
+                </div>
+                <div className="p-4 border border-gray-100 rounded-xl">
+                  <p className="font-medium mb-3">
+                    <UsersRound className="text-[#FDD700] inline size-4 mr-2" />{" "}
+                    UGC Ciné Cité Les Halles
+                  </p>
+                  <div className="flex justify-start gap-4 font-light">
+                    <span>
+                      <Calendar className="inline size-4 text-gray-500 mr-1" />
+                      01/01/2025
+                    </span>
+                    <span>
+                      <Clock className="inline size-4 text-gray-500 mr-1" />
+                      20h30
+                    </span>
+                  </div>
+                  <button className="mt-4 rounded-lg w-full bg-gray-100 h-10 text-sm font-light">
+                    Réserver
+                  </button>
+                </div>
+              </div>
             </AccordionContent>
           </AccordionItem>
         </Accordion>
