@@ -1,3 +1,4 @@
+import type { SOURCE_PROVIDER } from "@/constants/mapping"
 import type { TypedSupabaseClient } from "@/types/supabase"
 
 export const getShowsAggregated = async (
@@ -38,27 +39,29 @@ export const getShowAggregated = async (
   client: TypedSupabaseClient,
   id: string
 ) => {
-  return await client
-    .from("movies")
-    .select(
-      `
-    movie_id:id,
-    title,
-    synopsis,
-    director,
-    duration,
-    release,
-    ...shows(
-      show_id:id,
-      show_date:date,
-      ...cinemas(
-        cinema_name:name,
-        cinema_address:address
-      )
-    )
-    `
-    )
-    .eq("id", parseInt(id))
+  const [movie, showsOriginal] = await Promise.all([
+    client.from("movies").select("*").eq("id", parseInt(id)).single(),
+    client.from("shows").select("*,cinemas(*)").eq("movieId", parseInt(id)),
+  ])
+
+  const shows = (showsOriginal?.data || []).reduce((acc, show) => {
+    const cinema = show.cinemas
+    const source = cinema?.source
+
+    if (!cinema || !source) return acc
+
+    const s = source as keyof typeof SOURCE_PROVIDER
+
+    if (acc[s]) {
+      acc[s].push(show)
+    } else {
+      acc[s] = [show]
+    }
+
+    return acc
+  }, {} as Record<keyof typeof SOURCE_PROVIDER, (typeof showsOriginal)["data"]>)
+
+  return { movie: movie.data, shows }
 }
 
 export type ShowAggregated = NonNullable<

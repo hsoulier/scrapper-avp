@@ -23,7 +23,7 @@ const Page = async ({ params }: { params: Promise<{ id: string }> }) => {
       queryFn: async () => {
         const response = await getShowAggregated(supabase, id)
 
-        return response.data
+        return response
       },
     })
   )
