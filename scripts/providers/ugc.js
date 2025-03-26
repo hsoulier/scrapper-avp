@@ -1,6 +1,7 @@
 import { parseHTML } from "linkedom"
 import { JSDOM } from "jsdom"
-import {
+import
+{
   getCinemaByName,
   getMovie,
   insertMovie,
@@ -16,7 +17,8 @@ const debug = {
   shows: 0,
 }
 
-async function getFirstDate(id) {
+async function getFirstDate(id)
+{
   const res = await fetch(
     `https://www.ugc.fr/showingsFilmAjaxAction!getDaysByFilm.action?reloadShowingsTopic=reloadShowings&dayForm=dayFormDesktop&filmId=${id}&day=&regionId=1&defaultRegionId=1`
   )
@@ -24,7 +26,8 @@ async function getFirstDate(id) {
   const { document } = parseHTML(html)
 
   const dates = document.querySelectorAll(".slider-item")
-  const dateList = [...dates].map((date) => {
+  const dateList = [...dates].map((date) =>
+  {
     const text = date.id.trim()
     const dateFormatted = text.split("nav_date_1_")[1]
     return dateFormatted
@@ -33,11 +36,13 @@ async function getFirstDate(id) {
   return dateList.length > 0 ? dateList[0] : ""
 }
 
-function urlAVPMovie(id, firstDate) {
+function urlAVPMovie(id, firstDate)
+{
   return `https://www.ugc.fr/showingsFilmAjaxAction!getShowingsByFilm.action?filmId=${id}&day=${firstDate}&regionId=1`
 }
 
-const getShows = async (info) => {
+const getShows = async (info) =>
+{
   for (const { title, link, id: movieId } of info) {
     const id = link.split("_").at(-1).replace(".html", "")
 
@@ -52,7 +57,8 @@ const getShows = async (info) => {
     )
 
     // ? Filter show types by only previews with team and previews without team
-    const previews = [...showTypes].filter((show) => {
+    const previews = [...showTypes].filter((show) =>
+    {
       return TYPE_SHOWS.includes(show?.textContent?.trim())
     })
 
@@ -67,6 +73,8 @@ const getShows = async (info) => {
       if (existingShow) continue
 
       const cinemaId = (await getCinemaByName(attributes.cinema))?.id
+
+      if (!movieId || !cinemaId) continue
 
       const details = {
         id: attributes?.showing,
@@ -95,6 +103,8 @@ const getShows = async (info) => {
         )
       }
 
+      console.log(details)
+
       await insertShow(details)
 
       debug.shows++
@@ -104,7 +114,8 @@ const getShows = async (info) => {
   console.log("✅ UGC scrapping done", debug)
 }
 
-export const scrapUGC = async () => {
+export const scrapUGC = async () =>
+{
   const $pathe = await fetch(
     "https://www.ugc.fr/filmsAjaxAction!getFilmsAndFilters.action?filter=onPreview&page=30010&cinemaId=&reset=false&"
   )
@@ -115,7 +126,8 @@ export const scrapUGC = async () => {
     ...document.querySelectorAll(".results-container > .row > *"),
   ]
 
-  const moviesWithAVP = $movies.map((movie) => {
+  const moviesWithAVP = $movies.map((movie) =>
+  {
     const $link = movie.querySelector(".img-wrapper a")
 
     return {
@@ -131,9 +143,14 @@ export const scrapUGC = async () => {
   )
   for (const movie of newMovies) {
     const { link, ...m } = movie
+
+    if (!m?.id) continue
+
     const existingMovie = await getMovie(m.id)
 
     if (existingMovie) continue
+
+    if (!m?.movieId) continue
 
     await insertMovie(m)
 
@@ -143,7 +160,8 @@ export const scrapUGC = async () => {
   await getShows(newMovies)
 }
 
-export const getUGCTheaters = async () => {
+export const getUGCTheaters = async () =>
+{
   const $cinema = await fetch(
     "https://www.ugc.fr/cinemasAjaxAction!getCinemasList.action?id=1&latitude=&longitude="
   )
