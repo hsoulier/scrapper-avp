@@ -32,16 +32,19 @@ export const getShowsAggregated = async (
     query = query.ilike("title", `%${q}%`)
   }
 
-  return query.gt("release", now).order("release").not("shows", "is", null)
+
+  return query.gte("shows.date", now).order("release").not("shows", "is", null)
 }
 
 export const getShowAggregated = async (
   client: TypedSupabaseClient,
   id: string
 ) => {
+  const now = new Date().toISOString()
+
   const [movie, showsOriginal] = await Promise.all([
     client.from("movies").select("*").eq("id", parseInt(id)).single(),
-    client.from("shows").select("*,cinemas(*)").eq("movieId", parseInt(id)),
+    client.from("shows").select("*,cinemas(*)").gte("date", now).eq("movieId", parseInt(id)),
   ])
 
   const shows = (showsOriginal?.data || []).reduce((acc, show) => {
