@@ -1,11 +1,13 @@
-import { Suspense } from "react"
 import type { Metadata } from "next"
+import { Suspense } from "react"
+import { Analytics } from "@vercel/analytics/next"
 import { Bricolage_Grotesque } from "next/font/google"
 import { Providers } from "@/app/providers"
 import { Filters } from "@/components/filters"
 import { Navigation } from "@/components/navigation"
 import { cn } from "@/lib/utils"
 import { NuqsAdapter } from "nuqs/adapters/next/app"
+
 import "./globals.css"
 
 const font = Bricolage_Grotesque({
@@ -31,7 +33,6 @@ export const metadata: Metadata = {
     description:
       "Découvrez toutes les avant-premières de films à Paris en un seul coup d'œil ! 🎬 Retrouvez les projections exclusives des cinémas UGC, Pathé, MK2 et le Grand Rex. Ne manquez aucune sortie anticipée et vivez la magie du cinéma avant tout le monde. Consultez les horaires et réservez vos places dès maintenant !",
     type: "website",
-    locale: "fr_FR",
     url: "https://premiereprojo.fr",
     images: [
       {
@@ -67,6 +68,7 @@ export default function RootLayout({
               </header>
 
               {children}
+              <Analytics />
             </Suspense>
           </Providers>
         </NuqsAdapter>
