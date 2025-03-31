@@ -60,6 +60,20 @@ export const insertMovie = async (movie) => {
   }
 }
 
+export const updateMovie = async (id, movie) => {
+  try {
+    const data = await sql`
+    update movies set ${sql(movie, "director", "imdbId", "poster")}
+    where id = ${id}`
+
+    return data[0]
+  } catch (error) {
+    console.error(movie, error)
+
+    throw error
+  }
+}
+
 export const insertShow = async (show) => {
   try {
     const data = await sql`
@@ -105,4 +119,10 @@ export const insertCinema = async (cinema) => {
 
     throw error
   }
+}
+
+export const listMovies = async () => {
+  const data = await sql`select * from movies where release > now()`
+
+  return data
 }

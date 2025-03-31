@@ -71,6 +71,11 @@ const getTitle = async (slug) => {
     return null
   }
 
+  if (data.genres.includes("Documentaire")) {
+    console.log(`🚫 Skip docu (${slug})`)
+    return null
+  }
+
   const isSpecialTitle = specialTitles.some((s) =>
     data.title.trim().toLowerCase().includes(s)
   )

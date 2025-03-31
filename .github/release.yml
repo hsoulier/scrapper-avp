@@ -2,9 +2,9 @@
 
 changelog:
   categories:
-    - title: 🏕 Features
+    - title: ✨ Features
       labels:
-        - '*'
+        - "*"
       exclude:
         labels:
           - dependencies

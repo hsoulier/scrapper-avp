@@ -1,12 +1,12 @@
 "use client"
 
-import { useSearchParams, useRouter } from "next/navigation"
+import { useRouter } from "next/navigation"
 import { providers, type Provider } from "@/components/movie-popup.show"
 import type { ShowAggregated } from "@/lib/queries"
+import type { CSSProperties } from "react"
 
 export const MovieCard = ({ movie }: { movie: ShowAggregated }) => {
   const router = useRouter()
-  const searchParams = useSearchParams()
 
   const cover = movie.poster || ""
   const id = movie.movie_id
@@ -22,13 +22,13 @@ export const MovieCard = ({ movie }: { movie: ShowAggregated }) => {
   return (
     <article
       id={`title-${id}`}
-      style={{ "--img": cover } as React.CSSProperties}
+      style={{ "--img": cover } as CSSProperties}
       className="group relative after:z-10 after:inset-0 rounded-xl w-full aspect-[27/40] cursor-pointer"
       onClick={toggleOpen}
     >
       <div className="size-full bg-center bg-cover rounded-[inherit] overflow-hidden">
         <img
-          src={cover}
+          src={cover || undefined}
           alt="Movie cover"
           className="object-cover size-full group-hover:scale-110 transition-transform duration-200 ease-out"
         />
