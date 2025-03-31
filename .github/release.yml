@@ -4,10 +4,11 @@ changelog:
   categories:
     - title: ✨ Features
       labels:
-        - "*"
-      exclude:
-        labels:
-          - dependencies
+        - enhancement
+        - documentation
+    - title: 🐛 Bugs
+      labels:
+        - bug
     - title: 👒 Dependencies
       labels:
         - dependencies
