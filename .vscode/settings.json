@@ -10,7 +10,12 @@
   "javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
   "typescript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
   "typescript.preferences.preferTypeOnlyAutoImports": true,
-  "eslint.rules.customizations": [{ "rule": "*", "severity": "warn" }],
+  "eslint.rules.customizations": [
+    {
+      "rule": "*",
+      "severity": "warn"
+    }
+  ],
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.expand": true,
   "explorer.fileNesting.patterns": {
