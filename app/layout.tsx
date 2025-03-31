@@ -35,8 +35,8 @@ export default function RootLayout({
         <NuqsAdapter>
           <Providers>
             <Suspense>
+              <Navigation />
               <header className="mx-auto max-w-screen-2xl">
-                <Navigation />
                 <Filters />
               </header>
 

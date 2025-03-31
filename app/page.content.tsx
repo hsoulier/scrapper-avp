@@ -30,7 +30,7 @@ export const Content = () => {
   })
 
   return (
-    <main className="gap-x-4 gap-y-6 grid grid-cols-[repeat(auto-fill,minmax(200px,1fr))] mx-4">
+    <main className="mx-auto lg:px-5 max-w-screen-2xl gap-x-4 gap-y-6 grid grid-cols-[repeat(auto-fill,minmax(200px,1fr))]">
       {data?.map((movie) => (
         <MovieCard key={movie.movie_id} movie={movie} />
       ))}

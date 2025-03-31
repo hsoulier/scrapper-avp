@@ -54,6 +54,12 @@ export const getShowAggregated = async (
 
     if (acc[s]) {
       acc[s].push(show)
+      acc[s].sort((a, b) => {
+        const aTime = new Date(a.date || "").getTime()
+        const bTime = new Date(b.date || "").getTime()
+
+        return aTime - bTime
+      })
     } else {
       acc[s] = [show]
     }

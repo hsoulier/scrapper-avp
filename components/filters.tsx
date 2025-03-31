@@ -10,7 +10,7 @@ export const Filters = () => {
   if (!isHomePage) return null
 
   return (
-    <header className="lg:px-8 w-full flex gap-2 pb-2 lg:pb-6 relative z-30 flex-wrap mx-5">
+    <header className="w-full flex gap-2 pb-4 lg:pb-6 relative z-30 flex-wrap mx-5">
       <FilterCinema />
       <FilterShows />
       {/* <FilterLocation /> */}
