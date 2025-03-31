@@ -1,30 +1,29 @@
 "use client"
 
-import { useSearchParams } from "next/navigation"
-import { SuperParams } from "@/lib/utils"
+import { useSearchParams, useRouter } from "next/navigation"
 import { providers, type Provider } from "@/components/movie-popup.show"
 import type { ShowAggregated } from "@/lib/queries"
-import { Tooltip } from "@/components/ui/tooltip"
 
-export const MovieCard = ({ show }: { show: ShowAggregated }) => {
+export const MovieCard = ({ movie }: { movie: ShowAggregated }) => {
+  const router = useRouter()
   const searchParams = useSearchParams()
 
-  const cover = show.movies.poster || ""
-  const id = show.id
+  const cover = movie.poster || ""
+  const id = movie.movie_id
 
-  const date = new Date(show.date || "")
+  const mProviders = [
+    ...new Set(movie?.shows.map((show) => show?.cinemaId.split("-")[0])),
+  ]
 
-  const toggleOpen = () => {
-    const params = new SuperParams(searchParams.toString())
+  const hasMultipleShows = movie.shows.length > 1
 
-    params.set("id", id)
-
-    window.history.pushState(null, "", `?${params.toString()}`)
-  }
+  const toggleOpen = () => router.push(`/shows/${id}`)
 
   return (
     <article
-      className="group relative after:z-10 after:inset-0 after:absolute after:content-[''] after:bg-gradient-to-b after:from-0% after:from-transparent after:via-black/70 after:via-40% after:to-black after:to-100% after:rounded-[inherit] rounded-xl w-full aspect-[27/40] cursor-pointer"
+      id={`title-${id}`}
+      style={{ "--img": cover } as React.CSSProperties}
+      className="group relative after:z-10 after:inset-0 rounded-xl w-full aspect-[27/40] cursor-pointer"
       onClick={toggleOpen}
     >
       <div className="size-full bg-center bg-cover rounded-[inherit] overflow-hidden">
@@ -34,33 +33,28 @@ export const MovieCard = ({ show }: { show: ShowAggregated }) => {
           className="object-cover size-full group-hover:scale-110 transition-transform duration-200 ease-out"
         />
       </div>
+      <div className="thumb rounded-b-xl inset-x-0 h-2/5 bottom-0 bg-cover absolute backdrop-blur-sm" />
+      <div className="rounded-b-xl bg-gradient-to-b h-2/5 w-full absolute bottom-0 inset-x-0 from-transparent via-40% via-black/70 to-black" />
       <div
         className="opacity-0 group-hover:opacity-20 bg-no-repeat bg-center bg-cover blur-xl absolute saturate-100 -inset-0 -z-10 transition-opacity duration-150 ease-out"
         style={{ backgroundImage: `url(${cover})` }}
       />
 
       <div className="flex absolute inset-x-4 top-4 items-stretch justify-end gap-2">
-        <div className="text-gray-white flex min-w-0 items-center gap-1 rounded-lg bg-gray-background px-2">
-          {providers[show.cinemas.source as Provider]}
-          <div className="truncate text-gray-white font-light">
-            {show.cinemas.name}
+        {mProviders.map((provider, index) => (
+          <div
+            key={index}
+            className="size-8 text-gray-white inline-grid min-w-0 place-content-center rounded-lg bg-[#0B0C0E]/50 backdrop-blur-sm"
+          >
+            {providers[provider as Provider]}
           </div>
-        </div>
-        <Tooltip className="grid size-8 shrink-0 place-content-center rounded-lg bg-gray-background text-gray-white" content="Provider">
-          {providers[show.cinemas.source as Provider]}
-        </Tooltip>
+        ))}
       </div>
 
-      <header className="absolute bottom-4 inset-x-4 space-y-1 z-20 text-gray-background dark:text-gray-white">
-        <h3 className="text-lg font-semibold">{show.movies.title}</h3>
+      <header className="absolute bottom-4 inset-x-4 space-y-1 z-20 text-[#F9FAFA]">
+        <h3 className="text-lg font-semibold leading-[1.2]">{movie.title}</h3>
         <p className="text-sm font-light flex justify-between">
-          <span>
-            {date.toLocaleTimeString("fr-FR", {
-              hour: "2-digit",
-              minute: "2-digit",
-            })}
-          </span>
-          <span>{date.toLocaleDateString("fr-FR")}</span>
+          {movie.shows.length} séance{hasMultipleShows && "s"}
         </p>
       </header>
     </article>

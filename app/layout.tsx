@@ -5,6 +5,7 @@ import { Providers } from "@/app/providers"
 import { Filters } from "@/components/filters"
 import { Navigation } from "@/components/navigation"
 import { cn } from "@/lib/utils"
+import { NuqsAdapter } from "nuqs/adapters/next/app"
 import "./globals.css"
 
 const font = Bricolage_Grotesque({
@@ -31,17 +32,18 @@ export default function RootLayout({
           font.variable
         )}
       >
-        <Providers>
-          <Suspense>
-            <header className="mx-auto my-4 lg:my-8 max-w-screen-2xl px-5">
+        <NuqsAdapter>
+          <Providers>
+            <Suspense>
               <Navigation />
-              <Filters />
-            </header>
-            <main className="gap-8 grid grid-cols-[repeat(auto-fill,minmax(150px,1fr))] mx-auto my-4 lg:my-8 max-w-screen-2xl">
+              <header className="mx-auto max-w-screen-2xl">
+                <Filters />
+              </header>
+
               {children}
-            </main>
-          </Suspense>
-        </Providers>
+            </Suspense>
+          </Providers>
+        </NuqsAdapter>
       </body>
     </html>
   )

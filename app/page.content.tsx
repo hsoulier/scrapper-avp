@@ -1,7 +1,6 @@
 "use client"
 
 import { MovieCard } from "@/components/movie-card"
-import { MoviePopup } from "@/components/movie-popup"
 import useSupabaseBrowser from "@/hooks/use-supabase-browser"
 import { getShowsAggregated } from "@/lib/queries"
 import { useQuery } from "@tanstack/react-query"
@@ -31,11 +30,11 @@ export const Content = () => {
   })
 
   return (
-    <>
-      {data?.map((show) => (
-        <MovieCard key={show.id} show={show} />
+    <main className="mx-auto lg:px-5 max-w-screen-2xl gap-x-4 gap-y-6 grid grid-cols-[repeat(auto-fill,minmax(200px,1fr))]">
+      {data?.map((movie) => (
+        <MovieCard key={movie.movie_id} movie={movie} />
       ))}
-      <MoviePopup />
-    </>
+      {/* <MoviePopup /> */}
+    </main>
   )
 }
