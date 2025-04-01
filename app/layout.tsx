@@ -16,6 +16,7 @@ const font = Bricolage_Grotesque({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://premiereprojo.fr"),
   title: "Première Projo",
   description:
     "Découvrez toutes les avant-premières de films à Paris en un seul coup d'œil ! 🎬 Retrouvez les projections exclusives des cinémas UGC, Pathé, MK2 et le Grand Rex. Ne manquez aucune sortie anticipée et vivez la magie du cinéma avant tout le monde. Consultez les horaires et réservez vos places dès maintenant !",
@@ -33,6 +34,9 @@ export const metadata: Metadata = {
     description:
       "Découvrez toutes les avant-premières de films à Paris en un seul coup d'œil ! 🎬 Retrouvez les projections exclusives des cinémas UGC, Pathé, MK2 et le Grand Rex. Ne manquez aucune sortie anticipée et vivez la magie du cinéma avant tout le monde. Consultez les horaires et réservez vos places dès maintenant !",
     type: "website",
+    siteName: "Première Projo",
+    countryName: "France",
+    locale: "fr-FR",
     url: "https://premiereprojo.fr",
     images: [
       {
