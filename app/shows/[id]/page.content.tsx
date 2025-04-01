@@ -10,14 +10,20 @@ import {
 import { SOURCE_PROVIDER } from "@/constants/mapping"
 import useSupabaseBrowser from "@/hooks/use-supabase-browser"
 import { getShowAggregated } from "@/lib/queries"
-import { numToTime } from "@/lib/utils"
+import { cn, numToTime } from "@/lib/utils"
 import { useQuery } from "@tanstack/react-query"
 import { Calendar, ChevronLeft, Clock, UsersRound } from "lucide-react"
 import { useParams, useRouter } from "next/navigation"
+import { parseAsString, useQueryState } from "nuqs"
 
 export const Content = () => {
   const router = useRouter()
   const { id } = useParams<{ id: string }>()
+
+  const [avpType, setAvpType] = useQueryState(
+    "avpType",
+    parseAsString.withOptions({ clearOnDefault: true })
+  )
 
   const supabase = useSupabaseBrowser()
 
@@ -39,7 +45,26 @@ export const Content = () => {
   }
 
   const movie = data?.movie
-  const shows = data.shows
+  const shows = !avpType
+    ? data.shows
+    : Object.entries(data.shows).reduce<typeof data.shows>(
+        (acc, [key, value]) => {
+          if (!value) return acc
+
+          const shows = value.filter((show) => show.avpType === avpType)
+
+          if (shows.length === 0) return acc
+
+          acc[key as keyof typeof SOURCE_PROVIDER] = shows
+          return acc
+        },
+        {} as Record<
+          keyof typeof SOURCE_PROVIDER,
+          Awaited<
+            ReturnType<typeof getShowAggregated>
+          >["shows"][keyof typeof SOURCE_PROVIDER]
+        >
+      )
 
   if (!movie) {
     return <div>Movie not found</div>
@@ -114,11 +139,23 @@ export const Content = () => {
         </div>
       </div>
       <section className="flex flex-col gap-12 my-12">
-        <div className="flex gap-3">
-          <button className="h-10 px-3 rounded-lg border border-transparent bg-gray-100 font-medium text-sm">
+        <div className="flex gap-3 flex-wrap">
+          <button
+            onClick={() => setAvpType(null)}
+            className={cn(
+              "h-10 px-3 rounded-lg border border-transparent bg-gray-100 font-medium text-sm transition-colors duration-200 ease-in-out",
+              avpType !== null && "bg-transparent border-gray-100"
+            )}
+          >
             Toutes les séances
           </button>
-          <button className="h-10 px-3 rounded-lg border border-primary-yellow/10 text-primary-yellow/50 iline-flex items-center gap-2">
+          <button
+            onClick={() => setAvpType("AVPE")}
+            className={cn(
+              "h-10 px-3 rounded-lg border border-primary-yellow text-primary-yellow dark:border-primary-yellow/10 dark:text-primary-yellow/50 iline-flex items-center gap-2 transition-colors duration-200 ease-in-out",
+              avpType === "AVPE" && "bg-primary-yellow text-white"
+            )}
+          >
             <UsersRound className="inline size-4 mr-2" />
             Avec l'équipe du film
           </button>
@@ -142,7 +179,9 @@ export const Content = () => {
                       className="p-4 border border-gray-100 rounded-xl"
                     >
                       <p className="font-medium mb-3">
-                        {/* <UsersRound className="text-primary-yellow inline size-4 mr-2" />{" "} */}
+                        {show.avpType === "AVPE" && (
+                          <UsersRound className="text-primary-yellow inline size-4 mr-2" />
+                        )}
                         {show.cinemas.name}
                       </p>
                       <div className="flex justify-start gap-4 font-light">
